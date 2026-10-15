@@ -1,0 +1,45 @@
+# Secrets and machine-specific environment configuration.
+.env
+.env.*
+!.env.example
+!.env.*.example
+/auth.json
+/.aws/
+/.ssh/
+*.pem
+*.key
+wp-config.php
+wp-config-*.php
+!wp-config-sample.php
+
+# Local WordPress installations and development environments.
+/wordpress/
+/wp-admin/
+/wp-includes/
+/wp-content/
+/.local/
+/.ddev/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Dependencies, caches, build outputs, and local reports.
+node_modules/
+vendor/
+/dist/
+/build/
+/coverage/
+/.cache/
+.phpunit.cache/
+.phpunit.result.cache
+*.log
+
+# Database dumps, backups, and generated distribution archives.
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.tar.gz
+*.bak
