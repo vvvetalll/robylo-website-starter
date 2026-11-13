@@ -30,3 +30,12 @@ Status: planning only. Updated: 2026-11-13.
 - Build a coherent typography and infographic system for case-study pages: clear hierarchy, polished monochrome icons, annotated metrics, elegant scales/progress bars, circles and simple diagrams where meaningful.
 - Each case should communicate project context, scope/role, challenges and complexity, process, deliverables, and verified outcomes. Avoid generic decorative charts and invented statistics; label qualitative assessments as editorial judgments with criteria.
 - Visual tone: restrained, premium, professional, legible, accessible; allow actual client imagery to be the color accent. Develop reusable case-study components and responsive behavior after reviewing references and agreeing on design.
+
+## Target market and service positioning (discussion, 2026-11-13)
+- Founder prefers helping small businesses launch from zero and grow step by step. Proposed primary audience: growth-oriented local small businesses, especially service providers. This is a strategic direction to validate, not a proven market claim.
+- Position Robylo as a practical digital growth partner rather than merely a website vendor; communicate clearly, without inflated promises.
+- Four core service pillars: (1) website design and development; (2) paid advertising; (3) local SEO / Google Maps Local Pack visibility; (4) AI integrations and workflow automation.
+- Customer journey concept: establish credible web presence -> improve discoverability -> attract and convert leads -> automate repetitive workflows. Offer phased engagement suitable for small-business budgets while defining clear scopes and sustainable pricing.
+- Relevant prospective portfolio examples: Chicago Mounting, GCPRO Restoration, ColoProProperties, Glenview Smiles, Elite Mechanical Services. Verify actual scope and permission to showcase each.
+- Site content ideas for later design approval: clear audience-focused positioning, four service areas, selected case studies, transparent working process, outcome-oriented explanations using only substantiated metrics, and a straightforward contact path.
+- Avoid generic AI-generated marketing claims and unverified promises of ranking or revenue results. No design implementation until references and logo are reviewed.
