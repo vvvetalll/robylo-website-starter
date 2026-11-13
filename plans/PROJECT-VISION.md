@@ -24,3 +24,9 @@ Status: planning only. Updated: 2026-11-13.
 - No WordPress reinstall planned. Existing installation needs audit when access is enabled.
 - User to share logo and visual reference screenshots.
 - Confirm actual Elementor/theme configuration, MCP connectivity, and GCPRO reusable standards by inspecting repositories and live environment.
+
+## Case-study visual system (concept, not yet implemented)
+- Portfolio currently identified: Chicago Mounting, GCPRO Restoration, ColoProProperties, Glenview Smiles, Elite Mechanical Services (HVAC). Confirm project scope and permissions before publishing.
+- Build a coherent typography and infographic system for case-study pages: clear hierarchy, polished monochrome icons, annotated metrics, elegant scales/progress bars, circles and simple diagrams where meaningful.
+- Each case should communicate project context, scope/role, challenges and complexity, process, deliverables, and verified outcomes. Avoid generic decorative charts and invented statistics; label qualitative assessments as editorial judgments with criteria.
+- Visual tone: restrained, premium, professional, legible, accessible; allow actual client imagery to be the color accent. Develop reusable case-study components and responsive behavior after reviewing references and agreeing on design.
