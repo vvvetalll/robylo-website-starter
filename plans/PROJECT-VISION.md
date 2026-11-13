@@ -62,3 +62,10 @@ Status: planning only. Updated: 2026-11-13.
 - Chicago Mounting flagship story should capture the founder's account of helping a small service business develop from scratch into a mature operation with strong demand, alongside the client's workmanship and reviews. Treat founder account as testimony; verify measurable performance, rankings and causal claims before publishing.
 - Writing style: vivid, concrete, human, readable and specific, without inflated heroics, clichés or fabricated anecdotes. Support the narrative with screenshots, before/after comparisons, diagrams, and accurate metrics. The depth of work should be visible rather than merely asserted.
 - These are editorial requirements for later drafts, not approval to publish or alter the website now.
+
+## Brand origin, voice and slogan candidates (2026-11-13)
+- Founder coined **Robylo** seeking a short, distinct .com name with an authentic Ukrainian connection to **робити** ('to do/make/work') that sounds natural enough in US English. This is the founder's naming story, not a verified etymological or trademark finding.
+- Candidate slogan: **We Build. You Grow.** (not approved). Emphasizes concrete work and the client's growth; assess distinctiveness and use in context before finalizing.
+- Firm copywriting rule: never self-congratulate or say 'we are the best/smartest/professionals'. Demonstrate competence through specific work, choices, evidence and client stories. 'Prove it through work' is an internal brand principle.
+- Founder reports Robylo has little apparent search overlap. This has NOT been established as legal or comprehensive search uniqueness. Before formal brand/trademark claims, check USPTO, similar spellings/pronunciations and relevant services; public search visibility alone is not clearance.
+- Potential About story: Ukrainian-rooted name with an American-facing practical brand. Keep concise, genuine, and secondary to customer value.
