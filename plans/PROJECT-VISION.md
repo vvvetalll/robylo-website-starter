@@ -39,3 +39,11 @@ Status: planning only. Updated: 2026-11-13.
 - Relevant prospective portfolio examples: Chicago Mounting, GCPRO Restoration, ColoProProperties, Glenview Smiles, Elite Mechanical Services. Verify actual scope and permission to showcase each.
 - Site content ideas for later design approval: clear audience-focused positioning, four service areas, selected case studies, transparent working process, outcome-oriented explanations using only substantiated metrics, and a straightforward contact path.
 - Avoid generic AI-generated marketing claims and unverified promises of ranking or revenue results. No design implementation until references and logo are reviewed.
+
+## Founder thinking and US-market positioning (2026-11-13; exploratory)
+- Founder wants every idea, question and evolving thought captured in GitHub so future ChatGPT, Claude and Work sessions can pick up the reasoning without losing context. These are exploratory notes, not approved marketing copy.
+- Proposed hero ideas (not final): 'Your Digital Partner', 'Your Digital Growth Partner', 'Your Business. Our Digital Expertise.', 'Small Business. Big Digital Thinking.' Select after design and messaging review.
+- Founder is concerned that some local US digital agencies may oversell, obscure value or charge small businesses for low-quality work. Treat this as the founder's perception and market hypothesis, not a verified blanket claim about agencies or nationalities. Avoid disparaging competitors in public copy.
+- Potential differentiators: transparent scope and pricing principles, clear deliverables, personal accountability, practical explanations, honest reporting and phased growth plans.
+- Strategic caution: small-business budgets can be constrained; target growth-minded owners who value quality, define service boundaries, avoid underpricing and avoid guaranteed ranking/lead claims.
+- Validate the positioning through competitor research and conversations with prospective customers before treating it as established US market demand.
