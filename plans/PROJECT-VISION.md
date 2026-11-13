@@ -47,3 +47,11 @@ Status: planning only. Updated: 2026-11-13.
 - Potential differentiators: transparent scope and pricing principles, clear deliverables, personal accountability, practical explanations, honest reporting and phased growth plans.
 - Strategic caution: small-business budgets can be constrained; target growth-minded owners who value quality, define service boundaries, avoid underpricing and avoid guaranteed ranking/lead claims.
 - Validate the positioning through competitor research and conversations with prospective customers before treating it as established US market demand.
+
+## Acquisition strategy and Chicago Mounting flagship case (2026-11-13)
+- Founder does NOT want to spend heavily trying to outrank long-established Chicago SEO agencies for Robylo's own agency keywords. Initial acquisition should test referrals/word of mouth, direct relationships and other channels; prioritize a clear, functional, distinctive website explaining customer problems solved and business value. This does not mean abandoning SEO fundamentals.
+- Site messaging should lead with business outcomes and customer pain points, not a laundry list of technical services or unsupported earnings promises.
+- Chicago Mounting is a candidate flagship case study. Working narrative: 'From a Website to a Scalable Digital Growth Platform.' Document starting context, audits, design/UX and conversion hypotheses, WordPress/Elementor architecture, case-study templates, taxonomy/filters, local landing pages, SEO work, iteration and future improvements.
+- Source of truth: inspect actual Chicago Mounting project documentation, commits, GSC/Ahrefs data and implementation before publishing. Existing notes include case-study architecture, content, technical SEO and local page work; distinguish implemented vs planned vs tested.
+- User mentions heatmaps, scroll behavior, conversion analysis, business growth and top rankings. Do NOT claim these as verified unless matching analytics, screenshots, logs and dates are available. Quantify results only with trustworthy before/after measurements and attribution caveats; otherwise describe work and observed outputs without inventing ROI.
+- Prepare case-study narrative and polished monochrome visualizations only after evidence review and design approval; keep client-sensitive information private and verify showcase permissions.
