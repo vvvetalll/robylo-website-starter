@@ -55,3 +55,10 @@ Status: planning only. Updated: 2026-11-13.
 - Source of truth: inspect actual Chicago Mounting project documentation, commits, GSC/Ahrefs data and implementation before publishing. Existing notes include case-study architecture, content, technical SEO and local page work; distinguish implemented vs planned vs tested.
 - User mentions heatmaps, scroll behavior, conversion analysis, business growth and top rankings. Do NOT claim these as verified unless matching analytics, screenshots, logs and dates are available. Quantify results only with trustworthy before/after measurements and attribution caveats; otherwise describe work and observed outputs without inventing ROI.
 - Prepare case-study narrative and polished monochrome visualizations only after evidence review and design approval; keep client-sensitive information private and verify showcase permissions.
+
+## Case-study storytelling editorial direction (2026-11-13)
+- Founder wants case-study pages to be genuinely engaging, not dry technical reports. Reader should feel the care, ownership, expertise, research, diagnostics, testing and iterative effort invested in a client's business.
+- Use narrative arc: business at the starting point -> real stakes/problems -> investigation and evidence -> decisions and tradeoffs -> implementation/experiments and iteration -> verified outcomes -> ongoing work and lessons. Open with the client's situation rather than a technology list.
+- Chicago Mounting flagship story should capture the founder's account of helping a small service business develop from scratch into a mature operation with strong demand, alongside the client's workmanship and reviews. Treat founder account as testimony; verify measurable performance, rankings and causal claims before publishing.
+- Writing style: vivid, concrete, human, readable and specific, without inflated heroics, clichés or fabricated anecdotes. Support the narrative with screenshots, before/after comparisons, diagrams, and accurate metrics. The depth of work should be visible rather than merely asserted.
+- These are editorial requirements for later drafts, not approval to publish or alter the website now.
