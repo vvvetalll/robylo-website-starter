@@ -9,11 +9,10 @@ Status: planning only. Updated: 2026-11-13.
 - Design must be distinctive, not generic Elementor/AI output. User will provide logo, screenshots and reference sites. Collaboratively approve visual concept, buttons, typography, layouts and sections before design implementation. Do not invent or prematurely lock visual design.
 
 ## Agreed implementation sequence
-1. User installs clean WordPress on SiteGround personally.
-2. Install/activate compatible theme and Elementor; confirm actual versions and licensing; configure foundation.
-3. Connect WordPress via MCP and verify available read/write tools before edits.
-4. Prepare starter template with global variables/classes, typography scale, spacing, container widths, responsive conventions, basic navigation/menu, header/footer and reusable components, informed by an audit of GCPRO. Reuse technical standards, not GCPRO branding or business content.
-5. Only after user provides screenshots/references and logo: develop and approve visual direction and build individual sections, services and portfolio/cases.
+1. Existing Robylo website already has WordPress and Elementor; user reports MCP is present and will configure/enable connection when needed. The site is currently closed/paused, not a fresh installation.
+2. Audit the existing WordPress site, installed theme, Elementor templates, global settings, pages and available MCP access before deciding whether to retain/adapt the existing theme/template or replace it. Preserve existing content and functionality; back up before changes.
+3. Prepare starter template with global variables/classes, typography scale, spacing, container widths, responsive conventions, basic navigation/menu, header/footer and reusable components, informed by an audit of GCPRO. Reuse technical standards, not GCPRO branding or business content.
+4. First user gathers visual references and logo; assistant analyzes, Claude independently evaluates, and user selects final design direction. Only then give Work implementation instructions. No site edits or visual design implementation before approval.
 
 ## Repository and tracking
 - Work in `vvvetalll/robylo-website-starter`, branch `robylo-website`.
@@ -22,6 +21,6 @@ Status: planning only. Updated: 2026-11-13.
 - No production publication without approval. No claims of installation, connection or testing until verified.
 
 ## Open items
-- User to install WordPress on SiteGround.
+- No WordPress reinstall planned. Existing installation needs audit when access is enabled.
 - User to share logo and visual reference screenshots.
 - Confirm actual Elementor/theme configuration, MCP connectivity, and GCPRO reusable standards by inspecting repositories and live environment.
