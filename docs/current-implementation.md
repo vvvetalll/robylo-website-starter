@@ -129,3 +129,7 @@ The repository currently contains documentation and the minimal child-theme sour
 Generated CSS and font/cache files are runtime outputs, not the authoritative portable configuration. The child theme does not recreate any of these database settings; its activation on the current site is not established by this snapshot. No database dump, secrets or private connection details belong in Git.
 
 Export/import and dependency mapping still need a separately authorized native round-trip test on a fresh installation. Record exact WordPress, PHP, Hello Elementor, Elementor/Pro and connector versions during that task; a complete version matrix is not available in this repository.
+
+## Incremental update — section backgrounds, 2026-11-16
+
+Atomic Lab now includes three consecutive Light / Soft / Dark examples after its introduction, all referencing unchanged Base Section 5869. Added rb-section--soft and rb-section--dark (global class count now 28); Light uses the existing default. Existing rb-section gained accessible paragraph-link styles. No variables or typography values changed. See [exact changes, CSS exception, screenshots and checks](section-backgrounds-2026-11-16.md). The earlier snapshot above remains historical; the new marketing homepage is still unimplemented and visual approval of these variants is pending.
