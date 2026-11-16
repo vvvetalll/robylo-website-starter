@@ -133,3 +133,7 @@ Export/import and dependency mapping still need a separately authorized native r
 ## Incremental update — section backgrounds, 2026-11-16
 
 Atomic Lab now includes three consecutive Light / Soft / Dark examples after its introduction, all referencing unchanged Base Section 5869. Added rb-section--soft and rb-section--dark (global class count now 28); Light uses the existing default. Existing rb-section gained accessible paragraph-link styles. No variables or typography values changed. See [exact changes, CSS exception, screenshots and checks](section-backgrounds-2026-11-16.md). The earlier snapshot above remains historical; the new marketing homepage is still unimplemented and visual approval of these variants is pending.
+
+## Incremental update — Coming Soon portfolio, 2026-11-16
+
+Document 5858 is now a published native Atomic composition with the original PNG logo and five portfolio links. This supersedes the earlier HTML-widget snapshot for that document only. Existing Manrope defaults and text-link classes are reused; no global settings, components, Header/Footer, homepage or Lab were edited. Coming Soon remains active. [Exact settings, corrected destinations, verification and public screenshots](coming-soon-2026-11-16.md).
