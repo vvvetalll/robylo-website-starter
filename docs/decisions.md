@@ -22,3 +22,11 @@ Use separate records for proposals, owner approvals, implemented changes and ver
 ## Incremental authorization — 2026-11-16
 
 The owner authorized building/testing Light (#FFFFFF), Soft (#F5F5F5) and Dark (#000000) Base Section variants in Atomic Lab and committing the results. [Implementation and evidence](section-backgrounds-2026-11-16.md). This is authorization to create the demonstration, **not visual approval of the result or authorization for other homepage components**. The two new modifiers and limited scoped descendant-CSS exception are documented for review. Typography, spacing, Header, Footer and Coming Soon remain unchanged.
+
+## Owner visual approval and next scope — 2026-11-16
+
+**Approved:** the owner visually reviewed Light (#FFFFFF), Soft (#F5F5F5) and Dark (#000000) in Atomic Lab and explicitly accepted the existing implementation without visual adjustments. Approval source: “ROBYLO — Approve Base Sections and Continue Homepage Foundation” in the owner conversation. [PR #2](https://github.com/vvvetalll/robylo-website-starter/pull/2) was checked clean and unchanged at reviewed head 1d9a039a6ec1ebdd93226a6e486a6081956111d3, then merged as [0a3d8f8](https://github.com/vvvetalll/robylo-website-starter/commit/0a3d8f88f7710531088b84f8e9407e309d9a00c4).
+
+**Authorized next:** basic homepage section structure and background rhythm only. Four sections are staged for review: Hero / Light → Services / Soft → Selected Work / Light → Contact / Dark. This arrangement is **implemented in a draft and browser-verified, but awaits owner visual approval**. [Details and screenshots](homepage-foundation-2026-11-16.md).
+
+This supersedes the earlier pending-approval status for the three Base Section variants only. Claude's entire homepage proposal, final content, detailed components, header/footer changes, radius changes and publication remain unapproved. Keep Coming Soon active and stop before individual homepage components/content.

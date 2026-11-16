@@ -133,3 +133,7 @@ Export/import and dependency mapping still need a separately authorized native r
 ## Incremental update — section backgrounds, 2026-11-16
 
 Atomic Lab now includes three consecutive Light / Soft / Dark examples after its introduction, all referencing unchanged Base Section 5869. Added rb-section--soft and rb-section--dark (global class count now 28); Light uses the existing default. Existing rb-section gained accessible paragraph-link styles. No variables or typography values changed. See [exact changes, CSS exception, screenshots and checks](section-backgrounds-2026-11-16.md). The earlier snapshot above remains historical; the new marketing homepage is still unimplemented and visual approval of these variants is pending.
+
+## Homepage section draft — 2026-11-16
+
+The owner approved the three section variants and PR #2 was merged. Page 5894 now has an **unpublished draft** replacing its two old main-content instances with four instances of existing Base Section 5869: Hero (Light), Services (Soft), Selected Work (Light), Contact (Dark). Existing published homepage content remains the two-section base template; anonymous visitors still see Coming Soon. No global class, variable, component definition, typography, spacing, Header/Footer or Coming Soon change was needed for this step. [Draft IDs, screenshots, tests and review instructions](homepage-foundation-2026-11-16.md). The new section arrangement awaits owner review; the full marketing homepage is not built.
