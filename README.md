@@ -8,8 +8,9 @@ A reusable WordPress + Hello Elementor child theme + Elementor Atomic V4 foundat
 | --- | --- |
 | Elementor Atomic V4 | Visual variables, tag defaults, global classes, layouts, and reusable components. |
 | ROBYLO child theme | Necessary WordPress integration, PHP, and functionality not adequately supported by Elementor. |
-| Codex | Code, Git inspection, documentation, and verification. |
-| ChatGPT Work | Elementor configuration through MCP on a separate staging WordPress installation. |
+| ChatGPT/Codex | Architecture, code, audits, technical documentation and Git contributions. |
+| Claude | Design concepts, mockups, visual decisions, handoffs and Git contributions. |
+| ChatGPT Work | Elementor implementation, screenshots, testing, implementation documentation and Git contributions. |
 
 The initial theme contains metadata and a child stylesheet enqueue only. It adds no visual CSS, JavaScript, menus, widgets, or template overrides. Hello Elementor remains responsible for loading its own styles. The child enqueue runs afterward and depends on Hello's theme stylesheet only when that stylesheet is already enqueued.
 
@@ -25,6 +26,10 @@ AI-CONTEXT.md
 docs/
   setup.md
   elementor.md
+  ROBYLO-CONCEPT.md
+  current-implementation.md
+  decisions.md
+  verification.md
 theme/
   robylo-child/
     style.css
@@ -44,3 +49,14 @@ php -l theme/robylo-child/functions.php
 Runtime checks require WordPress with Hello Elementor installed; see [setup.md](docs/setup.md). No package installation, Composer project, Node build, or generated assets are required by this foundation. A compatible WordPress runtime, parent theme, and Elementor plugin are separate deployment prerequisites.
 
 Upstream loading references: [Hello Elementor](https://github.com/elementor/hello-theme/blob/master/functions.php) and its [official child theme](https://github.com/elementor/hello-theme-child/blob/master/functions.php). Recheck against the installed versions when validating staging.
+
+## Shared project context — 2026-11-16
+
+Read [AGENTS.md](AGENTS.md) and [AI-CONTEXT.md](AI-CONTEXT.md) before contributing. All three collaborators may contribute independently within their authorized scope; synchronize first and preserve concurrent work.
+
+- [Current WordPress implementation](docs/current-implementation.md): actual variables, typography, classes, components, Header/Footer, responsive behavior and database-only settings.
+- [Decisions and approval status](docs/decisions.md): approved foundation versus pending homepage design.
+- [Verification and completed work](docs/verification.md): dated evidence, checks and limitations.
+- [Business/design working brief](docs/ROBYLO-CONCEPT.md): preserved exploratory notes; proposals are not approvals.
+
+The live foundation is further along than the original starter inspection described in setup.md and elementor.md. Coming Soon remains active. Claude is designing the new homepage; it is not implemented. Native Elementor configuration is still stored in WordPress, with no portable kit/component exports committed here. This repository does not automatically deploy or synchronize with WordPress.

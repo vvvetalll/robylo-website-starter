@@ -1,5 +1,7 @@
 # Setup and deployment
 
+> Current-status update (2026-11-16): the original starter inspection below is retained as historical context. The existing ROBYLO installation has since been configured and inspected. Use [current-implementation.md](current-implementation.md) and [verification.md](verification.md) for the dated observed state and its limits. Fresh-install portability, child-theme runtime checks and a complete installed-version compatibility matrix remain unverified.
+
 ## Prerequisites
 
 - A separate staging WordPress installation with administrative access, HTTPS, and a recoverable backup.

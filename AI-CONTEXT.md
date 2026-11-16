@@ -1,28 +1,41 @@
 # AI collaboration context
 
-## Project intent
+Updated 2026-11-16. This repository is the shared workspace for Claude, ChatGPT Work and ChatGPT/Codex.
 
-ROBYLO Website Starter 2.0 is a reusable WordPress starter built on Hello Elementor and Elementor Atomic V4. This repository begins with a minimal child theme and documentation. No staging connection, configured design system, or portable Elementor package is established by these files.
+## Read before working
 
-## Division of work
+Read [README](README.md), [AGENTS](AGENTS.md), [approved decisions](docs/decisions.md), [current implementation](docs/current-implementation.md) and [verification record](docs/verification.md), plus the documents relevant to your task. Fetch the latest remote state before editing. The repository is authoritative for committed code, recorded decisions and handoffs; WordPress remains authoritative for configuration that has not been exported.
 
-Codex maintains theme PHP, repository structure, Git work, documentation, and checks. It investigates WordPress integration only when Elementor does not adequately cover an approved requirement. Codex does not recreate the visual design system in theme code.
+## Responsibilities and independent contributions
 
-ChatGPT Work configures variables, tag defaults, global classes, layouts, and reusable components through Elementor MCP on a separate staging installation. It verifies the available capabilities, installed versions, permissions, and licenses before using them. It does not maintain parallel theme implementations of those settings.
+| Collaborator | Primary scope |
+| --- | --- |
+| Claude | Design concepts, mockups, visual decisions and design handoffs |
+| ChatGPT Work | Native Elementor implementation, screenshots, testing and implementation documentation |
+| ChatGPT/Codex | Architecture, code, audits and technical documentation |
 
-These are workflow responsibilities, not evidence that a particular MCP action or Elementor feature has been validated. See [the capability status](docs/elementor.md).
+Each collaborator may contribute its authorized work directly to GitHub through its own connection or checkout. Follow the concurrency and task-record rules in AGENTS.md. GitHub access does not grant WordPress access; Claude does not have the WordPress environment.
 
-## Handoff
+## Current state
 
-1. Define the requested outcome and decide which owner should implement it.
-2. Before staging changes, identify the target installation and record relevant versions and the current configuration without secrets.
-3. ChatGPT Work reports settings/components changed, identifiers where useful, checks performed, and any unsupported capability. Codex records approved findings and integration needs in the repository.
-4. If a code fallback is needed, document the capability gap and obtain approval for the additional implementation before adding it.
-5. Validate code and Elementor configuration together on staging. Record evidence and unresolved issues separately from assumptions.
-6. Before client deployment, validate a supported export/import workflow in a fresh installation. Retain only reviewed, sanitized, portable artifacts in the repository when that scope is approved.
+The existing ROBYLO WordPress + Elementor Atomic V4 foundation has Manrope variables/defaults/classes, five reusable foundation components, active base Header/Footer, Styleguide and Atomic Lab. The homepage is a two-section base template, not the new marketing homepage. Anonymous visitors continue to see Coming Soon. See the [dated implementation snapshot](docs/current-implementation.md) for exact values and unfinished work.
 
-The repository is authoritative for code and documented decisions. Staging is the current source for Elementor configuration until a portable artifact workflow is validated. A theme ZIP does not include that configuration.
+The visual handoff ZIP has been delivered to Claude outside GitHub. It and the typography PDF/screenshots are not committed repository assets. Claude is designing the homepage; no final homepage design approval or implementation is recorded. Keep Coming Soon active.
 
-## Current scope
+[ROBYLO-CONCEPT.md](docs/ROBYLO-CONCEPT.md) preserves earlier business and exploratory notes. Its experimental concepts and decorative suggestions are proposals, not the current approved direction. The later owner brief calls for simple monochrome layouts, Manrope, the unchanged supplied logo, and no decorative shapes, gradients or shadows.
 
-The foundation includes only the files listed in [README.md](README.md). No visual implementation, MCP writes, deployment, package installation, commit, or push is part of this foundation task. Additional implementation requires user approval.
+## Handoff and implementation boundaries
+
+1. Record the requested outcome, contributor and approval scope; distinguish proposed, approved, implemented and verified states.
+2. Claude submits design artifacts and responsive/component notes for owner review. Do not implement an unapproved concept.
+3. Before authorized WordPress changes, ChatGPT Work verifies the target, installed versions, capabilities and relevant saved configuration, then reuses native variables/classes/components.
+4. Record exact settings/components changed, identifiers, actual rendered checks and unsupported capabilities. Do not write directly to Elementor database records.
+5. Codex adds theme functionality only for an approved gap that native Elementor cannot adequately cover; document the reason. Do not recreate the design system in CSS/PHP.
+6. Record every significant completed task in GitHub. Review current remote changes and the diff before committing; never overwrite another collaborator's contribution.
+7. Before repeatable deployment, validate sanitized native exports/imports on a fresh target. Documentation and a child-theme ZIP do not reproduce WordPress configuration.
+
+## Current authorization
+
+This task authorizes minimal collaboration/documentation changes, review, commit and push to existing main. It does not authorize WordPress changes, a homepage build, launch, or deployment. Future actions follow their own owner-approved scope.
+
+No automatic sync or deployment is established. Each session must independently confirm its GitHub permissions and, where needed, WordPress access.

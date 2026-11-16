@@ -5,7 +5,7 @@
 - Read README.md, AI-CONTEXT.md, and the relevant docs before changing behavior.
 - Elementor Atomic V4 owns variables, tag defaults, global classes, layouts, and reusable components. Do not duplicate these in theme CSS, PHP, or JavaScript.
 - Keep the child theme limited to necessary WordPress integration and functionality Elementor cannot adequately provide. Document the reason for each exception.
-- Codex owns repository work; ChatGPT Work owns Elementor configuration on staging through MCP. Follow the handoff in AI-CONTEXT.md.
+- All three collaborators may contribute to GitHub independently within their authorized scope. Claude owns design concepts, mockups, visual decisions and handoffs; ChatGPT Work owns Elementor implementation, screenshots, testing and implementation documentation; ChatGPT/Codex owns architecture, code, audits and technical documentation. These roles do not grant website or repository permissions. Follow AI-CONTEXT.md.
 
 ## Coding standards and minimal changes
 
@@ -35,3 +35,16 @@
 - Discover and verify MCP capabilities before relying on them. Do not invent APIs or edit Elementor database records directly.
 - Record material compatibility findings in docs/elementor.md and environment requirements in docs/setup.md, without credentials.
 - Report files changed, checks performed, and remaining limitations. Stop at the approved scope and wait for approval before additional implementation.
+
+## Shared GitHub workflow
+
+- Before every task, read the latest README.md, AGENTS.md, AI-CONTEXT.md, docs/decisions.md and relevant design, implementation and verification notes. Read nested AGENTS.md files if present.
+- Fetch the current remote state before editing and again before pushing. Inspect local changes first; preserve uncommitted work. A connected GitHub editor must likewise read current file contents and branch head.
+- Each collaborator may commit its own authorized work; do not wait for Codex to transcribe it. Use a short task branch and pull request for concurrent work unless the owner explicitly requests main. Never force-push, reset shared history, or overwrite another contributor's work.
+- Keep edits focused. If another collaborator changes the same file, reconcile against the latest version and preserve their contribution. Use fast-forward or expected-head checks; a rejected update requires a fresh read and review.
+- Keep the existing flat docs/ structure: ROBYLO-CONCEPT.md and dated design handoffs for design; current-implementation.md for observed Elementor state; elementor.md/setup.md for technical notes; decisions.md for approval records; verification.md for checks and completed-task entries. Create folders only when real artifacts justify them.
+- Every significant completed task must add a dated record in the relevant document or verification.md: collaborator, scope, changed files or WordPress identifiers, status, evidence, checks actually run, and remaining issues. Link the commit/PR or evidence when available.
+- Use explicit states: **Proposed** (unapproved), **Approved** (owner-approved scope with source/date), **Implemented** (saved change), **Verified** (specified check passed with date/environment). Approval is not implementation; configuration read-back is not a frontend test. Never infer approval from another AI's recommendation.
+- Claude should submit design work with desktop/mobile artifacts, responsive notes, reuse/new-component mapping and open decisions. ChatGPT Work records actual native settings, component changes and checks. Codex records code/architecture implications without duplicating Elementor styling.
+- Keep Coming Soon active. Homepage design is in progress with Claude; no homepage implementation, publication, or website changes are authorized by this collaboration setup.
+- Publish only reviewed, sanitized design/evidence assets when authorized. Never commit credentials, cookies, authenticated preview URLs, private customer data, database dumps or screenshots exposing administrative/personal information.
