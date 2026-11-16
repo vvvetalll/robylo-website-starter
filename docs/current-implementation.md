@@ -1,5 +1,9 @@
 # Current ROBYLO WordPress / Elementor foundation
 
+## Latest button update — 2026-11-16
+
+The owner-approved rb-radius is now **4px**, superseding the historical 0px value below. Primary Button 5864 retains its identity and text/link properties, now using rb-btn + rb-btn--primary. Existing outline/small classes are implemented; one new rb-btn--text class brings the global-class count to 29. Atomic Lab has a dedicated three-background, four-variant demonstration. [Exact changes, state/geometry checks, screenshots and limitations](button-system-2026-11-16.md). No animation was added. Homepage/Header/Footer/Coming Soon documents were not edited; existing shared buttons inherit the new button foundation.
+
 Snapshot: 2026-11-16 (America/Chicago). Sources: the prior saved-settings/rendered verification and the read-only visual handoff inspection on this date. This GitHub task reviews those records; it does not change or freshly retest WordPress. See [verification.md](verification.md) for evidence limits.
 
 ## Actual pages and active templates

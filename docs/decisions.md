@@ -12,12 +12,16 @@ Updated 2026-11-16. Approval source is the owner's instructions in the ROBYLO co
 | Shared GitHub collaboration, minimal documentation updates, commit and push to main | Approved owner GitHub Collaboration Setup request, 2026-11-16 | Documentation scope only; execution record in verification.md. |
 | Claude's new homepage layout, final navigation, case-study presentation and contact section | Proposed; submitted by Claude 2026-11-16 in [design-homepage-handoff-2026-11-16.md](design-homepage-handoff-2026-11-16.md), history in [design-log.md](design-log.md) | Awaiting owner review. No final design approval or implementation recorded. Do not infer approval from mockups or older concept notes. |
 | Header logo image and navigation, text-link secondary action, single section gap (handoff section 2, items 2–5) | Proposed by Claude 2026-11-16 | Foundation changes; each requires a recorded owner decision before implementation. |
-| Subtle button rounding | Proposed visual direction; Claude's handoff proposes rb-radius 4px (2026-11-16) | Current rb-radius is 0px. A change requires a recorded design decision before implementation. |
+| Subtle button rounding | Approved by owner Button Design System request, 2026-11-16: rb-radius 4px | Implemented through the existing token. Applies to existing shared button consumers; no screenshot/image rounding change was added. Animation remains unapproved. |
 | Portable Elementor exports and fresh-install import | Unfinished technical work | No deployable native configuration package committed; requires a separate scoped task and validation. |
 
 The supplied homepage brief requests “Good business. Hard to find?”, Work / Services / About / Contact, five service rows, Chicago Mounting and a contact action. This is design input, not evidence of a built or verified homepage. Do not invent client results or testimonials.
 
 Use separate records for proposals, owner approvals, implemented changes and verified results. Supersede a decision explicitly; do not silently erase older rationale or turn exploratory notes into approvals.
+
+## Button foundation authorization — 2026-11-16
+
+The owner approved 4px button corners and authorized Primary, Outline, Text Link and Small variants on Light/Soft/Dark backgrounds. Reuse component 5864 and existing button classes; animation is explicitly reserved. [Implementation, evidence and disabled-state limitation](button-system-2026-11-16.md). The button foundation is implemented and tested, awaiting review. This does not approve further homepage work or merge pending PR #3.
 
 ## Incremental authorization — 2026-11-16
 

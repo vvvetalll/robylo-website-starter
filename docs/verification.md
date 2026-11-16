@@ -2,6 +2,14 @@
 
 Do not interpret saved configuration as rendered verification, or a historical check as a fresh test. Every significant task should add a dated entry with collaborator, scope/status, files or WordPress IDs, actual checks, evidence and unresolved issues.
 
+## 2026-11-16 — Button design system
+
+Collaborator: ChatGPT/Codex via Elementor MCP. Owner authorized 4px corners and Primary/Outline/Text Link/Small; animation deferred. **Implemented and verified; awaiting owner review.** [Full record and screenshots](button-system-2026-11-16.md).
+
+Reused component 5864 with common rb-btn geometry and palette/modifier classes; only new class rb-btn--text. Updated rb-radius 0→4px and contextual dark styles. Lab group 3a2ddc70 has twelve component instances. Actual rendered checks at 1440/1024/768/390/320: no horizontal overflow, 4px corners, Manrope 16/600, every target at least 48px high, no transitions/animation. All 36 keyboard-focus and real pointer-hover checks passed across 1440/768/390. Actual desktop/mobile, keyboard-focus and hover screenshots saved. Protected page/template trees match before/after; anonymous HTTP 200 still shows Coming Soon.
+
+Disabled controls are not exposed by the current e-button/component schema and are not claimed implemented/tested. Native portable exports and physical-device tests remain unverified. The stylesheet/context-class recipe is documentation, not an importable Elementor package. Existing shared consumers inherit the approved button changes; no homepage content or Header/Footer document edit.
+
 ## 2026-11-16 — Existing foundation / typography evidence
 
 Source: prior ChatGPT Work/Codex implementation records and read-only visual handoff inspection from the ROBYLO conversation. The handoff ZIP was delivered to Claude outside GitHub. The ZIP, screenshots, typography PDF and raw measurements are not committed here, so these historical results are reported evidence rather than independently reproducible repository tests.
