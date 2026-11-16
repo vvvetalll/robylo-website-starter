@@ -26,3 +26,7 @@ The owner approved 4px button corners and authorized Primary, Outline, Text Link
 ## Incremental authorization — 2026-11-16
 
 The owner authorized building/testing Light (#FFFFFF), Soft (#F5F5F5) and Dark (#000000) Base Section variants in Atomic Lab and committing the results. [Implementation and evidence](section-backgrounds-2026-11-16.md). This is authorization to create the demonstration, **not visual approval of the result or authorization for other homepage components**. The two new modifiers and limited scoped descendant-CSS exception are documented for review. Typography, spacing, Header, Footer and Coming Soon remain unchanged.
+
+## Glide-Over prototype scope — 2026-11-16
+
+The owner supplied the second animation reference and authorized a **controlled Atomic Lab prototype only**. [Observed reference, native limitation, exact centralized CSS and evidence](glide-over-prototype-2026-11-16.md). One opt-in rb-btn--glide class was added; the existing system/component/variables remain intact. This supersedes the prior “animation reserved” restriction only for these three Lab examples. Global animation rollout remains unapproved; no existing PR is merged by this task.
