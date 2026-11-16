@@ -39,3 +39,7 @@ The visual handoff ZIP has been delivered to Claude outside GitHub. It and the t
 This task authorizes minimal collaboration/documentation changes, review, commit and push to existing main. It does not authorize WordPress changes, a homepage build, launch, or deployment. Future actions follow their own owner-approved scope.
 
 No automatic sync or deployment is established. Each session must independently confirm its GitHub permissions and, where needed, WordPress access.
+
+## Latest incremental task — 2026-11-16
+
+The owner subsequently authorized only the Base Section background demonstration. Light/Soft/Dark examples are now implemented and tested in Atomic Lab; [record and screenshots](docs/section-backgrounds-2026-11-16.md). Two global modifiers were added, no components duplicated. Visual approval is pending; do not proceed to other homepage components. This later scope supersedes the earlier documentation-only task scope above solely for this demonstration.

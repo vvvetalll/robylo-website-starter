@@ -50,3 +50,9 @@ Collaborator: Claude. Scope: design documentation and mockup images only, under 
 - Checks actually run, environment and viewport widths:
 - Evidence: commit/PR and sanitized screenshots or reports:
 - Remaining issues / next owner:
+
+## 2026-11-16 — Base Section background demonstration
+
+Collaborator: ChatGPT/Codex via Elementor MCP. Owner authorized this incremental test. **Implemented and verified; visual approval pending.** Three instances of component 5869 in Lab 5776; two new global modifiers, existing rb-section paragraph-link patch; no new component, variable, homepage or template change.
+
+[Implementation record and actual screenshots](section-backgrounds-2026-11-16.md) include exact classes, instance IDs, scoped CSS limitation and rollback. Checked rendered layout at 1440/1024/768/390/320; no horizontal overflow. Manrope and H2/body proportions preserved. Keyboard focus and real pointer hover checked at 1440/768/390. Anonymous HTTP 200 still shows Coming Soon. Saved group, component definition and unchanged variable inventory read back. Browser emulation only; no physical-device or complete accessibility audit. Other homepage work is gated on owner review.
