@@ -20,7 +20,7 @@ Each collaborator may contribute its authorized work directly to GitHub through 
 
 The existing ROBYLO WordPress + Elementor Atomic V4 foundation has Manrope variables/defaults/classes, five reusable foundation components, active base Header/Footer, Styleguide and Atomic Lab. The homepage is a two-section base template, not the new marketing homepage. Anonymous visitors continue to see Coming Soon. See the [dated implementation snapshot](docs/current-implementation.md) for exact values and unfinished work.
 
-The visual handoff ZIP has been delivered to Claude outside GitHub. It and the typography PDF/screenshots are not committed repository assets. Claude is designing the homepage; no final homepage design approval or implementation is recorded. Keep Coming Soon active.
+The visual handoff ZIP has been delivered to Claude outside GitHub. It and the typography PDF/screenshots are not committed repository assets. Claude submitted a homepage proposal on 2026-11-16: [handoff](docs/design-homepage-handoff-2026-11-16.md), [design log](docs/design-log.md). It is Proposed; no final homepage design approval or implementation is recorded. Keep Coming Soon active.
 
 [ROBYLO-CONCEPT.md](docs/ROBYLO-CONCEPT.md) preserves earlier business and exploratory notes. Its experimental concepts and decorative suggestions are proposals, not the current approved direction. The later owner brief calls for simple monochrome layouts, Manrope, the unchanged supplied logo, and no decorative shapes, gradients or shadows.
 

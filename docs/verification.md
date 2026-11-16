@@ -28,6 +28,19 @@ Collaborator: ChatGPT/Codex. Scope: documentation only, under the owner's explic
 - **Verified (documentation):** reviewed proposed file contents/diff, checked relative Markdown links against the repository file inventory, and confirmed only eight Markdown files are changed. Source, ignore rules and business concept remain untouched. Re-read main before publication; use an expected-head, non-forced update to preserve concurrent work. The resulting Git commit records the exact changes; publication confirmation belongs to the final GitHub execution report.
 - Remaining limitations: each collaborator needs its own authorized GitHub connection; WordPress access is separate; there is no automatic synchronization/deployment, committed visual handoff, native Elementor export or fresh-target import verification. Installed-version compatibility remains to be recorded.
 
+## 2026-11-16 — Homepage design proposal and design history
+
+Collaborator: Claude. Scope: design documentation and mockup images only, under the owner's request to save the homepage design work and its iterations to GitHub.
+
+- Status: **Proposed**. Not approved, not implemented. No WordPress operation; Claude has no WordPress access.
+- Added docs/design-homepage-handoff-2026-11-16.md, docs/design-log.md and ten images in docs/design/ (two current-proposal mockups, eight exploration captures). Updated docs/decisions.md (homepage row, radius row, one new row for proposed foundation changes), AI-CONTEXT.md (pointer to the proposal) and this record.
+- Read before editing: README, AGENTS, AI-CONTEXT, decisions, current-implementation and this file at main c810f2c.
+- **Checks run:** the two proposal mockups were rendered in headless Chrome at 1440 and 390 CSS px with locally installed Manrope 400–700; document scroll width equaled the viewport at both widths; full-page captures were reviewed visually. Relative Markdown links in the new and changed files were checked against the repository file list.
+- **Not verified:** any Elementor build, real-device rendering, accessibility or performance. Mockup values follow docs/current-implementation.md, not a fresh site inspection.
+- Images: the proposal mockups include a capture of the public chicagomounting.com homepage (2026-11-16) and bracketed placeholders. No credentials, admin screens or private data. Client permission to feature the case publicly is still an open item.
+- Delivery: task branch design/homepage-proposal-2026-11-16 with a pull request to main.
+- Remaining / next owner: owner review of the proposal and of the five foundation changes; content items listed in the handoff, section 5.
+
 ## Future entry template
 
 - Date / collaborator / task:
