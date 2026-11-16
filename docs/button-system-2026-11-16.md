@@ -145,3 +145,7 @@ Browser emulation is not physical-device testing. A complete accessibility/perfo
 Actual rendered demo crops, reviewed visually; no admin toolbar/account data or preview tokens are included. Purple assistant bubble is an editor overlay, not part of the design.
 
 Stop here. Await owner review and the animation reference; do not continue the homepage or merge other pending work. Before rollback, inspect concurrent edits: initial component undo revision 5956 and Lab undo revision 5959 precede this task, but a full restore would discard later unrelated edits. Token/global classes require their own deliberate rollback.
+
+## Later scoped prototype — 2026-11-16
+
+The supplied reference now supports a separate, owner-authorized [Glide-Over Lab prototype](glide-over-prototype-2026-11-16.md). The non-animated foundation described above remains unchanged. Only three opt-in Lab instances animate; this does not authorize global animation or further homepage work.

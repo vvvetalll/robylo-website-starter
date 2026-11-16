@@ -47,3 +47,7 @@ No automatic sync or deployment is established. Each session must independently 
 ## Latest incremental task — 2026-11-16
 
 The owner subsequently authorized only the Base Section background demonstration. Light/Soft/Dark examples are now implemented and tested in Atomic Lab; [record and screenshots](docs/section-backgrounds-2026-11-16.md). Two global modifiers were added, no components duplicated. Visual approval is pending; do not proceed to other homepage components. This later scope supersedes the earlier documentation-only task scope above solely for this demonstration.
+
+## Latest animation scope — 2026-11-16
+
+The owner supplied the reference video and authorized only a Glide-Over prototype in Atomic Lab. [Implementation and actual recording](docs/glide-over-prototype-2026-11-16.md). One opt-in global class rb-btn--glide owns all motion CSS; three Lab instances reuse component 5864. Existing buttons remain non-animated. Do not merge or deploy globally; stop for owner review. This prototype is based on the still-unmerged button foundation PR #4; PR #3 remains untouched.
