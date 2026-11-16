@@ -6,24 +6,63 @@ Statuses used here: **Current proposal** (recommended, awaiting owner approval),
 
 ## Current recommended design
 
-**Homepage proposal, 2026-11-16 — Current proposal, not approved.**
-Specification: [design-homepage-handoff-2026-11-16.md](design-homepage-handoff-2026-11-16.md).
-Mockups: [desktop 1440](design/2026-11-16-homepage-proposal-desktop-1440.png), [mobile 390](design/2026-11-16-homepage-proposal-mobile-390.png).
+**Homepage V2, 2026-11-16 — Current proposal, not approved.**
+Specification and rationale: [design-homepage-v2-handoff-2026-11-16.md](design-homepage-v2-handoff-2026-11-16.md).
+Mockups: [desktop 1440](design/2026-11-16-homepage-v2-desktop-1440.png), [desktop first screen](design/2026-11-16-homepage-v2-desktop-1440-first-screen.png), [mobile 390](design/2026-11-16-homepage-v2-mobile-390.png), [mobile menu open](design/2026-11-16-homepage-v2-mobile-390-menu-open.png). Source: [design/2026-11-16-homepage-v2-source/](design/2026-11-16-homepage-v2-source/index.html).
+
+The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is kept below as an exploration.
 
 ## Open questions
 
-- Owner approval of the homepage proposal and of its five foundation changes (radius 4px, logo image in header, navigation in header, text-link secondary action, single gap between sections).
-- Verified Chicago Mounting results, the client's permission to be shown, and confirmation of the case description.
-- Two additional projects (names, screenshots, permissions), or removal of the preview row at launch.
-- Footer email and phone. Logo as SVG.
-- Open state of the mobile menu is not designed.
-- Optional mobile type tweak raised by Claude and not adopted: H3 26 → 24 and H4 22 → 20, because 26 / 22 / 18 are close together. The foundation keeps 26 / 22.
+- Owner approval of Homepage V2, including one new color variable (`rb-mute` #8A8A8A), the optional 88px display size, the new header and the dark footer.
+- Mobile menu implementation path in Elementor (not verified by Claude).
+- Confirmation of service scope items, project descriptors and towns, and that each client may be shown.
+- Official white logo file and, if available, an SVG. Production screenshots at 2×.
+- Privacy Policy page (link hidden until it exists).
+- Still open from iteration 3: optional mobile type tweak H3 26 → 24 and H4 22 → 20. Not adopted.
 
 ---
 
-## 2026-11-16 — Iteration 3: homepage proposal on the built foundation
+## 2026-11-16 — Iteration 4: Homepage V2 ("two-tone statements")
 
 **Status: Current proposal.**
+
+Input: the owner's "Premium Homepage Design Challenge" brief. It keeps the foundation (monochrome, Manrope, 4px radius, restrained interaction) and asks for a distinctive, art-directed page: no empty hero, no plain service list, all five real projects with images, an Approach section, dark contact, real navigation. It lists four services instead of five and names the five projects.
+
+Reviewed first: main at 0a3d8f8, open PRs #3–#7, and the Homepage V1 screenshots from PR #7. V1 is treated as a technical draft.
+
+What changed from iteration 3:
+
+- Headings became two-tone: black statement, gray second line. The hero asks "Good business. / Hard to find?"; the contact section answers on black with "Good business. / Easy to find."
+- One 8 + 4 column split is used by every section, so the right column starts at the same position down the whole page.
+- Hero gained a strip of the five projects as grayscale thumbnails. The hero paragraph moved to the right column.
+- Services: four rows (was five), each with title, three scope items and description. "Ongoing Support" is no longer a separate service; it appears as "Care and updates" and in the Approach section.
+- Selected Work: all five projects have images. Featured project shows desktop and phone captures; four tiles alternate 7 + 5 and 5 + 7 columns at one fixed height. Every screenshot sits in a soft-gray mat and is cut by its bottom edge.
+- New Approach section: three statements labelled First / Then / After launch.
+- Contact is black and mirrors the hero. Footer is black and continuous with it.
+- Header: logo image, Services / Work / Approach, small primary "Let's talk". Mobile menu open state is designed.
+- Glide-Over prototype is used on two buttons.
+
+Decisions made by Claude in this iteration, all Proposed:
+
+| Decision | Reason |
+| --- | --- |
+| New variable `rb-mute` #8A8A8A, large text only | The two-tone device needs a gray that passes 3:1 at display sizes; no existing variable does. |
+| Display size 88 / 64 / 44 for hero H1 and contact H2 only | 72px left the hero underweight next to a full-width strip. Layout also works at 72. |
+| Grayscale thumbnails in the hero, full color only in Selected Work | Proof on the first screen without color in the hero. |
+| Mat panels with screenshots cut by the bottom edge | One treatment for five differently colored sites; hides raw screenshot edges. |
+| Descriptors are industry and town, not services delivered | Verifiable from each public site; no claims about results or scope. |
+| No section numbers, uppercase labels, diagrams, serif accents | Rejected by the owner in iterations 1–2; the new brief did not reverse that. |
+| Navigation without About | No About page exists; anchors only. |
+
+Reversal of an earlier rejection: "Black contact section" was dropped in iteration 2 because it needed an inverse button. The Dark section and inverse button now exist (owner-approved Base Section variants), and the brief asks for the Dark treatment, so it is used.
+
+Checks run: mockup rendered in headless Chrome at 1440×900 and 390×844 (2×) with Manrope loaded; scroll width equaled the viewport at both sizes; full-page captures reviewed section by section. Client sites captured from their public URLs on 2026-11-16. Not checked: anything in WordPress or Elementor, tablet and 320px renders, real devices.
+
+## 2026-11-16 — Iteration 3: homepage proposal on the built foundation
+
+**Status: Exploration, superseded by iteration 4.**
+Mockups: [desktop](design/2026-11-16-homepage-proposal-desktop-1440.png), [mobile](design/2026-11-16-homepage-proposal-mobile-390.png).
 
 Input: owner's collaboration brief (Manrope, monochrome, and the minimalist direction are approved; do not restart), the visual handoff package from ChatGPT Work, and the original logo.
 
@@ -93,6 +132,13 @@ What survived from this round: left-aligned layout, services as ruled rows (from
 | Gray contact band | Iteration 2 | Sat directly on the gray footer in the built foundation. |
 | Outline secondary button | Iteration 2 | Replaced by a text link so there is one button style. |
 | Inter | Iteration 2 | Owner approved Manrope. |
+| Hero with no visual at all | Iteration 3 | Owner: the result had excessive blank space and weak composition. |
+| Services as a text list in a narrow right column | Iteration 3, built in V1 | Owner: unstructured service list. |
+| Full-width raw screenshot at natural height | Iteration 3, built in V1 | Owner: oversized screenshots. |
+| Projects shown as text-only link rows | V1 build | Owner: no text-only project placeholders. |
+| White contact section with a top rule | Iteration 3 | Owner asked for the Dark treatment; a white ending was too weak. |
+| Service index list in the hero's right column | Iteration 4, while designing | Repeated the Services section directly below it. |
+| Headline line in `rb-line` gray | Iteration 4, while designing | 1.5:1 contrast; replaced by `rb-mute` at 3.45:1. |
 
 ## Notes for future entries
 

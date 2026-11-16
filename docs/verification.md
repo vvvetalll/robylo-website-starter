@@ -56,3 +56,17 @@ Collaborator: Claude. Scope: design documentation and mockup images only, under 
 Collaborator: ChatGPT/Codex via Elementor MCP. Owner authorized this incremental test. **Implemented and verified; visual approval pending.** Three instances of component 5869 in Lab 5776; two new global modifiers, existing rb-section paragraph-link patch; no new component, variable, homepage or template change.
 
 [Implementation record and actual screenshots](section-backgrounds-2026-11-16.md) include exact classes, instance IDs, scoped CSS limitation and rollback. Checked rendered layout at 1440/1024/768/390/320; no horizontal overflow. Manrope and H2/body proportions preserved. Keyboard focus and real pointer hover checked at 1440/768/390. Anonymous HTTP 200 still shows Coming Soon. Saved group, component definition and unchanged variable inventory read back. Browser emulation only; no physical-device or complete accessibility audit. Other homepage work is gated on owner review.
+
+## 2026-11-16 — Homepage V2 design proposal
+
+Collaborator: Claude. Scope: design artifacts and documentation only, under the owner's "Premium Homepage Design Challenge" brief (design branch, pull request, no merge).
+
+- Status: **Proposed**. Not approved, not implemented. No WordPress or Elementor operation.
+- Added docs/design-homepage-v2-handoff-2026-11-16.md, four mockup images and the mockup source folder in docs/design/. Updated docs/design-log.md, docs/decisions.md (two Proposed rows) and this record. AI-CONTEXT.md was left unchanged to avoid conflicts with open PRs #3–#7; its pointer to the first proposal is now one iteration behind.
+- Read before editing: README, AGENTS, AI-CONTEXT, decisions, design log, first handoff, current-implementation, elementor, section-backgrounds and this file at main 0a3d8f8; PRs #3–#7 and the V1 screenshots in PR #7.
+- **Checks run:** mockup rendered in headless Chrome at 1440×900 and 390×844 (device scale 2) with Manrope loaded; document scroll width equaled the viewport at both widths; full-page captures reviewed visually. Relative links in the new and changed Markdown files checked against the file list.
+- **Not verified:** any Elementor build, tablet or 320px rendering, real devices, accessibility tooling, performance, the mobile menu's native implementation path.
+- Images: captures of the five public client homepages taken 2026-11-16 (one also at phone width). No credentials, admin screens or private data. The two logo files in the source folder were rebuilt from a screenshot of the public 300×80 PNG for mockup use only and must not be used in production.
+- Delivery: branch design/homepage-v2-2026-11-16 with a pull request to main.
+- Remaining / next owner: owner review; open decisions listed in the V2 handoff, section 8.
+

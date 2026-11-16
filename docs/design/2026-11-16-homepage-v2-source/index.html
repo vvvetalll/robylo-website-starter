@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROBYLO — Homepage design proposal (mockup, not production code)</title>
+<style>
+/* Mockup only. Values mirror the Elementor variables documented in docs/current-implementation.md.
+   This file is a design reference, not theme CSS. */
+@font-face { font-family: "Manrope"; src: url("manrope.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+
+:root {
+  --rb-ink: #000000; --rb-paper: #FFFFFF; --rb-text: #444444; --rb-surface: #F5F5F5;
+  --rb-line: #D6D6D6; --rb-hover: #333333;
+  --rb-mute: #8A8A8A;                       /* NEW token (proposed) */
+  --rb-radius: 4px;
+  --rb-container: 1200px;
+  --rb-gutter: clamp(1.25rem, 4vw, 3rem);
+  --rb-section-space: clamp(3.5rem, 7vw, 7rem);
+  --col-gap: 24px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body { font-family: "Manrope", sans-serif; font-size: 18px; line-height: 1.6; color: var(--rb-text); background: var(--rb-paper); }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+
+.l-container { max-width: var(--rb-container); margin: 0 auto; }
+.rb-section { padding: var(--rb-section-space) var(--rb-gutter); background: var(--rb-paper); }
+.rb-section--soft { background: var(--rb-surface); }
+.rb-section--dark { background: var(--rb-ink); color: var(--rb-paper); }
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: var(--col-gap); }
+
+h1, h2, h3, h4 { color: var(--rb-ink); font-weight: 700; }
+.rb-section--dark h1, .rb-section--dark h2, .rb-section--dark h3, .rb-section--dark h4 { color: var(--rb-paper); }
+.display { font-size: 88px; line-height: 1.02; letter-spacing: -0.04em; font-weight: 700; }
+h2 { font-size: 48px; line-height: 1.15; letter-spacing: -0.025em; }
+h3 { font-size: 32px; line-height: 1.25; letter-spacing: -0.015em; font-weight: 600; }
+h4 { font-size: 24px; line-height: 1.3; letter-spacing: -0.01em; font-weight: 600; }
+.mute { color: var(--rb-mute); display: block; }
+.small { font-size: 14px; line-height: 1.5; }
+.lead { font-size: 20px; line-height: 1.6; }
+
+/* Buttons — existing system */
+.rb-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 16px 24px;
+  border: 1px solid var(--rb-ink); border-radius: var(--rb-radius); font: 600 16px/1.25 "Manrope", sans-serif; cursor: pointer; white-space: nowrap; }
+.rb-btn--primary { background: var(--rb-ink); color: var(--rb-paper); }
+.rb-btn--sm { padding: 8px 16px; }
+.rb-btn--text { background: transparent; border-color: transparent; color: var(--rb-ink); padding: 8px 0; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.rb-section--dark .rb-btn--primary { background: var(--rb-paper); color: var(--rb-ink); border-color: var(--rb-paper); }
+.rb-section--dark .rb-btn--text { color: var(--rb-paper); }
+.arrow { width: 16px; height: 16px; background: currentColor; clip-path: polygon(0% 44%,70% 44%,42% 16%,50% 8%,92% 50%,50% 92%,42% 84%,70% 56%,0% 56%); }
+.ext { font-weight: 500; }
+
+/* Header */
+.rb-header { padding: 0 var(--rb-gutter); background: var(--rb-paper); }
+.rb-header__inner { height: 88px; display: flex; align-items: center; justify-content: space-between; }
+.rb-header__logo img { height: 18px; width: auto; }
+.rb-header__nav { display: flex; align-items: center; gap: 40px; font-size: 16px; font-weight: 500; line-height: 1.5; color: var(--rb-ink); }
+.rb-header__toggle { display: none; }
+
+/* Hero */
+.hero { padding-top: 72px; }
+.hero__title { grid-column: 1 / span 8; }
+.hero__lead { grid-column: 9 / span 4; align-self: end; padding-bottom: 10px; }
+.hero__actions { grid-column: 1 / span 8; display: flex; align-items: center; gap: 32px; margin-top: 48px; }
+.strip { margin-top: 88px; display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--col-gap); }
+.strip__item img { aspect-ratio: 16 / 10; width: 100%; object-fit: cover; object-position: left top; border: 1px solid var(--rb-line); border-radius: var(--rb-radius); filter: grayscale(1); }
+.strip__item span { display: block; margin-top: 12px; font-size: 14px; line-height: 1.5; font-weight: 600; color: var(--rb-ink); }
+
+/* Section head */
+.head { align-items: end; margin-bottom: 64px; }
+.head h2 { grid-column: 1 / span 8; }
+.head p { grid-column: 9 / span 4; padding-bottom: 6px; }
+
+/* Rows — shared 5 / 4 / 3 split */
+.row { padding: 40px 0; border-top: 1px solid var(--rb-line); align-items: baseline; }
+.row:first-child { border-top-color: var(--rb-ink); }
+.row:last-child { border-bottom: 1px solid var(--rb-line); }
+.row { grid-template-rows: auto 1fr; }
+.row h3 { grid-column: 1 / span 8; }
+.row p { grid-column: 9 / span 4; grid-row: 1 / span 2; }
+.row ul { grid-column: 1 / span 8; margin-top: 12px; align-self: start; font-size: 14px; line-height: 1.5; color: var(--rb-text); display: flex; flex-wrap: wrap; }
+.row ul li:not(:last-child)::after { content: "·"; margin: 0 10px; color: var(--rb-mute); }
+
+/* Work */
+.mat { background: var(--rb-surface); border-radius: var(--rb-radius); overflow: hidden; }
+.mat img { border: 1px solid var(--rb-line); border-bottom: 0; border-radius: var(--rb-radius) var(--rb-radius) 0 0; }
+.feature .mat { height: 480px; padding: 72px 72px 0; display: flex; gap: 56px; align-items: flex-start; }
+.feature .shot-d { flex: 1; min-width: 0; }
+.feature .shot-m { width: 250px; flex: none; margin-top: 40px; }
+.cap { margin-top: 24px; align-items: baseline; }
+.cap h3 { grid-column: 1 / span 8; }
+.cap .side { grid-column: 9 / span 4; display: grid; gap: 6px; justify-items: start; }
+.cap .meta, .tile .meta { font-size: 16px; }
+.tiles { margin-top: 72px; display: grid; grid-template-columns: repeat(12, 1fr); column-gap: var(--col-gap); row-gap: 64px; }
+.tile--wide { grid-column: span 7; } .tile--narrow { grid-column: span 5; }
+.tile .mat { height: 380px; padding: 40px 40px 0; }
+.tile .mat img { width: 100%; height: 100%; object-fit: cover; object-position: left top; }
+.tile__cap { margin-top: 20px; }
+.tile__cap .side { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; margin-top: 4px; }
+.tile__cap .rb-btn { min-height: 0; padding: 0; }
+.cap .rb-btn { min-height: 0; padding: 0; }
+
+/* Approach */
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--col-gap); }
+.step { border-top: 1px solid var(--rb-ink); padding-top: 24px; padding-right: 24px; }
+.step .small { font-weight: 600; color: var(--rb-ink); }
+.step h3 { margin: 32px 0 16px; }
+
+/* Contact + footer */
+.contact { padding-top: 128px; padding-bottom: 112px; }
+.contact .mute { color: var(--rb-mute); }
+.contact .hero__lead { color: var(--rb-line); }
+.rb-footer { background: var(--rb-ink); color: var(--rb-mute); padding: 0 var(--rb-gutter); }
+.rb-footer__top { border-top: 1px solid var(--rb-hover); padding: 56px 0 64px; align-items: start; font-size: 16px; }
+.rb-footer__brand { grid-column: 1 / span 5; }
+.rb-footer__brand img { height: 16px; width: auto; margin-bottom: 20px; }
+.rb-footer__brand p { max-width: 300px; }
+.rb-footer__col { grid-column: span 2; display: grid; gap: 10px; color: var(--rb-paper); font-weight: 500; }
+.rb-footer__col--nav { grid-column: 6 / span 3; }
+.rb-footer__col--contact { grid-column: 9 / span 4; }
+.rb-footer__col b { font-size: 14px; font-weight: 600; color: var(--rb-mute); margin-bottom: 6px; }
+.rb-footer__bottom { border-top: 1px solid var(--rb-hover); padding: 24px 0 32px; display: flex; justify-content: space-between; font-size: 14px; line-height: 1.5; }
+
+.only-m { display: none; }
+
+/* Mobile menu (open state artboard) */
+.menu { display: none; }
+
+/* ---------- Tablet ≤1024 ---------- */
+@media (max-width: 1024px) {
+  .display { font-size: 64px; }
+  h2 { font-size: 40px; } h3 { font-size: 28px; } h4 { font-size: 23px; }
+  .hero__title, .head h2 { grid-column: 1 / -1; }
+  .hero__lead, .head p { grid-column: 1 / span 8; margin-top: 24px; }
+  .row h3, .row ul { grid-column: 1 / span 7; } .row p { grid-column: 8 / span 5; }
+  .cap h3 { grid-column: 1 / -1; } .cap .side { grid-column: 1 / -1; margin-top: 8px; }
+  .tile--wide, .tile--narrow { grid-column: span 6; }
+  .feature .mat { padding: 48px 48px 0; height: 400px; }
+}
+
+/* ---------- Mobile ≤767 ---------- */
+@media (max-width: 767px) {
+  .only-d { display: none !important; } .only-m { display: block; }
+  .grid { display: block; }
+  .display { font-size: 44px; line-height: 1.06; letter-spacing: -0.035em; }
+  h2 { font-size: 32px; line-height: 1.2; letter-spacing: -0.02em; }
+  h3 { font-size: 26px; letter-spacing: -0.01em; } h4 { font-size: 22px; }
+  .lead { font-size: 18px; }
+
+  .rb-header__inner { height: 64px; }
+  .rb-header__logo img { height: 15px; }
+  .rb-header__nav { display: none; }
+  .rb-header__toggle { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; padding: 0 0 0 16px; font: 600 16px/1.25 "Manrope", sans-serif; color: var(--rb-ink); background: none; border: 0; }
+  .burger { width: 22px; display: grid; gap: 6px; } .burger i { height: 2px; background: currentColor; display: block; }
+
+  .hero { padding-top: 40px; padding-bottom: 56px; }
+  .hero__lead { margin-top: 24px; padding: 0; }
+  .hero__actions { margin-top: 32px; flex-direction: column; align-items: stretch; gap: 8px; }
+  .hero__actions .rb-btn--text { align-self: center; }
+  .strip { margin-top: 48px; display: flex; gap: 12px; overflow: hidden; margin-right: calc(var(--rb-gutter) * -1); }
+  .strip__item { flex: 0 0 232px; }
+
+  .head { margin-bottom: 40px; } .head p { margin-top: 16px; padding: 0; }
+  .row { padding: 28px 0; display: flex; flex-direction: column; } .row p { margin-top: 10px; order: 2; }
+  .row ul { margin-top: 14px; order: 3; display: grid; gap: 2px; } .row ul li::after { display: none; }
+
+  .feature .mat { height: 400px; padding: 40px 0 0; justify-content: center; }
+  .feature .shot-m { width: 230px; margin: 0; }
+  .cap { margin-top: 20px; } .cap .side, .tile__cap .side { display: block; margin-top: 6px; }
+  .cap .rb-btn, .tile__cap .rb-btn { min-height: 48px; }
+  .tiles { display: block; margin-top: 48px; }
+  .tile { margin-top: 40px; }
+  .tile .mat { height: 236px; padding: 24px 24px 0; }
+  .tile__cap { margin-top: 16px; }
+
+  .steps { display: block; }
+  .step { padding: 20px 0 36px; } .step:last-child { padding-bottom: 0; }
+  .step h3 { margin: 20px 0 12px; }
+
+  .contact { padding-top: 72px; padding-bottom: 64px; }
+  .rb-footer__top { padding: 40px 0 40px; }
+  .rb-footer__col { margin-top: 36px; }
+  .rb-footer__bottom { padding: 20px 0 28px; }
+
+  /* open menu artboard */
+  body.menu-open > *:not(.menu) { display: none; }
+  body.menu-open .menu { display: flex; flex-direction: column; min-height: 844px; background: var(--rb-ink); color: var(--rb-paper); padding: 0 var(--rb-gutter) 28px; }
+  .menu__bar { height: 64px; display: flex; align-items: center; justify-content: space-between; }
+  .menu__bar img { height: 15px; }
+  .menu__close { display: inline-flex; align-items: center; gap: 12px; min-height: 48px; font: 600 16px/1.25 "Manrope", sans-serif; }
+  .menu__close .x { position: relative; width: 20px; height: 20px; }
+  .menu__close .x::before, .menu__close .x::after { content: ""; position: absolute; left: -1px; right: -1px; top: 9px; height: 2px; background: currentColor; transform: rotate(45deg); }
+  .menu__close .x::after { transform: rotate(-45deg); }
+  .menu__links { margin-top: 40px; }
+  .menu__links a { display: flex; justify-content: space-between; align-items: center; padding: 22px 0; border-top: 1px solid var(--rb-hover); font-size: 40px; line-height: 1.1; letter-spacing: -0.03em; font-weight: 700; }
+  .menu__links a:last-child { border-bottom: 1px solid var(--rb-hover); }
+  .menu__links .arrow { width: 22px; height: 22px; color: var(--rb-mute); }
+  .menu__foot { margin-top: auto; display: grid; gap: 8px; }
+  .menu__foot .rb-btn--primary { background: var(--rb-paper); color: var(--rb-ink); border-color: var(--rb-paper); }
+  .menu__foot .rb-btn--text { color: var(--rb-paper); justify-self: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- Mobile menu, open state (rendered as its own artboard with ?menu) -->
+<div class="menu">
+  <div class="menu__bar">
+    <img src="shots/logo-light.png" alt="ROBYLO">
+    <span class="menu__close">Close <span class="x"></span></span>
+  </div>
+  <nav class="menu__links">
+    <a href="#services">Services <span class="arrow"></span></a>
+    <a href="#work">Work <span class="arrow"></span></a>
+    <a href="#approach">Approach <span class="arrow"></span></a>
+    <a href="#contact">Contact <span class="arrow"></span></a>
+  </nav>
+  <div class="menu__foot">
+    <a class="rb-btn rb-btn--primary" href="#contact">Let's talk <span class="arrow"></span></a>
+    <a class="rb-btn rb-btn--text" href="mailto:info@robylo.com">info@robylo.com</a>
+  </div>
+</div>
+
+<header class="rb-header">
+  <div class="l-container rb-header__inner">
+    <a class="rb-header__logo" href="/"><img src="shots/logo-dark.png" alt="ROBYLO"></a>
+    <nav class="rb-header__nav">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#approach">Approach</a>
+      <a class="rb-btn rb-btn--primary rb-btn--sm" href="#contact">Let's talk</a>
+    </nav>
+    <button class="rb-header__toggle" aria-label="Open menu">Menu <span class="burger"><i></i><i></i></span></button>
+  </div>
+</header>
+
+<main>
+<section class="rb-section hero">
+  <div class="l-container">
+    <div class="grid">
+      <h1 class="display hero__title">Good business. <span class="mute">Hard to find?</span></h1>
+      <p class="lead hero__lead">We build websites, local search visibility, ad campaigns and practical automation for small and growing businesses.</p>
+      <div class="hero__actions">
+        <a class="rb-btn rb-btn--primary" href="#contact">Let's talk <span class="arrow"></span></a>
+        <a class="rb-btn rb-btn--text" href="#work">See our work</a>
+      </div>
+    </div>
+    <div class="strip">
+      <a class="strip__item" href="#work"><img src="shots/chicago-mounting.jpg" alt=""><span>Chicago Mounting</span></a>
+      <a class="strip__item" href="#work"><img src="shots/gcpro.jpg" alt=""><span>GCPRO Restoration</span></a>
+      <a class="strip__item" href="#work"><img src="shots/kolo.jpg" alt=""><span>Kolo Properties</span></a>
+      <a class="strip__item" href="#work"><img src="shots/dental.jpg" alt=""><span>Center For Dental Healing</span></a>
+      <a class="strip__item" href="#work"><img src="shots/elite.jpg" alt=""><span>Elite Mechanical Services</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="rb-section rb-section--soft" id="services">
+  <div class="l-container">
+    <div class="grid head">
+      <h2>What we do. <span class="mute">Four services, one team.</span></h2>
+      <p>Each one works on its own. Together they cover how customers find you, what they see, and what happens after they get in touch.</p>
+    </div>
+    <div>
+      <div class="grid row">
+        <h3>Website Design &amp; Development</h3>
+        <p>Clear, fast websites that explain what you do and make it easy to call, book or buy.</p>
+        <ul><li>Design and copy structure</li><li>WordPress development</li><li>Care and updates</li></ul>
+      </div>
+      <div class="grid row">
+        <h3>SEO &amp; Local Visibility</h3>
+        <p>Show up when people nearby search for what you offer, in Google Search and on Maps.</p>
+        <ul><li>Google Business Profile</li><li>Service and location pages</li><li>Technical SEO</li></ul>
+      </div>
+      <div class="grid row">
+        <h3>Digital Advertising</h3>
+        <p>Focused campaigns built around your services and budget, with reports you can read.</p>
+        <ul><li>Google Ads</li><li>Landing pages</li><li>Call and form tracking</li></ul>
+      </div>
+      <div class="grid row">
+        <h3>AI &amp; Business Automation</h3>
+        <p>Practical tools that take follow-ups, scheduling and other routine work off your plate.</p>
+        <ul><li>AI assistants</li><li>Workflow automation</li><li>Connecting the tools you use</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="rb-section" id="work">
+  <div class="l-container">
+    <div class="grid head">
+      <h2>Selected work. <span class="mute">Five businesses, five live sites.</span></h2>
+      <p>Websites we designed and built for local businesses in the Chicago area. Each one is live. Open any of them.</p>
+    </div>
+
+    <article class="feature">
+      <div class="mat">
+        <img class="shot-d only-d" src="shots/chicago-mounting.jpg" alt="Chicago Mounting homepage on desktop">
+        <img class="shot-m" src="shots/chicago-mounting-mobile.jpg" alt="Chicago Mounting homepage on a phone">
+      </div>
+      <div class="grid cap">
+        <h3>Chicago Mounting</h3>
+        <div class="side"><p class="meta">TV mounting and AV installation · Chicago, IL</p>
+        <a class="rb-btn rb-btn--text" href="https://chicagomounting.com/">chicagomounting.com <span class="ext">↗</span></a></div>
+      </div>
+    </article>
+
+    <div class="tiles">
+      <article class="tile tile--wide">
+        <div class="mat"><img src="shots/gcpro.jpg" alt="GCPRO Restoration homepage"></div>
+        <div class="tile__cap"><h4>GCPRO Restoration</h4><div class="side"><p class="meta">Disaster restoration · Lombard, IL</p><a class="rb-btn rb-btn--text" href="https://gcprochicago.com/">gcprochicago.com <span class="ext">↗</span></a></div></div>
+      </article>
+      <article class="tile tile--narrow">
+        <div class="mat"><img src="shots/kolo.jpg" alt="Kolo Properties homepage"></div>
+        <div class="tile__cap"><h4>Kolo Properties</h4><div class="side"><p class="meta">Property management · Park Ridge, IL</p><a class="rb-btn rb-btn--text" href="https://kolo-properties.com/">kolo-properties.com <span class="ext">↗</span></a></div></div>
+      </article>
+      <article class="tile tile--narrow">
+        <div class="mat"><img src="shots/dental.jpg" alt="Center For Dental Healing homepage"></div>
+        <div class="tile__cap"><h4>Center For Dental Healing</h4><div class="side"><p class="meta">Dental practice · Glenview, IL</p><a class="rb-btn rb-btn--text" href="https://glenviewsmiles.com/">glenviewsmiles.com <span class="ext">↗</span></a></div></div>
+      </article>
+      <article class="tile tile--wide">
+        <div class="mat"><img src="shots/elite.jpg" alt="Elite Mechanical Services homepage"></div>
+        <div class="tile__cap"><h4>Elite Mechanical Services</h4><div class="side"><p class="meta">HVAC and refrigeration · West Chicago, IL</p><a class="rb-btn rb-btn--text" href="https://elitemechanical.services/">elitemechanical.services <span class="ext">↗</span></a></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="rb-section rb-section--soft" id="approach">
+  <div class="l-container">
+    <div class="grid head">
+      <h2>How we work. <span class="mute">Practical, start to finish.</span></h2>
+      <p>No packages and no jargon. We look at the business first and build only what it needs.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <p class="small">First</p>
+        <h3>Start with the business, not a template.</h3>
+        <p>We learn how customers find you today and how work moves through your day before we design anything.</p>
+      </div>
+      <div class="step">
+        <p class="small">Then</p>
+        <h3>Build what you'll actually use.</h3>
+        <p>The simplest site, campaign or automation that does the job. Nothing you have to babysit.</p>
+      </div>
+      <div class="step">
+        <p class="small">After launch</p>
+        <h3>Stay for what comes next.</h3>
+        <p>One point of contact for updates, fixes and the next improvement as your business changes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="rb-section rb-section--dark contact" id="contact">
+  <div class="l-container">
+    <div class="grid">
+      <h2 class="display hero__title"><span class="mute">Good business.</span> Easy to find.</h2>
+      <p class="lead hero__lead">Tell us what you need. We'll figure out the next step together.</p>
+      <div class="hero__actions">
+        <a class="rb-btn rb-btn--primary" href="mailto:info@robylo.com">Start a conversation <span class="arrow"></span></a>
+        <a class="rb-btn rb-btn--text" href="mailto:info@robylo.com">info@robylo.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="rb-footer">
+  <div class="l-container">
+    <div class="grid rb-footer__top">
+      <div class="rb-footer__brand">
+        <img src="shots/logo-light.png" alt="ROBYLO">
+        <p>Websites and digital support for growing businesses.</p>
+      </div>
+      <div class="rb-footer__col rb-footer__col--nav">
+        <b>Menu</b>
+        <a href="#services">Services</a><a href="#work">Work</a><a href="#approach">Approach</a><a href="#contact">Contact</a>
+      </div>
+      <div class="rb-footer__col rb-footer__col--contact">
+        <b>Contact</b>
+        <a href="mailto:info@robylo.com">info@robylo.com</a><span>Chicago, IL</span>
+      </div>
+    </div>
+    <div class="rb-footer__bottom">
+      <span>© 2026 ROBYLO</span><a href="#">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script>if (location.search.indexOf('menu') > -1) document.body.classList.add('menu-open');</script>
+</body>
+</html>
