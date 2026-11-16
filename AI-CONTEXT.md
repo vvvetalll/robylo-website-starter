@@ -2,6 +2,10 @@
 
 Updated 2026-11-16. This repository is the shared workspace for Claude, ChatGPT Work and ChatGPT/Codex.
 
+## Current button task — 2026-11-16
+
+The owner authorized a button foundation only: 4px rb-radius, Primary/Outline/Text Link/Small, no animation. It is implemented and browser-verified in Atomic Lab; [record and screenshots](docs/button-system-2026-11-16.md). Reuse Primary Button 5864; no duplicate components. Wait for the animation reference and owner review before continuing. This later scope supersedes earlier task-scope paragraphs only for this button work; it does not approve the complete homepage proposal or merge pending homepage PR #3.
+
 ## Read before working
 
 Read [README](README.md), [AGENTS](AGENTS.md), [approved decisions](docs/decisions.md), [current implementation](docs/current-implementation.md) and [verification record](docs/verification.md), plus the documents relevant to your task. Fetch the latest remote state before editing. The repository is authoritative for committed code, recorded decisions and handoffs; WordPress remains authoritative for configuration that has not been exported.
