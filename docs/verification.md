@@ -56,3 +56,11 @@ Collaborator: Claude. Scope: design documentation and mockup images only, under 
 Collaborator: ChatGPT/Codex via Elementor MCP. Owner authorized this incremental test. **Implemented and verified; visual approval pending.** Three instances of component 5869 in Lab 5776; two new global modifiers, existing rb-section paragraph-link patch; no new component, variable, homepage or template change.
 
 [Implementation record and actual screenshots](section-backgrounds-2026-11-16.md) include exact classes, instance IDs, scoped CSS limitation and rollback. Checked rendered layout at 1440/1024/768/390/320; no horizontal overflow. Manrope and H2/body proportions preserved. Keyboard focus and real pointer hover checked at 1440/768/390. Anonymous HTTP 200 still shows Coming Soon. Saved group, component definition and unchanged variable inventory read back. Browser emulation only; no physical-device or complete accessibility audit. Other homepage work is gated on owner review.
+
+## 2026-11-16 — Approved variants and staged homepage foundation
+
+Collaborator: ChatGPT/Codex through Elementor MCP. The owner explicitly approved the existing Light/Soft/Dark variants. Confirmed PR #2 head was unchanged (1d9a039) and mergeable/clean, then merged it as 0a3d8f8. Approval recorded in decisions.md.
+
+**Implemented (draft), verified, awaiting visual review:** four Base Section instances on page 5894, with Light → Soft → Light → Dark rhythm. No new classes, components, variables or custom CSS. Authenticated WordPress draft preview checked at 1440, 1024, 768, 390 and 320px: expected backgrounds, native responsive type, preserved padding, consecutive full-width sections, no horizontal overflow. Saved actual desktop/mobile screenshots, reviewed visually. Before/after global-variable/class inventories and protected Header/Footer/Coming Soon trees match. Anonymous homepage HTTP 200 still contains Coming Soon and no draft placeholder copy. No publish call was made.
+
+[Full record and evidence](homepage-foundation-2026-11-16.md). Browser viewport emulation only. The connector's signed preview showed older published content; the editor-generated WordPress draft preview correctly rendered the saved draft. Final copy, detailed component behavior and complete accessibility/performance testing remain outside this step. No further homepage components implemented.

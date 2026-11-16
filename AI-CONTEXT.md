@@ -42,4 +42,8 @@ No automatic sync or deployment is established. Each session must independently 
 
 ## Latest incremental task — 2026-11-16
 
-The owner subsequently authorized only the Base Section background demonstration. Light/Soft/Dark examples are now implemented and tested in Atomic Lab; [record and screenshots](docs/section-backgrounds-2026-11-16.md). Two global modifiers were added, no components duplicated. Visual approval is pending; do not proceed to other homepage components. This later scope supersedes the earlier documentation-only task scope above solely for this demonstration.
+The owner subsequently authorized only the Base Section background demonstration. Light/Soft/Dark examples are now implemented and tested in Atomic Lab; [record and screenshots](docs/section-backgrounds-2026-11-16.md). Two global modifiers were added, no components duplicated. The owner has since visually approved the variants; PR #2 is merged. The next authorized step is only the homepage section foundation described below.
+
+## Latest scope — homepage section foundation, 2026-11-16
+
+Four Base Section 5869 instances are staged on homepage 5894: Light Hero → Soft Services → Light Selected Work → Dark Contact. [Implementation and screenshots](docs/homepage-foundation-2026-11-16.md). This draft arrangement awaits owner visual review; the published two-section template and public Coming Soon are retained. Do not proceed to final content, individual components, Header/Footer changes or publication. Claude's full proposal remains Proposed. The owner-approved section variants and this limited draft work supersede the earlier task-scope paragraphs only to that extent.

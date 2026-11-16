@@ -1,7 +1,7 @@
 # Base Section background variants — 2026-11-16
 
 Collaborator: ChatGPT/Codex through the authorized Elementor connector.
-Status: **Implemented and browser-verified in Atomic Lab; visual approval pending.**
+Status: **Implemented, browser-verified and visually approved by the owner on 2026-11-16.** See [approval record](decisions.md#owner-visual-approval-and-next-scope--2026-11-16).
 Owner authorization: “ROBYLO — Build and Test Base Section Backgrounds.” This authorizes this demonstration only, not the remaining homepage.
 
 ## Actual changes
@@ -94,7 +94,7 @@ Screenshots are actual rendered section-group crops, not recreated mockups. Desk
 
 ## Limitations and rollback
 
-- Await owner visual approval before any other homepage component. Existing homepage, Header, Footer and Coming Soon are not part of this implementation.
+- The owner approved these variants without adjustments and authorized a basic homepage section foundation only. See the later approval record in decisions.md; detailed homepage components still need approval. Header, Footer and Coming Soon remain outside this implementation.
 - H1/H3/H4 are covered by the dark selector but were not separately rendered in this H2 demonstration. No blanket claim about all component types, outline buttons or nested themes.
 - Native class/kit export and fresh-install import remain unverified; this record is not a portable Elementor export.
 - To roll back just this task, remove Lab group 27f556e0, remove the two new global classes, and remove only the added paragraph-link selector rules from rb-section. Preserve older declarations, components and unrelated Lab content; review the current state first. Initial Lab undo revision 5948 predates this task, but a full revision restore would also discard later edits and is inappropriate if collaborators have since changed the page.
