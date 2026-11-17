@@ -1,0 +1,65 @@
+{
+  "setting": "Remove Query Strings from Static Resources disabled",
+  "url": "https://robylo.com/#work",
+  "state": {
+    "arrows": [
+      {
+        "aria": "false",
+        "color": "rgb(0, 0, 0)",
+        "label": "Previous slide"
+      },
+      {
+        "aria": "false",
+        "color": "rgb(0, 0, 0)",
+        "label": "Next slide"
+      }
+    ],
+    "overflow": 0,
+    "slides": [
+      {
+        "w": 320,
+        "x": -316,
+        "y": 399.5625
+      },
+      {
+        "w": 320,
+        "x": 20,
+        "y": 399.5625
+      },
+      {
+        "w": 320,
+        "x": 356,
+        "y": 399.5625
+      },
+      {
+        "w": 320,
+        "x": 692,
+        "y": 399.5625
+      },
+      {
+        "w": 320,
+        "x": 1028,
+        "y": 399.5625
+      }
+    ],
+    "track": "translate3d(-336px, 0px, 0px)"
+  },
+  "resources": {
+    "base": "https://robylo.com/wp-content/uploads/elementor/css/base-desktop.min.css?ver=6afca7fdbcc60",
+    "globalMobile": "https://robylo.com/wp-content/uploads/elementor/css/global-5894-frontend-mobile.min.css?ver=6afca822d7b32",
+    "localMobile": "https://robylo.com/wp-content/uploads/elementor/css/local-5894-frontend-mobile.min.css?ver=6afca822d86d7",
+    "script": "https://robylo.com/wp-content/plugins/elementor-pro/assets/js/carousel-handler.min.js?ver=4.4.1"
+  },
+  "owner_confirmation": {
+    "report_before": "Selected Work cards stacked vertically on phone.",
+    "report_after": "Owner confirmed cards now scroll horizontally and also reported clearing the phone cache.",
+    "limitation": "The individual effects of changing URL version handling and clearing the phone cache were not isolated."
+  },
+  "saved_native_setting": {
+    "plugin": "SiteGround Speed Optimizer",
+    "location": "Frontend → General → Remove Query Strings from Static Resources",
+    "before": true,
+    "after": false,
+    "scope": "Native CSS/JS asset URL version handling. Other optimizer switches unchanged. No carousel/header element, custom code or cache/security rule edited in this follow-up."
+  }
+}

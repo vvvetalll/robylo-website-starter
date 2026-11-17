@@ -350,6 +350,11 @@
     "anonymous": "HTTP200 Coming Soon5858; no V2 portfolio text.",
     "cache_fix": "Elementor cache cleared once after explicit approval, followed by SiteGround purge. Neither fixed stale Cloudflare edge CSS. Purged eight exact changed Home/Header CSS URLs in Cloudflare; one follow-up purge for the Header mobile CSS after removing an unneeded temporary local alignment override. No cache rule, TTL, security setting or maintenance setting changed.",
     "header": "Original global-class mobile patch remains canonical. Temporary component5886/1193db17 mobile justify-content override was removed.",
-    "verification": "Actual logged-in root, not only a preview;390px Menu width76.6px, iconRight==buttonRight354.67px, five320px cards, no page overflow. Pointer/keyboard/disabled/rapid/touch cycles rerun on root."
+    "verification": "Actual logged-in root, not only a preview;390px Menu width76.6px, iconRight==buttonRight354.67px, five320px cards, no page overflow. Pointer/keyboard/disabled/rapid/touch cycles rerun on root.",
+    "asset_versions": {
+      "setting": "Speed Optimizer → Frontend → General → Remove Query Strings from Static Resources",
+      "enabled": false,
+      "result": "Actual root emits native Elementor CSS ?ver=<generated revision> and carousel-handler.min.js?ver=4.4.1. Owner confirmed horizontal scrolling on phone after also clearing its cache."
+    }
   }
 }
