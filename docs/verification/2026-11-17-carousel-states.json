@@ -1,0 +1,98 @@
+{
+  "environment": "Chrome desktop1440x900 and mobile390x1100; touch emulation explicitly enabled for final-touch-coarse-release. Native aria-disabled; HTML disabled property stays false.",
+  "observations": [
+    {
+      "label": "before-hover",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "id": "a01fd95",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": false,
+          "focusVisible": false,
+          "hover": true,
+          "id": "ac514e2",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        }
+      ]
+    },
+    {
+      "label": "before-mouse-down",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": false,
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "id": "a01fd95",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": true,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "id": "ac514e2",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        }
+      ]
+    },
+    {
+      "label": "before-release-leave",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": false,
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "id": "a01fd95",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "id": "ac514e2",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        }
+      ]
+    }
+  ]
+}

@@ -165,12 +165,14 @@
       "Previous project": [
         "rb-btn",
         "rb-btn--outline",
-        "rb-btn--sm"
+        "rb-btn--sm",
+        "rb-btn--carousel"
       ],
       "Next project": [
         "rb-btn",
         "rb-btn--outline",
-        "rb-btn--sm"
+        "rb-btn--sm",
+        "rb-btn--carousel"
       ],
       "chicago project card": [
         "rb-portfolio-slide"
@@ -295,11 +297,21 @@
     "section_element_id": "58c9fc4",
     "native_id": "work",
     "position": "Main1117679b, after Services2b42c245 and before Approach8b0906a",
-    "save": "Save Draft; no Publish"
+    "save": "Save Draft; no Publish",
+    "arrow_elements": {
+      "previous": "a01fd95",
+      "next": "ac514e2"
+    },
+    "state_fix": "Attach rb-btn--carousel to both arrows through the native editor; Save Draft. Authoring6040 predates this follow-up and is not the latest state reference."
   },
   "new_native_classes": {
     "rb-portfolio-placeholder": "Centered label; 16:10 aspect ratio; rb-mat supplies #F5F5F5 and 4px radius.",
     "rb-portfolio-caption": "Column, 4px gap, start alignment.",
-    "rb-portfolio-slide": "Column, 24px content gap / 16px mobile; responsive basis. Local full flex value is necessary to override native responsive shrink defaults."
+    "rb-portfolio-slide": "Column, 24px content gap / 16px mobile; responsive basis. Local full flex value is necessary to override native responsive shrink defaults.",
+    "rb-btn--carousel": {
+      "id": "g-85ea9ae",
+      "css": "&:focus { color: var(--rb-ink); background-color: transparent; } &:hover { color: var(--rb-paper); background-color: var(--rb-ink); } &:active { color: var(--rb-paper); background-color: var(--rb-hover); } &[aria-disabled=true] { color: var(--rb-ink); background-color: transparent; opacity: 0.35; cursor: not-allowed; } &:hover:not(:focus-visible):not(:active) { @media (hover: none) { color: var(--rb-ink); background-color: transparent; } }",
+      "reason": "Native arrow hover/focus specificity and sticky touch hover; scoped to the two carousel controls only. Reuses rb-btn, rb-btn--outline and rb-btn--sm."
+    }
   }
 }

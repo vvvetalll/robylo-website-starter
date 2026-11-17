@@ -26,6 +26,7 @@
 - Confirm parent CSS is not loaded twice. Check the child stylesheet still loads if Hello's theme stylesheet is disabled.
 - Use focused tests when behavior warrants them. Do not add tooling or tests merely to mirror trivial implementation.
 - Distinguish static review, upstream documentation, and staging-tested behavior. Never report an unrun check as passed.
+- Owner-required interaction QA (2026-11-17): for every interactive component implemented or changed, test the complete default → hover → click → release → mouse-leave cycle; keyboard Tab → focus → Enter/Space → retained focus; disabled → enabled → disabled; touch tap → release; and repeated rapid clicks. Check desktop and mobile, including keyboard navigation. A successful click alone is insufficient. Record actual state/behavior results and verification limits; preserve keyboard focus indicators and never add JavaScript blur workarounds. Keep checks scoped to the affected component and its actual shared dependencies.
 
 ## AI agent rules
 
