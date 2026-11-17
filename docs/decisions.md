@@ -22,3 +22,7 @@ Use separate records for proposals, owner approvals, implemented changes and ver
 ## Incremental authorization — 2026-11-16
 
 The owner authorized building/testing Light (#FFFFFF), Soft (#F5F5F5) and Dark (#000000) Base Section variants in Atomic Lab and committing the results. [Implementation and evidence](section-backgrounds-2026-11-16.md). This is authorization to create the demonstration, **not visual approval of the result or authorization for other homepage components**. The two new modifiers and limited scoped descendant-CSS exception are documented for review. Typography, spacing, Header, Footer and Coming Soon remain unchanged.
+
+## Homepage V1 prototype authorization — 2026-11-16
+
+The owner subsequently authorized a complete Homepage V1 visual prototype on existing Home 5894, using Claude's proposal as a starting point and the live Light/Soft/Dark and button foundation. Scope includes one Hero-only Glide-Over test, real portfolio screenshots and responsive verification. Owner confirmed info@robylo.com and explicitly selected **leave Header unchanged**. This supersedes prior no-homepage-build restrictions only for an unpublished review draft. **Implemented and verified; visual approval and public launch remain pending.** No PR merge authorized or performed. [Implementation and evidence](homepage-v1-2026-11-16.md).
