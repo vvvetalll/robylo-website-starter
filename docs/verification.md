@@ -70,3 +70,8 @@ Collaborator: Claude. Scope: design artifacts and documentation only, under the 
 - Delivery: branch design/homepage-v2-2026-11-16 with a pull request to main.
 - Remaining / next owner: owner review; open decisions listed in the V2 handoff, section 8.
 
+
+
+## 2026-11-17 — Homepage V2 private preview
+
+Implemented and compared against Claude's V2 source and desktop/mobile/menu screenshots. Rendered width checks: 1440,1024,768,390,320; no page horizontal overflow, no missing project images, one H1, Manrope loaded. Actual desktop/mobile screenshots, keyboard/hover checks, live-link HTTP checks and limitations are in [the implementation record](homepage-v2-implementation-2026-11-17.md). Public root remains Coming Soon 5858 (HTTP 200). Lab, Styleguide and Coming Soon lean element trees match pre-task snapshots. Native Popup Enter/Escape/focus-return pass; section-anchor auto-close does not. Owner visual review and launch authorization remain pending.

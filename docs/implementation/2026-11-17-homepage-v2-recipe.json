@@ -1,0 +1,1849 @@
+{
+  "warning": "Audit/reconstruction recipe, not an importable portable Elementor export. DO NOT blindly replay create actions or duplicate IDs/classes. Home remains staged; only shared components and scoped native popup were published.",
+  "date": "2026-11-17",
+  "designCommit": "37ef6a05bbf7b57c293792edbf36fc306d6ab861",
+  "home": {
+    "post_id": 5894,
+    "parent_id": "1117679b",
+    "mode": "replace_children",
+    "xml_structure": "<e-div-block configuration-id=\"V2 Hero\"><e-div-block configuration-id=\"V2 Hero-container\"><e-div-block configuration-id=\"hero-grid\"><e-heading configuration-id=\"hero-title\"></e-heading><e-paragraph configuration-id=\"hero-lead\"></e-paragraph><e-div-block configuration-id=\"hero-actions\"><e-div-block configuration-id=\"hero-primary-wrap\"><e-component configuration-id=\"hero-primary\"></e-component></e-div-block><e-div-block configuration-id=\"hero-work-link-wrap\"><e-component configuration-id=\"hero-work-link\"></e-component></e-div-block></e-div-block></e-div-block><e-div-block configuration-id=\"project-strip\"><e-div-block configuration-id=\"thumb-chicago\"><e-image configuration-id=\"thumb-image-chicago\"></e-image><e-paragraph configuration-id=\"thumb-caption-chicago\"></e-paragraph></e-div-block><e-div-block configuration-id=\"thumb-gcpro\"><e-image configuration-id=\"thumb-image-gcpro\"></e-image><e-paragraph configuration-id=\"thumb-caption-gcpro\"></e-paragraph></e-div-block><e-div-block configuration-id=\"thumb-kolo\"><e-image configuration-id=\"thumb-image-kolo\"></e-image><e-paragraph configuration-id=\"thumb-caption-kolo\"></e-paragraph></e-div-block><e-div-block configuration-id=\"thumb-dental\"><e-image configuration-id=\"thumb-image-dental\"></e-image><e-paragraph configuration-id=\"thumb-caption-dental\"></e-paragraph></e-div-block><e-div-block configuration-id=\"thumb-elite\"><e-image configuration-id=\"thumb-image-elite\"></e-image><e-paragraph configuration-id=\"thumb-caption-elite\"></e-paragraph></e-div-block></e-div-block></e-div-block></e-div-block><e-div-block configuration-id=\"V2 Services\"><e-div-block configuration-id=\"V2 Services-container\"><e-component configuration-id=\"services-head\"></e-component><e-div-block configuration-id=\"service-rows\"><e-div-block configuration-id=\"service-wrapper-0\"><e-component configuration-id=\"service-0\"></e-component></e-div-block><e-div-block configuration-id=\"service-wrapper-1\"><e-component configuration-id=\"service-1\"></e-component></e-div-block><e-div-block configuration-id=\"service-wrapper-2\"><e-component configuration-id=\"service-2\"></e-component></e-div-block><e-div-block configuration-id=\"service-wrapper-3\"><e-component configuration-id=\"service-3\"></e-component></e-div-block></e-div-block></e-div-block></e-div-block><e-div-block configuration-id=\"V2 Work\"><e-div-block configuration-id=\"V2 Work-container\"><e-component configuration-id=\"work-head\"></e-component><e-div-block configuration-id=\"featured-project\"><e-div-block configuration-id=\"featured-mat\"><e-image configuration-id=\"featured-desktop\"></e-image><e-image configuration-id=\"featured-phone\"></e-image></e-div-block><e-div-block configuration-id=\"featured-caption\"><e-heading configuration-id=\"featured-name\"></e-heading><e-div-block configuration-id=\"featured-side\"><e-paragraph configuration-id=\"featured-meta\"></e-paragraph><e-div-block configuration-id=\"featured-domain-wrap\"><e-component configuration-id=\"featured-domain\"></e-component></e-div-block></e-div-block></e-div-block></e-div-block><e-div-block configuration-id=\"project-tiles\"><e-div-block configuration-id=\"tile-wrapper-gcpro\"><e-component configuration-id=\"tile-gcpro\"></e-component></e-div-block><e-div-block configuration-id=\"tile-wrapper-kolo\"><e-component configuration-id=\"tile-kolo\"></e-component></e-div-block><e-div-block configuration-id=\"tile-wrapper-dental\"><e-component configuration-id=\"tile-dental\"></e-component></e-div-block><e-div-block configuration-id=\"tile-wrapper-elite\"><e-component configuration-id=\"tile-elite\"></e-component></e-div-block></e-div-block></e-div-block></e-div-block><e-div-block configuration-id=\"V2 Approach\"><e-div-block configuration-id=\"V2 Approach-container\"><e-component configuration-id=\"approach-head\"></e-component><e-div-block configuration-id=\"approach-steps\"><e-div-block configuration-id=\"step-wrapper-0\"><e-component configuration-id=\"step-0\"></e-component></e-div-block><e-div-block configuration-id=\"step-wrapper-1\"><e-component configuration-id=\"step-1\"></e-component></e-div-block><e-div-block configuration-id=\"step-wrapper-2\"><e-component configuration-id=\"step-2\"></e-component></e-div-block></e-div-block></e-div-block></e-div-block><e-div-block configuration-id=\"V2 Contact\"><e-div-block configuration-id=\"V2 Contact-container\"><e-div-block configuration-id=\"contact-grid\"><e-heading configuration-id=\"contact-title\"></e-heading><e-paragraph configuration-id=\"contact-lead\"></e-paragraph><e-div-block configuration-id=\"contact-actions\"><e-div-block configuration-id=\"contact-primary-wrap\"><e-component configuration-id=\"contact-primary\"></e-component></e-div-block><e-div-block configuration-id=\"contact-email-wrap\"><e-component configuration-id=\"contact-email\"></e-component></e-div-block></e-div-block></e-div-block></e-div-block></e-div-block>",
+    "element_config": {
+      "thumb-image-chicago": {
+        "image": {
+          "src": {
+            "url": "https://robylo.com/wp-content/uploads/2026/11/chicago-mounting.jpg",
+            "alt": ""
+          },
+          "size": "medium_large"
+        }
+      },
+      "thumb-caption-chicago": {
+        "paragraph": "Chicago Mounting"
+      },
+      "thumb-chicago": {
+        "tag": "a",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "thumb-image-gcpro": {
+        "image": {
+          "src": {
+            "url": "https://robylo.com/wp-content/uploads/2026/11/gcpro.jpg",
+            "alt": ""
+          },
+          "size": "medium_large"
+        }
+      },
+      "thumb-caption-gcpro": {
+        "paragraph": "GCPRO Restoration"
+      },
+      "thumb-gcpro": {
+        "tag": "a",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "thumb-image-kolo": {
+        "image": {
+          "src": {
+            "url": "https://robylo.com/wp-content/uploads/2026/11/kolo.jpg",
+            "alt": ""
+          },
+          "size": "medium_large"
+        }
+      },
+      "thumb-caption-kolo": {
+        "paragraph": "Kolo Properties"
+      },
+      "thumb-kolo": {
+        "tag": "a",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "thumb-image-dental": {
+        "image": {
+          "src": {
+            "url": "https://robylo.com/wp-content/uploads/2026/11/dental.jpg",
+            "alt": ""
+          },
+          "size": "medium_large"
+        }
+      },
+      "thumb-caption-dental": {
+        "paragraph": "Center For Dental Healing"
+      },
+      "thumb-dental": {
+        "tag": "a",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "thumb-image-elite": {
+        "image": {
+          "src": {
+            "url": "https://robylo.com/wp-content/uploads/2026/11/elite.jpg",
+            "alt": ""
+          },
+          "size": "medium_large"
+        }
+      },
+      "thumb-caption-elite": {
+        "paragraph": "Elite Mechanical Services"
+      },
+      "thumb-elite": {
+        "tag": "a",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "project-strip": {
+        "tag": "div"
+      },
+      "hero-title": {
+        "title": "Good business.<span>Hard to find?</span>",
+        "tag": "h1"
+      },
+      "hero-lead": {
+        "paragraph": "We build websites, local search visibility, ad campaigns and practical automation for small and growing businesses."
+      },
+      "hero-primary": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "<span>Let's talk</span>",
+          "link": {
+            "destination": "#contact",
+            "tag": "a",
+            "isTargetBlank": false
+          }
+        }
+      },
+      "hero-primary-wrap": {
+        "tag": "div"
+      },
+      "hero-work-link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "See our work",
+          "link": {
+            "destination": "#work",
+            "tag": "a",
+            "isTargetBlank": false
+          }
+        }
+      },
+      "hero-work-link-wrap": {
+        "tag": "div"
+      },
+      "hero-actions": {
+        "tag": "div"
+      },
+      "hero-grid": {
+        "tag": "div"
+      },
+      "V2 Hero-container": {
+        "tag": "div"
+      },
+      "V2 Hero": {
+        "tag": "section"
+      },
+      "service-0": {
+        "component_id": 6013,
+        "overrides": {
+          "title": "Website Design & Development",
+          "description": "Clear, fast websites that explain what you do and make it easy to call, book or buy.",
+          "scope_1": "Design and copy structure<span>·</span>",
+          "scope_2": "WordPress development<span>·</span>",
+          "scope_3": "Care and updates"
+        }
+      },
+      "service-wrapper-0": {
+        "tag": "div"
+      },
+      "service-1": {
+        "component_id": 6013,
+        "overrides": {
+          "title": "SEO & Local Visibility",
+          "description": "Show up when people nearby search for what you offer, in Google Search and on Maps.",
+          "scope_1": "Google Business Profile<span>·</span>",
+          "scope_2": "Service and location pages<span>·</span>",
+          "scope_3": "Technical SEO"
+        }
+      },
+      "service-wrapper-1": {
+        "tag": "div"
+      },
+      "service-2": {
+        "component_id": 6013,
+        "overrides": {
+          "title": "Digital Advertising",
+          "description": "Focused campaigns built around your services and budget, with reports you can read.",
+          "scope_1": "Google Ads<span>·</span>",
+          "scope_2": "Landing pages<span>·</span>",
+          "scope_3": "Call and form tracking"
+        }
+      },
+      "service-wrapper-2": {
+        "tag": "div"
+      },
+      "service-3": {
+        "component_id": 6013,
+        "overrides": {
+          "title": "AI & Business Automation",
+          "description": "Practical tools that take follow-ups, scheduling and other routine work off your plate.",
+          "scope_1": "AI assistants<span>·</span>",
+          "scope_2": "Workflow automation<span>·</span>",
+          "scope_3": "Connecting the tools you use"
+        }
+      },
+      "service-wrapper-3": {
+        "tag": "div"
+      },
+      "services-head": {
+        "component_id": 6010,
+        "overrides": {
+          "heading": "What we do.<span>Four services, one team.</span>",
+          "paragraph": "Each one works on its own. Together they cover how customers find you, what they see, and what happens after they get in touch."
+        }
+      },
+      "service-rows": {
+        "tag": "div"
+      },
+      "V2 Services-container": {
+        "tag": "div"
+      },
+      "V2 Services": {
+        "tag": "section",
+        "_cssid": "services"
+      },
+      "featured-desktop": {
+        "image": {
+          "src": {
+            "id": 5990
+          },
+          "size": "full"
+        }
+      },
+      "featured-phone": {
+        "image": {
+          "src": {
+            "id": 5995
+          },
+          "size": "full"
+        }
+      },
+      "featured-mat": {
+        "tag": "div"
+      },
+      "featured-name": {
+        "title": "Chicago Mounting",
+        "tag": "h3"
+      },
+      "featured-meta": {
+        "paragraph": "TV mounting and AV installation · Chicago, IL"
+      },
+      "featured-domain": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "chicagomounting.com ↗",
+          "link": {
+            "destination": "https://chicagomounting.com/",
+            "tag": "a",
+            "isTargetBlank": true
+          }
+        }
+      },
+      "featured-domain-wrap": {
+        "tag": "div"
+      },
+      "featured-side": {
+        "tag": "div"
+      },
+      "featured-caption": {
+        "tag": "div"
+      },
+      "tile-gcpro": {
+        "component_id": 6016,
+        "overrides": {
+          "image": {
+            "src": {
+              "id": 5991
+            },
+            "size": "full"
+          },
+          "name": "GCPRO Restoration",
+          "descriptor": "Disaster restoration · Lombard, IL",
+          "link_text": "gcprochicago.com ↗",
+          "link_url": {
+            "destination": "https://gcprochicago.com/",
+            "tag": "a",
+            "isTargetBlank": true
+          }
+        }
+      },
+      "tile-wrapper-gcpro": {
+        "tag": "div"
+      },
+      "tile-kolo": {
+        "component_id": 6016,
+        "overrides": {
+          "image": {
+            "src": {
+              "id": 5992
+            },
+            "size": "full"
+          },
+          "name": "Kolo Properties",
+          "descriptor": "Property management · Park Ridge, IL",
+          "link_text": "kolo-properties.com ↗",
+          "link_url": {
+            "destination": "https://kolo-properties.com/",
+            "tag": "a",
+            "isTargetBlank": true
+          }
+        }
+      },
+      "tile-wrapper-kolo": {
+        "tag": "div"
+      },
+      "tile-dental": {
+        "component_id": 6016,
+        "overrides": {
+          "image": {
+            "src": {
+              "id": 5993
+            },
+            "size": "full"
+          },
+          "name": "Center For Dental Healing",
+          "descriptor": "Dental practice · Glenview, IL",
+          "link_text": "glenviewsmiles.com ↗",
+          "link_url": {
+            "destination": "https://glenviewsmiles.com/",
+            "tag": "a",
+            "isTargetBlank": true
+          }
+        }
+      },
+      "tile-wrapper-dental": {
+        "tag": "div"
+      },
+      "tile-elite": {
+        "component_id": 6016,
+        "overrides": {
+          "image": {
+            "src": {
+              "id": 5994
+            },
+            "size": "full"
+          },
+          "name": "Elite Mechanical Services",
+          "descriptor": "HVAC and refrigeration · West Chicago, IL",
+          "link_text": "elitemechanical.services ↗",
+          "link_url": {
+            "destination": "https://elitemechanical.services/",
+            "tag": "a",
+            "isTargetBlank": true
+          }
+        }
+      },
+      "tile-wrapper-elite": {
+        "tag": "div"
+      },
+      "project-tiles": {
+        "tag": "div"
+      },
+      "work-head": {
+        "component_id": 6010,
+        "overrides": {
+          "heading": "Selected work.<span>Five businesses, five live sites.</span>",
+          "paragraph": "Websites we designed and built for local businesses in the Chicago area. Each one is live. Open any of them."
+        }
+      },
+      "featured-project": {
+        "tag": "article"
+      },
+      "V2 Work-container": {
+        "tag": "div"
+      },
+      "V2 Work": {
+        "tag": "section",
+        "_cssid": "work"
+      },
+      "approach-head": {
+        "component_id": 6010,
+        "overrides": {
+          "heading": "How we work.<span>Practical, start to finish.</span>",
+          "paragraph": "No packages and no jargon. We look at the business first and build only what it needs."
+        }
+      },
+      "step-0": {
+        "component_id": 6019,
+        "overrides": {
+          "label": "First",
+          "statement": "Start with the business, not a template.",
+          "paragraph": "We learn how customers find you today and how work moves through your day before we design anything."
+        }
+      },
+      "step-wrapper-0": {
+        "tag": "div"
+      },
+      "step-1": {
+        "component_id": 6019,
+        "overrides": {
+          "label": "Then",
+          "statement": "Build what you'll actually use.",
+          "paragraph": "The simplest site, campaign or automation that does the job. Nothing you have to babysit."
+        }
+      },
+      "step-wrapper-1": {
+        "tag": "div"
+      },
+      "step-2": {
+        "component_id": 6019,
+        "overrides": {
+          "label": "After launch",
+          "statement": "Stay for what comes next.",
+          "paragraph": "One point of contact for updates, fixes and the next improvement as your business changes."
+        }
+      },
+      "step-wrapper-2": {
+        "tag": "div"
+      },
+      "approach-steps": {
+        "tag": "div"
+      },
+      "V2 Approach-container": {
+        "tag": "div"
+      },
+      "V2 Approach": {
+        "tag": "section",
+        "_cssid": "approach"
+      },
+      "contact-title": {
+        "title": "<span>Good business.</span>Easy to find.",
+        "tag": "h2"
+      },
+      "contact-lead": {
+        "paragraph": "Tell us what you need. We'll figure out the next step together."
+      },
+      "contact-primary": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "<span>Start a conversation</span>",
+          "link": {
+            "destination": "mailto:info@robylo.com",
+            "tag": "a",
+            "isTargetBlank": false
+          }
+        }
+      },
+      "contact-primary-wrap": {
+        "tag": "div"
+      },
+      "contact-email": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "info@robylo.com",
+          "link": {
+            "destination": "mailto:info@robylo.com",
+            "tag": "a",
+            "isTargetBlank": false
+          }
+        }
+      },
+      "contact-email-wrap": {
+        "tag": "div"
+      },
+      "contact-actions": {
+        "tag": "div"
+      },
+      "contact-grid": {
+        "tag": "div"
+      },
+      "V2 Contact-container": {
+        "tag": "div"
+      },
+      "V2 Contact": {
+        "tag": "section",
+        "_cssid": "contact"
+      }
+    },
+    "style": {
+      "thumb-caption-chicago": "margin-top:12px;font-weight:600;color:var(--rb-ink);",
+      "thumb-chicago": "padding:0px;min-width:0px;width:auto;text-decoration:none;color:var(--rb-ink); &:focus-visible{outline:2px solid var(--rb-ink);outline-offset:-2px;} @media(--mobile){width:232px;flex:0 0 232px;}",
+      "thumb-caption-gcpro": "margin-top:12px;font-weight:600;color:var(--rb-ink);",
+      "thumb-gcpro": "padding:0px;min-width:0px;width:auto;text-decoration:none;color:var(--rb-ink); &:focus-visible{outline:2px solid var(--rb-ink);outline-offset:-2px;} @media(--mobile){width:232px;flex:0 0 232px;}",
+      "thumb-caption-kolo": "margin-top:12px;font-weight:600;color:var(--rb-ink);",
+      "thumb-kolo": "padding:0px;min-width:0px;width:auto;text-decoration:none;color:var(--rb-ink); &:focus-visible{outline:2px solid var(--rb-ink);outline-offset:-2px;} @media(--mobile){width:232px;flex:0 0 232px;}",
+      "thumb-caption-dental": "margin-top:12px;font-weight:600;color:var(--rb-ink);",
+      "thumb-dental": "padding:0px;min-width:0px;width:auto;text-decoration:none;color:var(--rb-ink); &:focus-visible{outline:2px solid var(--rb-ink);outline-offset:-2px;} @media(--mobile){width:232px;flex:0 0 232px;}",
+      "thumb-caption-elite": "margin-top:12px;font-weight:600;color:var(--rb-ink);",
+      "thumb-elite": "padding:0px;min-width:0px;width:auto;text-decoration:none;color:var(--rb-ink); &:focus-visible{outline:2px solid var(--rb-ink);outline-offset:-2px;} @media(--mobile){width:232px;flex:0 0 232px;}",
+      "project-strip": "padding:0px;min-width:0px;display:grid;grid-template-columns:repeat(5,minmax(0px,1fr));grid-template-rows:auto;gap:var(--rb-space-3);margin-top:88px; @media(--mobile){display:flex;gap:12px;margin-top:48px;width:calc(100% + var(--rb-gutter));margin-right:calc(var(--rb-gutter) * -1);overflow-x:auto;overflow-y:hidden;}",
+      "hero-lead": "align-self:end;padding-bottom:10px; @media(--mobile){margin-top:24px;padding-bottom:0px;}",
+      "hero-primary": "display:grid;",
+      "hero-primary-wrap": "padding:0px;min-width:0px;width:fit-content; @media(--mobile){width:100%;} @media(--mobile){display:grid;grid-template-columns:minmax(0,1fr);}",
+      "hero-work-link-wrap": "padding:0px;min-width:0px;width:fit-content; @media(--mobile){align-self:center;}",
+      "hero-actions": "padding:0px;min-width:0px;",
+      "hero-grid": "padding:0px;min-width:0px;",
+      "V2 Hero-container": "padding:0px;min-width:0px;gap:0px;",
+      "V2 Hero": "min-width:0px;padding-top:72px; @media(--mobile){padding-top:40px;padding-bottom:56px;}",
+      "service-wrapper-0": "padding:0px;min-width:0px;border-top:1px solid var(--rb-ink);",
+      "service-wrapper-1": "padding:0px;min-width:0px;border-top:1px solid var(--rb-line);",
+      "service-wrapper-2": "padding:0px;min-width:0px;border-top:1px solid var(--rb-line);",
+      "service-wrapper-3": "padding:0px;min-width:0px;border-top:1px solid var(--rb-line);border-bottom:1px solid var(--rb-line);",
+      "service-rows": "padding:0px;min-width:0px;",
+      "V2 Services-container": "padding:0px;min-width:0px;gap:0px;",
+      "V2 Services": "min-width:0px;",
+      "featured-desktop": "border:1px solid var(--rb-line);border-bottom:0px;border-radius:var(--rb-radius) var(--rb-radius) 0px 0px;flex:1 1 0%;min-width:0px;width:calc(100% - 306px);height:auto; @media(--mobile){display:none;}",
+      "featured-phone": "border:1px solid var(--rb-line);border-bottom:0px;border-radius:var(--rb-radius) var(--rb-radius) 0px 0px;width:250px;height:auto;flex-shrink:0;margin-top:40px; @media(--mobile){width:230px;margin-top:0px;}",
+      "featured-mat": "padding:0px;min-width:0px;height:480px;padding:72px 72px 0px;display:flex;align-items:flex-start;gap:56px; @media(--tablet){height:400px;padding:48px 48px 0px;} @media(--mobile){height:400px;padding:40px 0px 0px;justify-content:center;}",
+      "featured-domain-wrap": "padding:0px;min-width:0px;width:fit-content; @media(--mobile){align-self:center;}",
+      "featured-side": "padding:0px;min-width:0px;display:flex;flex-direction:column;align-items:flex-start;gap:6px; @media(--tablet){margin-top:8px;} @media(--mobile){margin-top:6px;}",
+      "featured-caption": "padding:0px;min-width:0px;margin-top:24px;align-items:baseline; @media(--mobile){margin-top:20px;}",
+      "tile-wrapper-gcpro": "padding:0px;min-width:0px;grid-column:span 7; @media(--tablet){grid-column:span 6;} @media(--mobile){margin-top:0px;}",
+      "tile-wrapper-kolo": "padding:0px;min-width:0px;grid-column:span 5; @media(--tablet){grid-column:span 6;} @media(--mobile){margin-top:40px;}",
+      "tile-wrapper-dental": "padding:0px;min-width:0px;grid-column:span 5; @media(--tablet){grid-column:span 6;} @media(--mobile){margin-top:40px;}",
+      "tile-wrapper-elite": "padding:0px;min-width:0px;grid-column:span 7; @media(--tablet){grid-column:span 6;} @media(--mobile){margin-top:40px;}",
+      "project-tiles": "padding:0px;min-width:0px;display:grid;grid-template-columns:repeat(12,minmax(0px,1fr));grid-template-rows:auto auto;column-gap:var(--rb-space-3);row-gap:64px;margin-top:72px; @media(--mobile){display:block;margin-top:48px;}",
+      "featured-project": "padding:0px;min-width:0px;",
+      "V2 Work-container": "padding:0px;min-width:0px;gap:0px;",
+      "V2 Work": "min-width:0px;",
+      "step-wrapper-0": "padding:0px;min-width:0px;grid-column:span 4;",
+      "step-wrapper-1": "padding:0px;min-width:0px;grid-column:span 4;",
+      "step-wrapper-2": "padding:0px;min-width:0px;grid-column:span 4; @media(--mobile){margin-bottom:-36px;}",
+      "approach-steps": "padding:0px;min-width:0px;",
+      "V2 Approach-container": "padding:0px;min-width:0px;gap:0px;",
+      "V2 Approach": "min-width:0px;",
+      "contact-lead": "align-self:end;padding-bottom:10px;color:var(--rb-line); @media(--mobile){margin-top:24px;padding-bottom:0px;}",
+      "contact-primary": "display:grid;",
+      "contact-primary-wrap": "padding:0px;min-width:0px;width:fit-content; @media(--mobile){width:100%;} @media(--mobile){display:grid;grid-template-columns:minmax(0,1fr);}",
+      "contact-email-wrap": "padding:0px;min-width:0px;width:fit-content; @media(--mobile){align-self:center;}",
+      "contact-actions": "padding:0px;min-width:0px;",
+      "contact-grid": "padding:0px;min-width:0px;",
+      "V2 Contact-container": "padding:0px;min-width:0px;gap:0px;",
+      "V2 Contact": "min-width:0px;padding-top:128px;padding-bottom:112px; @media(--mobile){padding-top:72px;padding-bottom:64px;}"
+    },
+    "classes": {
+      "thumb-image-chicago": [
+        "rb-portfolio-thumb"
+      ],
+      "thumb-caption-chicago": [
+        "rb-hero__eyebrow"
+      ],
+      "thumb-image-gcpro": [
+        "rb-portfolio-thumb"
+      ],
+      "thumb-caption-gcpro": [
+        "rb-hero__eyebrow"
+      ],
+      "thumb-image-kolo": [
+        "rb-portfolio-thumb"
+      ],
+      "thumb-caption-kolo": [
+        "rb-hero__eyebrow"
+      ],
+      "thumb-image-dental": [
+        "rb-portfolio-thumb"
+      ],
+      "thumb-caption-dental": [
+        "rb-hero__eyebrow"
+      ],
+      "thumb-image-elite": [
+        "rb-portfolio-thumb"
+      ],
+      "thumb-caption-elite": [
+        "rb-hero__eyebrow"
+      ],
+      "hero-title": [
+        "rb-grid-main",
+        "rb-display-xl",
+        "rb-heading-mute"
+      ],
+      "hero-lead": [
+        "rb-grid-aside",
+        "rb-hero__subtitle"
+      ],
+      "hero-primary-wrap": [
+        "rb-btn--glide"
+      ],
+      "hero-work-link-wrap": [
+        "rb-btn--text"
+      ],
+      "hero-actions": [
+        "rb-action-row"
+      ],
+      "hero-grid": [
+        "rb-grid-12"
+      ],
+      "V2 Hero-container": [
+        "l-container"
+      ],
+      "V2 Hero": [
+        "rb-section"
+      ],
+      "V2 Services-container": [
+        "l-container"
+      ],
+      "V2 Services": [
+        "rb-section",
+        "rb-section--soft"
+      ],
+      "featured-mat": [
+        "rb-mat"
+      ],
+      "featured-name": [
+        "rb-grid-main"
+      ],
+      "featured-meta": [
+        "rb-meta"
+      ],
+      "featured-domain-wrap": [
+        "rb-btn--text"
+      ],
+      "featured-side": [
+        "rb-grid-aside"
+      ],
+      "featured-caption": [
+        "rb-grid-12"
+      ],
+      "V2 Work-container": [
+        "l-container"
+      ],
+      "V2 Work": [
+        "rb-section"
+      ],
+      "approach-steps": [
+        "rb-grid-12"
+      ],
+      "V2 Approach-container": [
+        "l-container"
+      ],
+      "V2 Approach": [
+        "rb-section",
+        "rb-section--soft"
+      ],
+      "contact-title": [
+        "rb-grid-main",
+        "rb-display-xl",
+        "rb-heading-mute"
+      ],
+      "contact-lead": [
+        "rb-grid-aside",
+        "rb-hero__subtitle"
+      ],
+      "contact-primary-wrap": [
+        "rb-btn--glide"
+      ],
+      "contact-email-wrap": [
+        "rb-btn--text"
+      ],
+      "contact-actions": [
+        "rb-action-row"
+      ],
+      "contact-grid": [
+        "rb-grid-12"
+      ],
+      "V2 Contact-container": [
+        "l-container"
+      ],
+      "V2 Contact": [
+        "rb-section",
+        "rb-section--dark"
+      ]
+    },
+    "dry_run": false
+  },
+  "components": [
+    {
+      "id": 6010,
+      "definition": {
+        "action": "create",
+        "title": "ROBYLO / Section head",
+        "xml_structure": "<e-div-block configuration-id=\"section-head\"><e-heading configuration-id=\"heading\"></e-heading><e-paragraph configuration-id=\"description\"></e-paragraph></e-div-block>",
+        "element_config": {
+          "heading": {
+            "tag": "h2",
+            "title": "What we do.<span>Four services, one team.</span>"
+          },
+          "description": {
+            "paragraph": "Each one works on its own. Together they cover how customers find you, what they see, and what happens after they get in touch."
+          }
+        },
+        "classes": {
+          "section-head": [
+            "rb-grid-12"
+          ],
+          "heading": [
+            "rb-grid-main",
+            "rb-heading-mute"
+          ],
+          "description": [
+            "rb-grid-aside"
+          ]
+        },
+        "style": {
+          "section-head": "padding:0px;min-width:0px;align-items:end;margin-bottom:64px; @media(--mobile){margin-bottom:40px;}",
+          "description": "padding-bottom:6px; @media(--mobile){padding-bottom:0px;}"
+        },
+        "overridable_props": {
+          "heading": {
+            "target": "heading",
+            "prop_key": "title",
+            "label": "Heading and muted line (span)"
+          },
+          "paragraph": {
+            "target": "description",
+            "prop_key": "paragraph",
+            "label": "Introduction"
+          }
+        }
+      }
+    },
+    {
+      "id": 6013,
+      "definition": {
+        "action": "create",
+        "title": "ROBYLO / Service row",
+        "xml_structure": "<e-div-block configuration-id=\"service-row\"><e-heading configuration-id=\"title\"></e-heading><e-paragraph configuration-id=\"description\"></e-paragraph><e-div-block configuration-id=\"scope\"><e-paragraph configuration-id=\"scope-1\"></e-paragraph><e-paragraph configuration-id=\"scope-2\"></e-paragraph><e-paragraph configuration-id=\"scope-3\"></e-paragraph></e-div-block></e-div-block>",
+        "element_config": {
+          "title": {
+            "tag": "h3",
+            "title": "Website Design & Development"
+          },
+          "description": {
+            "paragraph": "Clear, fast websites that explain what you do and make it easy to call, book or buy."
+          },
+          "scope-1": {
+            "paragraph": "Design and copy structure<span>·</span>"
+          },
+          "scope-2": {
+            "paragraph": "WordPress development<span>·</span>"
+          },
+          "scope-3": {
+            "paragraph": "Care and updates"
+          }
+        },
+        "classes": {
+          "service-row": [
+            "rb-grid-12"
+          ],
+          "title": [
+            "rb-grid-main"
+          ],
+          "description": [
+            "rb-grid-aside"
+          ],
+          "scope": [
+            "rb-grid-main",
+            "rb-service-scope"
+          ],
+          "scope-1": [
+            "rb-hero__eyebrow"
+          ],
+          "scope-2": [
+            "rb-hero__eyebrow"
+          ],
+          "scope-3": [
+            "rb-hero__eyebrow"
+          ]
+        },
+        "style": {
+          "service-row": "padding:40px 0px;min-width:0px;align-items:baseline;grid-template-rows:auto 1fr; @media(--mobile){display:flex;flex-direction:column;align-items:stretch;padding:28px 0px;}",
+          "title": "grid-row:1; @media(--tablet){grid-column:1 / span 7;} @media(--mobile){order:1;}",
+          "description": "grid-row:1 / span 2; @media(--tablet){grid-column:8 / span 5;margin-top:0px;} @media(--mobile){order:2;margin-top:10px;}",
+          "scope": "padding:0px;min-width:0px;display:flex;flex-wrap:wrap;grid-row:2;margin-top:12px; @media(--tablet){grid-column:1 / span 7;} @media(--mobile){order:3;flex-direction:column;gap:2px;margin-top:14px;}",
+          "scope-1": "color:var(--rb-text);",
+          "scope-2": "color:var(--rb-text);",
+          "scope-3": "color:var(--rb-text);"
+        },
+        "overridable_props": {
+          "title": {
+            "target": "title",
+            "prop_key": "title",
+            "label": "Service title"
+          },
+          "description": {
+            "target": "description",
+            "prop_key": "paragraph",
+            "label": "Description"
+          },
+          "scope_1": {
+            "target": "scope-1",
+            "prop_key": "paragraph",
+            "label": "Scope 1 with separator span"
+          },
+          "scope_2": {
+            "target": "scope-2",
+            "prop_key": "paragraph",
+            "label": "Scope 2 with separator span"
+          },
+          "scope_3": {
+            "target": "scope-3",
+            "prop_key": "paragraph",
+            "label": "Scope 3"
+          }
+        }
+      }
+    },
+    {
+      "id": 6016,
+      "definition": {
+        "action": "create",
+        "title": "ROBYLO / Project tile",
+        "xml_structure": "<e-div-block configuration-id=\"tile\"><e-div-block configuration-id=\"mat\"><e-image configuration-id=\"image\"></e-image></e-div-block><e-div-block configuration-id=\"caption\"><e-heading configuration-id=\"name\"></e-heading><e-div-block configuration-id=\"metadata\"><e-paragraph configuration-id=\"descriptor\"></e-paragraph><e-div-block configuration-id=\"link-wrap\"><e-component configuration-id=\"link\"></e-component></e-div-block></e-div-block></e-div-block></e-div-block>",
+        "element_config": {
+          "image": {
+            "image": {
+              "src": {
+                "id": 5991
+              },
+              "size": "full"
+            }
+          },
+          "name": {
+            "tag": "h4",
+            "title": "GCPRO Restoration"
+          },
+          "descriptor": {
+            "paragraph": "Disaster restoration · Lombard, IL"
+          },
+          "link": {
+            "component_id": 5864,
+            "overrides": {
+              "text": "gcprochicago.com ↗",
+              "link": {
+                "destination": "https://gcprochicago.com/",
+                "isTargetBlank": true,
+                "tag": "a"
+              }
+            }
+          }
+        },
+        "classes": {
+          "mat": [
+            "rb-mat"
+          ],
+          "descriptor": [
+            "rb-meta"
+          ],
+          "link-wrap": [
+            "rb-btn--text"
+          ]
+        },
+        "style": {
+          "tile": "padding:0px;min-width:0px;",
+          "mat": "height:380px;padding:40px 40px 0px;min-width:0px; @media(--mobile){height:236px;padding:24px 24px 0px;}",
+          "image": "width:100%;height:100%;object-fit:cover;object-position:left top;border:1px solid var(--rb-line);border-bottom:0px;border-radius:var(--rb-radius) var(--rb-radius) 0px 0px;",
+          "caption": "padding:0px;min-width:0px;margin-top:20px; @media(--mobile){margin-top:16px;}",
+          "metadata": "padding:0px;min-width:0px;display:flex;justify-content:space-between;align-items:baseline;gap:var(--rb-space-3);margin-top:4px; @media(--mobile){display:block;margin-top:6px;}",
+          "descriptor": "min-width:0px;flex:1 1 auto;",
+          "link-wrap": "padding:0px;min-width:0px;width:fit-content;flex-shrink:0;"
+        },
+        "overridable_props": {
+          "image": {
+            "target": "image",
+            "prop_key": "image",
+            "label": "Project screenshot"
+          },
+          "name": {
+            "target": "name",
+            "prop_key": "title",
+            "label": "Project name"
+          },
+          "descriptor": {
+            "target": "descriptor",
+            "prop_key": "paragraph",
+            "label": "Industry and location"
+          },
+          "link_text": {
+            "target": "link",
+            "prop_key": "text",
+            "label": "Domain label"
+          },
+          "link_url": {
+            "target": "link",
+            "prop_key": "link",
+            "label": "Project URL"
+          }
+        }
+      }
+    },
+    {
+      "id": 6019,
+      "definition": {
+        "action": "create",
+        "title": "ROBYLO / Approach step",
+        "xml_structure": "<e-div-block configuration-id=\"step\"><e-paragraph configuration-id=\"label\"></e-paragraph><e-heading configuration-id=\"statement\"></e-heading><e-paragraph configuration-id=\"description\"></e-paragraph></e-div-block>",
+        "element_config": {
+          "label": {
+            "paragraph": "First"
+          },
+          "statement": {
+            "tag": "h3",
+            "title": "Start with the business, not a template."
+          },
+          "description": {
+            "paragraph": "We learn how customers find you today and how work moves through your day before we design anything."
+          }
+        },
+        "classes": {
+          "label": [
+            "rb-hero__eyebrow"
+          ]
+        },
+        "style": {
+          "step": "padding:24px 24px 0px 0px;min-width:0px;border-top:1px solid var(--rb-ink); @media(--mobile){padding:20px 0px 36px;}",
+          "label": "font-weight:600;color:var(--rb-ink);",
+          "statement": "margin:32px 0px 16px; @media(--mobile){margin:20px 0px 12px;}"
+        },
+        "overridable_props": {
+          "label": {
+            "target": "label",
+            "prop_key": "paragraph",
+            "label": "Sequence label"
+          },
+          "statement": {
+            "target": "statement",
+            "prop_key": "title",
+            "label": "Statement"
+          },
+          "paragraph": {
+            "target": "description",
+            "prop_key": "paragraph",
+            "label": "Explanation"
+          }
+        }
+      }
+    }
+  ],
+  "header": {
+    "action": "update",
+    "component_id": 5886,
+    "publish_status": "draft",
+    "xml_structure": "<e-div-block configuration-id=\"header-shell\"><e-div-block configuration-id=\"header-inner\"><e-div-block configuration-id=\"home-brand\"><e-image configuration-id=\"original-logo\"></e-image></e-div-block><e-div-block configuration-id=\"desktop-navigation\"><e-button configuration-id=\"header-services\"></e-button><e-button configuration-id=\"header-work\"></e-button><e-button configuration-id=\"header-approach\"></e-button><e-div-block configuration-id=\"header-small-action\"><e-component configuration-id=\"header-primary\"></e-component></e-div-block></e-div-block><e-div-block configuration-id=\"mobile-menu-toggle\"><e-paragraph configuration-id=\"menu-label\"></e-paragraph><e-div-block configuration-id=\"burger-lines\"><e-div-block configuration-id=\"burger-top\"></e-div-block><e-div-block configuration-id=\"burger-bottom\"></e-div-block></e-div-block></e-div-block></e-div-block></e-div-block>",
+    "element_config": {
+      "original-logo": {
+        "image": {
+          "src": {
+            "id": 5972
+          },
+          "size": "full"
+        }
+      },
+      "home-brand": {
+        "tag": "a",
+        "link": {
+          "destination": "/",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "header-services": {
+        "text": "Services",
+        "link": {
+          "destination": "#services",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "header-work": {
+        "text": "Work",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "header-approach": {
+        "text": "Approach",
+        "link": {
+          "destination": "#approach",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "header-primary": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "Let's talk",
+          "link": {
+            "destination": "#contact",
+            "tag": "a",
+            "isTargetBlank": false
+          }
+        }
+      },
+      "header-small-action": {
+        "tag": "div"
+      },
+      "desktop-navigation": {
+        "tag": "nav"
+      },
+      "burger-top": {
+        "tag": "div"
+      },
+      "burger-bottom": {
+        "tag": "div"
+      },
+      "burger-lines": {
+        "tag": "div"
+      },
+      "menu-label": {
+        "paragraph": "Menu"
+      },
+      "mobile-menu-toggle": {
+        "tag": "button"
+      },
+      "header-inner": {
+        "tag": "div"
+      },
+      "header-shell": {
+        "tag": "div"
+      }
+    },
+    "style": {
+      "original-logo": "width:154px;height:18px;object-fit:cover;object-position:50% 55%; @media(--mobile){width:129px;height:15px;}",
+      "home-brand": "padding:0px;min-width:0px;width:fit-content;display:flex;align-items:center;min-height:48px; &:focus-visible{outline:2px solid var(--rb-ink);outline-offset:3px;}",
+      "header-services": "padding:0px;background-color:transparent;border:0px solid transparent;border-radius:0px;",
+      "header-work": "padding:0px;background-color:transparent;border:0px solid transparent;border-radius:0px;",
+      "header-approach": "padding:0px;background-color:transparent;border:0px solid transparent;border-radius:0px;",
+      "header-small-action": "padding:0px;min-width:0px;width:fit-content;",
+      "desktop-navigation": "padding:0px;min-width:0px;display:flex;align-items:center;gap:40px;width:fit-content; @media(--mobile){display:none;}",
+      "burger-top": "padding:0px;min-width:0px;height:2px;background-color:currentColor;",
+      "burger-bottom": "padding:0px;min-width:0px;height:2px;background-color:currentColor;",
+      "burger-lines": "padding:0px;min-width:0px;width:22px;display:flex;flex-direction:column;gap:6px;",
+      "menu-label": "font-size:16px;font-weight:600;line-height:1.25;color:inherit;",
+      "mobile-menu-toggle": "padding:0px;min-width:0px;",
+      "header-inner": "padding:0px;min-width:0px;",
+      "header-shell": "min-width:0px;"
+    },
+    "classes": {
+      "header-services": [
+        "rb-nav-link"
+      ],
+      "header-work": [
+        "rb-nav-link"
+      ],
+      "header-approach": [
+        "rb-nav-link"
+      ],
+      "header-small-action": [
+        "rb-btn--sm"
+      ],
+      "mobile-menu-toggle": [
+        "rb-header__toggle"
+      ],
+      "header-inner": [
+        "l-container",
+        "rb-header__inner"
+      ],
+      "header-shell": [
+        "rb-header"
+      ]
+    },
+    "overridable_props": {
+      "action_text": {
+        "target": "header-primary",
+        "prop_key": "text",
+        "label": "Action label"
+      },
+      "action_link": {
+        "target": "header-primary",
+        "prop_key": "link",
+        "label": "Action destination"
+      }
+    }
+  },
+  "footer": {
+    "action": "update",
+    "component_id": 5889,
+    "publish_status": "draft",
+    "xml_structure": "<e-div-block configuration-id=\"footer-shell\"><e-div-block configuration-id=\"footer-container\"><e-div-block configuration-id=\"footer-top\"><e-div-block configuration-id=\"footer-brand\"><e-image configuration-id=\"footer-logo\"></e-image><e-paragraph configuration-id=\"footer-message\"></e-paragraph></e-div-block><e-div-block configuration-id=\"footer-navigation\"><e-paragraph configuration-id=\"menu-heading\"></e-paragraph><e-button configuration-id=\"footer-services\"></e-button><e-button configuration-id=\"footer-work\"></e-button><e-button configuration-id=\"footer-approach\"></e-button><e-button configuration-id=\"footer-contact\"></e-button></e-div-block><e-div-block configuration-id=\"footer-contact-column\"><e-paragraph configuration-id=\"contact-heading\"></e-paragraph><e-button configuration-id=\"footer-email\"></e-button><e-paragraph configuration-id=\"footer-location\"></e-paragraph></e-div-block></e-div-block><e-div-block configuration-id=\"footer-bottom\"><e-paragraph configuration-id=\"copyright\"></e-paragraph></e-div-block></e-div-block></e-div-block>",
+    "element_config": {
+      "footer-logo": {
+        "image": {
+          "src": {
+            "url": "https://robylo.com/wp-content/uploads/2026/02/ROBYLO_LOGO_WHITE_NO_SLOGAN-2.svg",
+            "alt": "ROBYLO"
+          },
+          "size": "full"
+        }
+      },
+      "footer-message": {
+        "paragraph": "Websites and digital support for growing businesses."
+      },
+      "footer-brand": {
+        "tag": "div"
+      },
+      "menu-heading": {
+        "paragraph": "Menu"
+      },
+      "footer-services": {
+        "text": "Services",
+        "link": {
+          "destination": "#services",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "footer-work": {
+        "text": "Work",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "footer-approach": {
+        "text": "Approach",
+        "link": {
+          "destination": "#approach",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "footer-contact": {
+        "text": "Contact",
+        "link": {
+          "destination": "#contact",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "footer-navigation": {
+        "tag": "div"
+      },
+      "contact-heading": {
+        "paragraph": "Contact"
+      },
+      "footer-email": {
+        "text": "info@robylo.com",
+        "link": {
+          "destination": "mailto:info@robylo.com",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "footer-location": {
+        "paragraph": "Chicago, IL"
+      },
+      "footer-top": {
+        "tag": "div"
+      },
+      "copyright": {
+        "paragraph": "© 2026 ROBYLO"
+      },
+      "footer-bottom": {
+        "tag": "div"
+      },
+      "footer-container": {
+        "tag": "div"
+      },
+      "footer-shell": {
+        "tag": "div"
+      },
+      "footer-contact-column": {
+        "tag": "div"
+      }
+    },
+    "style": {
+      "footer-logo": "height:16px;width:auto;margin-bottom:20px;",
+      "footer-message": "max-width:300px;color:var(--rb-mute);",
+      "footer-brand": "padding:0px;min-width:0px;grid-column:1 / span 5;",
+      "menu-heading": "font-weight:600;color:var(--rb-mute);margin-bottom:6px;",
+      "footer-services": "padding:0px;border:0px solid transparent;background-color:transparent;border-radius:0px;justify-content:flex-start;",
+      "footer-work": "padding:0px;border:0px solid transparent;background-color:transparent;border-radius:0px;justify-content:flex-start;",
+      "footer-approach": "padding:0px;border:0px solid transparent;background-color:transparent;border-radius:0px;justify-content:flex-start;",
+      "footer-contact": "padding:0px;border:0px solid transparent;background-color:transparent;border-radius:0px;justify-content:flex-start;",
+      "footer-navigation": "padding:0px;min-width:0px;grid-column:6 / span 3;display:flex;flex-direction:column;align-items:flex-start;gap:0px; @media(--mobile){margin-top:36px;}",
+      "contact-heading": "font-weight:600;color:var(--rb-mute);margin-bottom:6px;",
+      "footer-email": "padding:0px;border:0px solid transparent;background-color:transparent;border-radius:0px;",
+      "footer-location": "color:var(--rb-paper);font-weight:500;",
+      "footer-top": "padding:0px;min-width:0px;border-top:1px solid var(--rb-hover);padding:56px 0px 64px;align-items:start; @media(--mobile){padding:40px 0px;}",
+      "copyright": "color:var(--rb-mute);",
+      "footer-bottom": "padding:0px;min-width:0px;border-top:1px solid var(--rb-hover);padding:24px 0px 32px;display:flex;justify-content:space-between; @media(--mobile){padding:20px 0px 28px;}",
+      "footer-container": "padding:0px;min-width:0px;gap:0px;",
+      "footer-shell": "min-width:0px;",
+      "footer-contact-column": "padding:0px;min-width:0px;grid-column:9 / span 4;display:flex;flex-direction:column;align-items:flex-start;gap:10px; @media(--mobile){margin-top:36px;}"
+    },
+    "classes": {
+      "footer-message": [
+        "rb-meta"
+      ],
+      "menu-heading": [
+        "rb-hero__eyebrow"
+      ],
+      "footer-services": [
+        "rb-nav-link"
+      ],
+      "footer-work": [
+        "rb-nav-link"
+      ],
+      "footer-approach": [
+        "rb-nav-link"
+      ],
+      "footer-contact": [
+        "rb-nav-link"
+      ],
+      "contact-heading": [
+        "rb-hero__eyebrow"
+      ],
+      "footer-email": [
+        "rb-nav-link"
+      ],
+      "footer-location": [
+        "rb-meta"
+      ],
+      "footer-top": [
+        "rb-grid-12"
+      ],
+      "copyright": [
+        "rb-hero__eyebrow"
+      ],
+      "footer-container": [
+        "l-container"
+      ],
+      "footer-shell": [
+        "rb-footer"
+      ]
+    },
+    "overridable_props": {
+      "message": {
+        "target": "footer-message",
+        "prop_key": "paragraph",
+        "label": "Footer message"
+      },
+      "copyright": {
+        "target": "copyright",
+        "prop_key": "paragraph",
+        "label": "Copyright"
+      }
+    }
+  },
+  "menu": {
+    "post_id": 5996,
+    "parent_id": "document",
+    "mode": "replace_children",
+    "xml_structure": "<e-div-block configuration-id=\"Mobile navigation\"><e-div-block configuration-id=\"menu-bar\"><e-image configuration-id=\"menu-logo\"></e-image><e-button configuration-id=\"menu-close\"></e-button></e-div-block><e-div-block configuration-id=\"menu-links\"><e-button configuration-id=\"menu-services\"></e-button><e-button configuration-id=\"menu-work\"></e-button><e-button configuration-id=\"menu-approach\"></e-button><e-button configuration-id=\"menu-contact\"></e-button></e-div-block><e-div-block configuration-id=\"menu-foot\"><e-div-block configuration-id=\"menu-cta\"><e-component configuration-id=\"menu-cta-button\"></e-component></e-div-block><e-div-block configuration-id=\"menu-email-wrap\"><e-component configuration-id=\"menu-email\"></e-component></e-div-block></e-div-block></e-div-block>",
+    "element_config": {
+      "menu-logo": {
+        "image": {
+          "src": {
+            "url": "https://robylo.com/wp-content/uploads/2026/02/ROBYLO_LOGO_WHITE_NO_SLOGAN-2.svg",
+            "alt": "ROBYLO"
+          },
+          "size": "full"
+        }
+      },
+      "menu-close": {
+        "text": "Close <span>×</span>",
+        "link": {
+          "destination": "#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJpZCI6NTk5Nn0%3D",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "menu-bar": {
+        "tag": "div"
+      },
+      "menu-services": {
+        "text": "Services<span>→</span>",
+        "link": {
+          "destination": "#services",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "menu-work": {
+        "text": "Work<span>→</span>",
+        "link": {
+          "destination": "#work",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "menu-approach": {
+        "text": "Approach<span>→</span>",
+        "link": {
+          "destination": "#approach",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "menu-contact": {
+        "text": "Contact<span>→</span>",
+        "link": {
+          "destination": "#contact",
+          "tag": "a",
+          "isTargetBlank": false
+        }
+      },
+      "menu-links": {
+        "tag": "nav"
+      },
+      "menu-cta-button": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "Let's talk →",
+          "link": {
+            "destination": "#contact",
+            "tag": "a",
+            "isTargetBlank": false
+          }
+        }
+      },
+      "menu-cta": {
+        "tag": "div"
+      },
+      "menu-email": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "info@robylo.com",
+          "link": {
+            "destination": "mailto:info@robylo.com",
+            "tag": "a",
+            "isTargetBlank": false
+          }
+        }
+      },
+      "menu-email-wrap": {
+        "tag": "div"
+      },
+      "menu-foot": {
+        "tag": "div"
+      },
+      "Mobile navigation": {
+        "tag": "div"
+      }
+    },
+    "style": {
+      "menu-logo": "height:15px;width:auto;",
+      "menu-close": "display:inline-flex;min-height:48px;font-size:16px;gap:12px;",
+      "menu-bar": "padding:0px;min-width:0px;height:64px;display:flex;align-items:center;justify-content:space-between;",
+      "menu-services": "width:100%;background-color:transparent;border-radius:0px;border-right:0px;border-left:0px;",
+      "menu-work": "width:100%;background-color:transparent;border-radius:0px;border-right:0px;border-left:0px;",
+      "menu-approach": "width:100%;background-color:transparent;border-radius:0px;border-right:0px;border-left:0px;",
+      "menu-contact": "width:100%;background-color:transparent;border-radius:0px;border-right:0px;border-left:0px;border-bottom:1px solid var(--rb-hover);",
+      "menu-links": "padding:0px;min-width:0px;margin-top:40px;display:flex;flex-direction:column;",
+      "menu-cta-button": "display:grid;",
+      "menu-cta": "padding:0px;min-width:0px;display:grid;",
+      "menu-email-wrap": "padding:0px;min-width:0px;width:fit-content;align-self:center;",
+      "menu-foot": "padding:0px;min-width:0px;margin-top:auto;padding-top:32px;display:flex;flex-direction:column;gap:8px;",
+      "Mobile navigation": "padding:0px;min-width:0px;min-height:100vh;background-color:var(--rb-ink);color:var(--rb-paper);padding:0px var(--rb-gutter) 28px;display:flex;flex-direction:column; padding-top:0px;padding-right:var(--rb-gutter);padding-bottom:28px;padding-left:var(--rb-gutter);"
+    },
+    "classes": {
+      "menu-close": [
+        "rb-header__toggle"
+      ],
+      "menu-services": [
+        "rb-menu-row"
+      ],
+      "menu-work": [
+        "rb-menu-row"
+      ],
+      "menu-approach": [
+        "rb-menu-row"
+      ],
+      "menu-contact": [
+        "rb-menu-row"
+      ],
+      "menu-email-wrap": [
+        "rb-btn--text"
+      ],
+      "Mobile navigation": [
+        "rb-section--dark"
+      ]
+    }
+  },
+  "popupSettings": {
+    "id": 5996,
+    "condition": "include/singular/page/5894",
+    "triggers": [],
+    "timing": [],
+    "width": {
+      "unit": "vw",
+      "size": 100
+    },
+    "height": "fit_to_screen",
+    "open_selector": ".rb-header__toggle",
+    "prevent_scroll": "yes",
+    "a11y_navigation": "yes",
+    "close_button": "",
+    "prevent_close_on_esc_key": "",
+    "prevent_close_on_background_click": ""
+  },
+  "globalClassInitialOperations": [
+    {
+      "action": "create",
+      "label": "rb-display-xl",
+      "css": "font-family:var(--rb-font);font-size:88px;font-weight:700;line-height:1.02;letter-spacing:-0.04em; @media(--tablet){font-size:64px;line-height:1.04;} @media(--mobile){font-size:44px;line-height:1.06;letter-spacing:-0.035em;}"
+    },
+    {
+      "action": "create",
+      "label": "rb-heading-mute",
+      "css": "& span {display:block;color:var(--rb-mute);}"
+    },
+    {
+      "action": "create",
+      "label": "rb-grid-12",
+      "css": "display:grid;grid-template-columns:repeat(12,minmax(0px,1fr));grid-template-rows:auto;column-gap:var(--rb-space-3);row-gap:0px; @media(--mobile){display:block;}"
+    },
+    {
+      "action": "create",
+      "label": "rb-grid-main",
+      "css": "grid-column:1 / span 8;min-width:0px; @media(--tablet){grid-column:1 / -1;}"
+    },
+    {
+      "action": "create",
+      "label": "rb-grid-aside",
+      "css": "grid-column:9 / span 4;min-width:0px; @media(--tablet){grid-column:1 / span 8;margin-top:var(--rb-space-3);} @media(--mobile){margin-top:var(--rb-space-2);}"
+    },
+    {
+      "action": "create",
+      "label": "rb-mat",
+      "css": "background-color:var(--rb-surface);border-radius:var(--rb-radius);overflow:hidden;"
+    },
+    {
+      "action": "create",
+      "label": "rb-portfolio-thumb",
+      "css": "filter:grayscale(1);aspect-ratio:1.6;width:100%;height:auto;object-fit:cover;object-position:left top;border:1px solid var(--rb-line);border-radius:var(--rb-radius);"
+    },
+    {
+      "action": "create",
+      "label": "rb-action-row",
+      "css": "display:flex;align-items:center;gap:var(--rb-space-4);margin-top:48px;grid-column:1 / span 8; @media(--tablet){grid-column:1 / -1;} @media(--mobile){flex-direction:column;align-items:stretch;gap:var(--rb-space-1);margin-top:var(--rb-space-4);}"
+    },
+    {
+      "action": "create",
+      "label": "rb-nav-link",
+      "css": "font-family:var(--rb-font);font-size:16px;font-weight:500;line-height:1.5;letter-spacing:0em;color:inherit;text-decoration:none;display:inline-flex;align-items:center;min-height:48px; &:hover{color:var(--rb-hover);} &:focus-visible{outline:2px solid currentColor;outline-offset:4px;}"
+    },
+    {
+      "action": "create",
+      "label": "rb-meta",
+      "css": "font-family:var(--rb-font);font-size:16px;font-weight:400;line-height:1.6;letter-spacing:0em;"
+    },
+    {
+      "action": "create",
+      "label": "rb-footer",
+      "css": "background-color:var(--rb-ink);color:var(--rb-paper);padding:0px var(--rb-gutter);"
+    },
+    {
+      "action": "create",
+      "label": "rb-menu-row",
+      "css": "display:flex;justify-content:space-between;align-items:center;min-height:48px;padding:22px 0px;border-top:1px solid var(--rb-hover);font-family:var(--rb-font);font-size:40px;font-weight:700;line-height:1.1;letter-spacing:-0.03em;color:var(--rb-paper);text-decoration:none; &:focus-visible{outline:2px solid var(--rb-paper);outline-offset:3px;} & span{color:var(--rb-mute);}"
+    },
+    {
+      "action": "update",
+      "label": "rb-header",
+      "mode": "replace",
+      "css": "background-color:var(--rb-paper);color:var(--rb-ink);padding:0px var(--rb-gutter);"
+    },
+    {
+      "action": "update",
+      "label": "rb-header__inner",
+      "mode": "replace",
+      "css": "display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:var(--rb-space-3);height:88px;padding:0px;min-width:0px; @media(--mobile){height:64px;}"
+    },
+    {
+      "action": "update",
+      "label": "rb-header__toggle",
+      "mode": "replace",
+      "css": "display:none;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:0px 0px 0px var(--rb-space-2);border:0px solid transparent;background-color:transparent;color:inherit;font-family:var(--rb-font);font-size:16px;font-weight:600;line-height:1.25;text-decoration:none;cursor:pointer; &:focus-visible{outline:2px solid currentColor;outline-offset:3px;} @media(--mobile){display:inline-flex;}"
+    }
+  ],
+  "globalClassFinalCorrections": [
+    {
+      "label": "rb-display-xl",
+      "css": "letter-spacing:-3.52px; @media(--tablet){letter-spacing:-2.56px;} @media(--mobile){letter-spacing:-1.54px;}"
+    },
+    {
+      "label": "rb-service-scope",
+      "css": "& span{margin:0px 10px;color:var(--rb-mute);} @media(--mobile){& span{display:none;}}"
+    },
+    {
+      "label": "rb-header",
+      "css": "padding-top:0px;padding-right:var(--rb-gutter);padding-bottom:0px;padding-left:var(--rb-gutter);"
+    },
+    {
+      "label": "rb-footer",
+      "css": "padding-top:0px;padding-right:var(--rb-gutter);padding-bottom:0px;padding-left:var(--rb-gutter);"
+    },
+    {
+      "label": "rb-footer",
+      "css": "& .rb-nav-link:hover{color:var(--rb-line);}"
+    },
+    {
+      "label": "rb-header__toggle",
+      "css": "& span{font-size:24px;line-height:1;width:22px;}"
+    },
+    {
+      "label": "rb-section--dark",
+      "css": "& .rb-heading-mute span{color:var(--rb-mute);} & .rb-grid-aside{color:var(--rb-line);}"
+    }
+  ],
+  "variables": {
+    "variables": {
+      "e-gv-faae683": {
+        "type": "global-color-variable",
+        "label": "rb-ink",
+        "value": "#000000",
+        "order": 1,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-65744b6": {
+        "type": "global-color-variable",
+        "label": "rb-paper",
+        "value": "#FFFFFF",
+        "order": 2,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-4ed1292": {
+        "type": "global-color-variable",
+        "label": "rb-text",
+        "value": "#444444",
+        "order": 3,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-f2d8ea4": {
+        "type": "global-color-variable",
+        "label": "rb-surface",
+        "value": "#F5F5F5",
+        "order": 4,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-5d17628": {
+        "type": "global-color-variable",
+        "label": "rb-line",
+        "value": "#D6D6D6",
+        "order": 5,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-8369e4c": {
+        "type": "global-color-variable",
+        "label": "rb-hover",
+        "value": "#333333",
+        "order": 6,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-d9b9505": {
+        "type": "global-font-variable",
+        "label": "rb-font",
+        "value": "Manrope",
+        "order": 7,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:58:15"
+      },
+      "e-gv-4282b89": {
+        "type": "global-size-variable",
+        "label": "rb-space-1",
+        "value": "0.5rem",
+        "order": 8,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-8d15f20": {
+        "type": "global-size-variable",
+        "label": "rb-space-2",
+        "value": "1rem",
+        "order": 9,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-de604bd": {
+        "type": "global-size-variable",
+        "label": "rb-space-3",
+        "value": "1.5rem",
+        "order": 10,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-057c3cc": {
+        "type": "global-size-variable",
+        "label": "rb-space-4",
+        "value": "2rem",
+        "order": 11,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-a1dea4d": {
+        "type": "global-size-variable",
+        "label": "rb-container",
+        "value": "75rem",
+        "order": 12,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-e6dc8df": {
+        "type": "global-size-variable",
+        "label": "rb-radius",
+        "value": "4px",
+        "order": 13,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 20:22:23"
+      },
+      "e-gv-e601e89": {
+        "type": "global-size-variable",
+        "label": "rb-body",
+        "value": "1.125rem",
+        "order": 14,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:58:15"
+      },
+      "e-gv-25bd825": {
+        "type": "global-custom-size-variable",
+        "label": "rb-gutter",
+        "value": "clamp(1.25rem, 4vw, 3rem)",
+        "order": 15,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-629d516": {
+        "type": "global-custom-size-variable",
+        "label": "rb-section-space",
+        "value": "clamp(3.5rem, 7vw, 7rem)",
+        "order": 16,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-1e64b45": {
+        "type": "global-custom-size-variable",
+        "label": "rb-display",
+        "value": "clamp(2.5rem, 5vw, 4.5rem)",
+        "order": 17,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:58:15"
+      },
+      "e-gv-f9a6545": {
+        "type": "global-custom-size-variable",
+        "label": "rb-heading",
+        "value": "clamp(2rem, 3.333333vw, 3rem)",
+        "order": 18,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:58:15"
+      },
+      "e-gv-963b718": {
+        "type": "global-custom-size-variable",
+        "label": "rb-subheading",
+        "value": "clamp(1.625rem, 2.222222vw, 2rem)",
+        "order": 19,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:58:15"
+      },
+      "e-gv-790b954": {
+        "type": "global-custom-size-variable",
+        "label": "rb-measure",
+        "value": "65ch",
+        "order": 20,
+        "created_at": "2026-11-16 18:18:02",
+        "updated_at": "2026-11-16 18:18:02"
+      },
+      "e-gv-799fb6d": {
+        "type": "global-color-variable",
+        "label": "rb-mute",
+        "value": "#8A8A8A",
+        "order": 21,
+        "created_at": "2026-11-17 15:50:03",
+        "updated_at": "2026-11-17 15:50:03"
+      }
+    },
+    "total": 21,
+    "watermark": 4
+  },
+  "classInventory": {
+    "priority_description": "Classes are ordered from highest to lowest priority. When classes on the same element set the same CSS property, the earlier class overrides the later one.",
+    "classes": [
+      {
+        "id": "g-bc31dc8",
+        "label": "rb-header-cta"
+      },
+      {
+        "id": "g-1951822",
+        "label": "rb-smart-header"
+      },
+      {
+        "id": "g-0d020db",
+        "label": "rb-btn--sm"
+      },
+      {
+        "id": "g-773603d",
+        "label": "rb-header__actions"
+      },
+      {
+        "id": "g-62a9a44",
+        "label": "rb-header__logo"
+      },
+      {
+        "id": "g-dbbac2e",
+        "label": "js-nav-toggle"
+      },
+      {
+        "id": "g-ca8e57d",
+        "label": "rb-header__toggle"
+      },
+      {
+        "id": "g-8a10c04",
+        "label": "rb-header__brand"
+      },
+      {
+        "id": "g-18f5116",
+        "label": "rb-header__inner"
+      },
+      {
+        "id": "g-a5338a9",
+        "label": "js-header"
+      },
+      {
+        "id": "g-5060b01",
+        "label": "rb-header--sticky"
+      },
+      {
+        "id": "g-93bb252",
+        "label": "rb-header"
+      },
+      {
+        "id": "g-2c2e51d",
+        "label": "rb-btn--outline"
+      },
+      {
+        "id": "g-13618e6",
+        "label": "rb-hero__actions"
+      },
+      {
+        "id": "g-bdd9dfe",
+        "label": "rb-hero__eyebrow"
+      },
+      {
+        "id": "g-20dd481",
+        "label": "rb-hero__content"
+      },
+      {
+        "id": "g-73da4bf",
+        "label": "rb-hero__visual"
+      },
+      {
+        "id": "g-9edd357",
+        "label": "rb-hero__inner"
+      },
+      {
+        "id": "g-84a7776",
+        "label": "rb-hero"
+      },
+      {
+        "id": "g-13d4717",
+        "label": "rb-btn--primary"
+      },
+      {
+        "id": "g-aec96cc",
+        "label": "rb-btn"
+      },
+      {
+        "id": "g-efbc920",
+        "label": "rb-hero__subtitle"
+      },
+      {
+        "id": "g-3aaac25",
+        "label": "rb-hero__title"
+      },
+      {
+        "id": "g-374719a",
+        "label": "l-container"
+      },
+      {
+        "id": "g-216e3c8",
+        "label": "rb-section--dark"
+      },
+      {
+        "id": "g-e8156d1",
+        "label": "rb-section--soft"
+      },
+      {
+        "id": "g-048cfe8",
+        "label": "rb-section"
+      },
+      {
+        "id": "g-ed9a0da",
+        "label": "rb-chrome-row"
+      },
+      {
+        "id": "g-e61c4f8",
+        "label": "rb-btn--text"
+      },
+      {
+        "id": "g-3560e9a",
+        "label": "rb-btn--glide"
+      },
+      {
+        "id": "g-9858763",
+        "label": "rb-display-xl"
+      },
+      {
+        "id": "g-96b4fcf",
+        "label": "rb-heading-mute"
+      },
+      {
+        "id": "g-48d317d",
+        "label": "rb-grid-12"
+      },
+      {
+        "id": "g-de4c414",
+        "label": "rb-grid-main"
+      },
+      {
+        "id": "g-b352eba",
+        "label": "rb-grid-aside"
+      },
+      {
+        "id": "g-2e58a2a",
+        "label": "rb-mat"
+      },
+      {
+        "id": "g-ba034ce",
+        "label": "rb-portfolio-thumb"
+      },
+      {
+        "id": "g-c3579fd",
+        "label": "rb-action-row"
+      },
+      {
+        "id": "g-403d4fb",
+        "label": "rb-nav-link"
+      },
+      {
+        "id": "g-d97ed86",
+        "label": "rb-meta"
+      },
+      {
+        "id": "g-665de29",
+        "label": "rb-footer"
+      },
+      {
+        "id": "g-f570396",
+        "label": "rb-menu-row"
+      },
+      {
+        "id": "g-2e9f90b",
+        "label": "rb-service-scope"
+      }
+    ]
+  }
+}

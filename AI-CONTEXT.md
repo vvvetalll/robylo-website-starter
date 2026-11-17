@@ -43,3 +43,8 @@ No automatic sync or deployment is established. Each session must independently 
 ## Latest incremental task — 2026-11-16
 
 The owner subsequently authorized only the Base Section background demonstration. Light/Soft/Dark examples are now implemented and tested in Atomic Lab; [record and screenshots](docs/section-backgrounds-2026-11-16.md). Two global modifiers were added, no components duplicated. Visual approval is pending; do not proceed to other homepage components. This later scope supersedes the earlier documentation-only task scope above solely for this demonstration.
+
+
+## Latest owner-authorized scope — 2026-11-17 Homepage V2
+
+The owner approved Claude's V2 visual direction, typography refinements, muted gray and Header/Footer redesign and authorized private Elementor implementation. This supersedes the older demonstration-only restriction above for this task. Home 5894 has a staged V2 body; use Elementor **Preview Changes**. Coming Soon 5858 remains public. No launch is authorized. See [implementation, limitations and verification](docs/homepage-v2-implementation-2026-11-17.md). Native Popup anchors currently do not close the mobile overlay automatically. Do not add improvised JavaScript or launch before review. This branch stacks on design PR #8; no existing PR was merged.
