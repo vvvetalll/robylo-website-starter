@@ -320,7 +320,28 @@
     "class_label": "rb-header__toggle",
     "native_patch": "@media(--mobile) { width: fit-content; flex: 0 0 auto; margin-inline-start: auto; }",
     "consumers": "Header5892/component5886 Menu; Popup5996 Close. Existing shared class updated, no new class or local duplicate.",
-    "publication": "Native shared-class setting applied; no homepage Publish, popup/template publication or maintenance change."
+    "publication": "Native shared-class setting applied; no homepage Publish, popup/template publication or maintenance change.",
+    "native_button_replacement": {
+      "reason": "Owner continued to report centered Menu on phone. Replace div-block button inheriting .e-con width100% with intrinsically sized native e-button, avoiding reliance on a newly cached width override.",
+      "component_id": 5886,
+      "parent_id": "496fa604",
+      "removed_element_id": "1193db17",
+      "new_element_id": "344e021f",
+      "type": "e-button",
+      "settings": {
+        "tag": "button",
+        "link": {
+          "tag": "button"
+        },
+        "text": "Menu <span>☰</span>"
+      },
+      "classes": [
+        "rb-header__toggle"
+      ],
+      "styles": "No new local or global style declarations.",
+      "popup": "Existing Popup5996 open_selector .rb-header__toggle retained.",
+      "publication": "Shared Header component5886 promoted, existing Coming Soon remains active; anonymous root200/5858."
+    }
   },
   "current_visibility": {
     "authorization": "Owner explicitly clarified that Coming Soon must remain active while logged-in users must see the latest homepage at the normal root URL. This supersedes draft-only delivery for Home5894; it does not authorize an anonymous public launch.",
