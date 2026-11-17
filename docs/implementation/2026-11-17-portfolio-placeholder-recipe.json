@@ -321,5 +321,14 @@
     "native_patch": "@media(--mobile) { width: fit-content; flex: 0 0 auto; margin-inline-start: auto; }",
     "consumers": "Header5892/component5886 Menu; Popup5996 Close. Existing shared class updated, no new class or local duplicate.",
     "publication": "Native shared-class setting applied; no homepage Publish, popup/template publication or maintenance change."
+  },
+  "current_visibility": {
+    "authorization": "Owner explicitly clarified that Coming Soon must remain active while logged-in users must see the latest homepage at the normal root URL. This supersedes draft-only delivery for Home5894; it does not authorize an anonymous public launch.",
+    "home_status": "publish, staged V2 promoted through native Elementor Publish; subsequently resaved unchanged through supported tools.",
+    "logged_in_url": "https://robylo.com/",
+    "anonymous": "HTTP200 Coming Soon5858; no V2 portfolio text.",
+    "cache_fix": "Elementor cache cleared once after explicit approval, followed by SiteGround purge. Neither fixed stale Cloudflare edge CSS. Purged eight exact changed Home/Header CSS URLs in Cloudflare; one follow-up purge for the Header mobile CSS after removing an unneeded temporary local alignment override. No cache rule, TTL, security setting or maintenance setting changed.",
+    "header": "Original global-class mobile patch remains canonical. Temporary component5886/1193db17 mobile justify-content override was removed.",
+    "verification": "Actual logged-in root, not only a preview;390px Menu width76.6px, iconRight==buttonRight354.67px, five320px cards, no page overflow. Pointer/keyboard/disabled/rapid/touch cycles rerun on root."
   }
 }

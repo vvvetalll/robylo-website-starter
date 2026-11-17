@@ -1,0 +1,214 @@
+[
+  {
+    "label": "default",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "true",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "0.35",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      },
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      }
+    ]
+  },
+  {
+    "label": "hover",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "true",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "0.35",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      },
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgb(0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "focus": false,
+        "fv": false,
+        "hover": true,
+        "opacity": "1",
+        "outline": "rgb(255, 255, 255) none 2.66667px"
+      }
+    ]
+  },
+  {
+    "label": "down",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "true",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "0.35",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      },
+      {
+        "active": true,
+        "aria": "false",
+        "bg": "rgb(51, 51, 51)",
+        "color": "rgb(255, 255, 255)",
+        "focus": true,
+        "fv": false,
+        "hover": true,
+        "opacity": "1",
+        "outline": "rgb(255, 255, 255) none 2.66667px"
+      }
+    ]
+  },
+  {
+    "label": "release-leave",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      },
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": true,
+        "fv": false,
+        "hover": false,
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      }
+    ]
+  },
+  {
+    "label": "keyboard",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      },
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgb(0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "focus": true,
+        "fv": true,
+        "hover": false,
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) solid 2px"
+      }
+    ]
+  },
+  {
+    "label": "rapid-end",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      },
+      {
+        "active": false,
+        "aria": "true",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": true,
+        "fv": true,
+        "hover": true,
+        "opacity": "0.35",
+        "outline": "rgb(0, 0, 0) solid 2px"
+      }
+    ]
+  },
+  {
+    "label": "rapid-start",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "true",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": true,
+        "fv": false,
+        "hover": true,
+        "opacity": "0.35",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      },
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false,
+        "opacity": "1",
+        "outline": "rgb(0, 0, 0) none 2.66667px"
+      }
+    ]
+  },
+  {
+    "label": "touch-settled",
+    "buttons": [
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": false,
+        "fv": false,
+        "hover": false
+      },
+      {
+        "active": false,
+        "aria": "false",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "focus": true,
+        "fv": false,
+        "hover": true
+      }
+    ]
+  }
+]
