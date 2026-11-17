@@ -133,3 +133,8 @@ Export/import and dependency mapping still need a separately authorized native r
 ## Incremental update — section backgrounds, 2026-11-16
 
 Atomic Lab now includes three consecutive Light / Soft / Dark examples after its introduction, all referencing unchanged Base Section 5869. Added rb-section--soft and rb-section--dark (global class count now 28); Light uses the existing default. Existing rb-section gained accessible paragraph-link styles. No variables or typography values changed. See [exact changes, CSS exception, screenshots and checks](section-backgrounds-2026-11-16.md). The earlier snapshot above remains historical; the new marketing homepage is still unimplemented and visual approval of these variants is pending.
+
+
+## 2026-11-17 — Homepage V2 private review snapshot
+
+The older foundation snapshot above is historical. Actual Home 5894 now has a staged V2 autosave (not promoted); Header/Footer components 5886/5889 were updated in place and published behind Coming Soon. Four new reusable Atomic compositions: 6010 Section head, 6013 Service row, 6016 Project tile, 6019 Approach step. Native mobile-menu Popup 5996 is scoped only to Home with no automatic triggers. Kit adds rb-mute #8A8A8A and 13 scoped V2 classes; existing Manrope defaults, spacing tokens, 4px radius, Button 5864 and Glide remain. Full IDs, exact classes, persistence/rollback, screenshots and native-menu limitation: [implementation record](homepage-v2-implementation-2026-11-17.md). The accompanying recipe is site-ID-dependent documentation, not a portable Elementor export. Coming Soon, Atomic Lab and Styleguide element trees are unchanged.

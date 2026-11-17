@@ -1,0 +1,58 @@
+{
+  "note": "Fresh anonymous HTTP requests; no authenticated HTML retained.",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://robylo.com/",
+        "status": 200,
+        "finalUrl": "https://robylo.com/",
+        "comingSoon": {
+          "page5858": true,
+          "headline": true,
+          "v2Hero": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://chicagomounting.com/",
+        "status": 200,
+        "finalUrl": "https://chicagomounting.com/"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://gcprochicago.com/",
+        "status": 200,
+        "finalUrl": "https://gcprochicago.com/"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://kolo-properties.com/",
+        "status": 200,
+        "finalUrl": "https://kolo-properties.com/"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://glenviewsmiles.com/",
+        "status": 200,
+        "finalUrl": "https://glenviewsmiles.com/"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://elitemechanical.services/",
+        "status": 200,
+        "finalUrl": "https://elitemechanical.services/"
+      }
+    }
+  ]
+}

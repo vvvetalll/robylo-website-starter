@@ -1,0 +1,85 @@
+{
+  "note": "Measurements before final native gutter and equivalent-px tracking corrections; final desktop/mobile visually checked and recaptured afterward.",
+  "results": [
+    {
+      "brokenImages": [],
+      "client": 1425,
+      "contactColor": "rgb(214, 214, 214)",
+      "h1": "700 88px / 89.76px Manrope",
+      "h1Count": 1,
+      "h1tracking": "-3.52px",
+      "overflow": false,
+      "primaryWidth": 141.25,
+      "scroll": 1425,
+      "strip": {
+        "client": 1200,
+        "scroll": 1200
+      },
+      "width": 1440
+    },
+    {
+      "brokenImages": [],
+      "client": 1009,
+      "contactColor": "rgb(214, 214, 214)",
+      "h1": "700 64px / 66.56px Manrope",
+      "h1Count": 1,
+      "h1tracking": "-1.76px",
+      "overflow": false,
+      "primaryWidth": 141.25,
+      "scroll": 1009,
+      "strip": {
+        "client": 927,
+        "scroll": 927
+      },
+      "width": 1024
+    },
+    {
+      "brokenImages": [],
+      "client": 753,
+      "contactColor": "rgb(214, 214, 214)",
+      "h1": "700 64px / 66.56px Manrope",
+      "h1Count": 1,
+      "h1tracking": "-1.76px",
+      "overflow": false,
+      "primaryWidth": 141.25,
+      "scroll": 753,
+      "strip": {
+        "client": 691,
+        "scroll": 691
+      },
+      "width": 768
+    },
+    {
+      "brokenImages": [],
+      "client": 375,
+      "contactColor": "rgb(214, 214, 214)",
+      "h1": "700 44px / 46.64px Manrope",
+      "h1Count": 1,
+      "h1tracking": "-1.54px",
+      "overflow": false,
+      "primaryWidth": 334.66668701171875,
+      "scroll": 375,
+      "strip": {
+        "client": 355,
+        "scroll": 1208
+      },
+      "width": 390
+    },
+    {
+      "brokenImages": [],
+      "client": 305,
+      "contactColor": "rgb(214, 214, 214)",
+      "h1": "700 44px / 46.64px Manrope",
+      "h1Count": 1,
+      "h1tracking": "-1.54px",
+      "overflow": false,
+      "primaryWidth": 264.66668701171875,
+      "scroll": 305,
+      "strip": {
+        "client": 285,
+        "scroll": 1208
+      },
+      "width": 320
+    }
+  ]
+}

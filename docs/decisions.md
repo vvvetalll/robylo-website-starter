@@ -24,3 +24,10 @@ Use separate records for proposals, owner approvals, implemented changes and ver
 ## Incremental authorization — 2026-11-16
 
 The owner authorized building/testing Light (#FFFFFF), Soft (#F5F5F5) and Dark (#000000) Base Section variants in Atomic Lab and committing the results. [Implementation and evidence](section-backgrounds-2026-11-16.md). This is authorization to create the demonstration, **not visual approval of the result or authorization for other homepage components**. The two new modifiers and limited scoped descendant-CSS exception are documented for review. Typography, spacing, Header, Footer and Coming Soon remain unchanged.
+
+
+## 2026-11-17 — Homepage V2 implementation baseline
+
+**Approved by owner:** Claude's complete V2 visual direction in PR #8 at 37ef6a05bbf7b57c293792edbf36fc306d6ab861, including proposed typography refinements, muted gray and Header/Footer redesign. Approval source: explicit Homepage V2 implementation request. This supersedes the earlier proposed/unapproved status for that baseline; it is not launch approval.
+
+**Implemented for review:** staged Home 5894 V2, same Header/Footer components updated, native fullscreen Popup, four reusable compositions and genuine project captures. **Not yet approved:** actual implemented result and public launch. **Known limitation:** native anchor navigation does not close Popup automatically; no improvised JavaScript added. [Record](homepage-v2-implementation-2026-11-17.md). No existing PR was merged.
