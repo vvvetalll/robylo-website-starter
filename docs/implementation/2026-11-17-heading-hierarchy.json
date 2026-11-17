@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-17",
+  "status": "implemented; private preview; rendered verified",
+  "scope": "Homepage V2 section H2 and item H3 roles",
+  "newNativeGlobalClasses": [
+    {
+      "action": "create",
+      "label": "rb-section-title",
+      "css": "font-family:var(--rb-font);font-weight:700; @media(--mobile){font-size:36px;}"
+    },
+    {
+      "action": "create",
+      "label": "rb-item-title",
+      "css": "font-family:var(--rb-font);font-weight:600;font-size:26px; @media(--tablet){font-size:24px;} @media(--mobile){font-size:24px;}"
+    }
+  ],
+  "classIds": {
+    "section": "g-b881735",
+    "item": "g-11b543f"
+  },
+  "nativeClassBindings": [
+    {
+      "post_id": 6010,
+      "operations": [
+        {
+          "action": "update",
+          "element_id": "4c7cb36d",
+          "classes": [
+            "rb-section-title"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 6013,
+      "operations": [
+        {
+          "action": "update",
+          "element_id": "4e4f4619",
+          "classes": [
+            "rb-item-title"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 6019,
+      "operations": [
+        {
+          "action": "update",
+          "element_id": "7035b741",
+          "classes": [
+            "rb-item-title"
+          ]
+        }
+      ]
+    },
+    {
+      "post_id": 5894,
+      "operations": [
+        {
+          "action": "update",
+          "element_id": "398df07",
+          "classes": [
+            "rb-item-title"
+          ]
+        },
+        {
+          "action": "update",
+          "element_id": "8100744",
+          "classes": [
+            "rb-item-title"
+          ]
+        },
+        {
+          "action": "update",
+          "element_id": "c31d2f5",
+          "classes": [
+            "rb-item-title"
+          ]
+        },
+        {
+          "action": "update",
+          "element_id": "31f149a",
+          "classes": [
+            "rb-item-title"
+          ]
+        },
+        {
+          "action": "update",
+          "element_id": "c41db73",
+          "classes": [
+            "rb-item-title"
+          ]
+        }
+      ]
+    }
+  ],
+  "componentConsumersBefore": [
+    {
+      "post": 6040,
+      "element": "26e4f4c6",
+      "component": 6010
+    },
+    {
+      "post": 5894,
+      "element": "56ee3694",
+      "component": 6010
+    },
+    {
+      "post": 5894,
+      "element": "1ddb8d61",
+      "component": 6013
+    },
+    {
+      "post": 5894,
+      "element": "103b1686",
+      "component": 6013
+    },
+    {
+      "post": 5894,
+      "element": "5d1cb921",
+      "component": 6013
+    },
+    {
+      "post": 5894,
+      "element": "15c5fe44",
+      "component": 6013
+    },
+    {
+      "post": 5894,
+      "element": "10705dc",
+      "component": 6010
+    },
+    {
+      "post": 5894,
+      "element": "2d9754ca",
+      "component": 6010
+    },
+    {
+      "post": 5894,
+      "element": "7d6e70db",
+      "component": 6019
+    },
+    {
+      "post": 5894,
+      "element": "415e9d8",
+      "component": 6019
+    },
+    {
+      "post": 5894,
+      "element": "766cb141",
+      "component": 6019
+    }
+  ],
+  "componentReadbackDiffs": [
+    {
+      "component": 6010,
+      "changes": [
+        {
+          "id": "4c7cb36d",
+          "key": "settings",
+          "before": {
+            "classes": [
+              "g-de4c414",
+              "g-96b4fcf"
+            ],
+            "tag": "h2",
+            "title": {
+              "override_key": "heading",
+              "origin_value": {
+                "$$type": "escaped-html",
+                "value": "What we do.<span>Four services, one team.</span>"
+              }
+            }
+          },
+          "after": {
+            "classes": [
+              "g-b881735",
+              "g-de4c414",
+              "g-96b4fcf"
+            ],
+            "tag": "h2",
+            "title": {
+              "override_key": "heading",
+              "origin_value": {
+                "$$type": "escaped-html",
+                "value": "What we do.<span>Four services, one team.</span>"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "component": 6013,
+      "changes": [
+        {
+          "id": "4e4f4619",
+          "key": "settings",
+          "before": {
+            "classes": [
+              "g-de4c414",
+              "e-607e475c-2368"
+            ],
+            "tag": "h3",
+            "title": {
+              "override_key": "title",
+              "origin_value": {
+                "$$type": "escaped-html",
+                "value": "Website Design &amp; Development"
+              }
+            }
+          },
+          "after": {
+            "classes": [
+              "g-11b543f",
+              "g-de4c414",
+              "e-607e475c-2368"
+            ],
+            "tag": "h3",
+            "title": {
+              "override_key": "title",
+              "origin_value": {
+                "$$type": "escaped-html",
+                "value": "Website Design &amp; Development"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "component": 6019,
+      "changes": [
+        {
+          "id": "7035b741",
+          "key": "settings",
+          "before": {
+            "classes": [
+              "e-3b874c4b-fcb9"
+            ],
+            "tag": "h3",
+            "title": {
+              "override_key": "statement",
+              "origin_value": {
+                "$$type": "escaped-html",
+                "value": "Start with the business, not a template."
+              }
+            }
+          },
+          "after": {
+            "classes": [
+              "g-11b543f",
+              "e-3b874c4b-fcb9"
+            ],
+            "tag": "h3",
+            "title": {
+              "override_key": "statement",
+              "origin_value": {
+                "$$type": "escaped-html",
+                "value": "Start with the business, not a template."
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "home": "Five portfolio class bindings staged; published Home not promoted.",
+  "undo": [
+    {
+      "id": 6010,
+      "revision": 6072
+    },
+    {
+      "id": 6013,
+      "revision": 6069
+    },
+    {
+      "id": 6019,
+      "revision": 6075
+    },
+    {
+      "id": 5894,
+      "revision": 6077
+    }
+  ],
+  "noCustomCss": true,
+  "noNewVariables": true,
+  "noHomePublication": true
+}
