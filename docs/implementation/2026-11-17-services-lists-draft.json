@@ -1,0 +1,160 @@
+{
+  "status": "Saved draft/autosave only; no publish operation. Installation-specific reconstruction record, not a portable export.",
+  "component_update": {
+    "xml_structure": "<e-div-block configuration-id=\"service-row\"><e-heading configuration-id=\"title\"/><e-paragraph configuration-id=\"description\"/><e-list configuration-id=\"service-feature-list\"><e-list-item configuration-id=\"feature-item-1\"><e-list-item-marker configuration-id=\"feature-marker-1\"><e-divider configuration-id=\"feature-line-1\"/></e-list-item-marker><e-list-item-content configuration-id=\"feature-content-1\"><e-paragraph configuration-id=\"feature-text-1\"/></e-list-item-content></e-list-item><e-list-item configuration-id=\"feature-item-2\"><e-list-item-marker configuration-id=\"feature-marker-2\"><e-divider configuration-id=\"feature-line-2\"/></e-list-item-marker><e-list-item-content configuration-id=\"feature-content-2\"><e-paragraph configuration-id=\"feature-text-2\"/></e-list-item-content></e-list-item><e-list-item configuration-id=\"feature-item-3\"><e-list-item-marker configuration-id=\"feature-marker-3\"><e-divider configuration-id=\"feature-line-3\"/></e-list-item-marker><e-list-item-content configuration-id=\"feature-content-3\"><e-paragraph configuration-id=\"feature-text-3\"/></e-list-item-content></e-list-item></e-list></e-div-block>",
+    "element_config": {
+      "service-feature-list": {
+        "show_markers": true
+      },
+      "feature-text-1": {
+        "paragraph": "Design and copy structure"
+      },
+      "feature-text-2": {
+        "paragraph": "WordPress development"
+      },
+      "feature-text-3": {
+        "paragraph": "Care and updates"
+      },
+      "title": {
+        "title": "Website Design &amp; Development",
+        "tag": "h3"
+      },
+      "description": {
+        "paragraph": "Clear, fast websites that explain what you do and make it easy to call, book or buy."
+      }
+    },
+    "classes": {
+      "service-feature-list": [
+        "rb-grid-main"
+      ],
+      "feature-text-1": [
+        "rb-meta"
+      ],
+      "feature-text-2": [
+        "rb-meta"
+      ],
+      "feature-text-3": [
+        "rb-meta"
+      ],
+      "service-row": [
+        "rb-grid-12"
+      ],
+      "title": [
+        "rb-grid-main"
+      ],
+      "description": [
+        "rb-grid-aside"
+      ]
+    },
+    "style": {
+      "service-feature-list": "min-width: 0; padding: 0; margin: 12px 0 0; display: flex; flex-direction: row; flex-wrap: wrap; gap: var(--rb-space-1); grid-row: 2; @media(--tablet) { grid-column: 1 / span 7; } @media(--mobile) { margin-top: 14px; flex-direction: column; gap: var(--rb-space-1); order: 3; }",
+      "feature-item-1": "width: auto; max-width: 100%; min-width: 0; flex: 0 1 auto; align-items: flex-start; gap: var(--rb-space-1); font-size: 16px; line-height: 1.6; @media(--mobile) { width: 100%; } padding: 0; flex-wrap: nowrap;",
+      "feature-marker-1": "width: 12px; min-width: 12px; flex: 0 0 12px; align-items: center; padding: 0;",
+      "feature-line-1": "width: 12px; height: 1px; margin: 0; background-color: var(--rb-mute);",
+      "feature-content-1": "width: auto; min-width: 0; flex: 1 1 auto; padding: 0;",
+      "feature-text-1": "color: var(--rb-text);",
+      "feature-item-2": "width: auto; max-width: 100%; min-width: 0; flex: 0 1 auto; align-items: flex-start; gap: var(--rb-space-1); font-size: 16px; line-height: 1.6; @media(--mobile) { width: 100%; } padding: 0; flex-wrap: nowrap;",
+      "feature-marker-2": "width: 12px; min-width: 12px; flex: 0 0 12px; align-items: center; padding: 0;",
+      "feature-line-2": "width: 12px; height: 1px; margin: 0; background-color: var(--rb-mute);",
+      "feature-content-2": "width: auto; min-width: 0; flex: 1 1 auto; padding: 0;",
+      "feature-text-2": "color: var(--rb-text);",
+      "feature-item-3": "width: auto; max-width: 100%; min-width: 0; flex: 0 1 auto; align-items: flex-start; gap: var(--rb-space-1); font-size: 16px; line-height: 1.6; @media(--mobile) { width: 100%; } padding: 0; flex-wrap: nowrap;",
+      "feature-marker-3": "width: 12px; min-width: 12px; flex: 0 0 12px; align-items: center; padding: 0;",
+      "feature-line-3": "width: 12px; height: 1px; margin: 0; background-color: var(--rb-mute);",
+      "feature-content-3": "width: auto; min-width: 0; flex: 1 1 auto; padding: 0;",
+      "feature-text-3": "color: var(--rb-text);",
+      "service-row": "min-width: 0px; padding-block-start: 40px; padding-block-end: 40px; padding-inline-start: 0px; padding-inline-end: 0px; grid-template-rows: auto 1fr; align-items:baseline;\n@media(--mobile) { padding-block-start: 28px; padding-block-end: 28px; padding-inline-start: 0px; padding-inline-end: 0px; display: flex; flex-direction: column; align-items: stretch; }",
+      "title": "grid-row: 1;\n@media(--tablet) { grid-column: 1 / span 7; }\n@media(--mobile) { order: 1; }",
+      "description": "grid-row: 1 / span 2;\n@media(--tablet) { margin-block-start: 0px; grid-column: 8 / span 5; }\n@media(--mobile) { margin-block-start: 10px; order: 2; }"
+    },
+    "action": "update",
+    "component_id": 6013,
+    "publish_status": "draft",
+    "overridable_props": {
+      "title": {
+        "target": "title",
+        "prop_key": "title",
+        "label": "Service title",
+        "group": "Service"
+      },
+      "description": {
+        "target": "description",
+        "prop_key": "paragraph",
+        "label": "Description",
+        "group": "Service"
+      },
+      "scope_1": {
+        "target": "feature-text-1",
+        "prop_key": "paragraph",
+        "label": "Scope 1",
+        "group": "Service"
+      },
+      "scope_2": {
+        "target": "feature-text-2",
+        "prop_key": "paragraph",
+        "label": "Scope 2",
+        "group": "Service"
+      },
+      "scope_3": {
+        "target": "feature-text-3",
+        "prop_key": "paragraph",
+        "label": "Scope 3",
+        "group": "Service"
+      }
+    }
+  },
+  "home_draft_overrides": {
+    "post_id": 5894,
+    "operations": [
+      {
+        "action": "update",
+        "element_id": "1ddb8d61",
+        "settings": {
+          "overrides": {
+            "scope_1": "Design and copy structure",
+            "scope_2": "WordPress development",
+            "scope_3": "Care and updates"
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "103b1686",
+        "settings": {
+          "overrides": {
+            "scope_1": "Google Business Profile",
+            "scope_2": "Service and location pages",
+            "scope_3": "Technical SEO"
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "5d1cb921",
+        "settings": {
+          "overrides": {
+            "scope_1": "Google Ads",
+            "scope_2": "Landing pages",
+            "scope_3": "Call and form tracking"
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "15c5fe44",
+        "settings": {
+          "overrides": {
+            "scope_1": "AI assistants",
+            "scope_2": "Workflow automation",
+            "scope_3": "Connecting the tools you use"
+          }
+        }
+      }
+    ]
+  },
+  "review_urls": {
+    "home": "https://robylo.com/wp-admin/post.php?post=5894&action=elementor",
+    "component": "https://robylo.com/wp-admin/post.php?post=6013&action=elementor"
+  },
+  "safety": "Native preview resolves staged6013 and shows4 lists/12 items. Normal authenticated root still has0 native lists in Services. Both component6013 and Home5894 need separate owner-approved promotion later."
+}
