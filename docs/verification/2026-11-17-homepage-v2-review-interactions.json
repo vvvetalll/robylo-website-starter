@@ -1,0 +1,28 @@
+{
+  "skipLink": {
+    "target": "main#content",
+    "tabindex": -1,
+    "keyboardEnterFocus": "MAIN#content"
+  },
+  "glide": {
+    "heroOnly": true,
+    "hoverBackground": "#333333",
+    "normalTransition": "0.35s",
+    "reducedMotionTransition": "0s"
+  },
+  "menu": {
+    "keyboardEnterOpened": true,
+    "escapeClosed": true,
+    "focusAfterClose": "Not independently sampled after the close transition; baseline PR9 reported Menu focus return.",
+    "anchorAutoClose": "Known baseline limitation; not changed"
+  },
+  "navigation": {
+    "workAnchorFinalTop": 46,
+    "missingInternalAnchors": []
+  },
+  "contact": {
+    "link": "mailto:info@robylo.com",
+    "inverseStyleRetained": true
+  },
+  "status": "Saved Draft; not published; anonymous public Coming Soon checked separately"
+}

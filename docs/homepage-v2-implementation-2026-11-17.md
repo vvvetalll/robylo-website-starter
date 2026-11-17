@@ -23,7 +23,7 @@ Existing Header 5892 / Footer 5893 still reference the same components 5886 / 58
 
 ### Existing foundation reused
 Kit 5744; Manrope 400/500/600/700; rb-ink, rb-paper, rb-text, rb-surface, rb-line, rb-hover; all spacing/container/radius tokens; l-container; rb-section and Light/Soft/Dark modifiers; existing button classes rb-btn, rb-btn--primary, rb-btn--outline, rb-btn--text, rb-btn--sm, rb-btn--inverse and rb-btn--glide.
-Primary Button 5864 is reused throughout, with Glide only on the Hero and Contact primary actions. Its definition, existing hover/focus behavior and animation CSS were not changed. Base Section 5869 and Heading+Text 5877 were preserved; the V2 12-column composition requires a different internal structure, so no duplicate Base Section was created.
+Primary Button 5864 is reused throughout, with Glide only on the Hero primary action after the follow-up below (the original V2 baseline also opted Contact in). Its definition, existing hover/focus behavior and animation CSS were not changed. Base Section 5869 and Heading+Text 5877 were preserved; the V2 12-column composition requires a different internal structure, so no duplicate Base Section was created.
 
 ### Variables and global classes
 Only new variable: **rb-mute #8A8A8A**, ID e-gv-799fb6d. All prior 20 variable values remain unchanged. It is used for large muted heading lines and small text on black; never for small gray body text on white.
@@ -95,3 +95,25 @@ Public anonymous root returns HTTP 200, contains Coming Soon page 5858 and its h
 ## Persistence, portability and rollback
 The actual page autosave, component definitions, active kit/defaults, Popup display settings, media IDs and Header/Footer assignment remain WordPress-database state. GitHub stores documentation, screenshots and a sanitized implementation recipe; merging this PR does not deploy Elementor changes. No official portable Elementor kit/template export was produced. The recipe is an audit/reconstruction aid tied to these IDs, not a one-click import.
 Home pre-V2 undo revision: 6027; it stages restoration through manage-revisions. Header pre-task undo 6025; Footer pre-task undo 5942. Verify revision existence before any rollback, then promote only the intended restored document/component. Do not roll back unrelated owner edits.
+
+## Owner-selected V2 continuation — 2026-11-17
+
+Collaborator: ChatGPT/Codex. The new supplied brief initially named V1; after discovering open PRs7/9, the owner explicitly chose **continue newer V2**. This follow-up starts at PR9 head `f88e017e6a7a29c75a285b31a7a25e537c713e2f` and targets its implementation branch. No PR was merged and no new homepage was built over the existing draft.
+
+**Implemented and saved privately:** removed only `rb-btn--glide` from Contact wrapper `3ef2d05`, keeping its existing inverse button styling and email link. Hero wrapper `62a35210` is now the sole homepage Glide opt-in, matching the current brief. Main `1117679b` gained native General → ID `content` and attribute `tabindex=-1`, repairing Hello Elementor's existing Skip to content link. Keyboard Enter now sets both the fragment and focus to `MAIN#content`. Native **Save Draft** was used; no Publish, shared component/class/token/theme/Popup change or new CSS/JavaScript/dependency.
+
+**Connector limitation:** in this session get-page-structure5894 exposed published V1, while the actual native editor and authenticated Preview Changes showed staged V2. The connector's narrower read could not find V2 wrapper3ef2d05. No MCP tree write was attempted; the two edits were made through native UI to preserve the current draft. Do not overwrite V2 from a V1 read.
+
+**Fresh checks:** all requested1440/1024/768/390/320px viewports have one H1, loaded Manrope weights400/500/600/700, no horizontal page overflow and no missing visible images; main actions are at least48px high. Existing88/64/44px display sizing/tracking was verified. The final full-page desktop/mobile captures were visually reviewed, including the image crops, section transitions, dark inverse CTA and footer. The native content ID/tabindex was added after the layout matrix and does not change layout.
+
+Hero hover renders#333333 and0.35s label transition; reduced-motion emulation produces0s. Visible keyboard focus was verified. Real Work link activation settled at the work section below the46px authenticated mobile admin bar. Menu Enter opening and Escape closing passed; focus return to Menu was not independently sampled after the closing transition in this pass. Physical-device/touch and screen-reader certification remain untested. The inherited Popup anchor auto-close limitation is unchanged. No new motion recording was produced.
+
+Anonymous root returned200 with Coming Soon5858 and no V2 headline; all five real project URLs returned200 without destination changes. These were targeted checks, not an SEO/performance or sitewide regression audit. Header/Footer, Atomic Lab, Styleguide and Coming Soon were not edited in this follow-up. Existing client-image binaries were reused.
+
+Evidence (admin toolbar excluded from captures; the existing admin-only assistant bubble remains visible):
+- [Full desktop1440](verification/2026-11-17-homepage-v2-review-desktop-1440.jpg)
+- [Full mobile390](verification/2026-11-17-homepage-v2-review-mobile-390.jpg)
+- [Hero first screen](verification/2026-11-17-homepage-v2-review-hero-1440.jpg)
+- [Responsive measurements](verification/2026-11-17-homepage-v2-review-responsive.json), [interaction checks](verification/2026-11-17-homepage-v2-review-interactions.json), [anonymous HTTP checks](verification/2026-11-17-homepage-v2-review-http.json)
+
+The updated reconstruction recipe records only these follow-up deltas; it remains an installation-specific audit aid, not a portable native export. WordPress draft persistence was verified through a fresh authenticated preview. GitHub review does not deploy the draft. Public launch and actual design acceptance remain pending owner approval.
