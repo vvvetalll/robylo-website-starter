@@ -97,3 +97,5 @@ Owner clarified stacked phone portfolio cards. Disabled SiteGround's Remove Quer
 ## 2026-11-17 — Services editorial lists, draft only
 
 Owner's Services-only refinement implemented as drafts in existing component6013 and four existing Home5894 instance overrides. Native List/Item/Marker/Content/Divider,12×1px muted lines,20px hanging indent; existing classes/tokens reused, no new custom CSS/JS/component/icon asset.1440/768/390/320 checks passed; desktop heading/description text and horizontal typography geometry match baseline; narrow wrapping verified. Preview has4 lists/12 items while ordinary root remains unchanged. [Exact scope, status, recipe, screenshots and limitations](services-lists-draft-2026-11-17.md). Owner approval pending; no publication or merge.
+
+Subsequent owner approval «роби»: promoted6013 and5894. Ordinary logged-in root390px now verifies4 lists/12 items and12×1px lines without overflow; anonymous root200 still shows Coming Soon5858. [Applied state and evidence](services-lists-draft-2026-11-17.md#approved-application). No PR merge or unrelated change.

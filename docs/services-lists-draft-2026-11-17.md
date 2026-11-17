@@ -1,6 +1,6 @@
-# Services editorial lists — draft,2026-11-17
+# Services editorial lists — preparation and approved application,2026-11-17
 
-ChatGPT/Codex. Owner authorized refining only the three feature items in each of the four Services rows. The later design correction supersedes the initial icon request: short gray lines, no icon library/SVG/emoji. **Implemented as saved drafts; specified checks verified; owner visual approval pending. Nothing published.**
+ChatGPT/Codex. Owner authorized refining only the three feature items in each of the four Services rows. The later design correction supersedes the initial icon request: short gray lines, no icon library/SVG/emoji. Initially delivered as saved drafts. **Owner subsequently approved application with «роби»; component6013 and Home5894 drafts were promoted. Logged-in root now shows the approved lists; anonymous Coming Soon remains active.**
 
 ## Native implementation and scope
 
@@ -24,4 +24,8 @@ Existing copy fits at the four required widths. An additional targeted240px wrap
 
 Evidence: [responsive measurements and baseline](verification/2026-11-17-services-list-responsive.json), [wrapping stress check](verification/2026-11-17-services-list-wrap-check.json), [desktop1440—all four Services](verification/2026-11-17-services-lists-desktop-1440.jpg), [mobile390—first two rows for comparison](verification/2026-11-17-services-lists-mobile-390.jpg). Captures were visually reviewed and exclude admin toolbar/personal details. These are static lists; no interactive component changed, so unrelated menu/carousel interaction cycles were not rerun. Limits: browser emulation only, no physical-device or screen-reader certification and no whole-site regression audit.
 
-Review: [Home5894 editor](https://robylo.com/wp-admin/post.php?post=5894&action=elementor), [Service row6013 editor](https://robylo.com/wp-admin/post.php?post=6013&action=elementor). Use Preview Changes while logged in; the ordinary homepage intentionally remains unchanged. Branch refine/services-lists-2026-11-17 stacks on PR11. No merge or publication.
+Review: [Home5894 editor](https://robylo.com/wp-admin/post.php?post=5894&action=elementor), [Service row6013 editor](https://robylo.com/wp-admin/post.php?post=6013&action=elementor). Branch refine/services-lists-2026-11-17 stacks on PR11. No PR was merged.
+
+## Approved application
+
+After the owner's «роби», published the pending component6013 and Home5894 revisions through supported Elementor tools. No additional design change. Ordinary authenticated root verified at390px:4 lists,12 items,12 gray12×1px lines, zero SVGs, no page horizontal overflow and preserved copy. [Applied-state measurements](verification/2026-11-17-services-lists-applied.json), [actual root mobile capture](verification/2026-11-17-services-lists-applied-mobile.jpg). The capture includes the existing admin-only SiteGround assistant bubble. Anonymous root with browser User-Agent returns200 and Coming Soon5858. Earlier four-width checks apply to this same promoted composition; no unrelated interaction/regression checks were repeated.

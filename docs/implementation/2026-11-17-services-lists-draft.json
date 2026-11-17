@@ -1,5 +1,5 @@
 {
-  "status": "Saved draft/autosave only; no publish operation. Installation-specific reconstruction record, not a portable export.",
+  "status": "Owner subsequently approved application with «роби». Component6013 and Home5894 pending drafts promoted on2026-11-17; Coming Soon remains active. Original payloads below retain draft preparation settings for reconstruction.",
   "component_update": {
     "xml_structure": "<e-div-block configuration-id=\"service-row\"><e-heading configuration-id=\"title\"/><e-paragraph configuration-id=\"description\"/><e-list configuration-id=\"service-feature-list\"><e-list-item configuration-id=\"feature-item-1\"><e-list-item-marker configuration-id=\"feature-marker-1\"><e-divider configuration-id=\"feature-line-1\"/></e-list-item-marker><e-list-item-content configuration-id=\"feature-content-1\"><e-paragraph configuration-id=\"feature-text-1\"/></e-list-item-content></e-list-item><e-list-item configuration-id=\"feature-item-2\"><e-list-item-marker configuration-id=\"feature-marker-2\"><e-divider configuration-id=\"feature-line-2\"/></e-list-item-marker><e-list-item-content configuration-id=\"feature-content-2\"><e-paragraph configuration-id=\"feature-text-2\"/></e-list-item-content></e-list-item><e-list-item configuration-id=\"feature-item-3\"><e-list-item-marker configuration-id=\"feature-marker-3\"><e-divider configuration-id=\"feature-line-3\"/></e-list-item-marker><e-list-item-content configuration-id=\"feature-content-3\"><e-paragraph configuration-id=\"feature-text-3\"/></e-list-item-content></e-list-item></e-list></e-div-block>",
     "element_config": {
@@ -156,5 +156,5 @@
     "home": "https://robylo.com/wp-admin/post.php?post=5894&action=elementor",
     "component": "https://robylo.com/wp-admin/post.php?post=6013&action=elementor"
   },
-  "safety": "Native preview resolves staged6013 and shows4 lists/12 items. Normal authenticated root still has0 native lists in Services. Both component6013 and Home5894 need separate owner-approved promotion later."
+  "safety": "Draft preparation showed4 lists in preview and0 on ordinary root. After explicit owner approval, ordinary logged-in root now shows4 lists/12 items; anonymous root200 remains Coming Soon5858."
 }
