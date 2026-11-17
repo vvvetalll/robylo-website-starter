@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://robylo.com/",
+    "status": 200,
+    "final_url": "https://robylo.com/",
+    "coming_soon_5858": true,
+    "v2_heading_public": false
+  },
+  {
+    "url": "https://chicagomounting.com/",
+    "status": 200,
+    "final_url": "https://chicagomounting.com/"
+  },
+  {
+    "url": "https://gcprochicago.com/",
+    "status": 200,
+    "final_url": "https://gcprochicago.com/"
+  },
+  {
+    "url": "https://kolo-properties.com/",
+    "status": 200,
+    "final_url": "https://kolo-properties.com/"
+  },
+  {
+    "url": "https://glenviewsmiles.com/",
+    "status": 200,
+    "final_url": "https://glenviewsmiles.com/"
+  },
+  {
+    "url": "https://elitemechanical.services/",
+    "status": 200,
+    "final_url": "https://elitemechanical.services/"
+  }
+]

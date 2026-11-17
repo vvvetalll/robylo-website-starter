@@ -32,3 +32,7 @@ Confirmed for the repository: the theme declares Hello Elementor as its parent a
 5. Validate transfer on a fresh target before treating the configuration as reusable. Check dependencies and references after import, not just export success.
 
 No staging capabilities are marked passed yet. Future evidence should include the date, relevant versions, operation tested, result, and any limitations. Do not mark upstream-documented features as staging-tested without performing those checks.
+
+## Staged-versus-published read caution — 2026-11-17
+
+During the owner-selected V2 continuation, get-page-structure5894 returned the published V1 tree, whereas native Elementor and Preview Changes displayed staged V2; a known V2 wrapper lookup returned not found. Treat that discrepancy as a write blocker for this tree, not evidence the draft is missing. This follow-up used native General/Classes controls and Save Draft without publication. Confirm the actual desired document tree before a future MCP mutation. [Exact changes and evidence](homepage-v2-implementation-2026-11-17.md#owner-selected-v2-continuation--2026-11-17).

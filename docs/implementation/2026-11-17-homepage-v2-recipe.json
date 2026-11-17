@@ -644,9 +644,6 @@
         "rb-grid-aside",
         "rb-hero__subtitle"
       ],
-      "contact-primary-wrap": [
-        "rb-btn--glide"
-      ],
       "contact-email-wrap": [
         "rb-btn--text"
       ],
@@ -1845,5 +1842,21 @@
         "label": "rb-service-scope"
       }
     ]
+  },
+  "native_ui_followup_2026_11_17": {
+    "scope": "Owner selected continuation of V2 from the supplied brief; preserve existing composition and private draft.",
+    "main_element": "1117679b",
+    "main_native_id": "content",
+    "main_native_attributes": [
+      {
+        "name": "tabindex",
+        "value": "-1"
+      }
+    ],
+    "contact_wrapper_element": "3ef2d05",
+    "contact_change": "Remove only rb-btn--glide from this wrapper; preserve local style and nested Primary Button5864.",
+    "hero_glide_wrapper": "62a35210",
+    "save_method": "Elementor Save Options > Save Draft; no Publish",
+    "connector_caution": "Current get-page-structure on5894 returned published V1 while native editor/Preview Changes showed staged V2. Edits used native UI; do not replay this recipe or mutate the published V1 tree to update V2."
   }
 }

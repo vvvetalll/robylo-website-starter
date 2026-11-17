@@ -1,0 +1,138 @@
+{
+  "note": "Authenticated V2 final layout. Matrix collected after Contact Glide removal; subsequent ID/tabindex update does not change layout.",
+  "checks": [
+    {
+      "width": 1440,
+      "client": 1425,
+      "scroll": 1425,
+      "height": 5497,
+      "h1count": 1,
+      "h1font": "700 88px / 89.76px Manrope",
+      "h1tracking": "-3.52px",
+      "fonts": true,
+      "glides": [
+        "Let's talk"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "minMainActionHeight": 48,
+      "missingAnchorsBeforeNativeIdFix": [
+        "#content"
+      ]
+    },
+    {
+      "width": 1024,
+      "client": 1009,
+      "scroll": 1009,
+      "height": 5626,
+      "h1count": 1,
+      "h1font": "700 64px / 66.56px Manrope",
+      "h1tracking": "-2.56px",
+      "fonts": true,
+      "glides": [
+        "Let's talk"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "minMainActionHeight": 48,
+      "missingAnchorsBeforeNativeIdFix": [
+        "#content"
+      ]
+    },
+    {
+      "width": 768,
+      "client": 753,
+      "scroll": 753,
+      "height": 5784,
+      "h1count": 1,
+      "h1font": "700 64px / 66.56px Manrope",
+      "h1tracking": "-2.56px",
+      "fonts": true,
+      "glides": [
+        "Let's talk"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "minMainActionHeight": 48,
+      "missingAnchorsBeforeNativeIdFix": [
+        "#content"
+      ]
+    },
+    {
+      "width": 390,
+      "client": 375,
+      "scroll": 375,
+      "height": 6992,
+      "h1count": 1,
+      "h1font": "700 44px / 46.64px Manrope",
+      "h1tracking": "-1.54px",
+      "fonts": true,
+      "glides": [
+        "Let's talk"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "minMainActionHeight": 48,
+      "missingAnchorsBeforeNativeIdFix": [
+        "#content"
+      ]
+    },
+    {
+      "width": 320,
+      "client": 305,
+      "scroll": 305,
+      "height": 7461,
+      "h1count": 1,
+      "h1font": "700 44px / 46.64px Manrope",
+      "h1tracking": "-1.54px",
+      "fonts": true,
+      "glides": [
+        "Let's talk"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "minMainActionHeight": 48,
+      "missingAnchorsBeforeNativeIdFix": [
+        "#content"
+      ]
+    }
+  ],
+  "mainActionLinks": [
+    {
+      "text": "Let's talk",
+      "link": "#contact"
+    },
+    {
+      "text": "See our work",
+      "link": "#work"
+    },
+    {
+      "text": "chicagomounting.com \u2197",
+      "link": "https://chicagomounting.com/"
+    },
+    {
+      "text": "gcprochicago.com \u2197",
+      "link": "https://gcprochicago.com/"
+    },
+    {
+      "text": "kolo-properties.com \u2197",
+      "link": "https://kolo-properties.com/"
+    },
+    {
+      "text": "glenviewsmiles.com \u2197",
+      "link": "https://glenviewsmiles.com/"
+    },
+    {
+      "text": "elitemechanical.services \u2197",
+      "link": "https://elitemechanical.services/"
+    },
+    {
+      "text": "Start a conversation",
+      "link": "mailto:info@robylo.com"
+    },
+    {
+      "text": "info@robylo.com",
+      "link": "mailto:info@robylo.com"
+    }
+  ]
+}
