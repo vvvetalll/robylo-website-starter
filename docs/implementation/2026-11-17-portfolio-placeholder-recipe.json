@@ -313,5 +313,13 @@
       "css": "&:focus { color: var(--rb-ink); background-color: transparent; } &:hover { color: var(--rb-paper); background-color: var(--rb-ink); } &:active { color: var(--rb-paper); background-color: var(--rb-hover); } &[aria-disabled=true] { color: var(--rb-ink); background-color: transparent; opacity: 0.35; cursor: not-allowed; } &:hover:not(:focus-visible):not(:active) { @media (hover: none) { color: var(--rb-ink); background-color: transparent; } }",
       "reason": "Native arrow hover/focus specificity and sticky touch hover; scoped to the two carousel controls only. Reuses rb-btn, rb-btn--outline and rb-btn--sm."
     }
+  },
+  "mobile_header_followup": {
+    "authorization": "Owner explicitly reported misplaced mobile Menu and requested correction. This extends the earlier Selected Work-only scope to this specific header control.",
+    "class_id": "g-ca8e57d",
+    "class_label": "rb-header__toggle",
+    "native_patch": "@media(--mobile) { width: fit-content; flex: 0 0 auto; margin-inline-start: auto; }",
+    "consumers": "Header5892/component5886 Menu; Popup5996 Close. Existing shared class updated, no new class or local duplicate.",
+    "publication": "Native shared-class setting applied; no homepage Publish, popup/template publication or maintenance change."
   }
 }

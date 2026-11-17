@@ -1,0 +1,74 @@
+{
+  "measurements": [
+    {
+      "carouselArrows": [
+        {
+          "ariaDisabled": "true",
+          "display": "flex",
+          "width": 48
+        },
+        {
+          "ariaDisabled": "false",
+          "display": "flex",
+          "width": 48
+        }
+      ],
+      "containerRight": 284.66668701171875,
+      "menuDisplay": "flex",
+      "menuRight": 284.6666717529297,
+      "menuWidth": 76.59375,
+      "overflow": 0,
+      "width": 320
+    },
+    {
+      "carouselArrows": [
+        {
+          "ariaDisabled": "true",
+          "display": "flex",
+          "width": 48
+        },
+        {
+          "ariaDisabled": "false",
+          "display": "flex",
+          "width": 48
+        }
+      ],
+      "containerRight": 354.66668701171875,
+      "menuDisplay": "flex",
+      "menuRight": 354.66668701171875,
+      "menuWidth": 76.59375,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "carouselArrows": [
+        {
+          "ariaDisabled": "true",
+          "display": "flex",
+          "width": 48
+        },
+        {
+          "ariaDisabled": "false",
+          "display": "flex",
+          "width": 48
+        }
+      ],
+      "containerRight": 1312.3333358764648,
+      "menuDisplay": "none",
+      "menuRight": 0,
+      "menuWidth": 0,
+      "overflow": 0,
+      "width": 1440
+    }
+  ],
+  "interaction_results": {
+    "environment": "Chrome390px emulation; pointer and touch tested separately.",
+    "pointer": "Hover black/transparent; press active=true; release and leave active=false/hover=false, same colors; native Popup opens.",
+    "keyboard": "Menu Enter and Space open Popup5996. Escape closes and returns focus to Menu; focus-visible=true with black2px outline.",
+    "close_consumer": "Close link shares rb-header__toggle; checked right edge370 at390px in a touch/mobile viewport and 48px height.",
+    "rapid": "Six rapid presses/releases; at most one visible popup. After settling, popup closed; a subsequent touch tap reopened successfully.",
+    "touch": "Tap/release opens; Close returns to page.",
+    "disabled": "Not applicable: Menu/Close have no disabled state.",
+    "limits": "Emulated browser only. Menu only exists at mobile breakpoint; desktop check confirms it remains hidden. Native popup animation must settle between separate open/close checks; inherited anchor auto-close limitation is unchanged."
+  }
+}

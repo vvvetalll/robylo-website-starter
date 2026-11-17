@@ -63,3 +63,13 @@ Chrome desktop1440×900 and mobile390×1100 (the taller mobile viewport keeps th
 Sanitized visual evidence: [desktop controls after pointer click and leave](verification/2026-11-17-carousel-states-desktop.jpg), [mobile layout and controls](verification/2026-11-17-carousel-states-mobile.jpg). Computed state records are the evidence for transient focus/active states; still captures are layout/context evidence. No admin toolbar or personal data is included.
 
 The previous complete-end-stop verification gap is resolved for the controls. Limits remain: browser emulation rather than physical devices, no Safari/Firefox or screen-reader certification, no horizontal-wheel or reduced-motion certification. This follow-up tested the affected carousel only. The owner-required complete interaction cycle is now recorded in AGENTS.md for future interactive changes.
+
+## Mobile Menu alignment — owner correction 2026-11-17
+
+Owner explicitly requested fixing the misplaced mobile Menu. Its native div-block button occupied238px of remaining header width at390px and centered its76.6px contents, putting the label/icon far from the right gutter. Updated existing Global Class rb-header__toggle/g-ca8e57d at the mobile breakpoint only: width:fit-content; flex:0 0 auto; margin-inline-start:auto. No new class, script, component, local CSS duplicate, homepage Publish or maintenance operation.
+
+Menu now occupies76.6px and ends exactly at the existing container's right edge at320/390px; no page overflow. Desktop1440 keeps the toggle hidden. The actual shared consumer, Popup5996's Close link, was inspected and remains right-aligned with48px height. Pointer hover/press/release/leave, Enter/Space opening, Escape closing with focus return and2px outline, touch tap/release and six rapid presses were exercised. Rapid presses produced no duplicate popup; a subsequent tap reopened normally. Disabled transitions are not applicable to Menu/Close. Native open/close animations are allowed to settle between distinct checks; existing anchor auto-close limitation remains.
+
+The carousel's two48px arrows are present and display:flex at320 and390px, below the cards. No images were added: gray placeholders remain per the owner's earlier explicit instruction. The owner's unclear mobile-visibility phrase was sent for clarification; no speculative gallery redesign was made.
+
+[Mobile header screenshot](verification/2026-11-17-mobile-header-right-alignment.jpg), [measurements and interaction record](verification/2026-11-17-mobile-header-alignment.json). Browser emulation only; no whole-site audit. The recipe records the exact shared-class patch and its two actual consumers.
