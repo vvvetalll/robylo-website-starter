@@ -36,3 +36,5 @@ No staging capabilities are marked passed yet. Future evidence should include th
 ## Staged-versus-published read caution — 2026-11-17
 
 During the owner-selected V2 continuation, get-page-structure5894 returned the published V1 tree, whereas native Elementor and Preview Changes displayed staged V2; a known V2 wrapper lookup returned not found. Treat that discrepancy as a write blocker for this tree, not evidence the draft is missing. This follow-up used native General/Classes controls and Save Draft without publication. Confirm the actual desired document tree before a future MCP mutation. [Exact changes and evidence](homepage-v2-implementation-2026-11-17.md#owner-selected-v2-continuation--2026-11-17).
+
+The subsequent [horizontal portfolio prototype](horizontal-portfolio-prototype-2026-11-17.md) used draft6040 as a native authoring bridge, then Copy/Paste into staged5894. Native carousel fractional slides_per_view values were truncated; responsive full flex values preserved the intended card widths. A flex-shrink-only patch reset basis to auto. Keep these installation findings in mind when changing native carousel layouts.

@@ -1,0 +1,52 @@
+[
+  {
+    "cardWidth": 480,
+    "cardX": 112.33333587646484,
+    "client": 1425,
+    "headingX": 112.33333587646484,
+    "overflow": 0,
+    "placeholderHeight": 300,
+    "viewportRight": 1424.6667098999023,
+    "width": 1440
+  },
+  {
+    "cardWidth": 400,
+    "cardX": 40.95833587646485,
+    "client": 1009,
+    "headingX": 40.95833587646485,
+    "overflow": 0,
+    "placeholderHeight": 250,
+    "viewportRight": 1008.6667098999023,
+    "width": 1024
+  },
+  {
+    "cardWidth": 400,
+    "cardX": 30.71875,
+    "client": 753,
+    "headingX": 30.71875,
+    "overflow": 0,
+    "placeholderHeight": 250,
+    "viewportRight": 752.6666870117188,
+    "width": 768
+  },
+  {
+    "cardWidth": 320,
+    "cardX": 20,
+    "client": 375,
+    "headingX": 20,
+    "overflow": 0,
+    "placeholderHeight": 200,
+    "viewportRight": 374.6666870117187,
+    "width": 390
+  },
+  {
+    "cardWidth": 256,
+    "cardX": 20,
+    "client": 305,
+    "headingX": 20,
+    "overflow": 0,
+    "placeholderHeight": 160,
+    "viewportRight": 304.66668701171875,
+    "width": 320
+  }
+]

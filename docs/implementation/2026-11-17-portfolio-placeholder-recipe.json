@@ -1,0 +1,305 @@
+{
+  "purpose": "Installation-specific native composition; authoring draft 6040, transplanted using native Copy/Paste into staged Home5894. Not a portable Elementor export or a deployment script.",
+  "payload": {
+    "post_id": 6040,
+    "xml_structure": "<e-div-block configuration-id=\"Selected Work horizontal prototype\"><e-div-block configuration-id=\"Work heading alignment\"><e-component configuration-id=\"Existing Selected Work heading\"/></e-div-block><e-carousel configuration-id=\"Five project portfolio\"><e-carousel-viewport configuration-id=\"Portfolio viewport\"><e-carousel-container configuration-id=\"Portfolio horizontal track\"><e-carousel-slide configuration-id=\"chicago project card\"><e-div-block configuration-id=\"chicago neutral placeholder\"><e-paragraph configuration-id=\"chicago placeholder name\"/></e-div-block><e-div-block configuration-id=\"chicago project caption\"><e-heading configuration-id=\"chicago project title\"/><e-paragraph configuration-id=\"chicago project category\"/><e-div-block configuration-id=\"chicago project website\"><e-component configuration-id=\"chicago external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"gcpro project card\"><e-div-block configuration-id=\"gcpro neutral placeholder\"><e-paragraph configuration-id=\"gcpro placeholder name\"/></e-div-block><e-div-block configuration-id=\"gcpro project caption\"><e-heading configuration-id=\"gcpro project title\"/><e-paragraph configuration-id=\"gcpro project category\"/><e-div-block configuration-id=\"gcpro project website\"><e-component configuration-id=\"gcpro external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"kolo project card\"><e-div-block configuration-id=\"kolo neutral placeholder\"><e-paragraph configuration-id=\"kolo placeholder name\"/></e-div-block><e-div-block configuration-id=\"kolo project caption\"><e-heading configuration-id=\"kolo project title\"/><e-paragraph configuration-id=\"kolo project category\"/><e-div-block configuration-id=\"kolo project website\"><e-component configuration-id=\"kolo external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"dental project card\"><e-div-block configuration-id=\"dental neutral placeholder\"><e-paragraph configuration-id=\"dental placeholder name\"/></e-div-block><e-div-block configuration-id=\"dental project caption\"><e-heading configuration-id=\"dental project title\"/><e-paragraph configuration-id=\"dental project category\"/><e-div-block configuration-id=\"dental project website\"><e-component configuration-id=\"dental external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"elite project card\"><e-div-block configuration-id=\"elite neutral placeholder\"><e-paragraph configuration-id=\"elite placeholder name\"/></e-div-block><e-div-block configuration-id=\"elite project caption\"><e-heading configuration-id=\"elite project title\"/><e-paragraph configuration-id=\"elite project category\"/><e-div-block configuration-id=\"elite project website\"><e-component configuration-id=\"elite external link\"/></e-div-block></e-div-block></e-carousel-slide></e-carousel-container></e-carousel-viewport><e-carousel-arrow-prev configuration-id=\"Previous project\"><e-paragraph configuration-id=\"Previous glyph\"/></e-carousel-arrow-prev><e-carousel-arrow-next configuration-id=\"Next project\"><e-paragraph configuration-id=\"Next glyph\"/></e-carousel-arrow-next></e-carousel></e-div-block>",
+    "element_config": {
+      "Selected Work horizontal prototype": {
+        "tag": "section"
+      },
+      "Existing Selected Work heading": {
+        "component_id": 6010,
+        "overrides": {
+          "heading": "Selected work.<span>Five businesses, five live sites.</span>",
+          "paragraph": "Websites we designed and built for local businesses in the Chicago area. Each one is live. Open any of them."
+        }
+      },
+      "Five project portfolio": {
+        "carousel_name": "Selected work portfolio",
+        "transition_type": "slide",
+        "slides_per_view": {
+          "desktop": 2,
+          "tablet": 1,
+          "mobile": 1
+        },
+        "slides_to_scroll": {
+          "desktop": 1,
+          "tablet": 1,
+          "mobile": 1
+        },
+        "equal_height": true,
+        "loop": false,
+        "autoplay": false,
+        "transition_speed": 300,
+        "show_arrows": true,
+        "pagination_type": "none"
+      },
+      "Previous glyph": {
+        "paragraph": "←",
+        "tag": "span"
+      },
+      "Next glyph": {
+        "paragraph": "→",
+        "tag": "span"
+      },
+      "chicago placeholder name": {
+        "paragraph": "Chicago Mounting",
+        "tag": "span"
+      },
+      "chicago project title": {
+        "title": "Chicago Mounting",
+        "tag": "h3"
+      },
+      "chicago project category": {
+        "paragraph": "TV mounting and AV installation · Chicago, IL",
+        "tag": "p"
+      },
+      "chicago external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "chicagomounting.com ↗",
+          "link": {
+            "destination": "https://chicagomounting.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "gcpro placeholder name": {
+        "paragraph": "GCPRO Restoration",
+        "tag": "span"
+      },
+      "gcpro project title": {
+        "title": "GCPRO Restoration",
+        "tag": "h3"
+      },
+      "gcpro project category": {
+        "paragraph": "Disaster restoration · Lombard, IL",
+        "tag": "p"
+      },
+      "gcpro external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "gcprochicago.com ↗",
+          "link": {
+            "destination": "https://gcprochicago.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "kolo placeholder name": {
+        "paragraph": "Kolo Properties",
+        "tag": "span"
+      },
+      "kolo project title": {
+        "title": "Kolo Properties",
+        "tag": "h3"
+      },
+      "kolo project category": {
+        "paragraph": "Property management · Park Ridge, IL",
+        "tag": "p"
+      },
+      "kolo external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "kolo-properties.com ↗",
+          "link": {
+            "destination": "https://kolo-properties.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "dental placeholder name": {
+        "paragraph": "Center For Dental Healing",
+        "tag": "span"
+      },
+      "dental project title": {
+        "title": "Center For Dental Healing",
+        "tag": "h3"
+      },
+      "dental project category": {
+        "paragraph": "Dental practice · Glenview, IL",
+        "tag": "p"
+      },
+      "dental external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "glenviewsmiles.com ↗",
+          "link": {
+            "destination": "https://glenviewsmiles.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "elite placeholder name": {
+        "paragraph": "Elite Mechanical Services",
+        "tag": "span"
+      },
+      "elite project title": {
+        "title": "Elite Mechanical Services",
+        "tag": "h3"
+      },
+      "elite project category": {
+        "paragraph": "HVAC and refrigeration · West Chicago, IL",
+        "tag": "p"
+      },
+      "elite external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "elitemechanical.services ↗",
+          "link": {
+            "destination": "https://elitemechanical.services/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      }
+    },
+    "classes": {
+      "Selected Work horizontal prototype": [
+        "rb-section"
+      ],
+      "Previous project": [
+        "rb-btn",
+        "rb-btn--outline",
+        "rb-btn--sm"
+      ],
+      "Next project": [
+        "rb-btn",
+        "rb-btn--outline",
+        "rb-btn--sm"
+      ],
+      "chicago project card": [
+        "rb-portfolio-slide"
+      ],
+      "chicago neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "chicago placeholder name": [
+        "rb-meta"
+      ],
+      "chicago project caption": [
+        "rb-portfolio-caption"
+      ],
+      "chicago project category": [
+        "rb-meta"
+      ],
+      "chicago project website": [
+        "rb-btn--text"
+      ],
+      "gcpro project card": [
+        "rb-portfolio-slide"
+      ],
+      "gcpro neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "gcpro placeholder name": [
+        "rb-meta"
+      ],
+      "gcpro project caption": [
+        "rb-portfolio-caption"
+      ],
+      "gcpro project category": [
+        "rb-meta"
+      ],
+      "gcpro project website": [
+        "rb-btn--text"
+      ],
+      "kolo project card": [
+        "rb-portfolio-slide"
+      ],
+      "kolo neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "kolo placeholder name": [
+        "rb-meta"
+      ],
+      "kolo project caption": [
+        "rb-portfolio-caption"
+      ],
+      "kolo project category": [
+        "rb-meta"
+      ],
+      "kolo project website": [
+        "rb-btn--text"
+      ],
+      "dental project card": [
+        "rb-portfolio-slide"
+      ],
+      "dental neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "dental placeholder name": [
+        "rb-meta"
+      ],
+      "dental project caption": [
+        "rb-portfolio-caption"
+      ],
+      "dental project category": [
+        "rb-meta"
+      ],
+      "dental project website": [
+        "rb-btn--text"
+      ],
+      "elite project card": [
+        "rb-portfolio-slide"
+      ],
+      "elite neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "elite placeholder name": [
+        "rb-meta"
+      ],
+      "elite project caption": [
+        "rb-portfolio-caption"
+      ],
+      "elite project category": [
+        "rb-meta"
+      ],
+      "elite project website": [
+        "rb-btn--text"
+      ]
+    },
+    "style": {
+      "Selected Work horizontal prototype": "display: grid; grid-template-columns: minmax(var(--rb-gutter), 1fr) minmax(0, var(--rb-container)) minmax(var(--rb-gutter), 1fr); grid-template-rows: auto auto; gap: 0; width: 100%; min-width: 0; padding-inline-start: 0; padding-inline-end: 0;",
+      "Work heading alignment": "grid-column: 2; grid-row: 1; width: 100%; min-width: 0; padding: 0;",
+      "Five project portfolio": "grid-column: 2 / 4; grid-row: 2; width: 100%; min-width: 0; display: grid; grid-template-columns: 1fr 48px 48px var(--rb-gutter); grid-template-rows: auto auto; gap: 12px; margin-top: 40px;",
+      "Portfolio viewport": "grid-column: 1 / 5; grid-row: 1; min-width: 0;",
+      "Portfolio horizontal track": "gap: var(--rb-space-3); @media(--mobile) { gap: var(--rb-space-2); }",
+      "Previous project": "grid-column: 2; grid-row: 2; width: 48px; height: 48px; min-height: 48px; padding: 0; margin: 12px 0 0; opacity: 1; outline: none; color: var(--rb-ink);",
+      "Next project": "grid-column: 3; grid-row: 2; width: 48px; height: 48px; min-height: 48px; padding: 0; margin: 12px 0 0; opacity: 1; outline: none; color: var(--rb-ink);",
+      "Previous glyph": "font-size: 24px; line-height: 1;",
+      "Next glyph": "font-size: 24px; line-height: 1;",
+      "chicago project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "gcpro project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "kolo project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "dental project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "elite project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "chicago project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "gcpro project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "kolo project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "dental project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "elite project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }"
+    }
+  },
+  "native_followup": {
+    "home_post_id": 5894,
+    "section_element_id": "58c9fc4",
+    "native_id": "work",
+    "position": "Main1117679b, after Services2b42c245 and before Approach8b0906a",
+    "save": "Save Draft; no Publish"
+  },
+  "new_native_classes": {
+    "rb-portfolio-placeholder": "Centered label; 16:10 aspect ratio; rb-mat supplies #F5F5F5 and 4px radius.",
+    "rb-portfolio-caption": "Column, 4px gap, start alignment.",
+    "rb-portfolio-slide": "Column, 24px content gap / 16px mobile; responsive basis. Local full flex value is necessary to override native responsive shrink defaults."
+  }
+}
