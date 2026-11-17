@@ -1,0 +1,45 @@
+{
+  "note": "Additional narrow240px component wrapping stress check; not an approved layout breakpoint.",
+  "wrapped": [
+    {
+      "fits": true,
+      "indent": 20,
+      "lineHeight": 25.6,
+      "markerH": 25.59375,
+      "text": "Design and copy structure",
+      "textH": 51.1875
+    },
+    {
+      "fits": true,
+      "indent": 20,
+      "lineHeight": 25.6,
+      "markerH": 25.59375,
+      "text": "WordPress development",
+      "textH": 51.1875
+    },
+    {
+      "fits": true,
+      "indent": 20,
+      "lineHeight": 25.6,
+      "markerH": 25.59375,
+      "text": "Google Business Profile",
+      "textH": 51.1875
+    },
+    {
+      "fits": true,
+      "indent": 20,
+      "lineHeight": 25.6,
+      "markerH": 25.59375,
+      "text": "Service and location pages",
+      "textH": 51.1875
+    },
+    {
+      "fits": true,
+      "indent": 20,
+      "lineHeight": 25.6,
+      "markerH": 25.59375,
+      "text": "Connecting the tools you use",
+      "textH": 51.1875
+    }
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+  "desktopBefore": [
+    {
+      "description": {
+        "font": "18px",
+        "line": "28.8px",
+        "text": "Clear, fast websites that explain what you do and make it easy to call, book or buy.",
+        "width": 384,
+        "x": 928.3333740234376
+      },
+      "font": "32px",
+      "title": "Website Design & Development",
+      "width": 792,
+      "x": 112.33333587646484
+    },
+    {
+      "description": {
+        "font": "18px",
+        "line": "28.8px",
+        "text": "Show up when people nearby search for what you offer, in Google Search and on Maps.",
+        "width": 384,
+        "x": 928.3333740234376
+      },
+      "font": "32px",
+      "title": "SEO & Local Visibility",
+      "width": 792,
+      "x": 112.33333587646484
+    },
+    {
+      "description": {
+        "font": "18px",
+        "line": "28.8px",
+        "text": "Focused campaigns built around your services and budget, with reports you can read.",
+        "width": 384,
+        "x": 928.3333740234376
+      },
+      "font": "32px",
+      "title": "Digital Advertising",
+      "width": 792,
+      "x": 112.33333587646484
+    },
+    {
+      "description": {
+        "font": "18px",
+        "line": "28.8px",
+        "text": "Practical tools that take follow-ups, scheduling and other routine work off your plate.",
+        "width": 384,
+        "x": 928.3333740234376
+      },
+      "font": "32px",
+      "title": "AI & Business Automation",
+      "width": 792,
+      "x": 112.33333587646484
+    }
+  ],
+  "measurements": [
+    {
+      "headings": [
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Clear, fast websites that explain what you do and make it easy to call, book or buy.",
+            "width": 384,
+            "x": 928.3333740234376
+          },
+          "font": "32px",
+          "title": "Website Design & Development",
+          "width": 792,
+          "x": 112.33333587646484
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Show up when people nearby search for what you offer, in Google Search and on Maps.",
+            "width": 384,
+            "x": 928.3333740234376
+          },
+          "font": "32px",
+          "title": "SEO & Local Visibility",
+          "width": 792,
+          "x": 112.33333587646484
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Focused campaigns built around your services and budget, with reports you can read.",
+            "width": 384,
+            "x": 928.3333740234376
+          },
+          "font": "32px",
+          "title": "Digital Advertising",
+          "width": 792,
+          "x": 112.33333587646484
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Practical tools that take follow-ups, scheduling and other routine work off your plate.",
+            "width": 384,
+            "x": 928.3333740234376
+          },
+          "font": "32px",
+          "title": "AI & Business Automation",
+          "width": 792,
+          "x": 112.33333587646484
+        }
+      ],
+      "itemCount": 12,
+      "items": [
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20.00000762939453,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 112.33333587646484,
+          "text": "Design and copy structure",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 132.33334350585938
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 334.44793701171875,
+          "text": "WordPress development",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 354.44793701171875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 542.5208740234375,
+          "text": "Care and updates",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 562.5208740234375
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20.00000762939453,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 112.33333587646484,
+          "text": "Google Business Profile",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 132.33334350585938
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 314.03125,
+          "text": "Service and location pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 334.03125
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 539.8541870117188,
+          "text": "Technical SEO",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 559.8541870117188
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20.00000762939453,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 112.33333587646484,
+          "text": "Google Ads",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 132.33334350585938
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 224.3229217529297,
+          "text": "Landing pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 244.3229217529297
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 359.8125,
+          "text": "Call and form tracking",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 379.8125
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20.00000762939453,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 112.33333587646484,
+          "text": "AI assistants",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 132.33334350585938
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 234.84375,
+          "text": "Workflow automation",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 254.84375
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 420.15625,
+          "text": "Connecting the tools you use",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 440.15625
+        }
+      ],
+      "listCount": 4,
+      "lists": [
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        }
+      ],
+      "overflow": 0,
+      "svgCount": 0,
+      "width": 1440
+    },
+    {
+      "headings": [
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Clear, fast websites that explain what you do and make it easy to call, book or buy.",
+            "width": 274.01043701171875,
+            "x": 447.9270935058594
+          },
+          "font": "28px",
+          "title": "Website Design & Development",
+          "width": 393.2083435058594,
+          "x": 30.71875
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Show up when people nearby search for what you offer, in Google Search and on Maps.",
+            "width": 274.01043701171875,
+            "x": 447.9270935058594
+          },
+          "font": "28px",
+          "title": "SEO & Local Visibility",
+          "width": 393.2083435058594,
+          "x": 30.71875
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Focused campaigns built around your services and budget, with reports you can read.",
+            "width": 274.01043701171875,
+            "x": 447.9270935058594
+          },
+          "font": "28px",
+          "title": "Digital Advertising",
+          "width": 393.2083435058594,
+          "x": 30.71875
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Practical tools that take follow-ups, scheduling and other routine work off your plate.",
+            "width": 274.01043701171875,
+            "x": 447.9270935058594
+          },
+          "font": "28px",
+          "title": "AI & Business Automation",
+          "width": 393.2083435058594,
+          "x": 30.71875
+        }
+      ],
+      "itemCount": 12,
+      "items": [
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "Design and copy structure",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "WordPress development",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20.000015258789062,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 238.7916717529297,
+          "text": "Care and updates",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 258.79168701171875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "Google Business Profile",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "Service and location pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 256.54168701171875,
+          "text": "Technical SEO",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 276.54168701171875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "Google Ads",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 142.70834350585938,
+          "text": "Landing pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 162.70834350585938
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "Call and form tracking",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "AI assistants",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 153.2291717529297,
+          "text": "Workflow automation",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 173.2291717529297
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 30.71875,
+          "text": "Connecting the tools you use",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 50.71875
+        }
+      ],
+      "listCount": 4,
+      "lists": [
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "row",
+          "display": "flex",
+          "gap": "8px"
+        }
+      ],
+      "overflow": 0,
+      "svgCount": 0,
+      "width": 768
+    },
+    {
+      "headings": [
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Clear, fast websites that explain what you do and make it easy to call, book or buy.",
+            "width": 334.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "Website Design & Development",
+          "width": 334.66668701171875,
+          "x": 20
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Show up when people nearby search for what you offer, in Google Search and on Maps.",
+            "width": 334.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "SEO & Local Visibility",
+          "width": 334.66668701171875,
+          "x": 20
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Focused campaigns built around your services and budget, with reports you can read.",
+            "width": 334.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "Digital Advertising",
+          "width": 334.66668701171875,
+          "x": 20
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Practical tools that take follow-ups, scheduling and other routine work off your plate.",
+            "width": 334.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "AI & Business Automation",
+          "width": 334.66668701171875,
+          "x": 20
+        }
+      ],
+      "itemCount": 12,
+      "items": [
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Design and copy structure",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "WordPress development",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Care and updates",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Google Business Profile",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Service and location pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Technical SEO",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Google Ads",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Landing pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Call and form tracking",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "AI assistants",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Workflow automation",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Connecting the tools you use",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        }
+      ],
+      "listCount": 4,
+      "lists": [
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        }
+      ],
+      "overflow": 0,
+      "svgCount": 0,
+      "width": 390
+    },
+    {
+      "headings": [
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Clear, fast websites that explain what you do and make it easy to call, book or buy.",
+            "width": 264.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "Website Design & Development",
+          "width": 264.66668701171875,
+          "x": 20
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Show up when people nearby search for what you offer, in Google Search and on Maps.",
+            "width": 264.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "SEO & Local Visibility",
+          "width": 264.66668701171875,
+          "x": 20
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Focused campaigns built around your services and budget, with reports you can read.",
+            "width": 264.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "Digital Advertising",
+          "width": 264.66668701171875,
+          "x": 20
+        },
+        {
+          "description": {
+            "font": "18px",
+            "line": "28.8px",
+            "text": "Practical tools that take follow-ups, scheduling and other routine work off your plate.",
+            "width": 264.66668701171875,
+            "x": 20
+          },
+          "font": "26px",
+          "title": "AI & Business Automation",
+          "width": 264.66668701171875,
+          "x": 20
+        }
+      ],
+      "itemCount": 12,
+      "items": [
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Design and copy structure",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "WordPress development",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Care and updates",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Google Business Profile",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Service and location pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Technical SEO",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Google Ads",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Landing pages",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Call and form tracking",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "AI assistants",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Workflow automation",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        },
+        {
+          "color": "rgb(138, 138, 138)",
+          "font": "16px",
+          "indent": 20,
+          "lineH": 1,
+          "lineHeight": "25.6px",
+          "lineW": 12,
+          "markerH": 25.59375,
+          "markerHidden": "true",
+          "markerX": 20,
+          "text": "Connecting the tools you use",
+          "textFits": true,
+          "textH": 25.59375,
+          "textX": 40
+        }
+      ],
+      "listCount": 4,
+      "lists": [
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        },
+        {
+          "direction": "column",
+          "display": "flex",
+          "gap": "8px"
+        }
+      ],
+      "overflow": 0,
+      "svgCount": 0,
+      "width": 320
+    }
+  ]
+}
