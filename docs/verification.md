@@ -136,3 +136,6 @@ ChatGPT/Codex aligned mobile with the approved desktop cross using only existing
 
 ## 2026-11-18 — Cohesive outcomes typography
 ChatGPT/Codex replaced numbered three-column outcomes with one naturally wrapping paragraph using existing rb-item-title. Removed border/padding and excess gap; actual diagram-to-outcomes gap8px. Five rendered widths visually checked, no overflow, diagram and unrelated sections unchanged. Home saved behind active Coming Soon; existing PR15 updated without merge. [Implementation and screenshots](everything-connected-2026-11-18.md#outcomes-typography-refinement--owner-request-2026-11-18).
+
+## 2026-11-18 — Compact informational outcome pills
+ChatGPT/Codex replaced the oversized sentence with three static surface-token labels using one scoped class and existing container. Manrope500,14px desktop/12px mobile,4px radius, no interaction states. Actual five-width visual checks: all three fit one row, consistent33/30px heights, no overflow; diagram and other sections unchanged. Coming Soon active; PR15 updated without merge. [Settings, evidence and limits](everything-connected-2026-11-18.md#compact-informational-outcome-pills--owner-refinement-2026-11-18).

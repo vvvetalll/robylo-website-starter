@@ -117,3 +117,24 @@ Actual rendered inspection at1440/1024/768/390/320: no horizontal overflow; font
 Native audit120→118 nodes, no additions: only the two redundant outcome paragraphs removed. Changed only parent32e0f3fc gap, outcomes57453cf6 layout and paragraph1e527e25 content/class/type settings. BUSINESS diagram's complete tree remains identical; no global class definition/token/component/theme/JS/CSS file changed. Interaction handlers and focus behavior are unchanged; this static text edit required no new interaction logic.
 
 Saved/promoted existingHome5894 behind active Coming Soon under the standing owner-review publication instruction. Anonymous root returns200/5858 and no5894. SamePR15 branch, no merge. Browser emulation, not a physical-device test. Pre-change page undo6121; inspect subsequent owner edits before whole-document restoration.
+
+## Compact informational outcome pills — owner refinement, 2026-11-18
+**Current treatment supersedes the oversized outcome sentence above.** Three static labels: Get found / Win customers / Save time. No punctuation, numbering, icons, borders, shadows or button behavior.
+
+Native implementation:
+- Reused outcomes57453cf6 and first text element1e527e25; added only two native e-paragraph elements15616841/2d1863ba. All render as ordinary span elements, without links, role=button, tabindex or interactions.
+- One new scoped shared class **rb-outcome-label g-01beb91**, used by all3 labels. Existing typography/button classes cannot supply this informational treatment without changing their consumers, so they remain unchanged.
+- Uses existing rb-font Manrope, rb-surface#F5F5F5, rb-ink and rb-radius4px. Weight500; font14px desktop/tablet,12px mobile; line-height1.5; padding6px10px desktop/tablet and6px8px mobile. Width fit-content, flex0 0 auto, cursor default, no state variants.
+- Existing group switches to wrapping flex row, centered below the diagram. Gap8px desktop/tablet,6px mobile; existing diagram-to-group spacing8px preserved. No equal-width columns or full-container stretching.
+- Cleared only the first outcome's obsolete rb-item-title class/local typography. No existing shared class or token changed; no new component, script, library, custom CSS file or exception. BUSINESS diagram and its interactive structure, section headline/lead and all unrelated sections remain untouched.
+
+Actual browser inspection1440/1024/768/390/320 confirms one row at all widths, no horizontal overflow, content-driven widths and identical label heights. Desktop/tablet33px high, mobile30px; all three static spans have cursor default and no focusability. At320, the group is about255px wide inside the available content, retaining12px typography rather than shrinking further.
+Screenshots visually inspected:
+- [Desktop1440](screenshots/everything-connected-2026-11-18/pills-section-1440.jpg)
+- [Mobile390](screenshots/everything-connected-2026-11-18/pills-section-390.jpg)
+- [Mobile320](screenshots/everything-connected-2026-11-18/pills-section-320.jpg)
+- [Measured QA and structural audit](everything-connected-pills-qa-2026-11-18.json)
+
+Native audit118→120 nodes: added only the two labels, changed only outcomes57453cf6 and first text1e527e25. No removed nodes and no diagram/other section changes. Labels have no hover, focus or click handlers, so interactive-component tests are not applicable to them. Existing diagram handlers and styles were not edited. Browser viewport emulation, not a physical-device certification.
+
+Home5894 saved/promoted behind unchanged Coming Soon for authenticated owner review under the existing instruction. Anonymous root200 still serves5858 without5894. SamePR15, no merge/public launch. WordPress configuration remains database-held; documentation is not a portable export. Pre-change page undo6128; if rolled back, inspect later edits and remove the new class only after confirming no remaining consumers.
