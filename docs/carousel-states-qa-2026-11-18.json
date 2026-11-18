@@ -1,0 +1,1818 @@
+{
+  "viewports": [
+    {
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "scrollWidth": 1009,
+      "width": 1024
+    },
+    {
+      "scrollWidth": 753,
+      "width": 768
+    }
+  ],
+  "states": [
+    {
+      "tag": "before-default",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "before-prev-focus",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(255, 255, 255) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "before-next-enter",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "before-touch-release",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "after-default-desktop",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop-tab-focus",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final-desktop-keyboard-focus",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop prev hover",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop prev pressed",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop prev released",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop prev leave",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop next hover",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop next pressed",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop next released",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop next leave",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop-tab-to-prev",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop prev hover",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop prev pressed",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop prev released",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop prev leave",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop next hover",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop next pressed",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop next released",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop next leave",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop prev tab",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop prev keyboard-retained",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "final desktop end-disabled",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        }
+      ]
+    },
+    {
+      "tag": "final desktop start-disabled",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop touch next down",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop touch next release",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop touch next settled",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop touch prev down",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "desktop touch prev release",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile keyboard next focus",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile keyboard prev focus",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2.66667px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse prev hover",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse prev pressed",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse prev released",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse prev leave",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse next hover",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse next pressed",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse next released",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile mouse next leave",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile touch next down",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile touch next release",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile touch next settled",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile touch prev down",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile touch prev release",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": true,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile touch prev settled",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile-start-disabled",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        }
+      ]
+    },
+    {
+      "tag": "mobile-end-disabled",
+      "states": [
+        {
+          "name": "Previous slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "active": false,
+          "hover": false,
+          "opacity": "1",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": false
+        },
+        {
+          "name": "Next slide",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "active": false,
+          "hover": true,
+          "opacity": "0.35",
+          "width": 48,
+          "height": 48,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px",
+          "ariaDisabled": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "aria-disabled/e--disabled are native carousel semantics; the HTML disabled property remains false.",
+    "Chrome emulation, not physical-device or Safari certification.",
+    "Blue/teal fill was not reproduced; sticky hover/focus-visible fill was observed.",
+    "Final class replaced; only mouse-capable fine pointers receive hover fill; active state uses surface; no transitions."
+  ],
+  "nativeTreeUnchanged": true
+}

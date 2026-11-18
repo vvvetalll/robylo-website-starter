@@ -1,0 +1,66 @@
+{
+  "audit": {
+    "before": 120,
+    "after": 120,
+    "changed": [
+      "4822bce9"
+    ]
+  },
+  "breakpoints": [
+    {
+      "color": "rgb(68, 68, 68)",
+      "font": "12px",
+      "fontFamily": "Manrope",
+      "height": 18,
+      "marginBottom": "24px",
+      "overflow": 0,
+      "text": "THE BIG PICTURE",
+      "weight": "400",
+      "width": 1440
+    },
+    {
+      "color": "rgb(68, 68, 68)",
+      "font": "12px",
+      "fontFamily": "Manrope",
+      "height": 18,
+      "marginBottom": "24px",
+      "overflow": 0,
+      "text": "THE BIG PICTURE",
+      "weight": "400",
+      "width": 1024
+    },
+    {
+      "color": "rgb(68, 68, 68)",
+      "font": "12px",
+      "fontFamily": "Manrope",
+      "height": 18,
+      "marginBottom": "24px",
+      "overflow": 0,
+      "text": "THE BIG PICTURE",
+      "weight": "400",
+      "width": 768
+    },
+    {
+      "color": "rgb(68, 68, 68)",
+      "font": "12px",
+      "fontFamily": "Manrope",
+      "height": 18,
+      "marginBottom": "16px",
+      "overflow": 0,
+      "text": "THE BIG PICTURE",
+      "weight": "400",
+      "width": 390
+    },
+    {
+      "color": "rgb(68, 68, 68)",
+      "font": "12px",
+      "fontFamily": "Manrope",
+      "height": 18,
+      "marginBottom": "16px",
+      "overflow": 0,
+      "text": "THE BIG PICTURE",
+      "weight": "400",
+      "width": 320
+    }
+  ]
+}

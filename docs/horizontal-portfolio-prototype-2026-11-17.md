@@ -159,3 +159,52 @@ The owner explicitly clarified **smaller**, then rejected14px secondary copy and
 Updated existing rb-portfolio-title and rb-portfolio-description mobile native variants. For the nested Button5864 instance, native exposed properties provide only text/link; a single mobile descendant rule `& .rb-btn {font-size:12px;line-height:1.5;}` is centralized in existing rb-portfolio-caption. This limited selector exception avoids editing the shared button definition, adding a duplicate link component or scattering widget/page CSS. It affects only caption links (Home and the matching unpublished authoring reference). Link48px targets and interaction states remain. No new class/token/JS, page tree, carousel behavior, desktop/tablet rule or other section was changed.
 
 These kit class updates render immediately on the already-published Home behind Coming Soon; no new page publication or gate change was needed. [Actual390px](verification/2026-11-18-carousel-compact-12-390.jpg), [actual320px](verification/2026-11-18-carousel-compact-12-320.jpg). Verified on the ordinary logged-in root, not a draft URL. Existing complete interaction checks remain the prior pass; no redundant interaction retest is claimed for this font-only follow-up.
+
+## Monochrome navigation-state refinement — 2026-11-18, PR15
+Contributor: ChatGPT/Codex. **Implemented and verified in Chrome for owner review.**
+
+### Inspection and cause
+Inspected Home5894's native Selected Work carousel063712a, arrows a01fd95/ac514e2, their local48px geometry,18px Font Awesome chevron pair, kit button defaults and actual matched frontend rules. Existing shared modifier **rb-btn--carousel g-85ea9ae** is attached to both arrows (two consumers in the full current Home tree). rb-btn/rb-btn--outline/rb-btn--sm also remain attached.
+
+The old rule `.rb-btn--carousel:hover, .rb-btn--carousel:focus-visible` used a filled black background for both pointer hover and keyboard focus. Touch could retain the hover/focus-visible combination and therefore the fill after release. Existing :focus reset was overridden by that combined rule. The modifier had no explicit normal background/appearance/tap-highlight control and sat below rb-btn in the global class priority list, inheriting its additional focus decoration.
+
+**The specific blue/teal fill reported by the owner was not reproduced in this Chrome session.** All observed pre-fix computed fills were monochrome; Hello's unrelated fallback button hover/focus is pink #CC3366, not blue/teal. Do not misidentify it as the confirmed source. Native/browser tap/appearance decoration was not explicitly suppressed before this change; it is now explicitly controlled. A physical-device/Safari reproduction remains unverified. The directly reproduced defect was retained filled hover/focus after touch.
+
+### Exact implementation
+Updated existing kit5744 global class g-85ea9ae in place; no new class/token/component or page-level style. Moved only this modifier before rb-btn g-aec96cc in global priority so its focus definition wins. No page element/tree/geometry/icon/content/link/carousel setting was edited.
+- Default and ordinary focus: rb-paper background, rb-ink arrow.
+- Hover: rb-surface background/rb-ink only for `(hover: hover) and (pointer: fine)`, excluding disabled/active controls. Touch hover remains visually identical to default even if the browser retains :hover.
+- Active press: rb-surface/rb-ink; clears on release.
+- Focus-visible: rb-paper/rb-ink,2px rb-ink outline,3px offset, no additional shadow. Existing keyboard focus is preserved; no blur handler.
+- Native aria-disabled=true/e--disabled (plus HTML :disabled): rb-paper/rb-ink,opacity0.35,default cursor. These arrows use aria-disabled and e--disabled; their HTML disabled property remains false.
+- Transition none, appearance none, transparent WebKit tap highlight. Press and keyboard focus still have visible monochrome feedback.
+- Existing48×48px controls,4px radius and matching18×18px left/right chevrons retained through their existing classes/local controls.
+
+The native class retains its existing centralized custom-CSS exception for capability-qualified hover and disabled selectors. The focus outline, appearance/tap-highlight and transition declarations are maintained in that same class; no new CSS location, theme/Additional CSS/page overrides, JavaScript or dependency. Native tooling handles supported state controls; a nested media guard is needed for reliable mouse-only hover.
+
+### Actual interaction verification
+Actual rendered buttons inspected at1440 and390 with both mouse cycles, keyboard and emulated touch. Also visually checked at1024/768/320; no overflow and unchanged48px buttons/18px icons.
+- Both arrows: default→hover→press→release→leave; active clears; background returns white after leave, focus remains on clicked control. Fine-pointer hover #F5F5F5; press #F5F5F5; no colored fill.
+- Keyboard: Tab/Shift+Tab navigation, Enter and Space exercised on both arrows at desktop/mobile. Focus-visible black2px ring remains; author offset3px rounds to2.66667px in this Windows display-scale render. No focus suppression or JavaScript workaround.
+- Native disabled→enabled→disabled boundaries exercised for both directions at1440 and390, including repeated rapid clicks. Disabled fill stays white and opacity0.35; native prevention remains intact.
+- Touch start/end and settled state inspected for both arrows at desktop/mobile emulation. White background after release; active false. A retained :hover flag can exist in Chrome, but produces no touch-hover fill. Focus behavior is left to the browser.
+- Reduced-motion query verified; arrow transition0s, animation none. Carousel movement/transition settings unchanged.
+- Full native Home tree before/after is identical. Only the existing shared class and its priority changed. Carousel layout, five placeholders, content, project links, native scrolling, Header/Footer and other sections unchanged.
+- [Desktop controls](screenshots/carousel-states-2026-11-18/desktop-1440.png)
+- [Mobile390](screenshots/carousel-states-2026-11-18/mobile-390.png)
+- [Mobile320 keyboard focus](screenshots/carousel-states-2026-11-18/mobile-320.png)
+- [Actual state measurements and verification limits](carousel-states-qa-2026-11-18.json)
+
+Chrome responsive/touch emulation is not physical-device certification. Captures may include the existing browser assistant/cursor overlay; it is not page styling. No cache purge was needed; refreshed frontend loaded the updated class. Anonymous root remains HTTP200 Coming Soon5858, without Home5894. Shared class changes are saved in WordPress and available on the authenticated homepage; no launch or merge. Class settings are database-held, not a portable native export. Rollback is restoring the prior modifier CSS recorded above/earlier in this document and its former priority (after rb-portfolio-slide); no whole-page restoration is necessary.
+
+### Saved class definition
+```css
+color:var(--rb-ink);background-color:var(--rb-paper);opacity:1;transition:none;
+&:focus{color:var(--rb-ink);background-color:var(--rb-paper);}
+&:hover{color:var(--rb-ink);background-color:var(--rb-paper);}
+&:active{color:var(--rb-ink);background-color:var(--rb-surface);}
+&:focus-visible{color:var(--rb-ink);background-color:var(--rb-paper);outline:2px solid var(--rb-ink);outline-offset:3px;box-shadow:none;}
+&:hover:not([aria-disabled="true"]):not(.e--disabled):not(:active){@media (hover: hover) and (pointer: fine){color:var(--rb-ink);background-color:var(--rb-surface);}}
+&[aria-disabled="true"], &.e--disabled, &:disabled{color:var(--rb-ink);background-color:var(--rb-paper);opacity:0.35;cursor:default;}
+-webkit-tap-highlight-color:transparent;appearance:none;
+```

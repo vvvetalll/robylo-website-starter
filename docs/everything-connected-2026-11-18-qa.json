@@ -1,0 +1,443 @@
+{
+  "breakpoints": [
+    {
+      "h2": "44px",
+      "manrope": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "nodes": [
+        {
+          "height": 72,
+          "label": "Website",
+          "size": "16px",
+          "transition": "0s",
+          "width": 268
+        },
+        {
+          "height": 72,
+          "label": "Local SEO",
+          "size": "16px",
+          "transition": "0s",
+          "width": 268
+        },
+        {
+          "height": 72,
+          "label": "Advertising",
+          "size": "16px",
+          "transition": "0s",
+          "width": 268
+        },
+        {
+          "height": 72,
+          "label": "Automation",
+          "size": "16px",
+          "transition": "0s",
+          "width": 268
+        }
+      ],
+      "oldStrip": false,
+      "overflow": -15,
+      "sectionHeight": 462.5,
+      "serviceLists": 12,
+      "slides": 5,
+      "width": 1440
+    },
+    {
+      "h2": "36px",
+      "manrope": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "nodes": [
+        {
+          "height": 72,
+          "label": "Website",
+          "size": "16px",
+          "transition": "0s",
+          "width": 207.6875
+        },
+        {
+          "height": 72,
+          "label": "Local SEO",
+          "size": "16px",
+          "transition": "0s",
+          "width": 207.6875
+        },
+        {
+          "height": 72,
+          "label": "Advertising",
+          "size": "16px",
+          "transition": "0s",
+          "width": 207.6875
+        },
+        {
+          "height": 72,
+          "label": "Automation",
+          "size": "16px",
+          "transition": "0s",
+          "width": 207.6875
+        }
+      ],
+      "oldStrip": false,
+      "overflow": -15,
+      "sectionHeight": 429.8958435058594,
+      "serviceLists": 12,
+      "slides": 5,
+      "width": 1024
+    },
+    {
+      "h2": "36px",
+      "manrope": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "nodes": [
+        {
+          "height": 72,
+          "label": "Website",
+          "size": "16px",
+          "transition": "0s",
+          "width": 148.80209350585938
+        },
+        {
+          "height": 72,
+          "label": "Local SEO",
+          "size": "16px",
+          "transition": "0s",
+          "width": 148.8125
+        },
+        {
+          "height": 72,
+          "label": "Advertising",
+          "size": "16px",
+          "transition": "0s",
+          "width": 148.80209350585938
+        },
+        {
+          "height": 72,
+          "label": "Automation",
+          "size": "16px",
+          "transition": "0s",
+          "width": 148.8125
+        }
+      ],
+      "oldStrip": false,
+      "overflow": -15,
+      "sectionHeight": 457.7916870117187,
+      "serviceLists": 12,
+      "slides": 5,
+      "width": 768
+    },
+    {
+      "h2": "30px",
+      "manrope": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "nodes": [
+        {
+          "height": 56,
+          "label": "Website",
+          "size": "14px",
+          "transition": "0s",
+          "width": 151.33334350585938
+        },
+        {
+          "height": 56,
+          "label": "Local SEO",
+          "size": "14px",
+          "transition": "0s",
+          "width": 151.33334350585938
+        },
+        {
+          "height": 56,
+          "label": "Advertising",
+          "size": "14px",
+          "transition": "0s",
+          "width": 151.33334350585938
+        },
+        {
+          "height": 56,
+          "label": "Automation",
+          "size": "14px",
+          "transition": "0s",
+          "width": 151.33334350585938
+        }
+      ],
+      "oldStrip": false,
+      "overflow": -15,
+      "sectionHeight": 549.5,
+      "serviceLists": 12,
+      "slides": 5,
+      "width": 390
+    },
+    {
+      "h2": "30px",
+      "manrope": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "nodes": [
+        {
+          "height": 56,
+          "label": "Website",
+          "size": "14px",
+          "transition": "0s",
+          "width": 116.33333587646484
+        },
+        {
+          "height": 56,
+          "label": "Local SEO",
+          "size": "14px",
+          "transition": "0s",
+          "width": 116.33333587646484
+        },
+        {
+          "height": 56,
+          "label": "Advertising",
+          "size": "14px",
+          "transition": "0s",
+          "width": 116.33333587646484
+        },
+        {
+          "height": 56,
+          "label": "Automation",
+          "size": "14px",
+          "transition": "0s",
+          "width": 116.33333587646484
+        }
+      ],
+      "oldStrip": false,
+      "overflow": -15,
+      "sectionHeight": 571.8958740234375,
+      "serviceLists": 12,
+      "slides": 5,
+      "width": 320
+    }
+  ],
+  "pointer": [
+    {
+      "label": "hover",
+      "state": [
+        {
+          "active": false,
+          "bg": "rgb(245, 245, 245)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": true,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "stem": "rgb(0, 0, 0)",
+          "text": "Website"
+        },
+        {
+          "active": false,
+          "bg": "rgb(245, 245, 245)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "stem": "rgb(0, 0, 0)",
+          "text": "Local SEO"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Advertising"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Automation"
+        }
+      ]
+    },
+    {
+      "label": "press",
+      "state": [
+        {
+          "active": true,
+          "bg": "rgb(214, 214, 214)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "stem": "rgb(0, 0, 0)",
+          "text": "Website"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Local SEO"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Advertising"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Automation"
+        }
+      ]
+    },
+    {
+      "label": "release",
+      "state": [
+        {
+          "active": false,
+          "bg": "rgb(245, 245, 245)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": true,
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "stem": "rgb(0, 0, 0)",
+          "text": "Website"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Local SEO"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Advertising"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Automation"
+        }
+      ]
+    },
+    {
+      "label": "leave",
+      "state": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Website"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Local SEO"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Advertising"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "border": "rgb(214, 214, 214)",
+          "color": "rgb(214, 214, 214)",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "outline": "rgb(214, 214, 214) none 2.66667px",
+          "stem": "rgb(214, 214, 214)",
+          "text": "Automation"
+        }
+      ]
+    }
+  ]
+}
