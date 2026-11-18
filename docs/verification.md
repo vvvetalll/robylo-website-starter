@@ -143,3 +143,12 @@ Collaborator: Claude. Added docs/design-big-picture-refinement-2026-11-18.md, de
 ## 2026-11-18 — Portfolio visual presentation research (research only)
 
 Collaborator: Claude. Added docs/design-portfolio-presentation-research-2026-11-18.md; design-log and decisions entries. Status **Proposed**. Evidence: 8 studio work pages opened in a cloud browser at 1440px on 2026-11-18; Ueno, Koto and BASIC/DEPT excluded (offline/404). Not verified: plate mockup renders, Atomic V4 per-breakpoint object-position support, captures of the five client sites. No WordPress, Elementor or website change; no PR opened.
+
+## 2026-11-18 — Studio Plate prototype, Chicago Mounting (design only)
+
+Collaborator: Claude. Added docs/design-studio-plate-chicago-mounting-2026-11-18.md and docs/design/2026-11-18-studio-plate-chicago-mounting/ (plate WebP 1600 and 800, two carousel previews, source PNG, captures, HTML and render scripts); design-log and decisions entries. Status **Proposed**.
+
+- Captures: public chicagomounting.com homepage, 2026-11-18, cloud Chrome. Desktop 1440 × 992 viewport, two captures stitched (seam checked visually); mobile 500 × 992 viewport (site's mobile breakpoint). No admin screens, credentials or private data.
+- **Checks run:** headless Chrome plate render 1600 × 1200 at 1×; carousel previews at 1440 × 900 and 390 × 844 at 2× with Manrope loaded, scrollWidth equals viewport at both; card image measured 560 × 420 and 332 × 442; visual review of plate, both previews and the 3:4 crop; committed source scripts re-run from a clean copy and reproduced the plate with zero pixel difference; WebP weights 80 KB / 34 KB.
+- **Not verified:** a true 390 px capture (cloud browser minimum width is 500), real devices, tablet widths, Elementor Atomic V4 per-breakpoint aspect ratio and object-position.
+- No WordPress, Elementor or website change. No PR merged.

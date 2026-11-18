@@ -4,6 +4,8 @@
 
 Live version of this document: https://claude.ai/artifact/LrrnA4cMoFea9zVRDXDk3P
 
+> Update 2026-11-18: the plate was prototyped on Chicago Mounting and the geometry was adjusted (no shadow, margins 80, both screens bleed off the bottom, mobile crop 3:4). See [Studio Plate prototype](design-studio-plate-chicago-mounting-2026-11-18.md); where the two differ, the prototype is current.
+
 ## Summary
 
 **Recommendation: one "Studio plate" for every project — a single 4:3 image per card in which the client's real desktop screen sits on a neutral ROBYLO gray, cut by the bottom edge, with the phone screen overlapping it in the lower right.** No laptop or phone frames, no props, no colour from ROBYLO. The plate is exported as one finished image, so Elementor only places a picture.

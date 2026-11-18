@@ -26,6 +26,10 @@ The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is k
 
 ---
 
+## 2026-11-18 — Studio Plate prototype: Chicago Mounting
+
+**Exploration, Proposed.** First real Studio Plate built from fresh public captures of chicagomounting.com: [plate 1600 × 1200](design/2026-11-18-studio-plate-chicago-mounting/robylo-work-chicago-mounting-plate.webp), [carousel desktop 1440](design/2026-11-18-studio-plate-chicago-mounting/2026-11-18-studio-plate-carousel-desktop-1440.png), [carousel mobile 390](design/2026-11-18-studio-plate-chicago-mounting/2026-11-18-studio-plate-carousel-mobile-390.png). [Specification and rationale](design-studio-plate-chicago-mounting-2026-11-18.md). Geometry changed from the research after testing: no shadow (owner brief), both screens bleed off the bottom, margins 80, mobile card crop 3:4 instead of 4:5 so the crop line avoids cutting the headline.
+
 ## 2026-11-18 — Portfolio visual presentation research
 
 **Exploration, Proposed.** Research of 8 live studio portfolios (Apple, Locomotive, Clay, Metalab, Instrument, AREA 17, Fantasy, Halo Lab) on how website projects are presented in carousels. Recommendation: one "Studio plate" for all five projects — real desktop + phone screens on a flat neutral mat, fixed geometry, one caption grammar; mobile reuses the same image cropped to 4:5. Alternatives (single desktop screen, editorial crop, 3D device renders) evaluated and not recommended. [Research and specification](design-portfolio-presentation-research-2026-11-18.md). No mockup yet; no implementation authorized.
@@ -170,6 +174,8 @@ What survived from this round: left-aligned layout, services as ruled rows (from
 | Projects shown as text-only link rows | V1 build | Owner: no text-only project placeholders. |
 | White contact section with a top rule | Iteration 3 | Owner asked for the Dark treatment; a white ending was too weak. |
 | Service index list in the hero's right column | Iteration 4, while designing | Repeated the Services section directly below it. |
+| Drop shadow under the phone screen in the Studio Plate | Portfolio research | Owner brief: no shadows; a mat-coloured ring separates the screens instead. |
+| 4:5 mobile crop of the Studio Plate | Portfolio research | Crop line fell through the desktop headline; 3:4 crop lands in empty space. |
 | Headline line in `rb-line` gray | Iteration 4, while designing | 1.5:1 contrast; replaced by `rb-mute` at 3.45:1. |
 
 ## Notes for future entries

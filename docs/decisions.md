@@ -42,3 +42,7 @@ Owner requested compact mobile proportions using the supplied Apple references, 
 ## 2026-11-18 — Portfolio visual presentation research
 
 **Proposed by Claude, not approved:** present all five portfolio projects with one "Studio plate" (real desktop + phone screens on a neutral mat, 4:3, mobile crop 4:5). [Research](design-portfolio-presentation-research-2026-11-18.md). No implementation authorized; existing horizontal carousel unchanged.
+
+## 2026-11-18 — Studio Plate prototype (Chicago Mounting)
+
+**Proposed by Claude, not approved:** Studio Plate v2 geometry and 3:4 mobile card crop, demonstrated on Chicago Mounting. [Prototype](design-studio-plate-chicago-mounting-2026-11-18.md). Awaiting owner review; production guidelines for all projects follow only after approval. No implementation authorized.
