@@ -100,3 +100,20 @@ Actual Chrome captures were visually inspected at1440,1024,768,390,320. No horiz
 Fresh320px pointer hover/press/release/leave confirms black selected line and restoration to gray, no stuck active state. Tab gives2px visible focus and black corresponding line; Enter retains native #services navigation. Touch tap/release at320 settles with active0/hover0. Reduced-motion emulation:0s transitions. Repeated Automation clicks tested. Links have standard Space scrolling and no disabled states. No focus-blurring JavaScript introduced. [Measured checks](everything-connected-mobile-cross-qa-2026-11-18.json). Browser emulation only; physical device/screen-reader certification not performed.
 
 Native audit120→120 nodes, identical types/tags/order/content/links. Only nine diagram elements' responsive styles differ; all their desktop styles are unchanged. Both reused classes still have four consumers; none was removed. No duplication or extra CSS location. Home5894 saved/promoted behind unchanged Coming Soon for authenticated owner review. Anonymous root200 still serves5858 and no5894. No PR merge. Existing diagram rollback begins at page revision6115; shared-class mobile settings must also be restored deliberately if rollback is requested.
+
+## Outcomes typography refinement — owner request, 2026-11-18
+**Supersedes all numbered/three-column outcome presentations above.** Current message is one native paragraph: “Get found. Win customers. Save time.” Periods provide rhythm; no numbers, dashes, dots, micro-labels, icons or added decoration.
+
+Reused outcomes container57453cf6 and paragraph1e527e25. Removed only the other two paragraphs5e6454a2/4a4711a6. Paragraph now uses existing rb-item-title (24/22/20px,600), native rb-ink and line-height1.4. Nonbreaking spaces inside each phrase keep its words together while normal spaces between phrases allow natural wrapping. No manual line breaks or separate cards.
+
+Container uses block flow instead of three grid columns; removed its border and padding. On desktop/tablet it aligns with the diagram column and centers the text beneath it; mobile uses full content width and left alignment. Removed the existing24px flex gap from parent32e0f3fc, whose two direct children are the unchanged editorial grid and outcomes. Outcome top margin8px now gives an actual8px diagram-to-outcome box gap. Diagram geometry, section outer spacing, headline/lead/eyebrow and every other section are unchanged.
+
+Actual rendered inspection at1440/1024/768/390/320: no horizontal overflow; fonts24/22/22/20/20px at600. One line at1440 and1024; natural two-line wrapping at768,390,320. Mobile20px remains readable and does not use forced equal columns. All five captures visually inspected; final desktop/mobile captures reflect the final right-column alignment.
+- [Desktop1440](screenshots/everything-connected-2026-11-18/outcomes-section-1440.jpg)
+- [Mobile390](screenshots/everything-connected-2026-11-18/outcomes-section-390.jpg)
+- [Mobile320](screenshots/everything-connected-2026-11-18/outcomes-section-320.jpg)
+- [Audit and measured QA](everything-connected-outcomes-qa-2026-11-18.json)
+
+Native audit120→118 nodes, no additions: only the two redundant outcome paragraphs removed. Changed only parent32e0f3fc gap, outcomes57453cf6 layout and paragraph1e527e25 content/class/type settings. BUSINESS diagram's complete tree remains identical; no global class definition/token/component/theme/JS/CSS file changed. Interaction handlers and focus behavior are unchanged; this static text edit required no new interaction logic.
+
+Saved/promoted existingHome5894 behind active Coming Soon under the standing owner-review publication instruction. Anonymous root returns200/5858 and no5894. SamePR15 branch, no merge. Browser emulation, not a physical-device test. Pre-change page undo6121; inspect subsequent owner edits before whole-document restoration.

@@ -1,0 +1,68 @@
+{
+  "audit": {
+    "before": 120,
+    "after": 118,
+    "added": [],
+    "removed": [
+      "5e6454a2",
+      "4a4711a6"
+    ],
+    "changed": [
+      "32e0f3fc",
+      "57453cf6",
+      "1e527e25"
+    ]
+  },
+  "breakpoints": [
+    {
+      "diagramGap": 8.000030517578125,
+      "diagramX": 744.3333740234375,
+      "font": "24px",
+      "height": 33.59375,
+      "overflow": 0,
+      "weight": "600",
+      "width": 1440,
+      "x": 744.3333740234375
+    },
+    {
+      "diagramGap": 8,
+      "diagramX": 520.3333740234375,
+      "font": "22px",
+      "height": 30.791667938232425,
+      "overflow": 0,
+      "weight": "600",
+      "width": 1024,
+      "x": 520.3333740234375
+    },
+    {
+      "diagramGap": 8,
+      "diagramX": 392.3333435058594,
+      "font": "22px",
+      "height": 61.58333587646485,
+      "overflow": 0,
+      "weight": "600",
+      "width": 768,
+      "x": 392.3333435058594
+    },
+    {
+      "diagramGap": 8,
+      "diagramX": 20,
+      "font": "20px",
+      "height": 56,
+      "overflow": 0,
+      "weight": "600",
+      "width": 390,
+      "x": 20
+    },
+    {
+      "diagramGap": 8,
+      "diagramX": 20,
+      "font": "20px",
+      "height": 56,
+      "overflow": 0,
+      "weight": "600",
+      "width": 320,
+      "x": 20
+    }
+  ]
+}

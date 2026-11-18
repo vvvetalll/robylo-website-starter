@@ -133,3 +133,6 @@ Owner rejected the four-button appearance. ChatGPT/Codex replaced only the visua
 
 ## 2026-11-18 — Mobile cross refinement
 ChatGPT/Codex aligned mobile with the approved desktop cross using only existing diagram responsive properties. Same120 nodes and content, desktop element styles unchanged; mobile80px BUSINESS,14px labels and four straight visible lines. Actual five-width visual checks,320px pointer/keyboard/touch/reduced-motion tests and screenshots recorded. Coming Soon retained; PR15 updated without merge. [Current implementation](everything-connected-2026-11-18.md#mobile-cross-alignment--owner-refinement-2026-11-18).
+
+## 2026-11-18 — Cohesive outcomes typography
+ChatGPT/Codex replaced numbered three-column outcomes with one naturally wrapping paragraph using existing rb-item-title. Removed border/padding and excess gap; actual diagram-to-outcomes gap8px. Five rendered widths visually checked, no overflow, diagram and unrelated sections unchanged. Home saved behind active Coming Soon; existing PR15 updated without merge. [Implementation and screenshots](everything-connected-2026-11-18.md#outcomes-typography-refinement--owner-request-2026-11-18).
