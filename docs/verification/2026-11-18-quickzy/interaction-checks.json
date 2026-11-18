@@ -1,0 +1,66 @@
+[
+  {
+    "w": 1440,
+    "tab": true,
+    "before": "matrix(1, 0, 0, 1, -1688, 0)",
+    "enter": {
+      "transform": "matrix(1, 0, 0, 1, -1512, 0)",
+      "focus": true
+    },
+    "space": {
+      "transform": "matrix(1, 0, 0, 1, -1008, 0)",
+      "focus": true
+    },
+    "pointer": {
+      "hover": "rgb(245, 245, 245)",
+      "pressed": true,
+      "released": false,
+      "left": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "w": 390,
+    "tab": true,
+    "before": "matrix(1, 0, 0, 1, -1008, 0)",
+    "enter": {
+      "transform": "matrix(1, 0, 0, 1, -1344, 0)",
+      "focus": true
+    },
+    "space": {
+      "transform": "matrix(1, 0, 0, 1, -1008, 0)",
+      "focus": true
+    },
+    "pointer": {
+      "hover": "rgb(245, 245, 245)",
+      "pressed": true,
+      "released": false,
+      "left": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "w": 390,
+    "swipe": {
+      "from": "matrix(1, 0, 0, 1, -1344, 0)",
+      "to": "matrix(1, 0, 0, 1, -1629.99, 0)"
+    },
+    "tap": {
+      "from": "matrix(1, 0, 0, 1, -1629.99, 0)",
+      "to": "matrix(1, 0, 0, 1, -1344, 0)",
+      "activeAfter": false
+    }
+  },
+  {
+    "rapid": {
+      "w": 390,
+      "forwardDisabled": "true",
+      "reverseDisabled": "true"
+    }
+  },
+  {
+    "rapid": {
+      "w": 1440,
+      "forwardDisabled": "true",
+      "reverseDisabled": "true"
+    }
+  }
+]

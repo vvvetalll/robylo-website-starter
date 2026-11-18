@@ -1,0 +1,19 @@
+[
+  {
+    "admin": false,
+    "clientWidth": 1440,
+    "fonts": "loaded",
+    "height": 992,
+    "width": 1440,
+    "file": "quickzy-cleaning-desktop.png",
+    "captureWidth": 1425
+  },
+  {
+    "admin": false,
+    "clientWidth": 480,
+    "fonts": "loaded",
+    "height": 1100,
+    "width": 480,
+    "file": "quickzy-cleaning-mobile.png"
+  }
+]

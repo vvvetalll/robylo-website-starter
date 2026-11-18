@@ -27,6 +27,8 @@ The existing Node runtime needs Playwright, sharp and installed Chrome. No packa
 node docs/design/2026-11-18-portfolio-studio-plates/source/render.cjs
 ```
 
+Pass a project slug as the last argument to regenerate only that project's assets and render report. For example, append `quickzy-cleaning` to the command above.
+
 Add the project name/slug/URL to [projects.json](design/2026-11-18-portfolio-studio-plates/source/projects.json) and supply `{slug}-desktop.png` and `{slug}-mobile.png`. The adapter reads the approved template and writes desktop1600×1200 PNG/WebP, portrait1000×1250 PNG/WebP, and small800×600 WebP. WebP quality90, effort6, smartSubsample false. Naming: `robylo-work-{slug}-plate-v3[-mobile|-800].webp`; editable sources and lossless PNGs stay in the dated artifact folder. Do not recompress an existing WebP. Review both PNG and compressed WebP at their actual display sizes. Current desktop exports are about141–179KB, mobile95–134KB; legibility takes precedence over a rigid file-size target.
 
 ## Native Elementor handling

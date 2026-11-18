@@ -1,0 +1,28 @@
+{
+  "home": 5894,
+  "work": "58c9fc4",
+  "carousel": "063712a",
+  "quickzyCard": "79928cc9",
+  "headingInstance": "5602cb",
+  "media": [
+    {
+      "attachment_id": 6179,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload.webp",
+      "mime": "image/webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Quickzy Cleaning website shown on desktop and phone"
+    },
+    {
+      "attachment_id": 6180,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload-1.webp",
+      "mime": "image/webp",
+      "width": 1000,
+      "height": 1250,
+      "alt": "Quickzy Cleaning website shown on desktop and phone"
+    }
+  ],
+  "otherElementsUnchanged": true,
+  "previousHeading": "10705dc",
+  "rollbackRevision": 6178
+}
