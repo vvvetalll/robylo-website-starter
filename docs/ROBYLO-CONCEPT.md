@@ -57,3 +57,10 @@ Solo founder supported by AI tools; no immediate need to hire. Seek a manageable
 
 ## Agent workflow
 Read README.md, AGENTS.md and AI-CONTEXT.md first. Treat this document as the product brief, not as permission to deploy or alter the site. Distinguish confirmed facts from plans. Preserve existing starter architecture. Ask for approval before implementation or publication.
+
+## Permanent visual quality standard — owner direction, 2026-11-18
+Homepage V2 remains the structural baseline. The owner's Apple references establish precision, compact proportions, distinct typography roles and controlled whitespace, not Apple branding. Mobile must not require excessive scrolling because of oversized type or gaps. Preserve Manrope, monochrome, semantic headings, gray secondary lines and the 1200px desktop grid.
+
+Use the existing Atomic classes and components as the source of truth. Inspect consumers before changing shared styles; do not duplicate a typography system, scatter overrides or rebuild working interactions. Current homepage hierarchy: display 76/56/36px, section H2 44/36/30px at desktop/tablet/mobile (700); service and Approach H3 24/22/20px (600). Portfolio mobile titles remain owner-selected 20px and descriptions/actions 12px. Supporting copy uses role-specific 14–16px mobile sizes, not a universal tiny font size.
+
+Keep text groups together, consistent gutters, restrained image-caption gaps, usable touch targets and real keyboard focus. Verify actual rendering at 1440/1024/768/390/320px, including full pointer release/leave, keyboard and touch behavior. Settings alone are not proof. Compare native trees before/after as well as screenshots. Preserve native list semantics. Record known limitations rather than masking them with blur handlers or extra JavaScript.

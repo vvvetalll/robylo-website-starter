@@ -98,3 +98,29 @@ Owner clarified stacked phone portfolio cards. Disabled SiteGround's Remove Quer
 ## 2026-11-18 — Compact portfolio cards and consistent native chevrons
 
 Owner-authorized Selected Work-only refinement, informed by the supplied Apple typography reference. Existing five native slides/placeholders preserved; title26/24/22px/600 and description15px/400 shared roles, image/caption gap16/12px, View project labels with unchanged external destinations. Same48px controls/handlers retain states; text glyphs replaced by matching18px native Font Awesome chevrons. All1440/1024/768/390/320 widths checked, no page horizontal overflow; mobile next-card glimpse34/28px. Complete desktop/mobile pointer cycle, Enter/Space and retained2px focus, both disabled boundaries, eight rapid clicks each direction, coarse tap/release and direct swipe0→-336px verified. [Exact settings, before/after images, QA and limitations](horizontal-portfolio-prototype-2026-11-17.md#compact-cards-and-consistent-chevrons--owner-refinement-2026-11-18). Home remains staged; no Publish, PR merge, custom CSS or new JavaScript. Anonymous root200 still serves Coming Soon5858. Updated existing PR11 branch in place; previous records preserved.
+
+## Homepage global visual refinement — 2026-11-18
+Implemented in WordPress and promoted to the existing published Homepage5894 **after the owner explicitly requested publication to review it**. Coming Soon remains active: anonymous GET / returned HTTP200 with Elementor5858 and Coming Soon copy, without Homepage5894. No PR merged.
+
+Existing shared classes patched (no classes, variables, dependencies or custom CSS added):
+- rb-display-xl g-9858763: 76/56/36px, existing weight700 and line heights retained; tracking -3.04/-2.24/-1.26px.
+- rb-section-title g-b881735:44/36/30px,700; rb-item-title g-11b543f:24/22/20px,600.
+- rb-grid-aside g-b352eba:16px, mobile15px, LH1.6; rb-hero__subtitle g-efbc920:18px, mobile16px, LH1.55.
+- rb-meta g-d97ed86:mobile14px; existing higher-priority portfolio description class retains12px.
+- rb-nav-link g-403d4fb:14px, mobile minimum44px; rb-header__toggle g-ca8e57d:mobile14px; rb-menu-row g-f570396:32px with18px vertical padding.
+- rb-action-row g-c3579fd:32px top/gap24 desktop,24px top/gap8 mobile. Existing button states, geometry and Glide mechanism unchanged.
+
+Home native section padding reduced: Hero56/80px desktop,40/64 tablet,32/48 mobile; Services and Approach80px desktop,64 tablet,48 mobile. Contact96/80 desktop,80/64 tablet,56/48 mobile. Work retains native full-bleed grid and zero inline padding; vertical rhythm uses existing section variable where inherited. Hero strip margin56/40/32px, mobile Hero/Contact lead margin16px. Removed double heading/carousel spacing by changing carousel top margin40→0px.
+Existing components6010 section heading margin64→40 desktop and40→28 mobile;6013 service row vertical padding40→32 desktop and28→24 mobile;6019 Approach title margins24/12 desktop and16/8 mobile, description reuses rb-meta instead of unclassified18px default. Components promoted in place. Header/Footer document structure and logo assets untouched; shared navigation/meta refinements apply to their consumers.
+
+Native AST audit: Home110→110 nodes, SectionHead3→3, ServiceRow19→19, Approach4→4. IDs, element types, tags and child order unchanged; no copy, links or interactions replaced. Only expected style fields and Approach description's existing-class attachment changed.
+Services list25445844 is e-list/ul. Direct e-list-item/li IDs4cfeab36,4388f2f4,32b3b331 each retain marker→content order. Marker/content pairs b6c3d70/276177d1,7c1decb8/5127be1f,71d29fed/31d170f7 retain divider/hr and paragraph/p children. No repair was required. Browser DOM at all five widths has four ULs, three LI children each, marker then content.
+
+Actual browser checks: all five widths load Manrope and show zero document horizontal overflow. Display/H2/service H3 respectively76/44/24 at1440;56/36/22 at1024 and768;36/30/20 at390 and320. Portfolio mobile20/12 retained. Full-page390 capture reduced from5241px to4359px (~17%);320 after4653px. Native next-card glimpse and full-width Work composition preserved.
+Carousel pointer390: hover black/white; press gray/white active; release clears active; pointer leave returns transparent/black while focus remains. Enter and Space advance/reverse; keyboard focus-visible2px retained. Repeated reverse reaches disabled first boundary with opacity.35. Native touch swipe advances runtime track from -336 to -672px and clears active state. Desktop click/Enter/Space also retain navigation/focus. Native Menu Enter and Space open; Close/Escape work and return visible focus. Temporary touch/media/viewport overrides reset.
+Remaining QA limitation: exhaustive rapid-cycle testing of every non-carousel action and all consumer authoring documents was not repeated in this pass. Known existing native Popup limitation remains: anchor navigation does not automatically close the popup; Close/Escape are available. No JavaScript workaround added. Five portfolio images remain intentionally neutral placeholders.
+
+Screenshots: [before390](screenshots/visual-discipline-2026-11-18/before-390.jpg), [after390](screenshots/visual-discipline-2026-11-18/after-390.jpg), [after1440](screenshots/visual-discipline-2026-11-18/after-1440.jpg).
+Review actual page while logged in: https://robylo.com/ or https://robylo.com/?preview_id=5894&preview=true.
+Component editors: [SectionHead6010](https://robylo.com/wp-admin/post.php?post=6010&action=elementor), [ServiceRow6013](https://robylo.com/wp-admin/post.php?post=6013&action=elementor), [Approach6019](https://robylo.com/wp-admin/post.php?post=6019&action=elementor).
+These are native database changes; this documentation and screenshots are not a portable Elementor export.
