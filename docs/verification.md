@@ -226,3 +226,27 @@ Authenticated root visually inspected at1440/1024/768/390/320. Exact approved pa
 Screenshots are actual browser renders at the stated widths. A tall capture viewport was used to paint below-the-fold content; captures end at the actual footer and omit the admin bar. Browser assistant/cursor overlays may remain. Chrome responsive/touch emulation, not physical-device, Safari or screen-reader certification. No email was sent. Existing configuration remains in the WordPress database, not a portable native export. Home pre-change undo6188; Footer5893 pre-change undo5899. Check intervening edits before any whole-document restore. SEO rollback: title/description previously inherited defaults (null).
 
 Existing PR18/feat/quickzy-work-2026-11-18 updated because it contains the current sixth project and Studio Plate work. PR15's separate diagram/arrow work remains unmerged and was not overwritten or merged. Other PRs untouched.
+
+
+## 2026-11-18 — Website architecture and page skeletons
+Contributor: ChatGPT/Codex. **Owner-authorized scope implemented and visually verified for review.** Created16 standard Pages with17-URL sitemap including unchanged Home; owner explicitly approved global Header/Footer navigation changes. [Actual IDs, parents, URLs/statuses and implementation](current-implementation.md#website-architecture-and-page-skeletons--2026-11-18).
+
+Every new page loaded in the authenticated browser at1440 and390px: one H1, one relevant sentence, appropriate title/description, rendered noindex, shared navigation and no page horizontal overflow. Actual16-page Hero captures visually inspected in desktop/mobile contact sheets. Services additionally checked1024/768/320 and long Center For Dental Healing title at320. Existing typography/spacing retained with no responsive overrides.
+- All16 canonical URLs resolve to the expected H1. Final WordPress list20 Pages =17 planned + three existing utility/authoring pages; no duplicate target URL. Four children of6191, six children of6193.
+- Services' four directory hrefs and Work's six hrefs target verified created Pages. Actual keyboard navigation checked Services→Web Design, Work→Chicago Mounting, mobile menu→About and Footer→FAQ. Existing48px link target and visible black focus confirmed.
+- Native mobile menu opens on a case-study page. Tab reaches About with white2px visible outline at390;320px composition inspected. Full page About navigation closes the popup naturally. No custom blur/events.
+- Homepage assigned5894; body remains139 identical nodes/settings/styles/content/media/links. Actual root H1, approved SEO and six external project URLs preserved. Hero CTA reaches#contact; carousel Enter advances and Space reverse exercised.
+- New-page noindex uses AIOSEO; homepage/global indexing untouched. Existing global class/variable registries match pre-task snapshots.
+- Anonymous HTTP200 at all17 planned URLs renders Coming Soon5858 with no Home/new-page content. Rechecked after site-wide Popup condition; no automatic triggers.
+
+Evidence:
+- [All16 desktop Hero skeletons](verification/2026-11-18-architecture/all-pages-1440.jpg)
+- [All16 mobile Hero skeletons](verification/2026-11-18-architecture/all-pages-390.jpg)
+- [Services desktop Header/Hero/Footer](verification/2026-11-18-architecture/services-full-1440.jpg)
+- [Services mobile Header/Hero/Footer](verification/2026-11-18-architecture/services-full-390.jpg)
+- [Mobile menu focus](verification/2026-11-18-architecture/menu-390.jpg)
+- [Sitemap, rendered checks, public gate and limits](verification/2026-11-18-architecture/checks.json)
+
+No full designs or detailed content produced. Chrome responsive emulation, not physical-device/Safari/screen-reader certification. Logged-in WordPress admin bar consumes mobile popup space; primary links remain visible, secondary email may require a short scroll. Existing browser assistant/cursor overlays may appear. No email sent or live launch. Native configuration remains DB-held, not a portable export.
+
+Rollback must preserve intervening edits: Header component pre-task6255; Footer component6257; Popup6259; active Header5892 pre-task5897. Popup condition was formerly Home-only and must be restored separately if rolling back. New page IDs6191–6221 (odd IDs) can be returned to draft using native WordPress controls if requested; do not delete unrelated pages. Homepage body was never edited. Dedicated implementation/site-architecture-2026-11-18 branch stacks on PR18; no unrelated PR merged.

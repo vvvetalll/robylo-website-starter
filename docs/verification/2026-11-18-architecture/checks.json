@@ -1,0 +1,2223 @@
+{
+  "sitemap": [
+    {
+      "id": 5894,
+      "title": "Home",
+      "slug": "/",
+      "url": "https://robylo.com/",
+      "parentId": 0,
+      "status": "publish",
+      "indexing": "unchanged"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "intro": "Explore four areas of expertise: websites, local search, advertising, and automation.",
+      "group": "main",
+      "id": 6191,
+      "parentId": 0,
+      "url": "https://robylo.com/services/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Work",
+      "slug": "work",
+      "h1": "Selected work",
+      "intro": "Explore website projects for businesses across the Chicago area.",
+      "group": "main",
+      "id": 6193,
+      "parentId": 0,
+      "url": "https://robylo.com/work/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Approach",
+      "slug": "approach",
+      "h1": "How we work",
+      "intro": "How we plan, build, and support digital solutions around your business.",
+      "group": "main",
+      "id": 6195,
+      "parentId": 0,
+      "url": "https://robylo.com/approach/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "h1": "About ROBYLO",
+      "intro": "ROBYLO is an independent digital studio serving Chicago and the surrounding suburbs.",
+      "group": "main",
+      "id": 6197,
+      "parentId": 0,
+      "url": "https://robylo.com/about/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "FAQ",
+      "slug": "faq",
+      "h1": "Frequently asked questions",
+      "intro": "Questions about working with ROBYLO and choosing digital services for your business.",
+      "group": "main",
+      "id": 6199,
+      "parentId": 0,
+      "url": "https://robylo.com/faq/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "intro": "Tell us what you're working on, and we'll help you figure out the next step.",
+      "group": "main",
+      "id": 6201,
+      "parentId": 0,
+      "url": "https://robylo.com/contact/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Website Design & Development",
+      "slug": "web-design",
+      "parentSlug": "services",
+      "intro": "Website design and WordPress development for small businesses.",
+      "group": "service",
+      "id": 6203,
+      "parentId": 6191,
+      "url": "https://robylo.com/services/web-design/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "SEO & Local Visibility",
+      "slug": "local-seo",
+      "parentSlug": "services",
+      "intro": "Local search visibility through Google Business Profile and technical SEO.",
+      "group": "service",
+      "id": 6205,
+      "parentId": 6191,
+      "url": "https://robylo.com/services/local-seo/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Digital Advertising",
+      "slug": "digital-advertising",
+      "parentSlug": "services",
+      "intro": "Digital advertising through Google Ads and focused landing pages.",
+      "group": "service",
+      "id": 6207,
+      "parentId": 6191,
+      "url": "https://robylo.com/services/digital-advertising/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "AI & Business Automation",
+      "slug": "ai-automation",
+      "parentSlug": "services",
+      "intro": "Practical automation for follow-ups, scheduling, and everyday business tools.",
+      "group": "service",
+      "id": 6209,
+      "parentId": 6191,
+      "url": "https://robylo.com/services/ai-automation/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Chicago Mounting",
+      "slug": "chicago-mounting",
+      "parentSlug": "work",
+      "intro": "TV mounting and AV installation in Chicago, IL.",
+      "group": "case",
+      "id": 6211,
+      "parentId": 6193,
+      "url": "https://robylo.com/work/chicago-mounting/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "GCPRO Restoration",
+      "slug": "gcpro-restoration",
+      "parentSlug": "work",
+      "intro": "Disaster restoration in Lombard, IL.",
+      "group": "case",
+      "id": 6213,
+      "parentId": 6193,
+      "url": "https://robylo.com/work/gcpro-restoration/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Kolo Properties",
+      "slug": "kolo-properties",
+      "parentSlug": "work",
+      "intro": "Property management in Park Ridge, IL.",
+      "group": "case",
+      "id": 6215,
+      "parentId": 6193,
+      "url": "https://robylo.com/work/kolo-properties/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Center For Dental Healing",
+      "slug": "center-for-dental-healing",
+      "parentSlug": "work",
+      "intro": "Dental practice in Glenview, IL.",
+      "group": "case",
+      "id": 6217,
+      "parentId": 6193,
+      "url": "https://robylo.com/work/center-for-dental-healing/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Elite Mechanical Services",
+      "slug": "elite-mechanical-services",
+      "parentSlug": "work",
+      "intro": "HVAC and refrigeration in West Chicago, IL.",
+      "group": "case",
+      "id": 6219,
+      "parentId": 6193,
+      "url": "https://robylo.com/work/elite-mechanical-services/",
+      "status": "publish",
+      "noindex": true
+    },
+    {
+      "title": "Quickzy Cleaning",
+      "slug": "quickzy-cleaning",
+      "parentSlug": "work",
+      "intro": "Professional cleaning services.",
+      "group": "case",
+      "id": 6221,
+      "parentId": 6193,
+      "url": "https://robylo.com/work/quickzy-cleaning/",
+      "status": "publish",
+      "noindex": true
+    }
+  ],
+  "rendered": {
+    "pages": [
+      {
+        "description": "Explore four areas of expertise: websites, local search, advertising, and automation.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Services",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Explore four areas of expertise: websites, local search, advertising, and automation."
+        ],
+        "links": [
+          {
+            "href": "/services/web-design/",
+            "text": "Website Design & Development"
+          },
+          {
+            "href": "/services/local-seo/",
+            "text": "SEO & Local Visibility"
+          },
+          {
+            "href": "/services/digital-advertising/",
+            "text": "Digital Advertising"
+          },
+          {
+            "href": "/services/ai-automation/",
+            "text": "AI & Business Automation"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1425,
+        "title": "Services | ROBYLO",
+        "url": "https://robylo.com/services/",
+        "width": 1440
+      },
+      {
+        "description": "Explore website projects for businesses across the Chicago area.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Selected work",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Explore website projects for businesses across the Chicago area."
+        ],
+        "links": [
+          {
+            "href": "/work/chicago-mounting/",
+            "text": "Chicago Mounting"
+          },
+          {
+            "href": "/work/gcpro-restoration/",
+            "text": "GCPRO Restoration"
+          },
+          {
+            "href": "/work/kolo-properties/",
+            "text": "Kolo Properties"
+          },
+          {
+            "href": "/work/center-for-dental-healing/",
+            "text": "Center For Dental Healing"
+          },
+          {
+            "href": "/work/elite-mechanical-services/",
+            "text": "Elite Mechanical Services"
+          },
+          {
+            "href": "/work/quickzy-cleaning/",
+            "text": "Quickzy Cleaning"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1425,
+        "title": "Selected work | ROBYLO",
+        "url": "https://robylo.com/work/",
+        "width": 1440
+      },
+      {
+        "description": "How we plan, build, and support digital solutions around your business.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "How we work",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "How we plan, build, and support digital solutions around your business."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "How we work | ROBYLO",
+        "url": "https://robylo.com/approach/",
+        "width": 1440
+      },
+      {
+        "description": "ROBYLO is an independent digital studio serving Chicago and the surrounding suburbs.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "About ROBYLO",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "ROBYLO is an independent digital studio serving Chicago and the surrounding suburbs."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "About ROBYLO | ROBYLO",
+        "url": "https://robylo.com/about/",
+        "width": 1440
+      },
+      {
+        "description": "Questions about working with ROBYLO and choosing digital services for your business.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Frequently asked questions",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Questions about working with ROBYLO and choosing digital services for your business."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "Frequently asked questions | ROBYLO",
+        "url": "https://robylo.com/faq/",
+        "width": 1440
+      },
+      {
+        "description": "Tell us what you're working on, and we'll help you figure out the next step.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Contact",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Tell us what you're working on, and we'll help you figure out the next step."
+        ],
+        "links": [
+          {
+            "href": "mailto:info@robylo.com",
+            "text": "info@robylo.com"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1425,
+        "title": "Contact | ROBYLO",
+        "url": "https://robylo.com/contact/",
+        "width": 1440
+      },
+      {
+        "description": "Website design and WordPress development for small businesses.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Website Design & Development",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Website design and WordPress development for small businesses."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "Website Design & Development | ROBYLO",
+        "url": "https://robylo.com/services/web-design/",
+        "width": 1440
+      },
+      {
+        "description": "Local search visibility through Google Business Profile and technical SEO.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "SEO & Local Visibility",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Local search visibility through Google Business Profile and technical SEO."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "SEO & Local Visibility | ROBYLO",
+        "url": "https://robylo.com/services/local-seo/",
+        "width": 1440
+      },
+      {
+        "description": "Digital advertising through Google Ads and focused landing pages.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Digital Advertising",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Digital advertising through Google Ads and focused landing pages."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "Digital Advertising | ROBYLO",
+        "url": "https://robylo.com/services/digital-advertising/",
+        "width": 1440
+      },
+      {
+        "description": "Practical automation for follow-ups, scheduling, and everyday business tools.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "AI & Business Automation",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Practical automation for follow-ups, scheduling, and everyday business tools."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "AI & Business Automation | ROBYLO",
+        "url": "https://robylo.com/services/ai-automation/",
+        "width": 1440
+      },
+      {
+        "description": "TV mounting and AV installation in Chicago, IL.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Chicago Mounting",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "TV mounting and AV installation in Chicago, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "Chicago Mounting | ROBYLO",
+        "url": "https://robylo.com/work/chicago-mounting/",
+        "width": 1440
+      },
+      {
+        "description": "Disaster restoration in Lombard, IL.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "GCPRO Restoration",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Disaster restoration in Lombard, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "GCPRO Restoration | ROBYLO",
+        "url": "https://robylo.com/work/gcpro-restoration/",
+        "width": 1440
+      },
+      {
+        "description": "Property management in Park Ridge, IL.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Kolo Properties",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Property management in Park Ridge, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "Kolo Properties | ROBYLO",
+        "url": "https://robylo.com/work/kolo-properties/",
+        "width": 1440
+      },
+      {
+        "description": "Dental practice in Glenview, IL.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Center For Dental Healing",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Dental practice in Glenview, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "scrollWidth": 1440,
+        "title": "Center For Dental Healing | ROBYLO",
+        "url": "https://robylo.com/work/center-for-dental-healing/",
+        "width": 1440
+      },
+      {
+        "description": "HVAC and refrigeration in West Chicago, IL.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Elite Mechanical Services",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "HVAC and refrigeration in West Chicago, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "Elite Mechanical Services | ROBYLO",
+        "url": "https://robylo.com/work/elite-mechanical-services/",
+        "width": 1440
+      },
+      {
+        "description": "Professional cleaning services.",
+        "h1": [
+          {
+            "size": "44px",
+            "text": "Quickzy Cleaning",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Professional cleaning services."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1440,
+        "title": "Quickzy Cleaning | ROBYLO",
+        "url": "https://robylo.com/work/quickzy-cleaning/",
+        "width": 1440
+      },
+      {
+        "description": "Explore four areas of expertise: websites, local search, advertising, and automation.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Services",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Explore four areas of expertise: websites, local search, advertising, and automation."
+        ],
+        "links": [
+          {
+            "href": "/services/web-design/",
+            "text": "Website Design & Development"
+          },
+          {
+            "href": "/services/local-seo/",
+            "text": "SEO & Local Visibility"
+          },
+          {
+            "href": "/services/digital-advertising/",
+            "text": "Digital Advertising"
+          },
+          {
+            "href": "/services/ai-automation/",
+            "text": "AI & Business Automation"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Services | ROBYLO",
+        "url": "https://robylo.com/services/",
+        "width": 390
+      },
+      {
+        "description": "Explore website projects for businesses across the Chicago area.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Selected work",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Explore website projects for businesses across the Chicago area."
+        ],
+        "links": [
+          {
+            "href": "/work/chicago-mounting/",
+            "text": "Chicago Mounting"
+          },
+          {
+            "href": "/work/gcpro-restoration/",
+            "text": "GCPRO Restoration"
+          },
+          {
+            "href": "/work/kolo-properties/",
+            "text": "Kolo Properties"
+          },
+          {
+            "href": "/work/center-for-dental-healing/",
+            "text": "Center For Dental Healing"
+          },
+          {
+            "href": "/work/elite-mechanical-services/",
+            "text": "Elite Mechanical Services"
+          },
+          {
+            "href": "/work/quickzy-cleaning/",
+            "text": "Quickzy Cleaning"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Selected work | ROBYLO",
+        "url": "https://robylo.com/work/",
+        "width": 390
+      },
+      {
+        "description": "How we plan, build, and support digital solutions around your business.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "How we work",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "How we plan, build, and support digital solutions around your business."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "How we work | ROBYLO",
+        "url": "https://robylo.com/approach/",
+        "width": 390
+      },
+      {
+        "description": "ROBYLO is an independent digital studio serving Chicago and the surrounding suburbs.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "About ROBYLO",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "ROBYLO is an independent digital studio serving Chicago and the surrounding suburbs."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "About ROBYLO | ROBYLO",
+        "url": "https://robylo.com/about/",
+        "width": 390
+      },
+      {
+        "description": "Questions about working with ROBYLO and choosing digital services for your business.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Frequently asked questions",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Questions about working with ROBYLO and choosing digital services for your business."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Frequently asked questions | ROBYLO",
+        "url": "https://robylo.com/faq/",
+        "width": 390
+      },
+      {
+        "description": "Tell us what you're working on, and we'll help you figure out the next step.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Contact",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Tell us what you're working on, and we'll help you figure out the next step."
+        ],
+        "links": [
+          {
+            "href": "mailto:info@robylo.com",
+            "text": "info@robylo.com"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Contact | ROBYLO",
+        "url": "https://robylo.com/contact/",
+        "width": 390
+      },
+      {
+        "description": "Website design and WordPress development for small businesses.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Website Design & Development",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Website design and WordPress development for small businesses."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Website Design & Development | ROBYLO",
+        "url": "https://robylo.com/services/web-design/",
+        "width": 390
+      },
+      {
+        "description": "Local search visibility through Google Business Profile and technical SEO.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "SEO & Local Visibility",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Local search visibility through Google Business Profile and technical SEO."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "SEO & Local Visibility | ROBYLO",
+        "url": "https://robylo.com/services/local-seo/",
+        "width": 390
+      },
+      {
+        "description": "Digital advertising through Google Ads and focused landing pages.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Digital Advertising",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Digital advertising through Google Ads and focused landing pages."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Digital Advertising | ROBYLO",
+        "url": "https://robylo.com/services/digital-advertising/",
+        "width": 390
+      },
+      {
+        "description": "Practical automation for follow-ups, scheduling, and everyday business tools.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "AI & Business Automation",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Practical automation for follow-ups, scheduling, and everyday business tools."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "AI & Business Automation | ROBYLO",
+        "url": "https://robylo.com/services/ai-automation/",
+        "width": 390
+      },
+      {
+        "description": "TV mounting and AV installation in Chicago, IL.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Chicago Mounting",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "TV mounting and AV installation in Chicago, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Chicago Mounting | ROBYLO",
+        "url": "https://robylo.com/work/chicago-mounting/",
+        "width": 390
+      },
+      {
+        "description": "Disaster restoration in Lombard, IL.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "GCPRO Restoration",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Disaster restoration in Lombard, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "GCPRO Restoration | ROBYLO",
+        "url": "https://robylo.com/work/gcpro-restoration/",
+        "width": 390
+      },
+      {
+        "description": "Property management in Park Ridge, IL.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Kolo Properties",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Property management in Park Ridge, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Kolo Properties | ROBYLO",
+        "url": "https://robylo.com/work/kolo-properties/",
+        "width": 390
+      },
+      {
+        "description": "Dental practice in Glenview, IL.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Center For Dental Healing",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Dental practice in Glenview, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "scrollWidth": 375,
+        "title": "Center For Dental Healing | ROBYLO",
+        "url": "https://robylo.com/work/center-for-dental-healing/",
+        "width": 390
+      },
+      {
+        "description": "HVAC and refrigeration in West Chicago, IL.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Elite Mechanical Services",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "HVAC and refrigeration in West Chicago, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Elite Mechanical Services | ROBYLO",
+        "url": "https://robylo.com/work/elite-mechanical-services/",
+        "width": 390
+      },
+      {
+        "description": "Professional cleaning services.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Quickzy Cleaning",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Professional cleaning services."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 375,
+        "title": "Quickzy Cleaning | ROBYLO",
+        "url": "https://robylo.com/work/quickzy-cleaning/",
+        "width": 390
+      },
+      {
+        "description": "Explore four areas of expertise: websites, local search, advertising, and automation.",
+        "h1": [
+          {
+            "size": "36px",
+            "text": "Services",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Explore four areas of expertise: websites, local search, advertising, and automation."
+        ],
+        "links": [
+          {
+            "href": "/services/web-design/",
+            "text": "Website Design & Development"
+          },
+          {
+            "href": "/services/local-seo/",
+            "text": "SEO & Local Visibility"
+          },
+          {
+            "href": "/services/digital-advertising/",
+            "text": "Digital Advertising"
+          },
+          {
+            "href": "/services/ai-automation/",
+            "text": "AI & Business Automation"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 1009,
+        "title": "Services | ROBYLO",
+        "url": "https://robylo.com/services/",
+        "width": 1024
+      },
+      {
+        "description": "Explore four areas of expertise: websites, local search, advertising, and automation.",
+        "h1": [
+          {
+            "size": "36px",
+            "text": "Services",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Explore four areas of expertise: websites, local search, advertising, and automation."
+        ],
+        "links": [
+          {
+            "href": "/services/web-design/",
+            "text": "Website Design & Development"
+          },
+          {
+            "href": "/services/local-seo/",
+            "text": "SEO & Local Visibility"
+          },
+          {
+            "href": "/services/digital-advertising/",
+            "text": "Digital Advertising"
+          },
+          {
+            "href": "/services/ai-automation/",
+            "text": "AI & Business Automation"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 753,
+        "title": "Services | ROBYLO",
+        "url": "https://robylo.com/services/",
+        "width": 768
+      },
+      {
+        "description": "Explore four areas of expertise: websites, local search, advertising, and automation.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Services",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Explore four areas of expertise: websites, local search, advertising, and automation."
+        ],
+        "links": [
+          {
+            "href": "/services/web-design/",
+            "text": "Website Design & Development"
+          },
+          {
+            "href": "/services/local-seo/",
+            "text": "SEO & Local Visibility"
+          },
+          {
+            "href": "/services/digital-advertising/",
+            "text": "Digital Advertising"
+          },
+          {
+            "href": "/services/ai-automation/",
+            "text": "AI & Business Automation"
+          }
+        ],
+        "robots": [
+          "noindex, max-image-preview:large"
+        ],
+        "scrollWidth": 305,
+        "title": "Services | ROBYLO",
+        "url": "https://robylo.com/services/",
+        "width": 320
+      },
+      {
+        "description": "Dental practice in Glenview, IL.",
+        "h1": [
+          {
+            "size": "30px",
+            "text": "Center For Dental Healing",
+            "weight": "700"
+          }
+        ],
+        "header": [
+          {
+            "href": "/",
+            "text": ""
+          },
+          {
+            "href": "/services/",
+            "text": "Services"
+          },
+          {
+            "href": "/work/",
+            "text": "Work"
+          },
+          {
+            "href": "/approach/",
+            "text": "Approach"
+          },
+          {
+            "href": "/about/",
+            "text": "About"
+          },
+          {
+            "href": "/contact/",
+            "text": "Contact"
+          }
+        ],
+        "intro": [
+          "Dental practice in Glenview, IL."
+        ],
+        "links": [],
+        "robots": [
+          "noindex, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        ],
+        "scrollWidth": 305,
+        "title": "Center For Dental Healing | ROBYLO",
+        "url": "https://robylo.com/work/center-for-dental-healing/",
+        "width": 320
+      }
+    ],
+    "home": {
+      "description": "Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions.",
+      "h1": [
+        "Good business.Hard to find?"
+      ],
+      "id": "5894",
+      "projects": [
+        {
+          "href": "https://chicagomounting.com/",
+          "label": "Visit site"
+        },
+        {
+          "href": "https://gcprochicago.com/",
+          "label": "Visit site"
+        },
+        {
+          "href": "https://kolo-properties.com/",
+          "label": "Visit site"
+        },
+        {
+          "href": "https://glenviewsmiles.com/",
+          "label": "Visit site"
+        },
+        {
+          "href": "https://elitemechanical.services/",
+          "label": "Visit site"
+        },
+        {
+          "href": "https://quickzycleaning.com/",
+          "label": "Visit site"
+        }
+      ],
+      "title": "ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago"
+    },
+    "homeCTA": "#contact",
+    "homeCarouselForward": "matrix(1, 0, 0, 1, -504, 0)",
+    "linksTested": [
+      "mobile menu → About",
+      "Footer → FAQ",
+      "Services → Website Design & Development",
+      "Work → Chicago Mounting"
+    ],
+    "menu": {
+      "widths": [
+        390,
+        320
+      ],
+      "aboutFocusVisible": true,
+      "fullPageNavigationClosesMenu": true
+    },
+    "limitations": [
+      "Chrome responsive emulation, not physical-device/Safari/screen-reader certification.",
+      "Logged-in WordPress admin bar reduces mobile popup space; main links stay accessible."
+    ]
+  },
+  "publicGate": [
+    {
+      "url": "https://robylo.com/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/services/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/work/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/approach/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/about/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/faq/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/contact/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/services/web-design/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/services/local-seo/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/services/digital-advertising/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/services/ai-automation/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/work/chicago-mounting/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/work/gcpro-restoration/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/work/kolo-properties/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/work/center-for-dental-healing/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/work/elite-mechanical-services/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    },
+    {
+      "url": "https://robylo.com/work/quickzy-cleaning/",
+      "status": 200,
+      "comingSoon": true,
+      "newPageExposed": false
+    }
+  ],
+  "designSystem": {
+    "globalClassesUnchanged": true,
+    "globalVariablesUnchanged": true
+  },
+  "homepage": {
+    "nativeBodyUnchanged": true,
+    "metadataUnchanged": true
+  },
+  "verificationDate": "2026-11-18",
+  "limitations": [
+    "Chrome emulation, not physical-device/Safari/screen-reader certification.",
+    "Native settings are database-held, not portable exports.",
+    "With the logged-in WordPress admin bar, the mobile popup secondary email may need a short vertical scroll; all primary navigation links are visible."
+  ],
+  "mobilePopupScope": {
+    "conditions": [
+      "include/general"
+    ],
+    "triggers": [],
+    "timing": []
+  }
+}
