@@ -143,3 +143,10 @@ Chrome emulation at1440 desktop and390 mobile:
 [Computed responsive and interaction evidence](verification/2026-11-18-carousel-refinement-checks.json) distinguishes transient states, outer-container transform samples and the actual generated .e-carousel__track transform. The earlier outer container's transform:none is not a failed advance; settled inner-track values verify navigation.
 
 Fresh anonymous HTTP request with browser User-Agent returns200, Coming Soon5858 and its expected headline, with no View project card labels. Public gate settings remain untouched. Browser emulation only; no new physical-phone, Safari/Firefox or screen-reader certification. Scope stayed within Selected Work and its shared native classes. PR11 documentation updated in place, preserving all previous notes and dependency history.
+
+
+## Owner-authorized Home promotion — 2026-11-18
+
+The owner explicitly instructed publishing the saved changes behind the existing public gate. This supersedes the refinement task's earlier no-Publish restriction for Home5894 only. Native elementor/publish-document promoted the current staged Home successfully. No PR was merged and no maintenance/cache/optimizer setting changed.
+
+Verified the ordinary authenticated https://robylo.com/ root: all five compact **View project** labels and both native SVG chevrons render; desktop project H3 is Manrope26/600. The owner can review there after logging in, without a draft-preview link. A fresh anonymous request returned HTTP200 with Coming Soon5858 and its expected headline. Public launch remains gated. Earlier private-preview-only delivery notes above are historical; the current Home changes are now promoted.
