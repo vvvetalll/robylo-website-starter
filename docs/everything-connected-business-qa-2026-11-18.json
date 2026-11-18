@@ -1,0 +1,472 @@
+{
+  "breakpoints": [
+    {
+      "businessWidth": 104,
+      "diagramHeight": 280,
+      "nodes": [
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Website",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 32,
+          "lineWidth": 1
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0.0000152587890625,
+          "font": "16px",
+          "label": "Local SEO",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 1,
+          "lineWidth": 145.3541717529297
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Advertising",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 1,
+          "lineWidth": 132.34375
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Automation",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 32,
+          "lineWidth": 1
+        }
+      ],
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "businessWidth": 104,
+      "diagramHeight": 280,
+      "nodes": [
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Website",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 32,
+          "lineWidth": 1
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0.0000152587890625,
+          "font": "16px",
+          "label": "Local SEO",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 1,
+          "lineWidth": 85.04167175292969
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Advertising",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 1,
+          "lineWidth": 72.03125
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Automation",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 32,
+          "lineWidth": 1
+        }
+      ],
+      "overflow": 0,
+      "width": 1024
+    },
+    {
+      "businessWidth": 104,
+      "diagramHeight": 280,
+      "nodes": [
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Website",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 32,
+          "lineWidth": 1
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Local SEO",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 1,
+          "lineWidth": 26.15625
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0.01043701171875,
+          "font": "16px",
+          "label": "Advertising",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 1,
+          "lineWidth": 13.145833969116213
+        },
+        {
+          "borders": "0px",
+          "endpointGap": 0,
+          "font": "16px",
+          "label": "Automation",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 32,
+          "lineWidth": 1
+        }
+      ],
+      "overflow": 0,
+      "width": 768
+    },
+    {
+      "businessWidth": 88,
+      "diagramHeight": 240,
+      "nodes": [
+        {
+          "borders": "0px 0px 0.666667px 0.666667px",
+          "endpointGap": 0.000003814697265625,
+          "font": "14px",
+          "label": "Website",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 39.66666793823242
+        },
+        {
+          "borders": "0px 0.666667px 0.666667px 0px",
+          "endpointGap": 0,
+          "font": "14px",
+          "label": "Local SEO",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 39.66666793823242
+        },
+        {
+          "borders": "0.666667px 0px 0px 0.666667px",
+          "endpointGap": 0.000003814697265625,
+          "font": "14px",
+          "label": "Advertising",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 39.66666793823242
+        },
+        {
+          "borders": "0.666667px 0.666667px 0px 0px",
+          "endpointGap": 0,
+          "font": "14px",
+          "label": "Automation",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 39.66666793823242
+        }
+      ],
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "businessWidth": 88,
+      "diagramHeight": 240,
+      "nodes": [
+        {
+          "borders": "0px 0px 0.666667px 0.666667px",
+          "endpointGap": -0.000003814697265625,
+          "font": "14px",
+          "label": "Website",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 22.166667938232425
+        },
+        {
+          "borders": "0px 0.666667px 0.666667px 0px",
+          "endpointGap": 0.00000762939453125,
+          "font": "14px",
+          "label": "Local SEO",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 22.166667938232425
+        },
+        {
+          "borders": "0.666667px 0px 0px 0.666667px",
+          "endpointGap": -0.000003814697265625,
+          "font": "14px",
+          "label": "Advertising",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 22.166667938232425
+        },
+        {
+          "borders": "0.666667px 0.666667px 0px 0px",
+          "endpointGap": 0.00000762939453125,
+          "font": "14px",
+          "label": "Automation",
+          "lineColor": "rgb(138, 138, 138)",
+          "lineHeight": 76,
+          "lineWidth": 22.166667938232425
+        }
+      ],
+      "overflow": 0,
+      "width": 320
+    }
+  ],
+  "interactions": [
+    {
+      "phase": "hover",
+      "state": [
+        {
+          "active": false,
+          "focusVisible": true,
+          "hover": false,
+          "label": "Website",
+          "line": "rgb(0, 0, 0)",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "z": "2"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Local SEO",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Advertising",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Automation",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        }
+      ]
+    },
+    {
+      "phase": "press",
+      "state": [
+        {
+          "active": true,
+          "focusVisible": true,
+          "hover": true,
+          "label": "Website",
+          "line": "rgb(0, 0, 0)",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "z": "2"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Local SEO",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Advertising",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Automation",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        }
+      ]
+    },
+    {
+      "phase": "release",
+      "state": [
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": true,
+          "label": "Website",
+          "line": "rgb(0, 0, 0)",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "z": "2"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Local SEO",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Advertising",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Automation",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        }
+      ]
+    },
+    {
+      "phase": "leave",
+      "state": [
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Website",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Local SEO",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Advertising",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Automation",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        }
+      ]
+    },
+    {
+      "phase": "keyboard",
+      "state": [
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Website",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": true,
+          "hover": false,
+          "label": "Local SEO",
+          "line": "rgb(0, 0, 0)",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "z": "2"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Advertising",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Automation",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        }
+      ]
+    },
+    {
+      "phase": "touch-settled",
+      "state": [
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Website",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Local SEO",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Advertising",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        },
+        {
+          "active": false,
+          "focusVisible": false,
+          "hover": false,
+          "label": "Automation",
+          "line": "rgb(138, 138, 138)",
+          "outline": "rgb(138, 138, 138) none 2.66667px",
+          "z": "0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 # Everything Connected — implementation and owner review
 Date: 2026-11-18 (America/Chicago). Contributor: ChatGPT/Codex.
 
+Current visualization: BUSINESS-centered infographic; see the owner-requested correction at the end. Earlier four-rectangle records/captures below are retained as history.
+
 ## Scope and delivery
 **Approved:** owner's Everything Connected brief replaces only the Hero's small website-preview strip. It does not approve a public launch or PR merge. Prior explicit owner instruction to publish review changes behind Coming Soon remains applicable: saved Homepage5894 was promoted so the owner can see it at the ordinary authenticated root. **Public gate remains active.** Anonymous GET / returns200/ComingSoon5858 and no new headline. No Header, Footer, Lab, Coming Soon page, existing component or main carousel definition changed.
 
@@ -52,3 +54,33 @@ Dedicated branch stacks on PR11's current head4bfa4ce, targeting that branch so 
 
 WordPress is the source of truth; GitHub holds records/screenshots and sanitized audit, not a portable Elementor export. Review/merge does not deploy database configuration.
 Pre-feature undo revision6101; pre-strip-removal6105. Restoration replaces the whole document, so inspect later owner edits before using it. Prefer surgical rollback of section7d73938f and the two now-unconsumed diagram classes, with a verified strip restoration if requested.
+
+## Owner-requested correction — BUSINESS-centered infographic, 2026-11-18
+
+**Supersedes the original diagram description and captures above.** The owner rejected the four bordered rectangles as visually unrelated buttons. Only diagram993e1f7 and its two existing classes were refined; the section headline, lead, eyebrow, outcomes, editorial columns, Hero and all other sections remain unchanged.
+
+### Visual result and native settings
+- Added one visually dominant black BUSINESS circle: container62d16689 + text7145e957;104px desktop/tablet,88px mobile;14px Manrope700 white label. It is static content, not another button.
+- Existing four linked capability nodes retain their IDs and #services destinations. Removed their rectangular borders/backgrounds. They now read as text labels around a central business rather than four cards.
+- Desktop/tablet: cardinal layout, Website above, LocalSEO left, Advertising right, Automation below;280px-high diagram. Four1px gray spokes meet the circle exactly.
+- Mobile: a separate240px-high composition. Four labels occupy the corners around central BUSINESS; four L-shaped branches join the circle's left/right center. This avoids the very short right-hand spoke a reduced desktop layout produced at320px. Surrounding labels remain14px/600. All connections are visible in default rb-mute; no label overlaps the hub.
+- Reused **rb-system-node g-2cfcaa4** and **rb-system-stem g-59f80bc** in place. Native relative/absolute layout, flex and side-border controls construct the lines. currentColor carries hover/focus highlight into the corresponding connection. Hover/focus raises that branch to z-index2 so another shared branch cannot paint over it; BUSINESS stays above at z-index3. Focus-visible retains2px black outline; no blur handler.
+- Deleted obsolete shared rail5231240. Both existing classes still have four consumers in the current homepage tree; neither is unused, so neither was removed. No new global class, variable, component, typography-system change, custom CSS exception, JavaScript, asset or dependency.
+- Saved and promoted to existing Home5894 behind Coming Soon, consistent with the owner's standing request to see review changes at the authenticated root. No PR merged/public launch.
+
+### Verification and preservation
+Native before/after audit119→120 nodes: added only62d16689/7145e957, removed only5231240. Changed IDs are confined to diagram993e1f7 and its capability labels/connections. No changes outside the diagram; compare [correction audit](everything-connected-business-audit-2026-11-18.json). Hero, section copy/outcomes, Services, Selected Work, Approach and Contact native trees remain identical. Header/Footer components and global typography/spacing tokens were not edited.
+
+Actual Chrome render was visually inspected at1440,1024,768,390,320, including closeups of all five. Zero document horizontal overflow. Circle104/104/104/88/88px; labels16/16/16/14/14px; connection endpoint gaps below0.02px (rounding). Mobile branches remain about22px wide even at320; lines are not disconnected. CSS1px side borders can rasterize to0.667 CSSpx at the current display scaling.
+Desktop pointer hover→press→release→leave: selected connection black, active cleared on release, default gray restored after leaving. Tab highlights corresponding line with visible2px focus; Enter preserves existing #services link navigation. Native links have standard Space page-scroll semantics, no disabled state. Repeated Automation clicks produced four nodes/no stuck active state. Physical mouse-cycle testing needed a fresh tab after the earlier debugging session timed out; final results were sampled in that fresh tab.
+Actual390px touch emulation: tap/release follows #services, settled active0/hover0. Reduced-motion emulation shows no animations and0s transitions. Main carousel keyboard Next still advances to -336px and Previous Space reverses; five slides retained. Tests are browser emulation, not a physical-device or screen-reader certification.
+Anonymous GET / remains200/ComingSoon5858 withoutHome5894. Temporary viewport/touch/media overrides cleared. Existing native anchor focus behavior and menu auto-close limitation remain unchanged.
+
+### Current screenshots and QA
+- [Diagram desktop1440](screenshots/everything-connected-2026-11-18/business-diagram-desktop-1440.jpg)
+- [Diagram mobile390](screenshots/everything-connected-2026-11-18/business-diagram-mobile-390.jpg)
+- [Full homepage desktop1440](screenshots/everything-connected-2026-11-18/business-full-desktop-1440.jpg)
+- [Full homepage mobile390](screenshots/everything-connected-2026-11-18/business-full-mobile-390.jpg)
+- [Measured geometry and interaction samples](everything-connected-business-qa-2026-11-18.json)
+
+Admin toolbar/private account details are excluded from committed full-page captures. Existing authenticated-only assistant/cursor overlays may appear; these were not added to the website. This correction awaits owner visual review in PR15. WordPress remains the source of truth; records are not a portable native export. Pre-correction page undo6108 exists, but shared class restoration must also be reviewed separately; never roll back unrelated later edits.
