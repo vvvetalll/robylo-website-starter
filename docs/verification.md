@@ -124,3 +124,6 @@ Screenshots: [before390](screenshots/visual-discipline-2026-11-18/before-390.jpg
 Review actual page while logged in: https://robylo.com/ or https://robylo.com/?preview_id=5894&preview=true.
 Component editors: [SectionHead6010](https://robylo.com/wp-admin/post.php?post=6010&action=elementor), [ServiceRow6013](https://robylo.com/wp-admin/post.php?post=6013&action=elementor), [Approach6019](https://robylo.com/wp-admin/post.php?post=6019&action=elementor).
 These are native database changes; this documentation and screenshots are not a portable Elementor export.
+
+## 2026-11-18 — Everything Connected
+Owner-approved replacement of Hero preview strip, implemented and verified by ChatGPT/Codex. Existing Home5894 promoted behind unchanged Coming Soon under the owner's standing instruction to make review changes visible when logged in; no public launch or merge. Native connected diagram with four real service anchors, hover/focus stems, compact mobile layout and three supplied outcomes. Five requested widths, pointer/keyboard/touch/reduced motion, main carousel and Menu smoke checks recorded with screenshots and structural diff. Two scoped diagram classes; no new variable, JavaScript or custom CSS exception. [Implementation, evidence, limitations and rollback](everything-connected-2026-11-18.md).
