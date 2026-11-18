@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-18",
+  "reference": "Chicago Mounting v3 at dac1883",
+  "browser": "157.0.8103.52",
+  "exports": [
+    {
+      "project": "gcpro-restoration",
+      "name": "robylo-work-gcpro-restoration-plate-v3",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 178826,
+      "desktop": {
+        "x": 80,
+        "y": 80,
+        "width": 1248,
+        "height": 1040,
+        "right": 1328,
+        "bottom": 1120
+      },
+      "phone": {
+        "x": 1160,
+        "y": 340,
+        "width": 360,
+        "height": 773.046875,
+        "right": 1520,
+        "bottom": 1113.046875
+      }
+    },
+    {
+      "project": "gcpro-restoration",
+      "name": "robylo-work-gcpro-restoration-plate-v3-mobile",
+      "width": 1000,
+      "height": 1250,
+      "bytes": 133980,
+      "desktop": {
+        "x": 48,
+        "y": 64,
+        "width": 904,
+        "height": 790,
+        "right": 952,
+        "bottom": 854
+      },
+      "phone": {
+        "x": 592,
+        "y": 440,
+        "width": 344,
+        "height": 740.4375,
+        "right": 936,
+        "bottom": 1180.4375
+      }
+    },
+    {
+      "project": "kolo-properties",
+      "name": "robylo-work-kolo-properties-plate-v3",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 156896,
+      "desktop": {
+        "x": 80,
+        "y": 80,
+        "width": 1248,
+        "height": 1040,
+        "right": 1328,
+        "bottom": 1120
+      },
+      "phone": {
+        "x": 1160,
+        "y": 340,
+        "width": 360,
+        "height": 773.046875,
+        "right": 1520,
+        "bottom": 1113.046875
+      }
+    },
+    {
+      "project": "kolo-properties",
+      "name": "robylo-work-kolo-properties-plate-v3-mobile",
+      "width": 1000,
+      "height": 1250,
+      "bytes": 108604,
+      "desktop": {
+        "x": 48,
+        "y": 64,
+        "width": 904,
+        "height": 790,
+        "right": 952,
+        "bottom": 854
+      },
+      "phone": {
+        "x": 592,
+        "y": 440,
+        "width": 344,
+        "height": 740.4375,
+        "right": 936,
+        "bottom": 1180.4375
+      }
+    },
+    {
+      "project": "center-for-dental-healing",
+      "name": "robylo-work-center-for-dental-healing-plate-v3",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 140730,
+      "desktop": {
+        "x": 80,
+        "y": 80,
+        "width": 1248,
+        "height": 1040,
+        "right": 1328,
+        "bottom": 1120
+      },
+      "phone": {
+        "x": 1160,
+        "y": 340,
+        "width": 360,
+        "height": 773.046875,
+        "right": 1520,
+        "bottom": 1113.046875
+      }
+    },
+    {
+      "project": "center-for-dental-healing",
+      "name": "robylo-work-center-for-dental-healing-plate-v3-mobile",
+      "width": 1000,
+      "height": 1250,
+      "bytes": 94852,
+      "desktop": {
+        "x": 48,
+        "y": 64,
+        "width": 904,
+        "height": 790,
+        "right": 952,
+        "bottom": 854
+      },
+      "phone": {
+        "x": 592,
+        "y": 440,
+        "width": 344,
+        "height": 740.4375,
+        "right": 936,
+        "bottom": 1180.4375
+      }
+    },
+    {
+      "project": "elite-mechanical-services",
+      "name": "robylo-work-elite-mechanical-services-plate-v3",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 164212,
+      "desktop": {
+        "x": 80,
+        "y": 80,
+        "width": 1248,
+        "height": 1040,
+        "right": 1328,
+        "bottom": 1120
+      },
+      "phone": {
+        "x": 1160,
+        "y": 340,
+        "width": 360,
+        "height": 773.046875,
+        "right": 1520,
+        "bottom": 1113.046875
+      }
+    },
+    {
+      "project": "elite-mechanical-services",
+      "name": "robylo-work-elite-mechanical-services-plate-v3-mobile",
+      "width": 1000,
+      "height": 1250,
+      "bytes": 123974,
+      "desktop": {
+        "x": 48,
+        "y": 64,
+        "width": 904,
+        "height": 790,
+        "right": 952,
+        "bottom": 854
+      },
+      "phone": {
+        "x": 592,
+        "y": 440,
+        "width": 344,
+        "height": 740.4375,
+        "right": 936,
+        "bottom": 1180.4375
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-18",
+  "page": 5894,
+  "unchangedOutsideFourMediaWrappers": true,
+  "chicagoCardUnchanged": true,
+  "assets": [
+    {
+      "slug": "gcpro-restoration",
+      "mobile": false,
+      "filename": "robylo-work-gcpro-restoration-plate-v3.webp",
+      "attachment_id": 6167,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-1.webp",
+      "mime": "image/webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "GCPRO Restoration website shown on desktop and phone"
+    },
+    {
+      "slug": "gcpro-restoration",
+      "mobile": true,
+      "filename": "robylo-work-gcpro-restoration-plate-v3-mobile.webp",
+      "attachment_id": 6168,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-mobile-1.webp",
+      "mime": "image/webp",
+      "width": 1000,
+      "height": 1250,
+      "alt": "GCPRO Restoration website shown on desktop and phone"
+    },
+    {
+      "slug": "kolo-properties",
+      "mobile": false,
+      "filename": "robylo-work-kolo-properties-plate-v3.webp",
+      "attachment_id": 6169,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-1.webp",
+      "mime": "image/webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Kolo Properties website shown on desktop and phone"
+    },
+    {
+      "slug": "kolo-properties",
+      "mobile": true,
+      "filename": "robylo-work-kolo-properties-plate-v3-mobile.webp",
+      "attachment_id": 6170,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-mobile-1.webp",
+      "mime": "image/webp",
+      "width": 1000,
+      "height": 1250,
+      "alt": "Kolo Properties website shown on desktop and phone"
+    },
+    {
+      "slug": "center-for-dental-healing",
+      "mobile": false,
+      "filename": "robylo-work-center-for-dental-healing-plate-v3.webp",
+      "attachment_id": 6171,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-1.webp",
+      "mime": "image/webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Center For Dental Healing website shown on desktop and phone"
+    },
+    {
+      "slug": "center-for-dental-healing",
+      "mobile": true,
+      "filename": "robylo-work-center-for-dental-healing-plate-v3-mobile.webp",
+      "attachment_id": 6172,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-mobile-1.webp",
+      "mime": "image/webp",
+      "width": 1000,
+      "height": 1250,
+      "alt": "Center For Dental Healing website shown on desktop and phone"
+    },
+    {
+      "slug": "elite-mechanical-services",
+      "mobile": false,
+      "filename": "robylo-work-elite-mechanical-services-plate-v3.webp",
+      "attachment_id": 6173,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-1.webp",
+      "mime": "image/webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Elite Mechanical Services website shown on desktop and phone"
+    },
+    {
+      "slug": "elite-mechanical-services",
+      "mobile": true,
+      "filename": "robylo-work-elite-mechanical-services-plate-v3-mobile.webp",
+      "attachment_id": 6174,
+      "url": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-mobile-1.webp",
+      "mime": "image/webp",
+      "width": 1000,
+      "height": 1250,
+      "alt": "Elite Mechanical Services website shown on desktop and phone"
+    }
+  ],
+  "mediaWrapperIds": [
+    "db172ba",
+    "29e0294",
+    "f754c09",
+    "940a333"
+  ],
+  "note": "Full tree comparison excluding the four media wrappers: only document staged flag changed to false on publication. Chicago card is identical."
+}
