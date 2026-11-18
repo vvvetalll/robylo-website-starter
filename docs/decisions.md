@@ -38,3 +38,7 @@ Owner requested compact mobile proportions using the supplied Apple references, 
 ## 2026-11-18 — Impact section exploration
 
 **Proposed by Claude, not approved:** replace the Hero thumbnail strip with one Impact section; three concepts with recommendation A · Editorial Case. [Concepts and evaluation](design-impact-section-concepts-2026-11-18.md). No implementation authorized; Homepage V2 structure otherwise unchanged.
+
+## 2026-11-18 — Portfolio visual presentation research
+
+**Proposed by Claude, not approved:** present all five portfolio projects with one "Studio plate" (real desktop + phone screens on a neutral mat, 4:3, mobile crop 4:5). [Research](design-portfolio-presentation-research-2026-11-18.md). No implementation authorized; existing horizontal carousel unchanged.

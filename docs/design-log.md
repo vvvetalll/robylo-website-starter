@@ -26,6 +26,10 @@ The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is k
 
 ---
 
+## 2026-11-18 — Portfolio visual presentation research
+
+**Exploration, Proposed.** Research of 8 live studio portfolios (Apple, Locomotive, Clay, Metalab, Instrument, AREA 17, Fantasy, Halo Lab) on how website projects are presented in carousels. Recommendation: one "Studio plate" for all five projects — real desktop + phone screens on a flat neutral mat, fixed geometry, one caption grammar; mobile reuses the same image cropped to 4:5. Alternatives (single desktop screen, editorial crop, 3D device renders) evaluated and not recommended. [Research and specification](design-portfolio-presentation-research-2026-11-18.md). No mockup yet; no implementation authorized.
+
 ## 2026-11-18 — Big Picture refinement
 
 **Status: Proposed.** Owner kept The Big Picture (philosophy) separate from What we do (services). Claude withdrew its suggestion to fold the block into Services and proposed refinements instead: a ring connecting the four directions, a lighter "Your business" center, no capitals, the outcome row as plain text, and a Services intro that no longer repeats the Big Picture message. [Proposal](design-big-picture-refinement-2026-11-18.md).

@@ -139,3 +139,7 @@ Collaborator: Claude. Scope: three design concepts for the section below the Her
 
 Collaborator: Claude. Added docs/design-big-picture-refinement-2026-11-18.md, desktop and mobile mockups and source folder; design-log entry. Status **Proposed**; no WordPress change. Checks: headless Chrome renders at 1440 and 390 (2×), scroll width equals viewport. Not verified: Elementor, 1024/768/320, devices.
 
+
+## 2026-11-18 — Portfolio visual presentation research (research only)
+
+Collaborator: Claude. Added docs/design-portfolio-presentation-research-2026-11-18.md; design-log and decisions entries. Status **Proposed**. Evidence: 8 studio work pages opened in a cloud browser at 1440px on 2026-11-18; Ueno, Koto and BASIC/DEPT excluded (offline/404). Not verified: plate mockup renders, Atomic V4 per-breakpoint object-position support, captures of the five client sites. No WordPress, Elementor or website change; no PR opened.
