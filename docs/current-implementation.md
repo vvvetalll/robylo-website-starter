@@ -152,3 +152,50 @@ Home 5894 now has six native carousel cards, with Quickzy Cleaning appended afte
 
 ## 2026-11-18 — Final homepage copy snapshot
 Home5894 now renders the owner-approved Chicago/suburbs and direct-implementer copy. Six existing Studio Plates/project destinations retained; link labels “Visit site.” Footer5893 reuses5889 message property for the approved tagline. Existing AIOSEO stores the supplied Chicago SEO title/description; robots/Coming Soon unchanged. No layout/class/token/component-definition change. [Approved copy](ROBYLO-CONCEPT.md#approved-homepage-positioning-and-final-copy--2026-11-18), [exact IDs and verification](verification.md#2026-11-18--approved-homepage-copy-and-chicago-positioning). Earlier snapshots above remain historical.
+
+
+## Website architecture and page skeletons — 2026-11-18
+**Approved scope / Implemented / Verified in Chrome.** Owner authorized17 planned URLs: existing Home plus16 internal pages. Owner subsequently confirmed updating shared navigation across all pages while leaving homepage content unchanged.
+
+### Actual sitemap
+All16 internal pages are standard WordPress Pages. Native page parents/slugs provide hierarchical URLs. Published here means accessible to authenticated reviewers behind the unchanged public Coming Soon gate; no launch approval.
+
+| Page | WordPress / Elementor ID | Parent ID | Slug | URL | Status | Indexing |
+| --- | --- | --- | --- | --- | --- | --- |
+| Home | [5894](https://robylo.com/wp-admin/post.php?post=5894&action=elementor) | — | `/` | [/](https://robylo.com/) | Published, gated | Unchanged |
+| Services | [6191](https://robylo.com/wp-admin/post.php?post=6191&action=elementor) | — | `services` | [/services/](https://robylo.com/services/) | Published, gated | noindex |
+| Work | [6193](https://robylo.com/wp-admin/post.php?post=6193&action=elementor) | — | `work` | [/work/](https://robylo.com/work/) | Published, gated | noindex |
+| Approach | [6195](https://robylo.com/wp-admin/post.php?post=6195&action=elementor) | — | `approach` | [/approach/](https://robylo.com/approach/) | Published, gated | noindex |
+| About | [6197](https://robylo.com/wp-admin/post.php?post=6197&action=elementor) | — | `about` | [/about/](https://robylo.com/about/) | Published, gated | noindex |
+| FAQ | [6199](https://robylo.com/wp-admin/post.php?post=6199&action=elementor) | — | `faq` | [/faq/](https://robylo.com/faq/) | Published, gated | noindex |
+| Contact | [6201](https://robylo.com/wp-admin/post.php?post=6201&action=elementor) | — | `contact` | [/contact/](https://robylo.com/contact/) | Published, gated | noindex |
+| Website Design & Development | [6203](https://robylo.com/wp-admin/post.php?post=6203&action=elementor) | 6191 | `web-design` | [/services/web-design/](https://robylo.com/services/web-design/) | Published, gated | noindex |
+| SEO & Local Visibility | [6205](https://robylo.com/wp-admin/post.php?post=6205&action=elementor) | 6191 | `local-seo` | [/services/local-seo/](https://robylo.com/services/local-seo/) | Published, gated | noindex |
+| Digital Advertising | [6207](https://robylo.com/wp-admin/post.php?post=6207&action=elementor) | 6191 | `digital-advertising` | [/services/digital-advertising/](https://robylo.com/services/digital-advertising/) | Published, gated | noindex |
+| AI & Business Automation | [6209](https://robylo.com/wp-admin/post.php?post=6209&action=elementor) | 6191 | `ai-automation` | [/services/ai-automation/](https://robylo.com/services/ai-automation/) | Published, gated | noindex |
+| Chicago Mounting | [6211](https://robylo.com/wp-admin/post.php?post=6211&action=elementor) | 6193 | `chicago-mounting` | [/work/chicago-mounting/](https://robylo.com/work/chicago-mounting/) | Published, gated | noindex |
+| GCPRO Restoration | [6213](https://robylo.com/wp-admin/post.php?post=6213&action=elementor) | 6193 | `gcpro-restoration` | [/work/gcpro-restoration/](https://robylo.com/work/gcpro-restoration/) | Published, gated | noindex |
+| Kolo Properties | [6215](https://robylo.com/wp-admin/post.php?post=6215&action=elementor) | 6193 | `kolo-properties` | [/work/kolo-properties/](https://robylo.com/work/kolo-properties/) | Published, gated | noindex |
+| Center For Dental Healing | [6217](https://robylo.com/wp-admin/post.php?post=6217&action=elementor) | 6193 | `center-for-dental-healing` | [/work/center-for-dental-healing/](https://robylo.com/work/center-for-dental-healing/) | Published, gated | noindex |
+| Elite Mechanical Services | [6219](https://robylo.com/wp-admin/post.php?post=6219&action=elementor) | 6193 | `elite-mechanical-services` | [/work/elite-mechanical-services/](https://robylo.com/work/elite-mechanical-services/) | Published, gated | noindex |
+| Quickzy Cleaning | [6221](https://robylo.com/wp-admin/post.php?post=6221&action=elementor) | 6193 | `quickzy-cleaning` | [/work/quickzy-cleaning/](https://robylo.com/work/quickzy-cleaning/) | Published, gated | noindex |
+
+Home5894 remains the assigned front page. Its WordPress title and underlying body were not edited; root / is its front-page URL. Atomic Lab5776, Styleguide5774 and authoring draft6040 remain outside the planned sitemap and were not duplicated.
+
+### Native implementation
+- All16 use main#content → one section(rb-section) → l-container → one H1(rb-section-title) and one short paragraph(rb-hero__subtitle). Existing44/36/30px heading role, Manrope, monochrome tokens, section/gutter spacing retained; homepage display size is not imposed on internal H1s.
+- Services includes four plain links to child service Pages; Work includes six child case-study links, inside the same Hero. Contact includes info@robylo.com. Links reuse5864 and rb-btn--text, including48px minimum targets; no cards or additional content sections.
+- Base Section5869 inspected and preserved. Its fixed action composition has no directory-content slot, so new page layouts reuse existing section/container classes directly rather than duplicating or changing that component.
+- Native Elementor Full Width layout with theme title hidden prevents duplicate H1s. Minimal native container controls remove default padding and stack content with existing spacing tokens; no global style change.
+- Case intros use only existing homepage categories/towns: TV/AV Chicago; restoration Lombard; property management Park Ridge; dental Glenview; HVAC/refrigeration West Chicago; professional cleaning with no unverified town.
+- Introductions are scaffold copy, not approved final narratives. No fabricated results/testimonials or stock images. No new component, token/class, CPT/taxonomy, plugin, CSS/JavaScript file or dependency.
+- Slugs/parents configured through native WordPress page controls; Elementor creation does not expose those WordPress fields.
+- Existing AIOSEO holds basic title/description for each new page and explicit per-page noindex. Global indexing and homepage metadata unchanged.
+
+### Shared navigation
+- Existing Header component5886: Services/Work/Approach destinations become page URLs; About5d11a8d2 added using existing link styling. Active Header5892 instance3fb52a02 uses existing action_text/action_link properties for Contact→/contact/. Logo and layout preserved.
+- Existing Footer component5889: four destinations become page URLs; About3f7369af and FAQ77469702 added with existing styles. Active Footer5893 message/copyright overrides retained.
+- Existing native Popup5996: five primary page destinations, About3cba38b3 added, CTA→/contact/. Site-wide include/general matches the shared Header; automatic triggers/timing remain empty. Full page navigation closes the prior menu document naturally, without JavaScript.
+- Homepage Hero #contact/#work actions, all six external Visit site destinations and Studio Plates unchanged. Native Home body139 nodes identical before/after. Global class/variable registries unchanged.
+
+[Verification/evidence](verification.md#2026-11-18--website-architecture-and-page-skeletons). Native page trees, parents/slugs/status, component overrides, Popup conditions and AIOSEO settings remain database-held, not portable exports. Full page designs/content, noindex removal and eventual launch are separate future scopes.
