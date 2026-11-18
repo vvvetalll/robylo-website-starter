@@ -135,3 +135,7 @@ Collaborator: Claude. Scope: three design concepts for the section below the Her
 - **Not verified:** 1024/768/320 renders, Elementor feasibility beyond documented native capabilities, real devices, assistive technology.
 - Images: public chicagomounting.com captures (homepage 2026-11-16, services page 2026-11-18). No admin screens, credentials or private data. All results, metrics, dates and the client's starting point are marked placeholders; no client data was invented.
 
+## 2026-11-18 — Big Picture refinement (design only)
+
+Collaborator: Claude. Added docs/design-big-picture-refinement-2026-11-18.md, desktop and mobile mockups and source folder; design-log entry. Status **Proposed**; no WordPress change. Checks: headless Chrome renders at 1440 and 390 (2×), scroll width equals viewport. Not verified: Elementor, 1024/768/320, devices.
+

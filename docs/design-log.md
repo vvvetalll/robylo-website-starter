@@ -26,6 +26,10 @@ The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is k
 
 ---
 
+## 2026-11-18 — Big Picture refinement
+
+**Status: Proposed.** Owner kept The Big Picture (philosophy) separate from What we do (services). Claude withdrew its suggestion to fold the block into Services and proposed refinements instead: a ring connecting the four directions, a lighter "Your business" center, no capitals, the outcome row as plain text, and a Services intro that no longer repeats the Big Picture message. [Proposal](design-big-picture-refinement-2026-11-18.md).
+
 ## 2026-11-18 — Iteration 5: Impact section concepts
 
 **Status: Proposed exploration.**
