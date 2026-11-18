@@ -46,3 +46,9 @@ Owner requested compact mobile proportions using the supplied Apple references, 
 ## 2026-11-18 — Studio Plate prototype (Chicago Mounting)
 
 **Proposed by Claude, not approved:** Studio Plate v2 geometry and 3:4 mobile card crop, demonstrated on Chicago Mounting. [Prototype](design-studio-plate-chicago-mounting-2026-11-18.md). Awaiting owner review; production guidelines for all projects follow only after approval. No implementation authorized.
+
+## 2026-11-18 — Studio Plate v3 owner-directed refinement
+
+**Approved scope:** owner request in GCPRO on 2026-11-18 approves the overall Studio Plate direction and authorizes Chicago Mounting v3 visual refinement, local renders, comparison, documentation, commit and push on a separate branch. Requires a recognizable complete smartphone and a better mobile balance, using existing real captures. Preserves v2; excludes WordPress, Elementor, live ROBYLO, existing carousel, other four projects, merge and final production guidelines.
+
+**Implemented as local artifacts; Proposed for visual approval:** [v3 composition](design-studio-plate-chicago-mounting-2026-11-18.md#studio-plate-v3--visual-refinement-2026-11-18), including a separate portrait asset for the mobile preview. This supersedes the earlier unapproved status only for the overall direction and requested exploration; it does not approve the new geometry, mobile asset strategy or production rollout.

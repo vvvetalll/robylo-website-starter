@@ -4,6 +4,8 @@
 
 Based on [Portfolio visual presentation research](design-portfolio-presentation-research-2026-11-18.md), direction A · Studio plate.
 
+> **v3 review, 2026-11-18:** the owner approved the Studio Plate direction and requested a recognizable, complete smartphone and a deliberate mobile composition. The v2 record and all original assets below are preserved. The [v3 refinement and evidence](#studio-plate-v3--visual-refinement-2026-11-18) are a new proposal awaiting visual approval; this is not a production handoff.
+
 ## Deliverables
 
 | File | What it is |
@@ -76,3 +78,54 @@ Not verified: Elementor Atomic V4 support for a per-breakpoint aspect ratio and 
 2. Approve 3:4 for the mobile card (instead of 4:5 from the research).
 3. Desktop shows the hero plus the start of the price section. If the owner prefers only the hero, the desktop screen can be made larger (less of the page shows), at the cost of a tighter phone overlap.
 4. Approve re-capturing all five sites at true 390 px on a local machine for production.
+
+## Studio Plate v3 — visual refinement, 2026-11-18
+
+Collaborator: ChatGPT/Codex. **Approved scope:** owner's explicit Studio Plate v3 request in the GCPRO conversation on 2026-11-18: refine Chicago Mounting only, render actual images, preserve v2, commit and push on a separate branch, no merge or website changes. **Implemented:** local design artifacts. **Verified:** the rendered prototype at the widths below. **Proposed:** the actual v3 visual result and portrait adaptation, pending owner review. Reusable production guidelines remain unfinished.
+
+Branch `design/studio-plate-v3-2026-11-18` starts at source branch `design/impact-section-concepts-2026-11-18`, commit `2eb03bd29b6d72b68545dca4d355dbc5b579c95a`. It neither overwrites Claude's source branch nor changes any v2 asset, capture, HTML or script.
+
+### Review files
+
+All new artifacts live in [design/2026-11-18-studio-plate-chicago-mounting/v3/](design/2026-11-18-studio-plate-chicago-mounting/v3/).
+
+| File | Purpose |
+| --- | --- |
+| [Plate PNG](design/2026-11-18-studio-plate-chicago-mounting/v3/robylo-work-chicago-mounting-plate-v3.png) / [WebP](design/2026-11-18-studio-plate-chicago-mounting/v3/robylo-work-chicago-mounting-plate-v3.webp) | 1600 × 1200 master; WebP q90, 103,804 bytes |
+| [Portrait PNG](design/2026-11-18-studio-plate-chicago-mounting/v3/robylo-work-chicago-mounting-plate-v3-mobile.png) / [WebP](design/2026-11-18-studio-plate-chicago-mounting/v3/robylo-work-chicago-mounting-plate-v3-mobile.webp) | 1000 × 1250 mobile composition; WebP q90, 78,628 bytes |
+| [Small WebP](design/2026-11-18-studio-plate-chicago-mounting/v3/robylo-work-chicago-mounting-plate-v3-800.webp) | 800 × 600, 44,284 bytes; not used by the previews |
+| [Desktop carousel](design/2026-11-18-studio-plate-chicago-mounting/v3/carousel-v3-desktop-1440.png) | 1440 × 900 viewport, 2× PNG |
+| [Mobile carousel](design/2026-11-18-studio-plate-chicago-mounting/v3/carousel-v3-mobile-390.png) | 390 × 844 viewport, 2× PNG |
+| [Plate comparison](design/2026-11-18-studio-plate-chicago-mounting/v3/comparison-v2-v3-plate.png) | v2 left, v3 right, equal scale |
+| [Desktop comparison](design/2026-11-18-studio-plate-chicago-mounting/v3/comparison-v2-v3-desktop.png) / [mobile comparison](design/2026-11-18-studio-plate-chicago-mounting/v3/comparison-v2-v3-mobile.png) | Original committed v2 versus newly rendered v3, equal scale with version labels |
+| [Render report](design/2026-11-18-studio-plate-chicago-mounting/v3/render-report.json) | Dimensions, file weights, image selection, font, loading and overflow assertions |
+| [Plate HTML](design/2026-11-18-studio-plate-chicago-mounting/v3/source/plate.html), [preview HTML](design/2026-11-18-studio-plate-chicago-mounting/v3/source/carousel-preview.html), [renderer](design/2026-11-18-studio-plate-chicago-mounting/v3/source/render.cjs) | Reproducible local sources, no external requests |
+
+Additional visual evidence: [1024](design/2026-11-18-studio-plate-chicago-mounting/v3/carousel-v3-tablet-1024.png), [768](design/2026-11-18-studio-plate-chicago-mounting/v3/carousel-v3-tablet-768.png), [320](design/2026-11-18-studio-plate-chicago-mounting/v3/carousel-v3-mobile-320.png).
+
+### Composition and rationale
+
+The palette continues the existing concept: mat/body `#F5F5F5`, white screenshot backgrounds, `#D6D6D6` screenshot outlines, dark `#282828` phone outline and `#444444` speaker. Manrope and the existing section/caption copy are retained. All client color comes from the real captures. No gradients, drop shadows, textures, 3D effects, extra brand labels or invented website content.
+
+| Element | 1600 × 1200 master | 1000 × 1250 mobile composition |
+| --- | --- | --- |
+| Desktop screenshot | x80, y80, 1248 × 1040 viewport | x48, y64, 904 × 790 viewport |
+| Complete phone | x1160, y340, width360, height≈773.05 | x592, y440, width344, height≈740.44 |
+| Phone construction | 4px dark outline, 40px outer radius, 10px mat separation, 32px top and 24px bottom padding; 40 × 4 speaker and 7px camera | Same quiet construction; no bulky mockup |
+| Phone screen | Original mobile capture at natural aspect, clipped at source y978 | Same original capture and crop; no stretching or retouching |
+
+The complete phone bottom now fits inside the mat. The beginning of pricing remains visible on both screens. On the mobile composition, the foreground phone naturally overlaps part of the desktop pricing heading/right-hand cards; the desktop hero, left headline and complete navigation width remain in view. This makes the overlap legible as a designed composition rather than a cropped desktop fragment. Fine navigation/body text remains thumbnail detail, not reading-size copy.
+
+**Mobile tradeoff for review:** v2's right-aligned crop of the 4:3 master cannot preserve the complete desktop width. The v3 preview therefore uses a separate portrait export from the same HTML and the same two source captures. A local `<picture>` switches assets below 768px. The mobile card is 4:5 (332 × 415 at 390), reducing its image height from v2's 442px. This is an explicit proposal, not a change to the existing Elementor carousel or a finalized production requirement. Mobile caption sizes follow the permanent owner standard: 20px title / 12px description; tablet section heading 36px. Desktop 1440 geometry and copy remain the v2 baseline.
+
+### Rendering and actual verification
+
+The v2 method is retained: HTML/CSS rendered in headless Chrome. The new renderer uses the existing local JavaScript Playwright/sharp runtime because v2's Python Playwright and hardcoded Linux Chrome path are unavailable on this Windows machine. No packages or project dependencies were installed; no theme build tools were added. Reproduction requires Node, Playwright, sharp and Chrome already available. From the repository root run `node docs/design/2026-11-18-studio-plate-chicago-mounting/v3/source/render.cjs`; `NODE_PATH` may select a shared runtime, and `CHROME_PATH` overrides browser location. The script resolves inputs/outputs relative to itself and does not depend on the working directory.
+
+- Local Windows Chrome 157.0.8103.52: master and portrait at 1×; carousel at 1440, 1024, 768, 390 and 320 CSS px, all at 2×.
+- All five previews passed: `scrollWidth === viewport width`, local Manrope loaded, all images decoded, expected desktop/portrait source selected, zero failed requests or page errors. Full phone silhouette and separation ring fit inside both export bounds.
+- Opened and visually inspected the PNG master, compressed WebP master, desktop/mobile previews, both tablet previews, 320px preview and side-by-side comparisons. Checked recognizable hardware top/bottom, complete desktop hero width in portrait, pricing start, overlap, caption wrapping and next-card glimpse. WebP previews use the compressed assets, not the lossless masters. Additional compressed portrait and small exports inspected as well.
+- WebP q90 with effort6 stays below the earlier target weights while preserving headline, price and outline recognition; lossless PNGs remain available. No attempt to make tiny screenshot body text readable at carousel scale.
+- Original captures and v2 assets are unchanged. The phone source remains the existing 480 × 992 mobile-layout screenshot, **not a new 390px website capture**. Only the carousel viewport is 390px.
+- Static presentation only: inherited arrow controls are visual placeholders and no new carousel behavior is implemented. No interactive QA or WordPress/Elementor feasibility claim. No WordPress, Elementor, public website or existing carousel operations. Cards 2–5 remain empty mats with the inherited captions.
+- Pending: owner visual approval, physical-device review, any later native responsive-image feasibility work and reusable production guidance. No merge authorized or performed.
