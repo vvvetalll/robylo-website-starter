@@ -84,3 +84,19 @@ Anonymous GET / remains200/ComingSoon5858 withoutHome5894. Temporary viewport/to
 - [Measured geometry and interaction samples](everything-connected-business-qa-2026-11-18.json)
 
 Admin toolbar/private account details are excluded from committed full-page captures. Existing authenticated-only assistant/cursor overlays may appear; these were not added to the website. This correction awaits owner visual review in PR15. WordPress remains the source of truth; records are not a portable native export. Pre-correction page undo6108 exists, but shared class restoration must also be reviewed separately; never roll back unrelated later edits.
+
+## Mobile cross alignment — owner refinement, 2026-11-18
+**Current mobile design supersedes the corner/L-branch composition above.** Owner approved the desktop cross as the visual direction and requested the same arrangement on mobile. Website is above BUSINESS, LocalSEO left, Advertising right, Automation below, with four straight visible spokes.
+
+Only native responsive properties changed:
+- Reused the same four anchors, four stems and BUSINESS node; no new/removed HTML, class, variable or dependency.
+- rb-system-node retains all existing states; mobile gap becomes4px. rb-system-stem's obsolete mobile absolute/L-border variant removed so the native relative flex line is inherited.
+- Cleared the old per-stem mobile insets and borders; mobile lines now use relative positioning, auto insets and zero borders. Horizontal stems remain1px high; vertical stems1px wide.
+- Mobile circle80px (from88), same14px BUSINESS label; capability labels remain14px/600. Top/bottom regions120px wide; side regions calc(50% - 40px). Mobile diagram height stays240px. Section spacing, copy/outcomes and every other section stay unchanged. Desktop104px circle/280px diagram and all desktop element styles are byte-identical to before.
+- At320px, shorter horizontal gaps preserve actual visible side spokes of roughly23px left/12px right, without tiny type or label collisions. Connections meet the hub within0.02px rounding and center error stays below0.01px.
+
+Actual Chrome captures were visually inspected at1440,1024,768,390,320. No horizontal overflow. [Desktop](screenshots/everything-connected-2026-11-18/mobile-cross-1440.jpg), [390px](screenshots/everything-connected-2026-11-18/mobile-cross-390.jpg), [320px](screenshots/everything-connected-2026-11-18/mobile-cross-320.jpg). Existing authenticated assistant overlay may appear at the edge; it is not part of the diagram.
+
+Fresh320px pointer hover/press/release/leave confirms black selected line and restoration to gray, no stuck active state. Tab gives2px visible focus and black corresponding line; Enter retains native #services navigation. Touch tap/release at320 settles with active0/hover0. Reduced-motion emulation:0s transitions. Repeated Automation clicks tested. Links have standard Space scrolling and no disabled states. No focus-blurring JavaScript introduced. [Measured checks](everything-connected-mobile-cross-qa-2026-11-18.json). Browser emulation only; physical device/screen-reader certification not performed.
+
+Native audit120→120 nodes, identical types/tags/order/content/links. Only nine diagram elements' responsive styles differ; all their desktop styles are unchanged. Both reused classes still have four consumers; none was removed. No duplication or extra CSS location. Home5894 saved/promoted behind unchanged Coming Soon for authenticated owner review. Anonymous root200 still serves5858 and no5894. No PR merge. Existing diagram rollback begins at page revision6115; shared-class mobile settings must also be restored deliberately if rollback is requested.

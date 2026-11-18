@@ -130,3 +130,6 @@ Owner-approved replacement of Hero preview strip, implemented and verified by Ch
 
 ## 2026-11-18 — BUSINESS-centered diagram correction
 Owner rejected the four-button appearance. ChatGPT/Codex replaced only the visualization with a dominant BUSINESS hub, four connected text capabilities, cardinal desktop and separate compact mobile branches. Same two classes reused, no global typography/spacing changes, JavaScript or custom CSS exception. Actual five-width visual/geometry, pointer/focus/touch/reduced-motion and carousel smoke checks recorded. Home updated behind unchanged Coming Soon; PR15 remains unmerged. [Correction and current screenshots](everything-connected-2026-11-18.md#owner-requested-correction--business-centered-infographic-2026-11-18).
+
+## 2026-11-18 — Mobile cross refinement
+ChatGPT/Codex aligned mobile with the approved desktop cross using only existing diagram responsive properties. Same120 nodes and content, desktop element styles unchanged; mobile80px BUSINESS,14px labels and four straight visible lines. Actual five-width visual checks,320px pointer/keyboard/touch/reduced-motion tests and screenshots recorded. Coming Soon retained; PR15 updated without merge. [Current implementation](everything-connected-2026-11-18.md#mobile-cross-alignment--owner-refinement-2026-11-18).
