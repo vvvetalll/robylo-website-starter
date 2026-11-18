@@ -34,3 +34,7 @@ The owner authorized building/testing Light (#FFFFFF), Soft (#F5F5F5) and Dark (
 
 ## 2026-11-18 — Compact global homepage refinement
 Owner requested compact mobile proportions using the supplied Apple references, preserving V2 structure. After the earlier no-publish instruction, owner explicitly authorized publishing so the implementation could be reviewed. Homepage5894 and refined existing components6010/6013/6019 promoted behind unchanged Coming Soon. No PR merge authorized or performed. Permanent visual rules and actual QA are recorded in ROBYLO-CONCEPT.md and verification.md. This supersedes earlier oversized homepage typography values; portfolio mobile20/12 remains approved.
+
+## 2026-11-18 — Impact section exploration
+
+**Proposed by Claude, not approved:** replace the Hero thumbnail strip with one Impact section; three concepts with recommendation A · Editorial Case. [Concepts and evaluation](design-impact-section-concepts-2026-11-18.md). No implementation authorized; Homepage V2 structure otherwise unchanged.

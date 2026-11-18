@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROBYLO — Impact section, three concepts</title>
+<style>
+/* Design mockup only, not production code. Values follow the current Homepage V2 build and
+   the permanent visual quality standard (docs/ROBYLO-CONCEPT.md, 2026-11-18):
+   display 76/56/36, H2 44/36/30, H3 24/22/20, Manrope, monochrome, 1200px grid, 4px radius. */
+@font-face { font-family: "Manrope"; src: url("manrope.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+:root {
+  --ink:#000; --paper:#fff; --text:#444; --surface:#F5F5F5; --line:#D6D6D6; --hover:#333; --mute:#8A8A8A;
+  --r:4px; --gutter:clamp(1.25rem,4vw,3rem); --gap:24px;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+html { -webkit-font-smoothing:antialiased; }
+body { font-family:"Manrope",sans-serif; font-size:16px; line-height:1.6; color:var(--text); background:var(--paper); }
+img { display:block; max-width:100%; }
+a { color:inherit; text-decoration:none; }
+ul, ol { list-style:none; }
+.wrap { max-width:1200px; margin:0 auto; }
+.pad { padding-left:var(--gutter); padding-right:var(--gutter); }
+.grid { display:grid; grid-template-columns:repeat(12,1fr); column-gap:var(--gap); }
+h1,h2,h3 { color:var(--ink); font-weight:700; }
+.display { font-size:76px; line-height:1.03; letter-spacing:-0.04em; }
+h2 { font-size:44px; line-height:1.12; letter-spacing:-0.028em; }
+h3 { font-size:24px; line-height:1.3; letter-spacing:-0.012em; font-weight:600; }
+.mute { color:var(--mute); }
+.blk { display:block; }
+.small { font-size:14px; line-height:1.5; }
+.label { font-size:14px; line-height:1.5; font-weight:600; color:var(--ink); }
+.lead { font-size:18px; line-height:1.6; }
+.btn { display:inline-flex; align-items:center; gap:8px; min-height:48px; padding:12px 20px; border:1px solid var(--ink); border-radius:var(--r);
+  font:600 16px/1.25 "Manrope",sans-serif; background:var(--ink); color:var(--paper); }
+.btn--sm { min-height:40px; padding:8px 16px; font-size:15px; }
+.tlink { display:inline-flex; align-items:center; gap:8px; min-height:48px; font-weight:600; color:var(--ink); text-decoration:underline; text-underline-offset:4px; text-decoration-thickness:1px; }
+.arrow { width:14px; height:14px; background:currentColor; flex:none; clip-path:polygon(0% 44%,70% 44%,42% 16%,50% 8%,92% 50%,50% 92%,42% 84%,70% 56%,0% 56%); }
+
+/* Placeholder conventions (must never ship as-is) */
+.ph { color:var(--mute); border-bottom:1px dashed var(--mute); }
+.draft { display:inline-block; vertical-align:middle; margin-left:6px; padding:0 6px; font-size:11px; line-height:18px; font-weight:600; letter-spacing:0.02em;
+  color:var(--mute); border:1px solid var(--line); border-radius:var(--r); white-space:nowrap; }
+
+/* ---------- Context: header + current hero (strip removed) ---------- */
+.hdr .in { height:80px; display:flex; align-items:center; justify-content:space-between; }
+.hdr img { height:17px; width:auto; }
+.hdr nav { display:flex; align-items:center; gap:36px; font-size:15px; font-weight:500; color:var(--ink); }
+.hdr .menu { display:none; }
+.hero { padding-top:56px; padding-bottom:80px; }
+.hero h1 { grid-column:1 / span 8; }
+.hero .lead { grid-column:9 / span 4; align-self:end; padding-bottom:8px; }
+.hero .act { grid-column:1 / -1; display:flex; align-items:center; gap:28px; margin-top:40px; }
+.next { background:var(--surface); padding-top:80px; padding-bottom:40px; }
+.next .cut { height:40px; }
+
+/* ---------- Concept A — Editorial Case ---------- */
+.ed { padding-bottom:96px; }
+.ed .top { border-top:1px solid var(--ink); padding-top:16px; display:flex; justify-content:space-between; align-items:baseline; }
+.ed .top span:last-child { color:var(--text); }
+.ed .head { margin-top:40px; align-items:end; }
+.ed .head h2 { grid-column:1 / span 8; }
+.ed .head p { grid-column:9 / span 4; padding-bottom:4px; }
+.ed .body { margin-top:48px; align-items:start; }
+.ed .media { grid-column:1 / span 8; background:var(--surface); border-radius:var(--r); height:440px; overflow:hidden; position:relative; }
+.ed .media .d { position:absolute; left:48px; top:56px; width:620px; border:1px solid var(--line); border-radius:var(--r); }
+.ed .media .m { position:absolute; right:40px; top:116px; width:180px; border:1px solid var(--line); border-radius:12px; box-shadow:0 1px 0 var(--line); }
+.ed dl { grid-column:9 / span 4; }
+.ed dl div { border-top:1px solid var(--line); padding:16px 0 20px; }
+.ed dl div:first-child { border-top-color:var(--ink); }
+.ed dt { font-size:14px; line-height:1.5; font-weight:600; color:var(--ink); margin-bottom:6px; }
+.ed dd { font-size:16px; line-height:1.55; }
+.ed dd.big { font-size:24px; line-height:1.25; font-weight:600; letter-spacing:-0.01em; }
+.ed .scope li { display:flex; gap:10px; } .ed .scope li::before { content:"—"; color:var(--mute); }
+.ed .more { margin-top:8px; }
+
+/* ---------- Concept B — Data Story ---------- */
+.ds { padding-bottom:96px; }
+.ds .top { border-top:1px solid var(--ink); padding-top:16px; display:flex; justify-content:space-between; align-items:baseline; }
+.ds .body { margin-top:40px; align-items:stretch; }
+.ds .fig { grid-column:1 / span 4; display:flex; flex-direction:column; }
+.ds .num { font-size:112px; line-height:0.95; letter-spacing:-0.05em; font-weight:700; color:var(--mute); display:inline-block; }
+.ds .num .u { font-size:56px; letter-spacing:-0.03em; vertical-align:top; position:relative; top:10px; }
+.ds .numbox { display:inline-block; border:1px dashed var(--mute); border-radius:var(--r); padding:10px 14px 14px; align-self:flex-start; }
+.ds .what { margin-top:20px; font-size:20px; line-height:1.35; font-weight:600; color:var(--ink); letter-spacing:-0.01em; }
+.ds .src { margin-top:auto; padding-top:24px; font-size:14px; line-height:1.5; }
+.ds .chart { grid-column:5 / span 8; border-left:1px solid var(--line); padding-left:32px; }
+.ds .chart svg { width:100%; height:auto; display:block; }
+.ds .note { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:12px; }
+.ds .ctx { margin-top:48px; }
+.ds .ctx > div { grid-column:span 4; border-top:1px solid var(--line); padding-top:16px; }
+.ds .ctx > div:first-child { border-top-color:var(--ink); }
+.ds .ctx b { display:block; font-size:14px; font-weight:600; color:var(--ink); margin-bottom:6px; }
+.ds .ctx p { font-size:16px; line-height:1.55; }
+.ds .ctx .v { font-size:24px; line-height:1.25; font-weight:600; letter-spacing:-0.01em; }
+.ds .foot { margin-top:32px; display:flex; justify-content:space-between; align-items:center; }
+
+/* ---------- Concept C — Visual Journey ---------- */
+.vj { padding-bottom:96px; }
+.vj .top { border-top:1px solid var(--ink); padding-top:16px; display:flex; justify-content:space-between; align-items:baseline; }
+.vj .top span:last-child { color:var(--text); }
+.vj .head { align-items:end; margin-top:40px; }
+.vj .head h2 { grid-column:1 / span 8; }
+.vj .head p { grid-column:9 / span 4; padding-bottom:4px; }
+.vj .rail { margin-top:48px; position:relative; display:grid; grid-template-columns:repeat(3,1fr); gap:var(--gap); }
+.vj .rail::before { content:""; position:absolute; left:0; right:0; top:7px; height:1px; background:var(--line); }
+.vj .step { position:relative; }
+.vj .dot { display:block; width:15px; height:15px; border-radius:50%; background:var(--paper); border:1px solid var(--ink); position:relative; z-index:1; }
+.vj .step:last-child .dot { background:var(--ink); }
+.vj .step .label { margin-top:16px; display:flex; justify-content:space-between; }
+.vj .pic { margin-top:16px; aspect-ratio:4/3; background:var(--surface); border-radius:var(--r); overflow:hidden; position:relative; }
+.vj .pic img { position:absolute; left:28px; top:28px; width:calc(100% - 56px); border:1px solid var(--line); border-radius:var(--r); }
+.vj .pic.empty { display:flex; align-items:center; justify-content:center; padding:28px; }
+.vj .pic.empty .frame { position:absolute; inset:28px 28px 0; border:1px dashed var(--mute); border-bottom:0; border-radius:var(--r) var(--r) 0 0; }
+.vj .pic.empty .t { position:relative; text-align:center; font-size:14px; line-height:1.5; color:var(--mute); max-width:240px; }
+.vj .pic.metric { display:flex; flex-direction:column; justify-content:flex-end; padding:28px; }
+.vj .pic.metric .n { font-size:72px; line-height:1; letter-spacing:-0.045em; font-weight:700; color:var(--mute); }
+.vj .pic.metric .t { margin-top:12px; font-size:16px; font-weight:600; color:var(--ink); }
+.vj h3 { margin-top:20px; }
+.vj .step p { margin-top:8px; }
+.vj .foot { margin-top:40px; display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--line); padding-top:16px; }
+.vj .tabs { display:none; }
+
+/* Concept switcher (presentation chrome, not part of the design) */
+.switch { position:sticky; top:0; z-index:9; background:#111; color:#fff; font-size:13px; }
+.switch .in { display:flex; align-items:center; gap:4px; height:44px; }
+.switch a { padding:6px 12px; border-radius:var(--r); color:#bbb; font-weight:600; }
+.switch a.on { background:#fff; color:#000; }
+.switch span { margin-left:auto; color:#888; }
+.concept { display:none; } .concept.on { display:block; }
+body.render .switch { display:none; }
+
+/* ================= Mobile ≤767 ================= */
+@media (max-width:767px) {
+  .grid { display:block; }
+  .display { font-size:36px; line-height:1.08; letter-spacing:-0.035em; }
+  h2 { font-size:30px; line-height:1.15; letter-spacing:-0.022em; }
+  h3 { font-size:20px; }
+  body { font-size:15px; }
+  .lead { font-size:16px; }
+  .hdr .in { height:60px; } .hdr img { height:14px; }
+  .hdr nav { display:none; } .hdr .menu { display:inline-flex; align-items:center; gap:10px; font-weight:600; color:var(--ink); min-height:48px; }
+  .hdr .menu i { width:20px; display:grid; gap:5px; } .hdr .menu i::before, .hdr .menu i::after { content:""; height:2px; background:currentColor; }
+  .hero { padding-top:32px; padding-bottom:48px; }
+  .hero .lead { margin-top:14px; padding:0; }
+  .hero .act { margin-top:24px; flex-direction:column; align-items:stretch; gap:4px; }
+  .hero .act .btn { justify-content:space-between; }
+  .hero .act .tlink { align-self:center; }
+  .next { padding-top:48px; }
+  .switch .in { overflow-x:auto; } .switch span { display:none; }
+
+  /* A mobile: phone capture leads, facts become a compact 2×2 index */
+  .ed { padding-bottom:56px; }
+  .ed .top { padding-top:12px; } .ed .top span:last-child { display:none; }
+  .ed .head { margin-top:20px; } .ed .head p { margin-top:12px; font-size:15px; }
+  .ed .body { margin-top:24px; }
+  .ed .media { height:300px; }
+  .ed .media .d { display:none; }
+  .ed .media .m { left:50%; right:auto; top:28px; width:180px; margin-left:-90px; }
+  .ed dl { margin-top:4px; display:grid; grid-template-columns:1fr 1fr; column-gap:16px; }
+  .ed dl div { padding:12px 0 14px; }
+  .ed dl div:first-child { border-top-color:var(--line); }
+  .ed dl .wide { grid-column:1 / -1; }
+  .ed dt { font-size:12px; margin-bottom:2px; color:var(--mute); }
+  .ed dd { font-size:15px; } .ed dd.big { font-size:20px; }
+  .ed .scope li { gap:8px; }
+  .ed .more { display:flex; margin-top:4px; }
+
+  /* B mobile: number and verdict first, chart becomes a full-width sparkline, before/after side by side */
+  .ds { padding-bottom:56px; }
+  .ds .top { padding-top:12px; } .ds .top span:last-child { display:none; }
+  .ds .body { margin-top:24px; }
+  .ds .num { font-size:80px; } .ds .num .u { font-size:40px; top:6px; }
+  .ds .what { margin-top:14px; font-size:18px; }
+  .ds .src { padding-top:10px; font-size:12px; }
+  .ds .chart { border-left:0; padding-left:0; margin-top:24px; border-top:1px solid var(--line); padding-top:12px; }
+  .ds .chart .full { display:none; } .ds .chart .spark { display:block !important; }
+  .ds .note { margin-bottom:8px; } .ds .note .small { font-size:12px; }
+  .ds .ctx { margin-top:24px; display:grid; grid-template-columns:1fr 1fr; column-gap:16px; row-gap:0; }
+  .ds .ctx > div { padding-top:10px; padding-bottom:14px; }
+  .ds .ctx > div:nth-child(2) { order:3; grid-column:1 / -1; }
+  .ds .ctx b { font-size:12px; color:var(--mute); margin-bottom:2px; }
+  .ds .ctx p { font-size:15px; } .ds .ctx .v { font-size:22px; }
+  .ds .foot { margin-top:8px; }
+  .ds .foot .small { display:none; }
+
+  /* C mobile: segmented steps + one step per screen, next step peeking */
+  .vj { padding-bottom:56px; }
+  .vj .top { padding-top:12px; } .vj .top span:last-child { display:none; }
+  .vj .head { margin-top:20px; } .vj .head p { margin-top:12px; font-size:15px; }
+  .vj .tabs { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; margin-top:24px; }
+  .vj .tabs span { font-size:12px; font-weight:600; color:var(--mute); padding-top:8px; border-top:2px solid var(--line); }
+  .vj .tabs span.on { color:var(--ink); border-top-color:var(--ink); }
+  .vj .rail { display:flex; gap:12px; margin-top:16px; margin-right:calc(var(--gutter) * -1); overflow:hidden; }
+  .vj .rail::before, .vj .dot, .vj .step .label { display:none; }
+  .vj .step { flex:0 0 82%; }
+  .vj .pic { margin-top:0; aspect-ratio:5/4; }
+  .vj .pic img { left:18px; top:18px; width:calc(100% - 36px); }
+  .vj .pic.empty .frame { inset:18px 18px 0; }
+  .vj .pic.metric .n { font-size:56px; }
+  .vj h3 { margin-top:14px; } .vj .step p { font-size:15px; }
+  .vj .foot { margin-top:24px; flex-direction:column; align-items:flex-start; gap:4px; }
+}
+@media (min-width:768px) { .ds .chart .spark { display:none; } }
+</style>
+</head>
+<body>
+
+<div class="switch"><div class="wrap pad in">
+  <a href="#editorial" data-c="editorial">A · Editorial Case</a>
+  <a href="#data" data-c="data">B · Data Story</a>
+  <a href="#journey" data-c="journey">C · Visual Journey</a>
+  <span>Mockup · placeholders in gray brackets · narrow the window for mobile</span>
+</div></div>
+
+<header class="hdr pad"><div class="wrap in">
+  <img src="shots/logo-dark.png" alt="ROBYLO">
+  <nav><a>Services</a><a>Work</a><a>Approach</a><a class="btn btn--sm">Let's talk</a></nav>
+  <span class="menu">Menu <i></i></span>
+</div></header>
+
+<section class="hero pad"><div class="wrap grid">
+  <h1 class="display">Good business. <span class="mute blk">Hard to find?</span></h1>
+  <p class="lead">We build websites, local search visibility, ad campaigns and practical automation for small and growing businesses.</p>
+  <div class="act"><a class="btn">Let's talk <span class="arrow"></span></a><a class="tlink">See our work</a></div>
+</div></section>
+
+<!-- ===================== A — EDITORIAL CASE ===================== -->
+<section class="concept ed pad" id="c-editorial"><div class="wrap">
+  <div class="top label"><span>Case study · Chicago Mounting</span><span class="small">TV mounting and AV installation · Chicago and suburbs</span></div>
+  <div class="grid head">
+    <h2>Built for how people book a TV install. <span class="mute blk">One partner since <span class="ph">[year]</span>.</span></h2>
+    <p>A local installer competing with national booking apps. <span class="ph">[Client's starting point in one sentence, confirmed by the owner]</span></p>
+  </div>
+  <div class="grid body">
+    <div class="media">
+      <img class="d" src="shots/chicago-mounting.jpg" alt="Chicago Mounting homepage on desktop">
+      <img class="m" src="shots/chicago-mounting-mobile.jpg" alt="Chicago Mounting homepage on a phone">
+    </div>
+    <dl>
+      <div class="wide"><dt>What we did <span class="draft">Draft</span></dt>
+        <dd><ul class="scope"><li>Website design and build</li><li>Service and location pages</li><li>Local SEO and ongoing care</li></ul></dd></div>
+      <div><dt>Outcome</dt><dd class="big"><span class="ph">[Verified result]</span></dd></div>
+      <div><dt>Measured</dt><dd><span class="ph">[Source, period]</span></dd></div>
+      <div class="wide more"><a class="tlink">Read the case study <span class="arrow"></span></a></div>
+    </dl>
+  </div>
+</div></section>
+
+<!-- ===================== B — DATA STORY ===================== -->
+<section class="concept ds pad" id="c-data"><div class="wrap">
+  <div class="top label"><span>Chicago Mounting · Local search</span><span class="small">TV mounting and AV installation · Chicago and suburbs</span></div>
+  <div class="grid body">
+    <div class="fig">
+      <div class="numbox"><span class="num"><span class="u">+</span>00<span class="u">%</span></span></div>
+      <p class="what">More <span class="ph">[calls from Google]</span> in the <span class="ph">[12 months]</span> after the new site went live.</p>
+      <p class="src">Source: <span class="ph">[Google Business Profile / Search Console export, date range]</span></p>
+    </div>
+    <div class="chart">
+      <div class="note"><span class="label">Monthly <span class="ph">[metric]</span></span><span class="small mute">Illustrative shape only. No real data.</span></div>
+      <svg class="full" viewBox="0 0 760 300" role="img" aria-label="Placeholder line chart">
+        <g stroke="#ECECEC" stroke-width="1">
+          <line x1="0" y1="40" x2="760" y2="40"/><line x1="0" y1="110" x2="760" y2="110"/><line x1="0" y1="180" x2="760" y2="180"/>
+        </g>
+        <line x1="0" y1="250" x2="760" y2="250" stroke="#000" stroke-width="1"/>
+        <line x1="316" y1="20" x2="316" y2="250" stroke="#000" stroke-width="1"/>
+        <text x="324" y="32" font-family="Manrope" font-size="13" font-weight="600" fill="#000">New site live</text>
+        <path d="M0 214 L63 210 L126 218 L190 206 L253 212 L316 204 L380 190 L443 172 L506 150 L570 138 L633 116 L696 104 L760 92"
+          fill="none" stroke="#8A8A8A" stroke-width="2.5" stroke-dasharray="7 6" stroke-linecap="round"/>
+        <circle cx="760" cy="92" r="0"/>
+        <g font-family="Manrope" font-size="13" fill="#8A8A8A">
+          <text x="0" y="276">−6 mo</text><text x="296" y="276">Launch</text><text x="520" y="276">+6 mo</text><text x="712" y="276">+12 mo</text>
+          <text x="0" y="34">[value]</text>
+        </g>
+      </svg>
+      <svg class="spark" style="display:none" viewBox="0 0 340 150" role="img" aria-label="Placeholder line chart">
+        <line x1="0" y1="124" x2="340" y2="124" stroke="#000"/>
+        <line x1="140" y1="12" x2="140" y2="124" stroke="#000"/>
+        <text x="146" y="22" font-family="Manrope" font-size="12" font-weight="600" fill="#000">New site</text>
+        <path d="M0 104 L28 102 L56 106 L84 100 L112 103 L140 99 L168 90 L196 80 L224 68 L252 61 L280 50 L310 44 L340 38" fill="none" stroke="#8A8A8A" stroke-width="2.5" stroke-dasharray="6 5" stroke-linecap="round"/>
+        <g font-family="Manrope" font-size="11" fill="#8A8A8A"><text x="0" y="142">−6 mo</text><text x="296" y="142">+12 mo</text></g>
+      </svg>
+    </div>
+  </div>
+  <div class="grid ctx">
+    <div><b>Before</b><p class="v"><span class="ph">[baseline]</span></p><p class="small">per month, <span class="ph">[period]</span></p></div>
+    <div><b>What changed <span class="draft">Draft</span></b><p>New website, one page per service and service area, and a maintained Google Business Profile.</p></div>
+    <div><b>After</b><p class="v"><span class="ph">[result]</span></p><p class="small">per month, <span class="ph">[period]</span></p></div>
+  </div>
+  <div class="foot"><a class="tlink">See how we did it <span class="arrow"></span></a><span class="small mute">Figures shown only after the owner verifies the source.</span></div>
+</div></section>
+
+<!-- ===================== C — VISUAL JOURNEY ===================== -->
+<section class="concept vj pad" id="c-journey"><div class="wrap">
+  <div class="top label"><span>Case study · Chicago Mounting</span><span class="small">TV mounting and AV installation · Chicago and suburbs</span></div>
+  <div class="grid head">
+    <h2>From hard to find to easy to book. <span class="mute blk">Problem, solution, outcome.</span></h2>
+    <p>How a local installer became easier to find, compare and book. <span class="draft">Draft</span></p>
+  </div>
+  <div class="tabs"><span class="on">Problem</span><span>Solution</span><span>Outcome</span></div>
+  <div class="rail">
+    <div class="step">
+      <span class="dot"></span><div class="label"><span>Problem</span><span class="mute">Before</span></div>
+      <div class="pic empty"><span class="frame"></span><span class="t">[Before: previous site or search result, archived capture with date]</span></div>
+      <h3>Hard to find.</h3>
+      <p><span class="ph">[What stood in the way, confirmed by the owner]</span></p>
+    </div>
+    <div class="step">
+      <span class="dot"></span><div class="label"><span>Solution</span><span class="mute">Built</span></div>
+      <div class="pic"><img src="shots/chicago-mounting-services.jpg" alt="Chicago Mounting services page"></div>
+      <h3>A page for every job. <span class="draft">Draft</span></h3>
+      <p>Clear services, prices from the start, and one tap to book or call.</p>
+    </div>
+    <div class="step">
+      <span class="dot"></span><div class="label"><span>Outcome</span><span class="mute">After</span></div>
+      <div class="pic metric"><span class="n">[00%]</span><span class="t">[Verified outcome]</span><span class="small mute">[Source, period]</span></div>
+      <h3>Easy to book.</h3>
+      <p><span class="ph">[Outcome in one sentence, with its source]</span></p>
+    </div>
+  </div>
+  <div class="foot"><a class="tlink">Read the full story <span class="arrow"></span></a><span class="small mute">Gray brackets are placeholders, not copy.</span></div>
+</div></section>
+
+<!-- Context: start of the next existing section -->
+<section class="next pad"><div class="wrap">
+  <h2>What we do. <span class="mute blk">Four services, one team.</span></h2>
+  <div class="cut"></div>
+</div></section>
+
+<script>
+(function(){
+  var ids=['editorial','data','journey'];
+  function show(){
+    var h=(location.hash||'#editorial').slice(1); if(ids.indexOf(h)<0) h='editorial';
+    ids.forEach(function(i){
+      document.getElementById('c-'+i).classList.toggle('on', i===h);
+      document.querySelector('.switch a[data-c="'+i+'"]').classList.toggle('on', i===h);
+    });
+  }
+  window.addEventListener('hashchange', show); show();
+  if (location.search.indexOf('render')>-1) document.body.classList.add('render');
+})();
+</script>
+</body>
+</html>

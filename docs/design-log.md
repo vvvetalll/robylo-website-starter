@@ -12,6 +12,8 @@ Mockups: [desktop 1440](design/2026-11-16-homepage-v2-desktop-1440.png), [deskto
 
 The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is kept below as an exploration.
 
+**Impact section under the Hero, 2026-11-18 — Proposed exploration.** Three concepts replacing the thumbnail strip; Claude recommends A · Editorial Case. [Concepts, evaluation and recommendation](design-impact-section-concepts-2026-11-18.md).
+
 ## Open questions
 
 - Owner approval of Homepage V2, including one new color variable (`rb-mute` #8A8A8A), the optional 88px display size, the new header and the dark footer.
@@ -19,9 +21,31 @@ The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is k
 - Confirmation of service scope items, project descriptors and towns, and that each client may be shown.
 - Official white logo file and, if available, an SVG. Production screenshots at 2×.
 - Privacy Policy page (link hidden until it exists).
+- Impact section: owner choice of direction; Chicago Mounting start year, starting point, scope wording, any verified result with source, client permission; whether Chicago Mounting stays in the Work carousel.
 - Still open from iteration 3: optional mobile type tweak H3 26 → 24 and H4 22 → 20. Not adopted.
 
 ---
+
+## 2026-11-18 — Iteration 5: Impact section concepts
+
+**Status: Proposed exploration.**
+
+Input: owner request to replace the five-thumbnail strip below the Hero with a section showing how ROBYLO helps a real business, explored as three concepts (Editorial Case, Data Story, Visual Journey), using Chicago Mounting, with no invented results.
+
+Baseline read: `prototype/horizontal-portfolio-placeholders-2026-11-17` at `4bfa4ce`, including the new permanent visual quality standard (display 76/56/36, H2 44/36/30, H3 24/22/20).
+
+| Decision | Reason |
+| --- | --- |
+| Draw each concept in context (Header, Hero, concept, top of Services) | Fit with the page is a judging criterion; isolated cards hide it. |
+| Two placeholder markers: gray bracketed data, outlined Draft tag for ROBYLO scope copy | Keeps invented-looking content impossible to mistake for real copy. |
+| Client's public Google rating not used | It is the client's reputation, not a ROBYLO result. |
+| Chart axes relative to launch (−6 mo … +12 mo), dashed gray line labelled illustrative | Shows the composition without fake dates or values. |
+| Mobile layouts recomposed: phone capture only (A), sparkline and side-by-side before/after (B), segmented one-step carousel (C) | Owner standard: compact mobile, not stacked desktop. |
+| Recommend A | Credible with existing material, reuses V2 structure, has a slot for one verified metric later. |
+
+Rejected while designing: using the client's review count as an outcome; a dated chart axis; three stacked Journey panels on mobile (about 1,500px tall); CSS-positioned overlapping screenshots for the build (one composite image instead).
+
+Checks: rendered at 1440 and 390 for each concept; scroll width equal to viewport; visual review fixed four defects. Not checked: 1024/768/320, Elementor, devices.
 
 ## 2026-11-16 — Iteration 4: Homepage V2 ("two-tone statements")
 

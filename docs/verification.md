@@ -124,3 +124,14 @@ Screenshots: [before390](screenshots/visual-discipline-2026-11-18/before-390.jpg
 Review actual page while logged in: https://robylo.com/ or https://robylo.com/?preview_id=5894&preview=true.
 Component editors: [SectionHead6010](https://robylo.com/wp-admin/post.php?post=6010&action=elementor), [ServiceRow6013](https://robylo.com/wp-admin/post.php?post=6013&action=elementor), [Approach6019](https://robylo.com/wp-admin/post.php?post=6019&action=elementor).
 These are native database changes; this documentation and screenshots are not a portable Elementor export.
+
+## 2026-11-18 — Impact section concepts (design only)
+
+Collaborator: Claude. Scope: three design concepts for the section below the Hero, desktop and mobile mockups, evaluation and recommendation. Status **Proposed**.
+
+- Added docs/design-impact-section-concepts-2026-11-18.md, six mockup PNGs and the source folder docs/design/2026-11-18-impact-source/. Updated docs/design-log.md, docs/decisions.md and this file.
+- Branch design/impact-section-concepts-2026-11-18 from prototype/horizontal-portfolio-placeholders-2026-11-17 at 4bfa4ce, so the design log continues from the newest records; PR targets that branch, matching the existing stacked-PR chain. No PR merged, no WordPress or Elementor operation, no website change.
+- **Checks run:** headless Chrome renders at 1440×900 and 390×844 (2×) with Manrope loaded; scroll width equals viewport for all six; visual review of full-page captures; Markdown links checked.
+- **Not verified:** 1024/768/320 renders, Elementor feasibility beyond documented native capabilities, real devices, assistive technology.
+- Images: public chicagomounting.com captures (homepage 2026-11-16, services page 2026-11-18). No admin screens, credentials or private data. All results, metrics, dates and the client's starting point are marked placeholders; no client data was invented.
+
