@@ -192,3 +192,37 @@ The Quickzy site confirms the description “Professional cleaning services.” 
 **Verified:** actual authenticated homepage at 1440, 1024, 768, 390 and 320 px in Chrome. Visually reviewed all six cards at each width. One matching desktop or mobile composition per card, complete phone silhouettes, no horizontal page overflow and stable document height across slide positions. All six View project links opened their expected sites. Verified previous/next boundaries, hover, press, release and leave, rapid forward/reverse clicks, Tab and retained visible focus with Enter/Space at 1440/390, and an emulated swipe plus tap/release at 390. Temporarily excluded the admin-only helper in the test browser. Anonymous HTTP 200 continued to show Coming Soon document 5858. Safari, physical devices, screen readers and cold-load CLS were outside this verification. PHP was unchanged and PHP lint was unavailable locally.
 
 [Actual desktop with Quickzy](verification/2026-11-18-quickzy/homepage-1440-quickzy.jpg) · [Actual mobile with Quickzy](verification/2026-11-18-quickzy/homepage-390-quickzy.jpg) · [All six card crops at 390](verification/2026-11-18-quickzy/six-cards-390.jpg) · [Viewport checks](verification/2026-11-18-quickzy/checks.json) · [Interactions](verification/2026-11-18-quickzy/interaction-checks.json) · [Opened links](verification/2026-11-18-quickzy/link-checks.json).
+
+
+## 2026-11-18 — Approved homepage copy and Chicago positioning
+Contributor: ChatGPT/Codex. **Approved scope:** owner-supplied “Implement Approved Homepage Copy” brief. **Implemented / visually verified in Chrome.** Final exact copy and positioning are preserved in [ROBYLO-CONCEPT.md](ROBYLO-CONCEPT.md#approved-homepage-positioning-and-final-copy--2026-11-18). Primary market Chicago and surrounding suburbs, Illinois; independent studio/direct implementer relationship. Claude's copy analysis was read on design/impact-section-concepts-2026-11-18; the owner's supplied copy takes precedence where different.
+
+### Exact native changes
+Home5894 updated13 existing content instances only:
+- 67f04a14 Hero paragraph;32319aa0 Big Picture paragraph.
+- 56ee3694 Services heading/intro overrides of6010: “Four areas of expertise. One point of contact.” and approved introduction.
+- 5602cb Work intro override of6010; existing “Selected work. Recent projects.” preserved.
+- 2d9754ca Approach intro override of6010;766cb141 After launch paragraph override of6019.
+- 1026ad5a Contact paragraph.
+- Six existing5864 link instances6763114/3b1d6f1/5729e9f/bc72877/5937a59/5b5589c4: text “View project”→“Visit site”; existing URLs/target settings untouched.
+- Active Footer5893 instance374a8b64: existing5889 message property overridden with approved tagline. Reusable component5889 origin, logo, location, navigation and copyright preserved.
+- Existing AIOSEO ability updated only Home5894 title/description. Exact title/description verified in stored SEO data and rendered HTML: one title, one meta description. Robots/indexing, canonical/social/schema fields unchanged; no duplicate SEO implementation/plugin.
+
+Home and Footer saved/promoted behind the active Coming Soon gate under the standing owner review instruction. No launch, unrelated page edits or merge. No styling, spacing, responsive control, native carousel setting, component definition, global class/token, CSS/JavaScript/dependency changes were needed.
+
+### Actual verification and evidence
+Authenticated root visually inspected at1440/1024/768/390/320. Exact approved paragraphs/heading text, semantic H1/H2/H3, unchanged Manrope hierarchy, gray lines, readable wrapping and no clipping/overlap confirmed. Long Services subtitle wraps naturally (two gray lines at390; three at320); approved text was not shortened or resized. No horizontal document overflow: measured scrollWidth1425/1009/753/375/305 respectively, less than the corresponding innerWidth because of the Windows scrollbar.
+- Native audit139→139 nodes, no additions/deletions/reparenting, only the13 authorized content settings changed. All local styles and all12 portfolio image elements/asset references unchanged. Footer template change is solely the message override.
+- All six “Visit site” links actually clicked and opened the expected live destinations: Chicago Mounting→chicagomounting.com; GCPRO→gcprochicago.com; Kolo→kolo-properties.com; Center For Dental Healing→glenviewsmiles.com; Elite→elitemechanical.services; Quickzy→quickzycleaning.com. Existing destinations retained, no project claims/metrics added.
+- Native carousel Enter advances with retained visible focus at1440/390; Space reverse exercised; desktop hover/press/release/leave on both arrows preserves monochrome and clears active. Actual mobile swipe advances track0→-336px; tap/release exercised. No navigation mechanism changed.
+- Hero “See our work” anchor, existing #contact/contact email destinations checked. Native mobile Menu opens via Enter, Escape closes and returns focus to a button. Pre-existing limitation: menu anchors do not automatically close the popup; unchanged.
+- Images were initially lazy placeholders before their cards entered view; actual first Studio Plate loaded before final screenshots. No lazy-load setting or image edited.
+- Anonymous rootHTTP200 still renders Coming Soon5858 and does not expose5894. No indexing/Coming Soon settings changed.
+- [Full desktop1440](verification/2026-11-18-approved-copy/homepage-1440.jpg)
+- [Full mobile390](verification/2026-11-18-approved-copy/homepage-390.jpg)
+- [Full mobile320](verification/2026-11-18-approved-copy/homepage-320.jpg)
+- [Rendered text, metadata, links, interaction measurements and native audit](verification/2026-11-18-approved-copy/checks.json)
+
+Screenshots are actual browser renders at the stated widths. A tall capture viewport was used to paint below-the-fold content; captures end at the actual footer and omit the admin bar. Browser assistant/cursor overlays may remain. Chrome responsive/touch emulation, not physical-device, Safari or screen-reader certification. No email was sent. Existing configuration remains in the WordPress database, not a portable native export. Home pre-change undo6188; Footer5893 pre-change undo5899. Check intervening edits before any whole-document restore. SEO rollback: title/description previously inherited defaults (null).
+
+Existing PR18/feat/quickzy-work-2026-11-18 updated because it contains the current sixth project and Studio Plate work. PR15's separate diagram/arrow work remains unmerged and was not overwritten or merged. Other PRs untouched.
