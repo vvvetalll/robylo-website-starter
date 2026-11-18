@@ -150,3 +150,12 @@ Fresh anonymous HTTP request with browser User-Agent returns200, Coming Soon5858
 The owner explicitly instructed publishing the saved changes behind the existing public gate. This supersedes the refinement task's earlier no-Publish restriction for Home5894 only. Native elementor/publish-document promoted the current staged Home successfully. No PR was merged and no maintenance/cache/optimizer setting changed.
 
 Verified the ordinary authenticated https://robylo.com/ root: all five compact **View project** labels and both native SVG chevrons render; desktop project H3 is Manrope26/600. The owner can review there after logging in, without a draft-preview link. A fresh anonymous request returned HTTP200 with Coming Soon5858 and its expected headline. Public launch remains gated. Earlier private-preview-only delivery notes above are historical; the current Home changes are now promoted.
+
+
+## Owner's final mobile caption scale — 2026-11-18
+
+The owner explicitly clarified **smaller**, then rejected14px secondary copy and specified12px. Final ordinary authenticated root render at390/320px: title **20px/600, LH25px**; description **12px/400, LH18px**; View project **12px/600, LH18px**. All five cards match;320px has no horizontal page overflow. Earlier22/15/16 and interim20/14/14 values above are superseded on mobile only. The proposed enlargement was never applied.
+
+Updated existing rb-portfolio-title and rb-portfolio-description mobile native variants. For the nested Button5864 instance, native exposed properties provide only text/link; a single mobile descendant rule `& .rb-btn {font-size:12px;line-height:1.5;}` is centralized in existing rb-portfolio-caption. This limited selector exception avoids editing the shared button definition, adding a duplicate link component or scattering widget/page CSS. It affects only caption links (Home and the matching unpublished authoring reference). Link48px targets and interaction states remain. No new class/token/JS, page tree, carousel behavior, desktop/tablet rule or other section was changed.
+
+These kit class updates render immediately on the already-published Home behind Coming Soon; no new page publication or gate change was needed. [Actual390px](verification/2026-11-18-carousel-compact-12-390.jpg), [actual320px](verification/2026-11-18-carousel-compact-12-320.jpg). Verified on the ordinary logged-in root, not a draft URL. Existing complete interaction checks remain the prior pass; no redundant interaction retest is claimed for this font-only follow-up.
