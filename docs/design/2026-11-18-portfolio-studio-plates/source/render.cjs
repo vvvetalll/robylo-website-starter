@@ -13,11 +13,14 @@ const browserPath = process.env.CHROME_PATH || (process.platform === 'win32'
 
 (async () => {
   const projects = JSON.parse(await fs.readFile(path.join(__dirname, 'projects.json'), 'utf8'));
+  const requestedSlug = process.argv[2];
+  const selected = requestedSlug ? projects.filter(project => project.slug === requestedSlug) : projects;
+  assert(selected.length, 'Unknown portfolio project');
   const template = await fs.readFile(path.join(reference, 'source/plate.html'), 'utf8');
   const browser = await chromium.launch({ executablePath: browserPath, headless: true });
   const report = { date: '2026-11-18', reference: 'Chicago Mounting v3 at dac1883', browser: browser.version(), exports: [] };
   try {
-    for (const project of projects) {
+    for (const project of selected) {
       const html = template.replaceAll('Chicago Mounting', project.name)
         .replace('../../source/captures/chicago-mounting-desktop-1420.png', pathToFileURL(path.join(__dirname, `captures/${project.slug}-desktop.png`)).href)
         .replace('../../source/captures/chicago-mounting-mobile-480.png', pathToFileURL(path.join(__dirname, `captures/${project.slug}-mobile.png`)).href);
@@ -41,6 +44,10 @@ const browserPath = process.env.CHROME_PATH || (process.platform === 'win32'
       }
     }
   } finally { await browser.close(); }
+  if (requestedSlug) {
+    await fs.writeFile(path.join(out, `${requestedSlug}-render-report.json`), JSON.stringify(report, null, 2) + '\n');
+    return;
+  }
   const all = [{ slug: 'chicago-mounting', name: 'Chicago Mounting', folder: reference }, ...projects.map(p => ({ ...p, folder: out }))];
   for (const mobile of [false, true]) {
     const w = mobile ? 280 : 400;

@@ -57,3 +57,12 @@ Owner requested compact mobile proportions using the supplied Apple references, 
 ## 2026-11-18 — Approved all-five Studio Plate production
 
 Owner request **Complete All Five Portfolio Studio Plates** explicitly approves Chicago v3 as the unchanged production reference and authorizes genuine captures of the remaining four sites, replacement of the four Work placeholders, actual responsive/interaction verification and reusable production guidance. Implemented and verified behind Coming Soon; no launch or merge approval. [Implementation/evidence](horizontal-portfolio-prototype-2026-11-17.md#all-five-studio-plates--2026-11-18), [guidelines](portfolio-image-guidelines.md). Earlier proposed/single-card-only records are historical for this scope.
+
+
+## 2026-11-18 — Quickzy Cleaning and count-free portfolio copy
+
+**Approved:** owner request to append Quickzy Cleaning with a genuine Studio Plate v3 and use “Selected work. Recent projects.” plus the supplied supporting paragraph. Scope is Home 5894 Selected Work behind Coming Soon. [Implementation and verification](verification.md#2026-11-18--quickzy-cleaning-and-selected-work-copy).
+
+
+## 2026-11-18 — Final homepage copy and primary market
+**Approved by owner:** supplied final homepage copy, primary market Chicago and surrounding suburbs, Illinois; independent digital studio with direct contact with the person implementing/managing the work. This supersedes earlier copy proposals, including “One team” and earlier portfolio/SEO wording. Exact approved text: [concept record](ROBYLO-CONCEPT.md#approved-homepage-positioning-and-final-copy--2026-11-18). **Implemented/verified:** Home5894 content, active Footer5893 message override and existing AIOSEO title/description; six existing projects/images/destinations and all styling preserved. [Actual checks/screenshots](verification.md#2026-11-18--approved-homepage-copy-and-chicago-positioning). Coming Soon retained; no public launch or merge approval.

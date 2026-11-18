@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Chicago Mounting",
+    "expected": "https://chicagomounting.com/",
+    "opened": "https://chicagomounting.com/"
+  },
+  {
+    "name": "GCPRO Restoration",
+    "expected": "https://gcprochicago.com/",
+    "opened": "https://gcprochicago.com/"
+  },
+  {
+    "name": "Kolo Properties",
+    "expected": "https://kolo-properties.com/",
+    "opened": "https://kolo-properties.com/"
+  },
+  {
+    "name": "Center For Dental Healing",
+    "expected": "https://glenviewsmiles.com/",
+    "opened": "https://glenviewsmiles.com/"
+  },
+  {
+    "name": "Elite Mechanical Services",
+    "expected": "https://elitemechanical.services/",
+    "opened": "https://elitemechanical.services/"
+  },
+  {
+    "name": "Quickzy Cleaning",
+    "expected": "https://quickzycleaning.com/",
+    "opened": "https://quickzycleaning.com/"
+  }
+]

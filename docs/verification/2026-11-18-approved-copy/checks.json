@@ -1,0 +1,1915 @@
+{
+  "viewports": [
+    {
+      "h1": [
+        "Good business.Hard to find?"
+      ],
+      "headings": [
+        {
+          "scroll": 792,
+          "size": "76px",
+          "tag": "H1",
+          "text": "Good business.Hard to find?",
+          "weight": "700",
+          "width": 792
+        },
+        {
+          "scroll": 500,
+          "size": "44px",
+          "tag": "H2",
+          "text": "A website is just the beginning.",
+          "weight": "700",
+          "width": 500
+        },
+        {
+          "scroll": 792,
+          "size": "44px",
+          "tag": "H2",
+          "text": "What we do.Four areas of expertise. One point of contact.",
+          "weight": "700",
+          "width": 792
+        },
+        {
+          "scroll": 779,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Website Design & Development",
+          "weight": "600",
+          "width": 779
+        },
+        {
+          "scroll": 779,
+          "size": "24px",
+          "tag": "H3",
+          "text": "SEO & Local Visibility",
+          "weight": "600",
+          "width": 779
+        },
+        {
+          "scroll": 779,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Digital Advertising",
+          "weight": "600",
+          "width": 779
+        },
+        {
+          "scroll": 779,
+          "size": "24px",
+          "tag": "H3",
+          "text": "AI & Business Automation",
+          "weight": "600",
+          "width": 779
+        },
+        {
+          "scroll": 792,
+          "size": "44px",
+          "tag": "H2",
+          "text": "Selected work.Recent projects.",
+          "weight": "700",
+          "width": 792
+        },
+        {
+          "scroll": 222,
+          "size": "26px",
+          "tag": "H3",
+          "text": "Chicago Mounting",
+          "weight": "600",
+          "width": 222
+        },
+        {
+          "scroll": 236,
+          "size": "26px",
+          "tag": "H3",
+          "text": "GCPRO Restoration",
+          "weight": "600",
+          "width": 236
+        },
+        {
+          "scroll": 184,
+          "size": "26px",
+          "tag": "H3",
+          "text": "Kolo Properties",
+          "weight": "600",
+          "width": 184
+        },
+        {
+          "scroll": 307,
+          "size": "26px",
+          "tag": "H3",
+          "text": "Center For Dental Healing",
+          "weight": "600",
+          "width": 307
+        },
+        {
+          "scroll": 305,
+          "size": "26px",
+          "tag": "H3",
+          "text": "Elite Mechanical Services",
+          "weight": "600",
+          "width": 305
+        },
+        {
+          "scroll": 208,
+          "size": "26px",
+          "tag": "H3",
+          "text": "Quickzy Cleaning",
+          "weight": "600",
+          "width": 208
+        },
+        {
+          "scroll": 792,
+          "size": "44px",
+          "tag": "H2",
+          "text": "How we work.Practical, start to finish.",
+          "weight": "700",
+          "width": 792
+        },
+        {
+          "scroll": 360,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Start with the business, not a template.",
+          "weight": "600",
+          "width": 360
+        },
+        {
+          "scroll": 360,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Build what you'll actually use.",
+          "weight": "600",
+          "width": 360
+        },
+        {
+          "scroll": 360,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Stay for what comes next.",
+          "weight": "600",
+          "width": 360
+        },
+        {
+          "scroll": 792,
+          "size": "76px",
+          "tag": "H2",
+          "text": "Good business.Easy to find.",
+          "weight": "700",
+          "width": 792
+        }
+      ],
+      "images": [
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://chicagomounting.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://gcprochicago.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://kolo-properties.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://glenviewsmiles.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://elitemechanical.services/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://quickzycleaning.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        }
+      ],
+      "metadata": {
+        "descriptions": [
+          "Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions."
+        ],
+        "robots": [
+          "max-image-preview:large"
+        ],
+        "title": "ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago",
+        "titles": 1
+      },
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "h1": [
+        "Good business.Hard to find?"
+      ],
+      "headings": [
+        {
+          "scroll": 927,
+          "size": "56px",
+          "tag": "H1",
+          "text": "Good business.Hard to find?",
+          "weight": "700",
+          "width": 927
+        },
+        {
+          "scroll": 447,
+          "size": "36px",
+          "tag": "H2",
+          "text": "A website is just the beginning.",
+          "weight": "700",
+          "width": 447
+        },
+        {
+          "scroll": 927,
+          "size": "36px",
+          "tag": "H2",
+          "text": "What we do.Four areas of expertise. One point of contact.",
+          "weight": "700",
+          "width": 927
+        },
+        {
+          "scroll": 519,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Website Design & Development",
+          "weight": "600",
+          "width": 519
+        },
+        {
+          "scroll": 519,
+          "size": "22px",
+          "tag": "H3",
+          "text": "SEO & Local Visibility",
+          "weight": "600",
+          "width": 519
+        },
+        {
+          "scroll": 519,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Digital Advertising",
+          "weight": "600",
+          "width": 519
+        },
+        {
+          "scroll": 519,
+          "size": "22px",
+          "tag": "H3",
+          "text": "AI & Business Automation",
+          "weight": "600",
+          "width": 519
+        },
+        {
+          "scroll": 927,
+          "size": "36px",
+          "tag": "H2",
+          "text": "Selected work.Recent projects.",
+          "weight": "700",
+          "width": 927
+        },
+        {
+          "scroll": 205,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Chicago Mounting",
+          "weight": "600",
+          "width": 205
+        },
+        {
+          "scroll": 218,
+          "size": "24px",
+          "tag": "H3",
+          "text": "GCPRO Restoration",
+          "weight": "600",
+          "width": 218
+        },
+        {
+          "scroll": 171,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Kolo Properties",
+          "weight": "600",
+          "width": 171
+        },
+        {
+          "scroll": 284,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Center For Dental Healing",
+          "weight": "600",
+          "width": 284
+        },
+        {
+          "scroll": 283,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Elite Mechanical Services",
+          "weight": "600",
+          "width": 283
+        },
+        {
+          "scroll": 193,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Quickzy Cleaning",
+          "weight": "600",
+          "width": 193
+        },
+        {
+          "scroll": 927,
+          "size": "36px",
+          "tag": "H2",
+          "text": "How we work.Practical, start to finish.",
+          "weight": "700",
+          "width": 927
+        },
+        {
+          "scroll": 269,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Start with the business, not a template.",
+          "weight": "600",
+          "width": 269
+        },
+        {
+          "scroll": 269,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Build what you'll actually use.",
+          "weight": "600",
+          "width": 269
+        },
+        {
+          "scroll": 269,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Stay for what comes next.",
+          "weight": "600",
+          "width": 269
+        },
+        {
+          "scroll": 927,
+          "size": "56px",
+          "tag": "H2",
+          "text": "Good business.Easy to find.",
+          "weight": "700",
+          "width": 927
+        }
+      ],
+      "images": [
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-chicago-mounting-plate-v3-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload-1536x1152.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://chicagomounting.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://gcprochicago.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://kolo-properties.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://glenviewsmiles.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://elitemechanical.services/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://quickzycleaning.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        }
+      ],
+      "metadata": {
+        "descriptions": [
+          "Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions."
+        ],
+        "robots": [
+          "max-image-preview:large"
+        ],
+        "title": "ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago",
+        "titles": 1
+      },
+      "scrollWidth": 1009,
+      "width": 1024
+    },
+    {
+      "h1": [
+        "Good business.Hard to find?"
+      ],
+      "headings": [
+        {
+          "scroll": 691,
+          "size": "56px",
+          "tag": "H1",
+          "text": "Good business.Hard to find?",
+          "weight": "700",
+          "width": 691
+        },
+        {
+          "scroll": 330,
+          "size": "36px",
+          "tag": "H2",
+          "text": "A website is just the beginning.",
+          "weight": "700",
+          "width": 330
+        },
+        {
+          "scroll": 691,
+          "size": "36px",
+          "tag": "H2",
+          "text": "What we do.Four areas of expertise. One point of contact.",
+          "weight": "700",
+          "width": 691
+        },
+        {
+          "scroll": 382,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Website Design & Development",
+          "weight": "600",
+          "width": 382
+        },
+        {
+          "scroll": 382,
+          "size": "22px",
+          "tag": "H3",
+          "text": "SEO & Local Visibility",
+          "weight": "600",
+          "width": 382
+        },
+        {
+          "scroll": 382,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Digital Advertising",
+          "weight": "600",
+          "width": 382
+        },
+        {
+          "scroll": 382,
+          "size": "22px",
+          "tag": "H3",
+          "text": "AI & Business Automation",
+          "weight": "600",
+          "width": 382
+        },
+        {
+          "scroll": 691,
+          "size": "36px",
+          "tag": "H2",
+          "text": "Selected work.Recent projects.",
+          "weight": "700",
+          "width": 691
+        },
+        {
+          "scroll": 205,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Chicago Mounting",
+          "weight": "600",
+          "width": 205
+        },
+        {
+          "scroll": 218,
+          "size": "24px",
+          "tag": "H3",
+          "text": "GCPRO Restoration",
+          "weight": "600",
+          "width": 218
+        },
+        {
+          "scroll": 171,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Kolo Properties",
+          "weight": "600",
+          "width": 171
+        },
+        {
+          "scroll": 284,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Center For Dental Healing",
+          "weight": "600",
+          "width": 284
+        },
+        {
+          "scroll": 283,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Elite Mechanical Services",
+          "weight": "600",
+          "width": 283
+        },
+        {
+          "scroll": 193,
+          "size": "24px",
+          "tag": "H3",
+          "text": "Quickzy Cleaning",
+          "weight": "600",
+          "width": 193
+        },
+        {
+          "scroll": 691,
+          "size": "36px",
+          "tag": "H2",
+          "text": "How we work.Practical, start to finish.",
+          "weight": "700",
+          "width": 691
+        },
+        {
+          "scroll": 190,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Start with the business, not a template.",
+          "weight": "600",
+          "width": 190
+        },
+        {
+          "scroll": 190,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Build what you'll actually use.",
+          "weight": "600",
+          "width": 190
+        },
+        {
+          "scroll": 190,
+          "size": "22px",
+          "tag": "H3",
+          "text": "Stay for what comes next.",
+          "weight": "600",
+          "width": 190
+        },
+        {
+          "scroll": 691,
+          "size": "56px",
+          "tag": "H2",
+          "text": "Good business.Easy to find.",
+          "weight": "700",
+          "width": 691
+        }
+      ],
+      "images": [
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-chicago-mounting-plate-v3-768x576.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-1-768x576.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-1-768x576.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-1-768x576.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-1-768x576.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload-768x576.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://chicagomounting.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://gcprochicago.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://kolo-properties.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://glenviewsmiles.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://elitemechanical.services/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://quickzycleaning.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        }
+      ],
+      "metadata": {
+        "descriptions": [
+          "Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions."
+        ],
+        "robots": [
+          "max-image-preview:large"
+        ],
+        "title": "ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago",
+        "titles": 1
+      },
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "h1": [
+        "Good business.Hard to find?"
+      ],
+      "headings": [
+        {
+          "scroll": 335,
+          "size": "36px",
+          "tag": "H1",
+          "text": "Good business.Hard to find?",
+          "weight": "700",
+          "width": 335
+        },
+        {
+          "scroll": 335,
+          "size": "30px",
+          "tag": "H2",
+          "text": "A website is just the beginning.",
+          "weight": "700",
+          "width": 335
+        },
+        {
+          "scroll": 335,
+          "size": "30px",
+          "tag": "H2",
+          "text": "What we do.Four areas of expertise. One point of contact.",
+          "weight": "700",
+          "width": 335
+        },
+        {
+          "scroll": 315,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Website Design & Development",
+          "weight": "600",
+          "width": 315
+        },
+        {
+          "scroll": 315,
+          "size": "20px",
+          "tag": "H3",
+          "text": "SEO & Local Visibility",
+          "weight": "600",
+          "width": 315
+        },
+        {
+          "scroll": 315,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Digital Advertising",
+          "weight": "600",
+          "width": 315
+        },
+        {
+          "scroll": 315,
+          "size": "20px",
+          "tag": "H3",
+          "text": "AI & Business Automation",
+          "weight": "600",
+          "width": 315
+        },
+        {
+          "scroll": 335,
+          "size": "30px",
+          "tag": "H2",
+          "text": "Selected work.Recent projects.",
+          "weight": "700",
+          "width": 335
+        },
+        {
+          "scroll": 172,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Chicago Mounting",
+          "weight": "600",
+          "width": 172
+        },
+        {
+          "scroll": 183,
+          "size": "20px",
+          "tag": "H3",
+          "text": "GCPRO Restoration",
+          "weight": "600",
+          "width": 183
+        },
+        {
+          "scroll": 143,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Kolo Properties",
+          "weight": "600",
+          "width": 143
+        },
+        {
+          "scroll": 238,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Center For Dental Healing",
+          "weight": "600",
+          "width": 238
+        },
+        {
+          "scroll": 237,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Elite Mechanical Services",
+          "weight": "600",
+          "width": 237
+        },
+        {
+          "scroll": 161,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Quickzy Cleaning",
+          "weight": "600",
+          "width": 161
+        },
+        {
+          "scroll": 335,
+          "size": "30px",
+          "tag": "H2",
+          "text": "How we work.Practical, start to finish.",
+          "weight": "700",
+          "width": 335
+        },
+        {
+          "scroll": 335,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Start with the business, not a template.",
+          "weight": "600",
+          "width": 335
+        },
+        {
+          "scroll": 335,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Build what you'll actually use.",
+          "weight": "600",
+          "width": 335
+        },
+        {
+          "scroll": 335,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Stay for what comes next.",
+          "weight": "600",
+          "width": 335
+        },
+        {
+          "scroll": 335,
+          "size": "36px",
+          "tag": "H2",
+          "text": "Good business.Easy to find.",
+          "weight": "700",
+          "width": 335
+        }
+      ],
+      "images": [
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-chicago-mounting-plate-v3-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://chicagomounting.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://gcprochicago.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://kolo-properties.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://glenviewsmiles.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://elitemechanical.services/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://quickzycleaning.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        }
+      ],
+      "metadata": {
+        "descriptions": [
+          "Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions."
+        ],
+        "robots": [
+          "max-image-preview:large"
+        ],
+        "title": "ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago",
+        "titles": 1
+      },
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "h1": [
+        "Good business.Hard to find?"
+      ],
+      "headings": [
+        {
+          "scroll": 265,
+          "size": "36px",
+          "tag": "H1",
+          "text": "Good business.Hard to find?",
+          "weight": "700",
+          "width": 265
+        },
+        {
+          "scroll": 265,
+          "size": "30px",
+          "tag": "H2",
+          "text": "A website is just the beginning.",
+          "weight": "700",
+          "width": 265
+        },
+        {
+          "scroll": 265,
+          "size": "30px",
+          "tag": "H2",
+          "text": "What we do.Four areas of expertise. One point of contact.",
+          "weight": "700",
+          "width": 265
+        },
+        {
+          "scroll": 245,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Website Design & Development",
+          "weight": "600",
+          "width": 245
+        },
+        {
+          "scroll": 245,
+          "size": "20px",
+          "tag": "H3",
+          "text": "SEO & Local Visibility",
+          "weight": "600",
+          "width": 245
+        },
+        {
+          "scroll": 245,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Digital Advertising",
+          "weight": "600",
+          "width": 245
+        },
+        {
+          "scroll": 245,
+          "size": "20px",
+          "tag": "H3",
+          "text": "AI & Business Automation",
+          "weight": "600",
+          "width": 245
+        },
+        {
+          "scroll": 265,
+          "size": "30px",
+          "tag": "H2",
+          "text": "Selected work.Recent projects.",
+          "weight": "700",
+          "width": 265
+        },
+        {
+          "scroll": 172,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Chicago Mounting",
+          "weight": "600",
+          "width": 172
+        },
+        {
+          "scroll": 183,
+          "size": "20px",
+          "tag": "H3",
+          "text": "GCPRO Restoration",
+          "weight": "600",
+          "width": 183
+        },
+        {
+          "scroll": 143,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Kolo Properties",
+          "weight": "600",
+          "width": 143
+        },
+        {
+          "scroll": 238,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Center For Dental Healing",
+          "weight": "600",
+          "width": 238
+        },
+        {
+          "scroll": 237,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Elite Mechanical Services",
+          "weight": "600",
+          "width": 237
+        },
+        {
+          "scroll": 161,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Quickzy Cleaning",
+          "weight": "600",
+          "width": 161
+        },
+        {
+          "scroll": 265,
+          "size": "30px",
+          "tag": "H2",
+          "text": "How we work.Practical, start to finish.",
+          "weight": "700",
+          "width": 265
+        },
+        {
+          "scroll": 265,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Start with the business, not a template.",
+          "weight": "600",
+          "width": 265
+        },
+        {
+          "scroll": 265,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Build what you'll actually use.",
+          "weight": "600",
+          "width": 265
+        },
+        {
+          "scroll": 265,
+          "size": "20px",
+          "tag": "H3",
+          "text": "Stay for what comes next.",
+          "weight": "600",
+          "width": 265
+        },
+        {
+          "scroll": 265,
+          "size": "36px",
+          "tag": "H2",
+          "text": "Good business.Easy to find.",
+          "weight": "700",
+          "width": 265
+        }
+      ],
+      "images": [
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-chicago-mounting-plate-v3-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-chicago-mounting-plate-v3-mobile-768x960.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-mobile-1-768x960.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-mobile-1-768x960.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-mobile-1-768x960.webp"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-1-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        },
+        {
+          "display": "none",
+          "loaded": true,
+          "src": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload-1536x1152.webp"
+        },
+        {
+          "display": "block",
+          "loaded": true,
+          "src": "lazy placeholder (hidden/inactive image)"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://chicagomounting.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://gcprochicago.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://kolo-properties.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://glenviewsmiles.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://elitemechanical.services/",
+          "target": "_blank",
+          "text": "Visit site"
+        },
+        {
+          "href": "https://quickzycleaning.com/",
+          "target": "_blank",
+          "text": "Visit site"
+        }
+      ],
+      "metadata": {
+        "descriptions": [
+          "Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions."
+        ],
+        "robots": [
+          "max-image-preview:large"
+        ],
+        "title": "ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago",
+        "titles": 1
+      },
+      "scrollWidth": 305,
+      "width": 320
+    }
+  ],
+  "rendered": {
+    "footer": "Websites, local search, and practical digital solutions for businesses in Chicago and the surrounding suburbs. Menu Services Work Approach Contact Contact info@robylo.com Chicago, IL © 2026 ROBYLO",
+    "images": [
+      {
+        "alt": "Chicago Mounting website shown on desktop and phone",
+        "naturalWidth": 1439,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-chicago-mounting-plate-v3.webp",
+        "visible": true
+      },
+      {
+        "alt": "Chicago Mounting website shown on desktop and phone",
+        "naturalWidth": 1440,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-chicago-mounting-plate-v3-mobile.webp",
+        "visible": false
+      },
+      {
+        "alt": "GCPRO Restoration website shown on desktop and phone",
+        "naturalWidth": 1439,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-1.webp",
+        "visible": true
+      },
+      {
+        "alt": "GCPRO Restoration website shown on desktop and phone",
+        "naturalWidth": 1440,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-gcpro-restoration-plate-v3-mobile-1.webp",
+        "visible": false
+      },
+      {
+        "alt": "Kolo Properties website shown on desktop and phone",
+        "naturalWidth": 1439,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-1.webp",
+        "visible": true
+      },
+      {
+        "alt": "Kolo Properties website shown on desktop and phone",
+        "naturalWidth": 1440,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-kolo-properties-plate-v3-mobile-1.webp",
+        "visible": false
+      },
+      {
+        "alt": "Center For Dental Healing website shown on desktop and phone",
+        "naturalWidth": 1439,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-1.webp",
+        "visible": true
+      },
+      {
+        "alt": "Center For Dental Healing website shown on desktop and phone",
+        "naturalWidth": 1440,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-center-for-dental-healing-plate-v3-mobile-1.webp",
+        "visible": false
+      },
+      {
+        "alt": "Elite Mechanical Services website shown on desktop and phone",
+        "naturalWidth": 1439,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-1.webp",
+        "visible": true
+      },
+      {
+        "alt": "Elite Mechanical Services website shown on desktop and phone",
+        "naturalWidth": 1,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/robylo-work-elite-mechanical-services-plate-v3-mobile-1.webp",
+        "visible": false
+      },
+      {
+        "alt": "Quickzy Cleaning website shown on desktop and phone",
+        "naturalWidth": 1439,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload.webp",
+        "visible": true
+      },
+      {
+        "alt": "Quickzy Cleaning website shown on desktop and phone",
+        "naturalWidth": 1,
+        "src": "https://robylo.com/wp-content/uploads/2026/11/mcp-upload-1.webp",
+        "visible": false
+      }
+    ],
+    "links": [
+      {
+        "href": "https://chicagomounting.com/",
+        "target": "_blank",
+        "text": "Visit site"
+      },
+      {
+        "href": "https://gcprochicago.com/",
+        "target": "_blank",
+        "text": "Visit site"
+      },
+      {
+        "href": "https://kolo-properties.com/",
+        "target": "_blank",
+        "text": "Visit site"
+      },
+      {
+        "href": "https://glenviewsmiles.com/",
+        "target": "_blank",
+        "text": "Visit site"
+      },
+      {
+        "href": "https://elitemechanical.services/",
+        "target": "_blank",
+        "text": "Visit site"
+      },
+      {
+        "href": "https://quickzycleaning.com/",
+        "target": "_blank",
+        "text": "Visit site"
+      }
+    ],
+    "main": [
+      "Good business.Hard to find?",
+      "Websites, local search, advertising, and practical automation for small businesses in Chicago and the surrounding suburbs. Work directly with the person who builds and manages your digital solutions.",
+      "THE BIG PICTURE",
+      "A website is just the beginning.",
+      "Your website, Google presence, advertising, and business tools should work together. We connect the pieces so customers can find you, get in touch, and do business with you.",
+      "Website",
+      "Local SEO",
+      "Advertising",
+      "Automation",
+      "Yourbusiness",
+      "What we do.Four areas of expertise. One point of contact.",
+      "Each service works on its own. Together, they cover how customers find you, what they see, and what happens after they get in touch.",
+      "Website Design & Development",
+      "Clear, fast websites that explain what you do and make it easy to call, book or buy.",
+      "Design and copy structure",
+      "Design and copy structure",
+      "WordPress development",
+      "WordPress development",
+      "Care and updates",
+      "Care and updates",
+      "SEO & Local Visibility",
+      "Show up when people nearby search for what you offer, in Google Search and on Maps.",
+      "Google Business Profile",
+      "Google Business Profile",
+      "Service and location pages",
+      "Service and location pages",
+      "Technical SEO",
+      "Technical SEO",
+      "Digital Advertising",
+      "Focused campaigns built around your services and budget, with reports you can read.",
+      "Google Ads",
+      "Google Ads",
+      "Landing pages",
+      "Landing pages",
+      "Call and form tracking",
+      "Call and form tracking",
+      "AI & Business Automation",
+      "Practical tools that take follow-ups, scheduling and other routine work off your plate.",
+      "AI assistants",
+      "AI assistants",
+      "Workflow automation",
+      "Workflow automation",
+      "Connecting the tools you use",
+      "Connecting the tools you use",
+      "Selected work.Recent projects.",
+      "Websites we've designed and built for businesses across the Chicago area. Different industries, real projects, and live sites you can explore.",
+      "Chicago Mounting",
+      "TV mounting and AV installation · Chicago, IL",
+      "GCPRO Restoration",
+      "Disaster restoration · Lombard, IL",
+      "Kolo Properties",
+      "Property management · Park Ridge, IL",
+      "Center For Dental Healing",
+      "Dental practice · Glenview, IL",
+      "Elite Mechanical Services",
+      "HVAC and refrigeration · West Chicago, IL",
+      "Quickzy Cleaning",
+      "Professional cleaning services",
+      "How we work.Practical, start to finish.",
+      "Direct communication, plain answers, and solutions built around what your business actually needs.",
+      "First",
+      "Start with the business, not a template.",
+      "We learn how customers find you today and how work moves through your day before we design anything.",
+      "Then",
+      "Build what you'll actually use.",
+      "The simplest site, campaign or automation that does the job. Nothing you have to babysit.",
+      "After launch",
+      "Stay for what comes next.",
+      "You work directly with the person responsible for updates, fixes, and the next improvement as your business changes.",
+      "Good business.Easy to find.",
+      "Tell us what you're working on. We'll help you figure out the next step, even if it's a small one."
+    ],
+    "metadata": {
+      "descriptions": [
+        "Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions."
+      ],
+      "title": "ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago",
+      "titleCount": 1
+    }
+  },
+  "openedLinks": [
+    {
+      "index": 1,
+      "opened": [
+        {
+          "url": "https://chicagomounting.com/",
+          "title": "TV Mounting Chicago | Professional TV, Soundbar & AV Installation"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "opened": [
+        {
+          "url": "https://gcprochicago.com/",
+          "title": "#1 Restoration & Reconstruction Services in Chicago | GCPRO"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "opened": [
+        {
+          "url": "https://kolo-properties.com/",
+          "title": "KOLO PROPERTIES"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "opened": [
+        {
+          "url": "https://glenviewsmiles.com/",
+          "title": "The Center For Dental Healing | Glenview Dentist"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "opened": [
+        {
+          "url": "https://elitemechanical.services/",
+          "title": "Commercial HVAC & Refrigeration Services | Elite Mechanical"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "opened": [
+        {
+          "url": "https://quickzycleaning.com/",
+          "title": "QUICKZY – Cleaning Services in Chicago"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "tag": "mobile next Enter",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -336, 0)"
+    },
+    {
+      "tag": "mobile swipe settled",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "true",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "before swipe correct viewport",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "true",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "tag": "mobile swipe actual settled",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -336, 0)"
+    },
+    {
+      "tag": "desktop next Enter",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -504, 0)"
+    },
+    {
+      "tag": "desktop prev hover",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(245, 245, 245)",
+          "disabled": "false",
+          "focus": false,
+          "hover": true,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -504, 0)"
+    },
+    {
+      "tag": "desktop prev press",
+      "buttons": [
+        {
+          "active": true,
+          "bg": "rgb(245, 245, 245)",
+          "disabled": "false",
+          "focus": false,
+          "hover": true,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -504, 0)"
+    },
+    {
+      "tag": "desktop prev leave",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "true",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -349.57, 0)"
+    },
+    {
+      "tag": "desktop next hover",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "true",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(245, 245, 245)",
+          "disabled": "false",
+          "focus": false,
+          "hover": true,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -170.74, 0)"
+    },
+    {
+      "tag": "desktop next press",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "true",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": true,
+          "bg": "rgb(245, 245, 245)",
+          "disabled": "false",
+          "focus": false,
+          "hover": true,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -82, 0)"
+    },
+    {
+      "tag": "desktop next leave",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Previous slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "hover": false,
+          "label": "Next slide",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "track": "matrix(1, 0, 0, 1, -91.09, 0)"
+    }
+  ],
+  "menu": {
+    "opened": true,
+    "escapeClosed": true,
+    "returnedFocusToButton": true
+  },
+  "limitations": [
+    "Chrome responsive/touch emulation, not physical-device/Safari/screen-reader certification.",
+    "Menu anchor auto-close is a pre-existing limitation, unchanged."
+  ],
+  "nativeAudit": {
+    "before": 139,
+    "after": 139,
+    "changes": [
+      "6763114",
+      "67f04a14",
+      "32319aa0",
+      "56ee3694",
+      "5602cb",
+      "3b1d6f1",
+      "5729e9f",
+      "bc72877",
+      "5937a59",
+      "5b5589c4",
+      "2d9754ca",
+      "766cb141",
+      "1026ad5a"
+    ],
+    "allowed": [
+      "67f04a14",
+      "32319aa0",
+      "56ee3694",
+      "5602cb",
+      "2d9754ca",
+      "766cb141",
+      "1026ad5a",
+      "6763114",
+      "3b1d6f1",
+      "5729e9f",
+      "bc72877",
+      "5937a59",
+      "5b5589c4"
+    ],
+    "imagesUnchanged": true,
+    "stylesUnchanged": true,
+    "added": [],
+    "removed": []
+  },
+  "exactApprovedCopy": {
+    "hero": true,
+    "bigPicture": true,
+    "servicesIntro": true,
+    "work": true,
+    "approach": true,
+    "afterLaunch": true,
+    "contact": true,
+    "footer": true,
+    "sixVisitSite": true,
+    "title": true,
+    "description": true
+  },
+  "publicGate": {
+    "httpStatus": 200,
+    "comingSoon5858": true,
+    "homeExposed": false
+  },
+  "footerChange": {
+    "document": 5893,
+    "instance": "374a8b64",
+    "property": "message",
+    "componentDefinitionUnchanged": true
+  },
+  "seoChangedFields": [
+    "title",
+    "description"
+  ]
+}

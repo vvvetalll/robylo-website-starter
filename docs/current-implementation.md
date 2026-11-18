@@ -143,3 +143,12 @@ The older foundation snapshot above is historical. Actual Home 5894 now has a st
 ## 2026-11-18 — All five Work cards implemented
 
 Home5894 ordinary authenticated root now displays five real Studio Plates, with native desktop/portrait visibility at767/768 and uniform media proportions. Chicago v3 unchanged in the four-card expansion. Captions, links, typography, card widths, navigation and unrelated sections preserved. Coming Soon still public. [Exact settings, IDs, actual five-width checks and limits](horizontal-portfolio-prototype-2026-11-17.md#all-five-studio-plates--2026-11-18). [Production process](portfolio-image-guidelines.md).
+
+
+## 2026-11-18 — Quickzy Cleaning added to Selected Work
+
+Home 5894 now has six native carousel cards, with Quickzy Cleaning appended after Elite Mechanical Services. The section heading is “Selected work. Recent projects.” and its supporting paragraph is count-free. The comparison against the before-state confirmed the other five cards and unrelated elements were unchanged. Coming Soon remains the public response. [Implementation and verification](verification.md#2026-11-18--quickzy-cleaning-and-selected-work-copy).
+
+
+## 2026-11-18 — Final homepage copy snapshot
+Home5894 now renders the owner-approved Chicago/suburbs and direct-implementer copy. Six existing Studio Plates/project destinations retained; link labels “Visit site.” Footer5893 reuses5889 message property for the approved tagline. Existing AIOSEO stores the supplied Chicago SEO title/description; robots/Coming Soon unchanged. No layout/class/token/component-definition change. [Approved copy](ROBYLO-CONCEPT.md#approved-homepage-positioning-and-final-copy--2026-11-18), [exact IDs and verification](verification.md#2026-11-18--approved-homepage-copy-and-chicago-positioning). Earlier snapshots above remain historical.

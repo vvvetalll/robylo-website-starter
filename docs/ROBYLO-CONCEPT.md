@@ -64,3 +64,173 @@ Homepage V2 remains the structural baseline. The owner's Apple references establ
 Use the existing Atomic classes and components as the source of truth. Inspect consumers before changing shared styles; do not duplicate a typography system, scatter overrides or rebuild working interactions. Current homepage hierarchy: display 76/56/36px, section H2 44/36/30px at desktop/tablet/mobile (700); service and Approach H3 24/22/20px (600). Portfolio mobile titles remain owner-selected 20px and descriptions/actions 12px. Supporting copy uses role-specific 14–16px mobile sizes, not a universal tiny font size.
 
 Keep text groups together, consistent gutters, restrained image-caption gaps, usable touch targets and real keyboard focus. Verify actual rendering at 1440/1024/768/390/320px, including full pointer release/leave, keyboard and touch behavior. Settings alone are not proof. Compare native trees before/after as well as screenshots. Preserve native list semantics. Record known limitations rather than masking them with blur handlers or extra JavaScript.
+
+
+## Approved homepage positioning and final copy — 2026-11-18
+**Owner-approved, implemented and visually verified for review.** Primary market: Chicago and surrounding suburbs, Illinois. ROBYLO is an independent digital studio; clients work directly with the person implementing and managing their digital solutions. The owner's final copy below supersedes earlier copy proposals, including Claude's [analysis on its design branch](https://github.com/vvvetalll/robylo-website-starter/blob/design/impact-section-concepts-2026-11-18/docs/design-homepage-copy-review-2026-11-18.md). That analysis remains historical/proposed where it differs.
+
+This is a content decision; the current Atomic design system and six Studio Plates are unchanged. [Exact implementation and checks](verification.md#2026-11-18--approved-homepage-copy-and-chicago-positioning).
+
+## 2. Approved homepage copy
+
+### HERO
+
+**Heading:**
+
+Good business.
+Hard to find?
+
+**Description:**
+
+Websites, local search, advertising, and practical automation for small businesses in Chicago and the surrounding suburbs. Work directly with the person who builds and manages your digital solutions.
+
+**Buttons:** Preserve existing "Let's talk" and "See our work" actions.
+
+### THE BIG PICTURE
+
+**Eyebrow:** THE BIG PICTURE
+
+**Heading:**
+
+A website is just the beginning.
+
+**Description:**
+
+Your website, Google presence, advertising, and business tools should work together. We connect the pieces so customers can find you, get in touch, and do business with you.
+
+**Outcomes:** Get found · Win customers · Save time
+
+Preserve the existing diagram and its four categories. Do not rebuild the visual.
+
+### WHAT WE DO
+
+**Heading:**
+
+What we do.
+Four areas of expertise. One point of contact.
+
+**Description:**
+
+Each service works on its own. Together, they cover how customers find you, what they see, and what happens after they get in touch.
+
+**Website Design & Development**
+
+Scope:
+Design and copy structure · WordPress development · Care and updates
+
+Description:
+Clear, fast websites that explain what you do and make it easy to call, book or buy.
+
+**SEO & Local Visibility**
+
+Scope:
+Google Business Profile · Service and location pages · Technical SEO
+
+Description:
+Show up when people nearby search for what you offer, in Google Search and on Maps.
+
+**Digital Advertising**
+
+Scope:
+Google Ads · Landing pages · Call and form tracking
+
+Description:
+Focused campaigns built around your services and budget, with reports you can read.
+
+**AI & Business Automation**
+
+Scope:
+AI assistants · Workflow automation · Connecting the tools you use
+
+Description:
+Practical tools that take follow-ups, scheduling and other routine work off your plate.
+
+### SELECTED WORK
+
+**Heading:**
+
+Selected work.
+Recent projects.
+
+**Description:**
+
+Websites we've designed and built for businesses across the Chicago area. Different industries, real projects, and live sites you can explore.
+
+Preserve all six existing portfolio projects, images, and their destinations.
+
+Use **"Visit site"** for project links that lead directly to external client websites. Do not change working destinations.
+
+### HOW WE WORK
+
+**Heading:**
+
+How we work.
+Practical, start to finish.
+
+**Description:**
+
+Direct communication, plain answers, and solutions built around what your business actually needs.
+
+**First**
+
+Heading: Start with the business, not a template.
+
+Description:
+We learn how customers find you today and how work moves through your day before we design anything.
+
+**Then**
+
+Heading: Build what you'll actually use.
+
+Description:
+The simplest site, campaign or automation that does the job. Nothing you have to babysit.
+
+**After launch**
+
+Heading: Stay for what comes next.
+
+Description:
+You work directly with the person responsible for updates, fixes, and the next improvement as your business changes.
+
+### FINAL CTA
+
+**Heading:**
+
+Good business.
+Easy to find.
+
+**Description:**
+
+Tell us what you're working on. We'll help you figure out the next step, even if it's a small one.
+
+**Button:** Start a conversation
+
+**Email:** info@robylo.com
+
+Preserve existing working contact actions.
+
+### FOOTER
+
+**Tagline:**
+
+Websites, local search, and practical digital solutions for businesses in Chicago and the surrounding suburbs.
+
+**Location:** Chicago, IL
+
+Preserve existing navigation, logo, and copyright.
+
+## 3. SEO metadata
+
+Update the homepage metadata using the existing SEO implementation.
+
+**SEO title:**
+
+ROBYLO | Web Design, Local SEO & Digital Solutions in Chicago
+
+**Meta description:**
+
+Web design, local SEO, Google Ads, and practical automation for businesses in Chicago and the surrounding suburbs. Work directly with the person building your solutions.
+
+Do not install a new SEO plugin or introduce duplicate metadata.
+
+Keep the existing indexing and Coming Soon configuration unchanged.

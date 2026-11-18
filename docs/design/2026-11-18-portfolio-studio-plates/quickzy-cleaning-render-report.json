@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "reference": "Chicago Mounting v3 at dac1883",
+  "browser": "157.0.8103.52",
+  "exports": [
+    {
+      "project": "quickzy-cleaning",
+      "name": "robylo-work-quickzy-cleaning-plate-v3",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 114062,
+      "desktop": {
+        "x": 80,
+        "y": 80,
+        "width": 1248,
+        "height": 1040,
+        "right": 1328,
+        "bottom": 1120
+      },
+      "phone": {
+        "x": 1160,
+        "y": 340,
+        "width": 360,
+        "height": 773.046875,
+        "right": 1520,
+        "bottom": 1113.046875
+      }
+    },
+    {
+      "project": "quickzy-cleaning",
+      "name": "robylo-work-quickzy-cleaning-plate-v3-mobile",
+      "width": 1000,
+      "height": 1250,
+      "bytes": 76662,
+      "desktop": {
+        "x": 48,
+        "y": 64,
+        "width": 904,
+        "height": 790,
+        "right": 952,
+        "bottom": 854
+      },
+      "phone": {
+        "x": 592,
+        "y": 440,
+        "width": 344,
+        "height": 740.4375,
+        "right": 936,
+        "bottom": 1180.4375
+      }
+    }
+  ]
+}
