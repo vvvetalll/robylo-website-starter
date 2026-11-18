@@ -152,3 +152,7 @@ Collaborator: Claude. Added docs/design-studio-plate-chicago-mounting-2026-11-18
 - **Checks run:** headless Chrome plate render 1600 × 1200 at 1×; carousel previews at 1440 × 900 and 390 × 844 at 2× with Manrope loaded, scrollWidth equals viewport at both; card image measured 560 × 420 and 332 × 442; visual review of plate, both previews and the 3:4 crop; committed source scripts re-run from a clean copy and reproduced the plate with zero pixel difference; WebP weights 80 KB / 34 KB.
 - **Not verified:** a true 390 px capture (cloud browser minimum width is 500), real devices, tablet widths, Elementor Atomic V4 per-breakpoint aspect ratio and object-position.
 - No WordPress, Elementor or website change. No PR merged.
+
+## 2026-11-18 — Homepage messaging and copy review (copy only)
+
+Collaborator: Claude. Added docs/design-homepage-copy-review-2026-11-18.md; design-log and decisions entries. Status **Proposed**. Sources: owner's full-page screenshot of the staged homepage; public robylo.com checked in a cloud browser on 2026-11-18 (shows Coming Soon, so the staged page could not be inspected directly); ROBYLO-CONCEPT.md and V2 records. Character counts of the recommended lines were computed. Not verified: rendered fit of the new copy in Elementor at 1440/1024/768/390; truth of the direct-contact claim (owner to confirm); per-client service and start-year data. No WordPress or Elementor change; no PR merged.

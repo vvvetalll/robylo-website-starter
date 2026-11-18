@@ -46,3 +46,7 @@ Owner requested compact mobile proportions using the supplied Apple references, 
 ## 2026-11-18 — Studio Plate prototype (Chicago Mounting)
 
 **Proposed by Claude, not approved:** Studio Plate v2 geometry and 3:4 mobile card crop, demonstrated on Chicago Mounting. [Prototype](design-studio-plate-chicago-mounting-2026-11-18.md). Awaiting owner review; production guidelines for all projects follow only after approval. No implementation authorized.
+
+## 2026-11-18 — Homepage copy recommendation
+
+**Proposed by Claude, not approved:** revised homepage copy within the existing structure (hero sub-line with Chicago and direct contact, Big Picture headline and body, "Four services. One point of contact.", verifiable Selected Work intro, How We Work intro and step 3, contact body, footer, page title/meta). [Review](design-homepage-copy-review-2026-11-18.md). Owner must confirm the direct-contact claim before use. No implementation authorized.

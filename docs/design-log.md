@@ -26,6 +26,10 @@ The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is k
 
 ---
 
+## 2026-11-18 — Homepage messaging and copy review
+
+**Exploration, Proposed.** Independent review of the staged homepage copy and ChatGPT's "Digital Partner for Small Business" rewrite. Finding: the current copy is stronger in most places; neither version differentiates yet. Recommended copy keeps the structure and most current lines, adds the Chicago location and the direct-contact difference, replaces "One team" (inaccurate for a solo studio) and "No packages" (conflicts with planned packages), and makes the Selected Work intro verifiable. [Review and recommended copy](design-homepage-copy-review-2026-11-18.md).
+
 ## 2026-11-18 — Studio Plate prototype: Chicago Mounting
 
 **Exploration, Proposed.** First real Studio Plate built from fresh public captures of chicagomounting.com: [plate 1600 × 1200](design/2026-11-18-studio-plate-chicago-mounting/robylo-work-chicago-mounting-plate.webp), [carousel desktop 1440](design/2026-11-18-studio-plate-chicago-mounting/2026-11-18-studio-plate-carousel-desktop-1440.png), [carousel mobile 390](design/2026-11-18-studio-plate-chicago-mounting/2026-11-18-studio-plate-carousel-mobile-390.png). [Specification and rationale](design-studio-plate-chicago-mounting-2026-11-18.md). Geometry changed from the research after testing: no shadow (owner brief), both screens bleed off the bottom, margins 80, mobile card crop 3:4 instead of 4:5 so the crop line avoids cutting the headline.
@@ -174,6 +178,7 @@ What survived from this round: left-aligned layout, services as ruled rows (from
 | Projects shown as text-only link rows | V1 build | Owner: no text-only project placeholders. |
 | White contact section with a top rule | Iteration 3 | Owner asked for the Dark treatment; a white ending was too weak. |
 | Service index list in the hero's right column | Iteration 4, while designing | Repeated the Services section directly below it. |
+| "Digital Partner for Small Business" as public positioning label | ChatGPT copy proposal, 2026-11-18 | Generic agency phrase; says nothing a visitor can check. Kept as an internal idea only. |
 | Drop shadow under the phone screen in the Studio Plate | Portfolio research | Owner brief: no shadows; a mat-coloured ring separates the screens instead. |
 | 4:5 mobile crop of the Studio Plate | Portfolio research | Crop line fell through the desktop headline; 3:4 crop lands in empty space. |
 | Headline line in `rb-line` gray | Iteration 4, while designing | 1.5:1 contrast; replaced by `rb-mute` at 3.45:1. |
