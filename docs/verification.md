@@ -139,3 +139,6 @@ ChatGPT/Codex replaced numbered three-column outcomes with one naturally wrappin
 
 ## 2026-11-18 — Compact informational outcome pills
 ChatGPT/Codex replaced the oversized sentence with three static surface-token labels using one scoped class and existing container. Manrope500,14px desktop/12px mobile,4px radius, no interaction states. Actual five-width visual checks: all three fit one row, consistent33/30px heights, no overflow; diagram and other sections unchanged. Coming Soon active; PR15 updated without merge. [Settings, evidence and limits](everything-connected-2026-11-18.md#compact-informational-outcome-pills--owner-refinement-2026-11-18).
+
+## 2026-11-18 — Integrated outcome transition strip
+ChatGPT/Codex reused the three static outcome labels as equal-width, square segments with rb-surface and thin dividers, aligned to the content container and flush with Services. Only local section padding/strip layout and the existing scoped label class changed. Actual five-width inspection: equal widths/heights, readable12px mobile text, zero gap into Services, no overlap/overflow. Diagram and unrelated sections preserved. Coming Soon active; PR15 updated without merge. [Settings and transition screenshots](everything-connected-2026-11-18.md#integrated-transition-strip--owner-refinement-2026-11-18).

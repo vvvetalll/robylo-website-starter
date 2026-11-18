@@ -1,0 +1,300 @@
+{
+  "audit": {
+    "before": 120,
+    "after": 120,
+    "changed": [
+      "7d73938f",
+      "57453cf6",
+      "15616841",
+      "2d1863ba"
+    ],
+    "classConsumers": [
+      "1e527e25",
+      "15616841",
+      "2d1863ba"
+    ],
+    "structureContentAndLinksUnchanged": true
+  },
+  "breakpoints": [
+    {
+      "alignment": 0,
+      "containerWidth": 1200,
+      "gap": "0px",
+      "labels": [
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Get found",
+          "top": 857.0208740234375,
+          "weight": "500",
+          "width": 400
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Win customers",
+          "top": 857.0208740234375,
+          "weight": "500",
+          "width": 400
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Save time",
+          "top": 857.0208740234375,
+          "weight": "500",
+          "width": 400
+        }
+      ],
+      "overflow": 0,
+      "servicesGap": 0,
+      "stripWidth": 1200,
+      "width": 1440
+    },
+    {
+      "alignment": 0,
+      "containerWidth": 926.75,
+      "gap": "0px",
+      "labels": [
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Get found",
+          "top": 868.2708740234375,
+          "weight": "500",
+          "width": 308.91668701171875
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Win customers",
+          "top": 868.2708740234375,
+          "weight": "500",
+          "width": 308.91668701171875
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Save time",
+          "top": 868.2708740234375,
+          "weight": "500",
+          "width": 308.91668701171875
+        }
+      ],
+      "overflow": 0,
+      "servicesGap": 0,
+      "stripWidth": 926.75,
+      "width": 1024
+    },
+    {
+      "alignment": 0,
+      "containerWidth": 691.2291870117188,
+      "gap": "0px",
+      "labels": [
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Get found",
+          "top": 910.1666870117188,
+          "weight": "500",
+          "width": 230.40625
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Win customers",
+          "top": 910.1666870117188,
+          "weight": "500",
+          "width": 230.40625
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "14px",
+          "height": 44,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Save time",
+          "top": 910.1666870117188,
+          "weight": "500",
+          "width": 230.4166717529297
+        }
+      ],
+      "overflow": 0,
+      "servicesGap": 0,
+      "stripWidth": 691.2291870117188,
+      "width": 768
+    },
+    {
+      "alignment": 0,
+      "containerWidth": 334.66668701171875,
+      "gap": "0px",
+      "labels": [
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px",
+          "cursor": "default",
+          "font": "12px",
+          "height": 36,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Get found",
+          "top": 1010.0625,
+          "weight": "500",
+          "width": 111.55208587646484
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "12px",
+          "height": 36,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Win customers",
+          "top": 1010.0625,
+          "weight": "500",
+          "width": 111.55208587646484
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "12px",
+          "height": 36,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Save time",
+          "top": 1010.0625,
+          "weight": "500",
+          "width": 111.55208587646484
+        }
+      ],
+      "overflow": 0,
+      "servicesGap": 0,
+      "stripWidth": 334.66668701171875,
+      "width": 390
+    },
+    {
+      "alignment": 0,
+      "containerWidth": 264.66668701171875,
+      "gap": "0px",
+      "labels": [
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px",
+          "cursor": "default",
+          "font": "12px",
+          "height": 36,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Get found",
+          "top": 1034.854248046875,
+          "weight": "500",
+          "width": 88.21875
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "12px",
+          "height": 36,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Win customers",
+          "top": 1034.854248046875,
+          "weight": "500",
+          "width": 88.21875
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "border": "0px 0px 0px 0.666667px",
+          "cursor": "default",
+          "font": "12px",
+          "height": 36,
+          "interactive": false,
+          "overflow": 0,
+          "radius": "0px",
+          "tag": "SPAN",
+          "text": "Save time",
+          "top": 1034.854248046875,
+          "weight": "500",
+          "width": 88.21875
+        }
+      ],
+      "overflow": 0,
+      "servicesGap": 0,
+      "stripWidth": 264.66668701171875,
+      "width": 320
+    }
+  ]
+}

@@ -138,3 +138,24 @@ Screenshots visually inspected:
 Native audit118→120 nodes: added only the two labels, changed only outcomes57453cf6 and first text1e527e25. No removed nodes and no diagram/other section changes. Labels have no hover, focus or click handlers, so interactive-component tests are not applicable to them. Existing diagram handlers and styles were not edited. Browser viewport emulation, not a physical-device certification.
 
 Home5894 saved/promoted behind unchanged Coming Soon for authenticated owner review under the existing instruction. Anonymous root200 still serves5858 without5894. SamePR15, no merge/public launch. WordPress configuration remains database-held; documentation is not a portable export. Pre-change page undo6128; if rolled back, inspect later edits and remove the new class only after confirming no remaining consumers.
+
+## Integrated transition strip — owner refinement, 2026-11-18
+**Current treatment supersedes the separated pills above.** Three equal-width static segments now form one rb-surface#F5F5F5 strip at the bottom of Everything Connected, directly touching Services' gray background. No gutters between segments, rounded corners, icons, numbering, shadows or interactions.
+
+Native changes:
+- Reused outcomes57453cf6 and all three span labels; grid repeat(3,minmax(0,1fr)), gap0, full content-container width. At1440 the strip is1200px wide and each segment400px.
+- Reused **rb-outcome-label g-01beb91** after confirming its three tracked consumers1e527e25/15616841/2d1863ba. Replaced obsolete fit-content/pill radius/flex sizing with full-cell flex centering and radius0. No duplicate class/component/token.
+- Existing Manrope500 retained:14px desktop/tablet,12px mobile. Segment minimum44px desktop/tablet,36px mobile. Padding10px12px desktop;9px0px mobile so the longest label remains readable at320.
+- Added native left borders only to the second and third labels15616841/2d1863ba:1px rb-line, no outer border. Existing spans remain noninteractive with default cursor, no links/tabindex/handlers/state variants.
+- To place the strip flush against Services without negative margins/overlap, only this section7d73938f's local bottom padding becomes0. The previous80/64/48px bottom rhythm is reused as the strip's top margin at desktop/tablet/mobile. Global rb-section, spacing tokens and Services settings are untouched. No JavaScript, custom CSS file, page CSS or dependency.
+- Headline, description, BUSINESS diagram tree/interactions, Hero and every other section remain unchanged.
+
+Actual rendered section+Services transition was visually inspected at1440/1024/768/390/320. Segment widths equal within0.02px rounding, same row/heights, no text/page overflow. Strip left edge and width exactly match content container; Services top minus strip bottom is0px at every width. Backgrounds match; dividers distinguish the labels without separate cards. At320 each segment about88px with12px text and36px height. No overlaps or negative margins.
+- [Desktop transition1440](screenshots/everything-connected-2026-11-18/transition-1440.jpg)
+- [Mobile transition390](screenshots/everything-connected-2026-11-18/transition-390.jpg)
+- [Mobile transition320](screenshots/everything-connected-2026-11-18/transition-320.jpg)
+- [Measured QA and audit](everything-connected-transition-qa-2026-11-18.json)
+
+Native audit120→120 nodes, identical IDs/types/tags/child order/content/destinations. Only section7d73938f local padding, strip57453cf6 layout and two labels' divider styles changed. Native local-style references were added to those labels; all changes remain within the authorized section. Shared label-class geometry refined in place; no global section-style edit. Static labels have no interaction test surface; existing diagram behavior was not changed. Browser emulation, not physical-device certification.
+
+Home5894 saved/promoted behind unchanged Coming Soon for authenticated owner review under the existing instruction. Anonymous root200 serves5858 without5894. SamePR15, no merge or public launch. Pre-change page undo6131; review subsequent edits before restoration and handle the shared label class separately.
