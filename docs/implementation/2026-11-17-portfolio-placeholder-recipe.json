@@ -356,5 +356,249 @@
       "enabled": false,
       "result": "Actual root emits native Elementor CSS ?ver=<generated revision> and carousel-handler.min.js?ver=4.4.1. Owner confirmed horizontal scrolling on phone after also clearing its cache."
     }
+  },
+  "card_refinement_2026_11_18": {
+    "scope": "Private staged Home5894 only; no Publish or merge. Existing same-prototype authoring6040 inherits shared slide gap.",
+    "ownerReference": "Apple screenshot for compact project-title/secondary-copy proportions; monochrome Manrope remains.",
+    "globalClasses": [
+      {
+        "action": "create",
+        "label": "rb-portfolio-title",
+        "css": "font-family:var(--rb-font);font-size:26px;font-weight:600;line-height:1.25; @media(--tablet){font-size:24px;} @media(--mobile){font-size:22px;}"
+      },
+      {
+        "action": "create",
+        "label": "rb-portfolio-description",
+        "css": "font-family:var(--rb-font);font-size:15px;font-weight:400;line-height:1.5;color:var(--rb-text);"
+      },
+      {
+        "action": "update",
+        "label": "rb-portfolio-slide",
+        "css": "gap:var(--rb-space-2); @media(--mobile){gap:12px;}"
+      }
+    ],
+    "newClassIds": {
+      "title": "g-eaef0d8",
+      "description": "g-9ae850a"
+    },
+    "priority": "New role classes placed before g-aec96cc; all pre-existing relative priorities preserved.",
+    "updates": [
+      {
+        "action": "update",
+        "element_id": "398df07",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "8100744",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "c31d2f5",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "31f149a",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "c41db73",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "fad753b",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "f9e7e8d",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "47068a8",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "a9a54ad",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "65b9db0",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "6763114",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://chicagomounting.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "3b1d6f1",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://gcprochicago.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "5729e9f",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://kolo-properties.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "bc72877",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://glenviewsmiles.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "5937a59",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://elitemechanical.services/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      }
+    ],
+    "iconChildrenReplacements": [
+      {
+        "input": {
+          "post_id": 5894,
+          "parent_id": "a01fd95",
+          "mode": "replace_children",
+          "xml_structure": "<e-svg configuration-id=\"Previous chevron\"/>",
+          "element_config": {
+            "Previous chevron": {
+              "svg": {
+                "value": "fa-solid fa-chevron-left",
+                "library": "fa-solid"
+              }
+            }
+          },
+          "style": {
+            "Previous chevron": "width:18px;height:18px;color:inherit;"
+          }
+        },
+        "result": {
+          "success": true,
+          "post_id": 5894,
+          "root_element_ids": [
+            "3bee3764"
+          ],
+          "edit_url": "https://robylo.com/wp-admin/post.php?post=5894&action=elementor",
+          "version": "2026-11-17 18:54:56",
+          "resolved_xml": "<e-svg configuration-id=\"Previous chevron\" id=\"3bee3764\"/>",
+          "removed_element_ids": [
+            "fdd14b7"
+          ],
+          "undo_revision_id": 6085,
+          "llm_instructions": "To undo this change, call elementor/manage-revisions with action=restore, post_id 5894 and revision_id 6085."
+        }
+      },
+      {
+        "input": {
+          "post_id": 5894,
+          "parent_id": "ac514e2",
+          "mode": "replace_children",
+          "xml_structure": "<e-svg configuration-id=\"Next chevron\"/>",
+          "element_config": {
+            "Next chevron": {
+              "svg": {
+                "value": "fa-solid fa-chevron-right",
+                "library": "fa-solid"
+              }
+            }
+          },
+          "style": {
+            "Next chevron": "width:18px;height:18px;color:inherit;"
+          }
+        },
+        "result": {
+          "success": true,
+          "post_id": 5894,
+          "root_element_ids": [
+            "7897cb5b"
+          ],
+          "edit_url": "https://robylo.com/wp-admin/post.php?post=5894&action=elementor",
+          "version": "2026-11-17 18:54:56",
+          "resolved_xml": "<e-svg configuration-id=\"Next chevron\" id=\"7897cb5b\"/>",
+          "removed_element_ids": [
+            "f697708"
+          ],
+          "undo_revision_id": 6086,
+          "llm_instructions": "To undo this change, call elementor/manage-revisions with action=restore, post_id 5894 and revision_id 6086."
+        }
+      }
+    ],
+    "undo": 6084
   }
 }

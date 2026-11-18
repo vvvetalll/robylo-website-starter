@@ -99,3 +99,47 @@ Owner clarified the remaining symptom: Selected Work cards were stacked vertical
 Actual logged-in root now emits base/global/local Elementor CSS with native ?ver=<generated revision> and carousel-handler.min.js?ver=4.4.1. At390px the five320px cards share one Y coordinate, with16px gaps and no page overflow. An emulated touch swipe settled from0 to -336px and exposed GCPRO as the next card. One touch command timed out, so touchEnd was explicitly sent; the settled transform and card coordinates confirmed the result. A separate diagnostic blocking only the carousel handler did not reproduce stacking with current CSS; it was restored and the diagnostic tab closed. No unsupported JS-failure root cause was asserted.
 
 **Owner confirmed on the physical phone:** cards now scroll horizontally; owner also cleared the phone cache. Those two effects were not isolated. [Versioned URLs, native setting, measured swipe and owner confirmation](verification/2026-11-17-carousel-asset-versions.json). All other optimizer switches and Coming Soon settings were preserved.
+
+## Compact cards and consistent chevrons — owner refinement 2026-11-18
+
+**Approved scope:** refine only the existing Selected Work cards/navigation; retain native scrolling, five neutral placeholders and all exact external destinations. The owner's Apple screenshot informed the typography proportions. **Implemented in Home5894's private staged preview and verified**; no Home Publish, PR merge, cache purge or optimizer setting change occurred.
+
+### Exact native changes
+
+- New native Global Class **rb-portfolio-title / g-eaef0d8**: existing Manrope via rb-font, 600, line-height1.25, 26px desktop /24px tablet /22px mobile. Applied to all five existing portfolio H3s. Existing rb-item-title remains attached; the narrow portfolio role takes priority. Services/Approach and semantic H3 levels remain unchanged.
+- New native Global Class **rb-portfolio-description / g-9ae850a**: Manrope via rb-font, 15px/400/1.5, rb-text. Applied to the five existing category paragraphs; existing rb-meta stays attached. Both new roles are ordered before rb-btn/rb-meta/rb-item-title; all pre-existing classes keep their relative order. No global variable or general heading default changed.
+- Existing **rb-portfolio-slide / g-6458261**: placeholder-to-caption gap becomes16px desktop/tablet and12px mobile (previous24/16). Native width basis, max-width, flex behavior, placeholder16:10 ratio and track gaps remain unchanged. Its known consumers are five Home cards and five corresponding cards in unpublished authoring reference6040; that shared reference inherits the gap change. Draft6040 itself was not edited or published.
+- Existing rb-portfolio-caption keeps its4px column gap. Existing Button5864 remains unchanged; only the five instance text overrides become **View project**, preserving href, target=_blank and rb-btn--text. Existing16px link typography and48px click targets remain for readability/accessibility. There is no visible domain-name label.
+- Native previous/next controls **a01fd95 / ac514e2** retain their IDs, handlers, names,48×48px geometry, classes and disabled/hover/active/focus-visible behavior. Only their text glyph children were replaced using native e-svg elements **3bee3764 /7897cb5b**. Icons were discovered from Elementor's installed library: **fa-solid fa-chevron-left** and **fa-solid fa-chevron-right**, both free, both18×18px with the same320×512 viewBox and currentColor fill. Both SVGs are decorative aria-hidden; button accessible names remain Previous slide / Next slide.
+- Existing **rb-btn--carousel /g-85ea9ae** was inspected and left unchanged, including pointer-focus correction, aria-disabled styling and hover:none sticky-hover treatment. No blur or JavaScript workaround.
+- No new component, duplicate carousel, media asset, dependency, custom CSS block or theme/page CSS was introduced. Native CSS declarations were converted by Elementor into Atomic controls. The two repeated typography roles avoid per-widget font definitions. Native geometry on two icon nodes uses the same18px dimensions.
+
+Exact Home targets for the15 content/class edits and the two child replacements are recorded in the [updated installation recipe](implementation/2026-11-17-portfolio-placeholder-recipe.json), under card_refinement_2026_11_18. Original composition and previous fixes remain as historical records. Home pre-edit undo revision6084; icon replacements returned6085/6086. Review in [Home Elementor → Preview Changes](https://robylo.com/wp-admin/post.php?post=5894&action=elementor). Ordinary logged-in root may still show the earlier published card labels until a separately authorized promotion; no promotion is part of this task.
+
+### Actual responsive results
+
+| Width | Card width | Placeholder height | H3 | Description | Image/caption gap | Next-card glimpse |
+|---|---:|---:|---|---|---:|---:|
+|1440|480|300|26/600, LH32.5|15/400, LH22.5|16|Desktop multiple cards|
+|1024|400|250|24/600, LH30|15/400, LH22.5|16|Multiple/partial cards|
+|768|400|250|24/600, LH30|15/400, LH22.5|16|Partial next card|
+|390|320|200|22/600, LH27.5|15/400, LH22.5|12|34px|
+|320|256|160|22/600, LH27.5|15/400, LH22.5|12|28px|
+
+All five widths were measured; no page horizontal overflow. All five titles/descriptions/URLs were checked, including long Dental/Elite names. Mobile copy wraps naturally; card elements stay grouped. Header, Hero, Services, Approach, Contact, Footer and the existing two-tone section-heading treatment were not edited. Previous PR13 typography bindings remain in the staged page; no older saved page tree was used to rebuild it.
+
+Actual sanitized screenshots: [desktop before](verification/2026-11-18-carousel-before-1440.jpg), [desktop after](verification/2026-11-18-carousel-after-1440.jpg), [390 before](verification/2026-11-18-carousel-before-390.jpg), [390 after](verification/2026-11-18-carousel-after-390.jpg), [320 after](verification/2026-11-18-carousel-after-320.jpg). The admin-only assistant bubble, when present, is not a new design element.
+
+### Interaction cycle verification
+
+Chrome emulation at1440 desktop and390 mobile:
+- Pointer default → hover → press → release → mouse leave: normal black/transparent, hover white/black, pressed white/#333, then normal after leave. No stuck active state. Pointer-only focus remains on the clicked control.
+- Keyboard Tab → focus → Enter and Space: native track advances; focus-visible retains a2px black outline. Space on Previous also navigates back. Next disabled at the end correctly prevents further navigation; the native automation's disabled-keypress timeout is not treated as a navigation success.
+- Disabled → enabled → disabled: Previous starts disabled, enables after Next, disables on return; Next disables at the end and re-enables after Previous. Disabled opacity remains.35, black/transparent. Eight rapid clicks each direction reached boundaries without looping or a stuck pressed appearance. Animation-time transforms are identified as intermediate rather than settled.
+- Coarse-pointer touch tap/release advances to-336px and settles active=false with black/transparent styling. Retained browser hover does not leave a stuck fill.
+- Direct touch swipe fromx280 tox50 over the placeholder, followed by touchEnd: settled native track **0 → -336px**, exposing the next card; both controls enable appropriately. An earlier multi-step touch command timed out and was explicitly released, then the full direct gesture was rerun successfully. Synthetic scroll gestures alone did not advance the drag carousel and are not claimed as swipe passes.
+- No scripted focus removal, replacement navigation, gesture handler or change to the native300ms/autoplay=false/loop=false settings.
+
+[Computed responsive and interaction evidence](verification/2026-11-18-carousel-refinement-checks.json) distinguishes transient states, outer-container transform samples and the actual generated .e-carousel__track transform. The earlier outer container's transform:none is not a failed advance; settled inner-track values verify navigation.
+
+Fresh anonymous HTTP request with browser User-Agent returns200, Coming Soon5858 and its expected headline, with no View project card labels. Public gate settings remain untouched. Browser emulation only; no new physical-phone, Safari/Firefox or screen-reader certification. Scope stayed within Selected Work and its shared native classes. PR11 documentation updated in place, preserving all previous notes and dependency history.

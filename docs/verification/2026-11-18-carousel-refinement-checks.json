@@ -1,0 +1,1955 @@
+{
+  "date": "2026-11-18",
+  "environment": "Chrome browser emulation, authenticated native staged Home preview; no preview URLs retained.",
+  "responsive": [
+    {
+      "stage": "after",
+      "client": 1440,
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z",
+            "w": 18
+          },
+          "w": 48
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z",
+            "w": 18
+          },
+          "w": 48
+        }
+      ],
+      "scroll": 1440,
+      "sectionHeading": "700 48px / 55.2px Manrope",
+      "slides": [
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "TV mounting and AV installation · Chicago, IL"
+          },
+          "gap": "16px",
+          "height": 429,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://chicagomounting.com/"
+          },
+          "placeholder": {
+            "h": 300,
+            "w": 480
+          },
+          "title": {
+            "font": "600 26px / 32.5px Manrope",
+            "height": 32.5,
+            "text": "Chicago Mounting"
+          },
+          "width": 480,
+          "x": 120,
+          "y": 2148.447998046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Disaster restoration · Lombard, IL"
+          },
+          "gap": "16px",
+          "height": 429,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://gcprochicago.com/"
+          },
+          "placeholder": {
+            "h": 300,
+            "w": 480
+          },
+          "title": {
+            "font": "600 26px / 32.5px Manrope",
+            "height": 32.5,
+            "text": "GCPRO Restoration"
+          },
+          "width": 480,
+          "x": 624,
+          "y": 2148.447998046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Property management · Park Ridge, IL"
+          },
+          "gap": "16px",
+          "height": 429,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://kolo-properties.com/"
+          },
+          "placeholder": {
+            "h": 300,
+            "w": 480
+          },
+          "title": {
+            "font": "600 26px / 32.5px Manrope",
+            "height": 32.5,
+            "text": "Kolo Properties"
+          },
+          "width": 480,
+          "x": 1128,
+          "y": 2148.447998046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Dental practice · Glenview, IL"
+          },
+          "gap": "16px",
+          "height": 429,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://glenviewsmiles.com/"
+          },
+          "placeholder": {
+            "h": 300,
+            "w": 480
+          },
+          "title": {
+            "font": "600 26px / 32.5px Manrope",
+            "height": 32.5,
+            "text": "Center For Dental Healing"
+          },
+          "width": 480,
+          "x": 1632,
+          "y": 2148.447998046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "HVAC and refrigeration · West Chicago, IL"
+          },
+          "gap": "16px",
+          "height": 429,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://elitemechanical.services/"
+          },
+          "placeholder": {
+            "h": 300,
+            "w": 480
+          },
+          "title": {
+            "font": "600 26px / 32.5px Manrope",
+            "height": 32.5,
+            "text": "Elite Mechanical Services"
+          },
+          "width": 480,
+          "x": 2136,
+          "y": 2148.447998046875
+        }
+      ],
+      "track": "none",
+      "viewport": {
+        "left": 120,
+        "right": 1440
+      },
+      "width": 1440
+    },
+    {
+      "stage": "after",
+      "client": 1024,
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z",
+            "w": 18
+          },
+          "w": 48
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z",
+            "w": 18
+          },
+          "w": 48
+        }
+      ],
+      "scroll": 1024,
+      "sectionHeading": "700 40px / 47px Manrope",
+      "slides": [
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "TV mounting and AV installation · Chicago, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://chicagomounting.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Chicago Mounting"
+          },
+          "width": 400,
+          "x": 40.95833587646485,
+          "y": 2306.010498046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Disaster restoration · Lombard, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://gcprochicago.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "GCPRO Restoration"
+          },
+          "width": 400,
+          "x": 464.9583435058594,
+          "y": 2306.010498046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Property management · Park Ridge, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://kolo-properties.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Kolo Properties"
+          },
+          "width": 400,
+          "x": 888.9583740234375,
+          "y": 2306.010498046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Dental practice · Glenview, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://glenviewsmiles.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Center For Dental Healing"
+          },
+          "width": 400,
+          "x": 1312.9583740234375,
+          "y": 2306.010498046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "HVAC and refrigeration · West Chicago, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://elitemechanical.services/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Elite Mechanical Services"
+          },
+          "width": 400,
+          "x": 1736.9583740234375,
+          "y": 2306.010498046875
+        }
+      ],
+      "track": "none",
+      "viewport": {
+        "left": 40.95833587646485,
+        "right": 1024.0000228881836
+      },
+      "width": 1024
+    },
+    {
+      "stage": "after",
+      "client": 768,
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z",
+            "w": 18
+          },
+          "w": 48
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z",
+            "w": 18
+          },
+          "w": 48
+        }
+      ],
+      "scroll": 768,
+      "sectionHeading": "700 40px / 47px Manrope",
+      "slides": [
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "TV mounting and AV installation · Chicago, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://chicagomounting.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Chicago Mounting"
+          },
+          "width": 400,
+          "x": 30.71875,
+          "y": 2300.791748046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Disaster restoration · Lombard, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://gcprochicago.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "GCPRO Restoration"
+          },
+          "width": 400,
+          "x": 454.71875,
+          "y": 2300.791748046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Property management · Park Ridge, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://kolo-properties.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Kolo Properties"
+          },
+          "width": 400,
+          "x": 878.71875,
+          "y": 2300.791748046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Dental practice · Glenview, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://glenviewsmiles.com/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Center For Dental Healing"
+          },
+          "width": 400,
+          "x": 1302.71875,
+          "y": 2300.791748046875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "HVAC and refrigeration · West Chicago, IL"
+          },
+          "gap": "16px",
+          "height": 376.5,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://elitemechanical.services/"
+          },
+          "placeholder": {
+            "h": 250,
+            "w": 400
+          },
+          "title": {
+            "font": "600 24px / 30px Manrope",
+            "height": 30,
+            "text": "Elite Mechanical Services"
+          },
+          "width": 400,
+          "x": 1726.71875,
+          "y": 2300.791748046875
+        }
+      ],
+      "track": "none",
+      "viewport": {
+        "left": 30.71875,
+        "right": 768
+      },
+      "width": 768
+    },
+    {
+      "stage": "after",
+      "client": 390,
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z",
+            "w": 18
+          },
+          "w": 48
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z",
+            "w": 18
+          },
+          "w": 48
+        }
+      ],
+      "scroll": 390,
+      "sectionHeading": "700 36px / 43.2px Manrope",
+      "slides": [
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "TV mounting and AV installation · Chicago, IL"
+          },
+          "gap": "12px",
+          "height": 320,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://chicagomounting.com/"
+          },
+          "placeholder": {
+            "h": 200,
+            "w": 320
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "Chicago Mounting"
+          },
+          "width": 320,
+          "x": 20,
+          "y": 2688.875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Disaster restoration · Lombard, IL"
+          },
+          "gap": "12px",
+          "height": 320,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://gcprochicago.com/"
+          },
+          "placeholder": {
+            "h": 200,
+            "w": 320
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "GCPRO Restoration"
+          },
+          "width": 320,
+          "x": 356,
+          "y": 2688.875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Property management · Park Ridge, IL"
+          },
+          "gap": "12px",
+          "height": 320,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://kolo-properties.com/"
+          },
+          "placeholder": {
+            "h": 200,
+            "w": 320
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "Kolo Properties"
+          },
+          "width": 320,
+          "x": 692,
+          "y": 2688.875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Dental practice · Glenview, IL"
+          },
+          "gap": "12px",
+          "height": 320,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://glenviewsmiles.com/"
+          },
+          "placeholder": {
+            "h": 200,
+            "w": 320
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "Center For Dental Healing"
+          },
+          "width": 320,
+          "x": 1028,
+          "y": 2688.875
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "HVAC and refrigeration · West Chicago, IL"
+          },
+          "gap": "12px",
+          "height": 320,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://elitemechanical.services/"
+          },
+          "placeholder": {
+            "h": 200,
+            "w": 320
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "Elite Mechanical Services"
+          },
+          "width": 320,
+          "x": 1364,
+          "y": 2688.875
+        }
+      ],
+      "track": "none",
+      "viewport": {
+        "left": 20,
+        "right": 390
+      },
+      "width": 390
+    },
+    {
+      "stage": "after",
+      "client": 320,
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z",
+            "w": 18
+          },
+          "w": 48
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "h": 48,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "svg": {
+            "h": 18,
+            "path": "M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z",
+            "w": 18
+          },
+          "w": 48
+        }
+      ],
+      "scroll": 320,
+      "sectionHeading": "700 36px / 43.2px Manrope",
+      "slides": [
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 45,
+            "text": "TV mounting and AV installation · Chicago, IL"
+          },
+          "gap": "12px",
+          "height": 330,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://chicagomounting.com/"
+          },
+          "placeholder": {
+            "h": 160,
+            "w": 256
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "Chicago Mounting"
+          },
+          "width": 256,
+          "x": 20,
+          "y": 2910.67724609375
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Disaster restoration · Lombard, IL"
+          },
+          "gap": "12px",
+          "height": 330,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://gcprochicago.com/"
+          },
+          "placeholder": {
+            "h": 160,
+            "w": 256
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "GCPRO Restoration"
+          },
+          "width": 256,
+          "x": 292,
+          "y": 2910.67724609375
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Property management · Park Ridge, IL"
+          },
+          "gap": "12px",
+          "height": 330,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://kolo-properties.com/"
+          },
+          "placeholder": {
+            "h": 160,
+            "w": 256
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 27.5,
+            "text": "Kolo Properties"
+          },
+          "width": 256,
+          "x": 564,
+          "y": 2910.67724609375
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 22.5,
+            "text": "Dental practice · Glenview, IL"
+          },
+          "gap": "12px",
+          "height": 330,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://glenviewsmiles.com/"
+          },
+          "placeholder": {
+            "h": 160,
+            "w": 256
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 55,
+            "text": "Center For Dental Healing"
+          },
+          "width": 256,
+          "x": 836,
+          "y": 2910.67724609375
+        },
+        {
+          "description": {
+            "font": "15px / 22.5px Manrope",
+            "height": 45,
+            "text": "HVAC and refrigeration · West Chicago, IL"
+          },
+          "gap": "12px",
+          "height": 330,
+          "link": {
+            "font": "600 16px / 20px Manrope",
+            "height": 48,
+            "target": "_blank",
+            "text": "View project",
+            "url": "https://elitemechanical.services/"
+          },
+          "placeholder": {
+            "h": 160,
+            "w": 256
+          },
+          "title": {
+            "font": "600 22px / 27.5px Manrope",
+            "height": 55,
+            "text": "Elite Mechanical Services"
+          },
+          "width": 256,
+          "x": 1108,
+          "y": 2910.67724609375
+        }
+      ],
+      "track": "none",
+      "viewport": {
+        "left": 20,
+        "right": 320
+      },
+      "width": 320
+    }
+  ],
+  "interactionNotes": [
+    "Initial mobile pointer-cycle transform:none samples measured the outer native container, not the moving inner .e-carousel__track; controls' computed visual states are still valid.",
+    "Some samples are intermediate during the unchanged300ms animation. Settled records have separate labels.",
+    "The early multi-step touch swipe had a transport timeout and was released explicitly. Synthetic scroll gestures did not advance; the final direct-swipe pair is the successful swipe verification.",
+    "Physical devices and screen-reader testing not performed."
+  ],
+  "interactions": [
+    {
+      "label": "mobile-start",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        }
+      ],
+      "track": "none",
+      "width": 390
+    },
+    {
+      "label": "mobile-hover",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(255, 255, 255) none 2.66667px",
+          "outlineOffset": "0px"
+        }
+      ],
+      "track": "none",
+      "width": 390
+    },
+    {
+      "label": "mobile-pressed",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        },
+        {
+          "active": true,
+          "bg": "rgb(51, 51, 51)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(255, 255, 255) none 2.66667px",
+          "outlineOffset": "0px"
+        }
+      ],
+      "track": "none",
+      "width": 390
+    },
+    {
+      "label": "mobile-release",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(255, 255, 255) none 2.66667px",
+          "outlineOffset": "0px"
+        }
+      ],
+      "track": "none",
+      "width": 390
+    },
+    {
+      "label": "mobile-leave",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        }
+      ],
+      "track": "none",
+      "width": 390
+    },
+    {
+      "label": "mobile-keyboard-focus",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px",
+          "outlineOffset": "0px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) solid 2px",
+          "outlineOffset": "2px"
+        }
+      ],
+      "track": "none",
+      "width": 390
+    },
+    {
+      "label": "mobile-enter-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "firstX": -652,
+      "track": "matrix(1, 0, 0, 1, -672, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-space-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "firstX": -988,
+      "track": "matrix(1, 0, 0, 1, -1008, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-eight-next",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "firstX": -1227.550048828125,
+      "track": "matrix(1, 0, 0, 1, -1247.55, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-end-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "firstX": -1274,
+      "track": "matrix(1, 0, 0, 1, -1294, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-eight-previous",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -1215.340087890625,
+      "track": "matrix(1, 0, 0, 1, -1235.34, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-start-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": 20,
+      "track": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-touch-tap-release",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": true,
+          "bg": "rgb(51, 51, 51)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(255, 255, 255) none 2.66667px"
+        }
+      ],
+      "firstX": 20,
+      "track": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-touch-tap-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -316,
+      "track": "matrix(1, 0, 0, 1, -336, 0)",
+      "width": 390
+    },
+    {
+      "label": "mobile-swipe-settled-after-touch-end",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -391,
+      "track": "matrix(1, 0, 0, 1, -411, 0)",
+      "width": 390
+    },
+    {
+      "label": "desktop-default",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -555.02001953125,
+      "track": "matrix(1, 0, 0, 1, -675.02, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-hover",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(255, 255, 255) none 2.66667px"
+        }
+      ],
+      "firstX": -428.52001953125,
+      "track": "matrix(1, 0, 0, 1, -548.52, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-pressed",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": true,
+          "bg": "rgb(51, 51, 51)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(255, 255, 255) none 2.66667px"
+        }
+      ],
+      "firstX": -382.72998046875,
+      "track": "matrix(1, 0, 0, 1, -502.73, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-release",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(255, 255, 255) none 2.66667px"
+        }
+      ],
+      "firstX": -382.72998046875,
+      "track": "matrix(1, 0, 0, 1, -502.73, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-leave",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -673.9400634765625,
+      "track": "matrix(1, 0, 0, 1, -793.94, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-keyboard-focus",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "firstX": -803.5599975585938,
+      "track": "matrix(1, 0, 0, 1, -923.56, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-enter-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        }
+      ],
+      "firstX": -1056,
+      "track": "matrix(1, 0, 0, 1, -1176, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-space-previous-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "disabled": "false",
+          "focus": true,
+          "focusVisible": true,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) solid 2px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -888,
+      "track": "matrix(1, 0, 0, 1, -1008, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-rapid-next",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -1035.570068359375,
+      "track": "matrix(1, 0, 0, 1, -1155.57, 0)",
+      "width": 1440
+    },
+    {
+      "label": "desktop-end-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -1056,
+      "track": "matrix(1, 0, 0, 1, -1176, 0)",
+      "width": 1440
+    },
+    {
+      "label": "touch-swipe-before",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": 20,
+      "track": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": 390
+    },
+    {
+      "label": "touch-swipe-first-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": 20,
+      "track": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": 390
+    },
+    {
+      "label": "touch-swipe-next-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": 20,
+      "track": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": 390
+    },
+    {
+      "label": "direct-swipe-before",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "true",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "0.35",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": 20,
+      "track": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": 390
+    },
+    {
+      "label": "direct-swipe-settled",
+      "controls": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Previous slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": "false",
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "name": "Next slide",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        }
+      ],
+      "firstX": -316,
+      "track": "matrix(1, 0, 0, 1, -336, 0)",
+      "width": 390
+    }
+  ],
+  "anonymousRoot": {
+    "status": 200,
+    "comingSoon5858": true,
+    "viewProjectCardLabels": false
+  }
+}
