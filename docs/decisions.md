@@ -34,3 +34,19 @@ The owner authorized building/testing Light (#FFFFFF), Soft (#F5F5F5) and Dark (
 
 ## 2026-11-18 — Compact global homepage refinement
 Owner requested compact mobile proportions using the supplied Apple references, preserving V2 structure. After the earlier no-publish instruction, owner explicitly authorized publishing so the implementation could be reviewed. Homepage5894 and refined existing components6010/6013/6019 promoted behind unchanged Coming Soon. No PR merge authorized or performed. Permanent visual rules and actual QA are recorded in ROBYLO-CONCEPT.md and verification.md. This supersedes earlier oversized homepage typography values; portfolio mobile20/12 remains approved.
+
+## 2026-11-18 — Impact section exploration
+
+**Proposed by Claude, not approved:** replace the Hero thumbnail strip with one Impact section; three concepts with recommendation A · Editorial Case. [Concepts and evaluation](design-impact-section-concepts-2026-11-18.md). No implementation authorized; Homepage V2 structure otherwise unchanged.
+
+## 2026-11-18 — Portfolio visual presentation research
+
+**Proposed by Claude, not approved:** present all five portfolio projects with one "Studio plate" (real desktop + phone screens on a neutral mat, 4:3, mobile crop 4:5). [Research](design-portfolio-presentation-research-2026-11-18.md). No implementation authorized; existing horizontal carousel unchanged.
+
+## 2026-11-18 — Studio Plate prototype (Chicago Mounting)
+
+**Proposed by Claude, not approved:** Studio Plate v2 geometry and 3:4 mobile card crop, demonstrated on Chicago Mounting. [Prototype](design-studio-plate-chicago-mounting-2026-11-18.md). Awaiting owner review; production guidelines for all projects follow only after approval. No implementation authorized.
+
+## 2026-11-18 — Homepage copy recommendation
+
+**Proposed by Claude, not approved:** revised homepage copy within the existing structure (hero sub-line with Chicago and direct contact, Big Picture headline and body, "Four services. One point of contact.", verifiable Selected Work intro, How We Work intro and step 3, contact body, footer, page title/meta). [Review](design-homepage-copy-review-2026-11-18.md). Owner must confirm the direct-contact claim before use. No implementation authorized.

@@ -124,3 +124,35 @@ Screenshots: [before390](screenshots/visual-discipline-2026-11-18/before-390.jpg
 Review actual page while logged in: https://robylo.com/ or https://robylo.com/?preview_id=5894&preview=true.
 Component editors: [SectionHead6010](https://robylo.com/wp-admin/post.php?post=6010&action=elementor), [ServiceRow6013](https://robylo.com/wp-admin/post.php?post=6013&action=elementor), [Approach6019](https://robylo.com/wp-admin/post.php?post=6019&action=elementor).
 These are native database changes; this documentation and screenshots are not a portable Elementor export.
+
+## 2026-11-18 — Impact section concepts (design only)
+
+Collaborator: Claude. Scope: three design concepts for the section below the Hero, desktop and mobile mockups, evaluation and recommendation. Status **Proposed**.
+
+- Added docs/design-impact-section-concepts-2026-11-18.md, six mockup PNGs and the source folder docs/design/2026-11-18-impact-source/. Updated docs/design-log.md, docs/decisions.md and this file.
+- Branch design/impact-section-concepts-2026-11-18 from prototype/horizontal-portfolio-placeholders-2026-11-17 at 4bfa4ce, so the design log continues from the newest records; PR targets that branch, matching the existing stacked-PR chain. No PR merged, no WordPress or Elementor operation, no website change.
+- **Checks run:** headless Chrome renders at 1440×900 and 390×844 (2×) with Manrope loaded; scroll width equals viewport for all six; visual review of full-page captures; Markdown links checked.
+- **Not verified:** 1024/768/320 renders, Elementor feasibility beyond documented native capabilities, real devices, assistive technology.
+- Images: public chicagomounting.com captures (homepage 2026-11-16, services page 2026-11-18). No admin screens, credentials or private data. All results, metrics, dates and the client's starting point are marked placeholders; no client data was invented.
+
+## 2026-11-18 — Big Picture refinement (design only)
+
+Collaborator: Claude. Added docs/design-big-picture-refinement-2026-11-18.md, desktop and mobile mockups and source folder; design-log entry. Status **Proposed**; no WordPress change. Checks: headless Chrome renders at 1440 and 390 (2×), scroll width equals viewport. Not verified: Elementor, 1024/768/320, devices.
+
+
+## 2026-11-18 — Portfolio visual presentation research (research only)
+
+Collaborator: Claude. Added docs/design-portfolio-presentation-research-2026-11-18.md; design-log and decisions entries. Status **Proposed**. Evidence: 8 studio work pages opened in a cloud browser at 1440px on 2026-11-18; Ueno, Koto and BASIC/DEPT excluded (offline/404). Not verified: plate mockup renders, Atomic V4 per-breakpoint object-position support, captures of the five client sites. No WordPress, Elementor or website change; no PR opened.
+
+## 2026-11-18 — Studio Plate prototype, Chicago Mounting (design only)
+
+Collaborator: Claude. Added docs/design-studio-plate-chicago-mounting-2026-11-18.md and docs/design/2026-11-18-studio-plate-chicago-mounting/ (plate WebP 1600 and 800, two carousel previews, source PNG, captures, HTML and render scripts); design-log and decisions entries. Status **Proposed**.
+
+- Captures: public chicagomounting.com homepage, 2026-11-18, cloud Chrome. Desktop 1440 × 992 viewport, two captures stitched (seam checked visually); mobile 500 × 992 viewport (site's mobile breakpoint). No admin screens, credentials or private data.
+- **Checks run:** headless Chrome plate render 1600 × 1200 at 1×; carousel previews at 1440 × 900 and 390 × 844 at 2× with Manrope loaded, scrollWidth equals viewport at both; card image measured 560 × 420 and 332 × 442; visual review of plate, both previews and the 3:4 crop; committed source scripts re-run from a clean copy and reproduced the plate with zero pixel difference; WebP weights 80 KB / 34 KB.
+- **Not verified:** a true 390 px capture (cloud browser minimum width is 500), real devices, tablet widths, Elementor Atomic V4 per-breakpoint aspect ratio and object-position.
+- No WordPress, Elementor or website change. No PR merged.
+
+## 2026-11-18 — Homepage messaging and copy review (copy only)
+
+Collaborator: Claude. Added docs/design-homepage-copy-review-2026-11-18.md; design-log and decisions entries. Status **Proposed**. Sources: owner's full-page screenshot of the staged homepage; public robylo.com checked in a cloud browser on 2026-11-18 (shows Coming Soon, so the staged page could not be inspected directly); ROBYLO-CONCEPT.md and V2 records. Character counts of the recommended lines were computed. Not verified: rendered fit of the new copy in Elementor at 1440/1024/768/390; truth of the direct-contact claim (owner to confirm); per-client service and start-year data. No WordPress or Elementor change; no PR merged.

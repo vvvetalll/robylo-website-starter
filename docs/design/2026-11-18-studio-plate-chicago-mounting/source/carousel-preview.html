@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio Plate — carousel preview</title>
+<style>
+  @font-face { font-family: "Manrope"; src: url("manrope.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+  :root {
+    --rb-ink: #000; --rb-paper: #fff; --rb-text: #444; --rb-surface: #F5F5F5;
+    --rb-line: #D6D6D6; --rb-mute: #8A8A8A;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--rb-paper); color: var(--rb-ink); font-family: "Manrope", sans-serif; -webkit-font-smoothing: antialiased; }
+  .section { padding: 120px 0 128px; overflow: hidden; }
+  .container { width: 1200px; margin: 0 auto; }
+  .head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 48px; }
+  h2 { margin: 0; font-size: 44px; line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; max-width: 760px; }
+  h2 .mute { color: var(--rb-mute); }
+  .nav { display: flex; gap: 8px; flex: none; }
+  .nav button { width: 48px; height: 48px; border: 1px solid var(--rb-line); border-radius: 4px; background: var(--rb-paper); color: var(--rb-ink); font: 600 18px/1 "Manrope", sans-serif; }
+  .nav button[disabled] { color: var(--rb-line); }
+  .track { display: flex; gap: 24px; }
+  .card { flex: none; width: 560px; }
+  .img { aspect-ratio: 4 / 3; border-radius: 4px; overflow: hidden; background: var(--rb-surface); }
+  .img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+  .cap { padding-top: 20px; }
+  h3 { margin: 0; font-size: 24px; line-height: 1.25; font-weight: 700; letter-spacing: -0.01em; }
+  .meta { margin: 6px 0 0; font-size: 16px; line-height: 1.5; color: var(--rb-mute); }
+  .pending .img { display: block; }
+
+  @media (max-width: 767px) {
+    .section { padding: 72px 0 80px; }
+    .container { width: auto; margin: 0 20px; }
+    .head { margin-bottom: 28px; }
+    h2 { font-size: 30px; line-height: 1.15; }
+    .nav { display: none; }
+    .track { gap: 16px; }
+    .card { width: 85vw; }
+    .img { aspect-ratio: 3 / 4; }
+    /* Same file, cropped to the right side so the phone screen leads. */
+    .img img { object-position: 100% 50%; }
+    .cap { padding-top: 16px; }
+    h3 { font-size: 20px; }
+    .meta { font-size: 15px; margin-top: 4px; }
+  }
+</style>
+</head>
+<body>
+<section class="section" id="work">
+  <div class="container">
+    <div class="head">
+      <h2>Selected work. <span class="mute">Five businesses, five live sites.</span></h2>
+      <div class="nav"><button disabled aria-label="Previous">←</button><button aria-label="Next">→</button></div>
+    </div>
+    <div class="track">
+      <article class="card">
+        <div class="img"><img src="../robylo-work-chicago-mounting-plate.webp" alt="Chicago Mounting website shown on desktop and phone"></div>
+        <div class="cap"><h3>Chicago Mounting</h3><p class="meta">TV mounting and AV installation · Chicago, IL</p></div>
+      </article>
+      <article class="card pending">
+        <div class="img"></div>
+        <div class="cap"><h3>GCPRO Restoration</h3><p class="meta">Disaster restoration · Lombard, IL</p></div>
+      </article>
+      <article class="card pending">
+        <div class="img"></div>
+        <div class="cap"><h3>Kolo Properties</h3><p class="meta">Property management · Park Ridge, IL</p></div>
+      </article>
+      <article class="card pending">
+        <div class="img"></div>
+        <div class="cap"><h3>Center For Dental Healing</h3><p class="meta">Dental practice · Glenview, IL</p></div>
+      </article>
+      <article class="card pending">
+        <div class="img"></div>
+        <div class="cap"><h3>Elite Mechanical Services</h3><p class="meta">HVAC and refrigeration · West Chicago, IL</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+</body>
+</html>

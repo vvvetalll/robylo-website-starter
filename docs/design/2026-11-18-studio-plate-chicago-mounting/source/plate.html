@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Studio Plate — Chicago Mounting</title>
+<style>
+  /* Studio Plate v2 — master 1600 x 1200 (4:3). All values in plate pixels. */
+  html, body { margin: 0; padding: 0; }
+  .plate {
+    position: relative; width: 1600px; height: 1200px; overflow: hidden;
+    background: #F5F5F5;              /* rb-surface mat */
+  }
+  .screen { position: absolute; overflow: hidden; background: #fff; }
+  .screen img { display: block; width: 100%; height: auto; }
+  /* Desktop: 1420 css-px capture scaled to 1248 (0.879). Bleeds off the bottom edge. */
+  .desktop {
+    left: 80px; top: 80px; width: 1248px; height: 1120px;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 0 0 1px #D6D6D6;    /* 1px rb-line outline, no drop shadow */
+  }
+  /* Phone: 480 css-px capture scaled to 320 (0.667). Also bleeds off the bottom edge.
+     A 10px ring in the mat colour separates it from the desktop screen instead of a shadow. */
+  .phone {
+    left: 1200px; top: 556px; width: 320px; height: 644px;
+    border-radius: 28px 28px 0 0;
+    box-shadow: 0 0 0 1px #D6D6D6, 0 0 0 11px #F5F5F5;
+  }
+</style>
+</head>
+<body>
+  <div class="plate">
+    <div class="screen desktop"><img src="captures/chicago-mounting-desktop-1420.png" alt=""></div>
+    <div class="screen phone"><img src="captures/chicago-mounting-mobile-480.png" alt=""></div>
+  </div>
+</body>
+</html>
