@@ -174,3 +174,32 @@ Actual Chrome render visually inspected at1440/1024/768/390/320. At every width 
 Native before/after audit120→120 nodes; **only4822bce9 changed**, with new copy and font-size. No interaction code/state changes; this is static text. Browser emulation rather than physical-device certification. Existing admin-only assistant/cursor overlays may appear in captures and were not added to the page.
 
 Saved/promoted existing Home5894 for authenticated review under the standing owner instruction; Coming Soon remains active. Anonymous root returns200/5858 and no5894. PR15 updated without merge; no public launch or unrelated work. Pre-change page undo6133; review later edits before whole-document restoration.
+
+## Circular hybrid composition — owner refinement, 2026-11-18
+Contributor: ChatGPT/Codex. **Implemented and visually verified for owner review.** This supersedes the cross diagram and bottom transition strip above; those entries remain as history.
+
+### Actual Elementor changes
+- Home5894 only: Everything Connected7d73938f retains its editorial grid1b75e559, introductory heading/description, eyebrow and existing Manrope palette. Repositioned the same four capability anchors around a native circular orbit18ac66f0; retained rb-system-node and rb-system-stem, their #services destinations and functional states. Central node62d16689 now reads **Your business** over two lines; black104px desktop,88px tablet/mobile,14px/600 white text.
+- Native orbit diameter224px desktop,160px tablet,176px mobile;1px rb-line. Canvas320px desktop,280px tablet/mobile. Tablet-specific line lengths avoid clipping the right label at768px while retaining two columns. Desktop/tablet cardinal arrangement; mobile uses four balanced quadrants with diagonal spokes so14px horizontal labels fit at320px without shrinking the whole desktop drawing. Same DOM, no duplicate mobile diagram.
+- Added the owner's follow-up detail: four6px white-centered/1px rb-mute outlined junction dots153bb38/a843c0d/22f97b68/3d54329e on the ring at the four spoke endpoints. Empty native decorative elements; pointer-events none, no accessible controls or animations.
+- Moved existing outcomes57453cf6 beneath intro32319aa0 inside copy23e622c1. Same three static spans: **Get found · Win customers · Save time**. Repurposed the existing rb-outcome-label g-01beb91 after confirming its three consumers. Content-width, transparent, no borders/radius,14px500 desktop/tablet and12px mobile; group gap12px desktop/tablet,8px mobile; top margin24px/16px. Removed old segment borders and equal-width/background styling. No bottom strip remains.
+- Restored only this section's local bottom padding80px desktop/64px tablet/48px mobile, now that the flush transition strip is gone. Global section spacing unchanged.
+- Updated only Services heading instance56ee3694 of component6010 to **What we do. / Four areas of expertise. One team.** Existing gray span, supporting paragraph override, service descriptions and layout preserved; shared component definition unchanged.
+- No new global class, token, component, custom CSS file, script, animation or dependency. Geometry stored in native Atomic element responsive controls; existing global label class updated in place. No global typography/default changes.
+- Native audit120→125 nodes: one ring and four junctions added, none removed. Existing outcomes reparented, not duplicated. Changed settings/styles are confined to Everything Connected and the authorized Services heading override. Hero, Work carousel, Approach, Contact, Header/Footer and Coming Soon documents were not edited.
+
+### Actual rendered verification
+Chrome responsive render visually inspected at1440/1024/768/390/320, including final junction dots. All four labels readable (16px desktop,14px tablet/mobile), center dominant, connections visible and touching ring/center, no label overlap or document horizontal overflow. Outcomes remain one compact row at every width, including320px, with natural content widths. Diagram centered and compact on mobile; Services subtitle wraps naturally, preserving its existing typography. Scrollbar reduces content viewport by15px in measured desktop emulation; scrollWidth never exceeds innerWidth.
+- Keyboard: Website focus-visible2px outline and black connection; Enter reaches #services. No focus suppression.
+- Pointer: hover/press/release/leave tested; active clears and connection returns to rb-mute after leaving. No stuck hover/active state.
+- Touch: native tap reaches #services; active/hover/focus-visible settle to default. No touch-only structure.
+- Reduced motion: reduce query verified; diagram animation none, transition0s. No continuous effects.
+- Existing carousel Next→Previous smoke test passed.
+- [Desktop1440](screenshots/everything-connected-2026-11-18/orbit-desktop-1440.jpg)
+- [Mobile390](screenshots/everything-connected-2026-11-18/orbit-mobile-390.jpg)
+- [Mobile320](screenshots/everything-connected-2026-11-18/orbit-mobile-320.jpg)
+- [Rendered measurements and native audit](everything-connected-orbit-qa-2026-11-18.json)
+
+Elementor output initially omitted newly added dot styles despite correct saved controls. Cleared Elementor generated files once under the owner's standing approval, reloaded and confirmed actual6px circular dots, then used the SiteGround toolbar purge. Other independent CDN caches were not separately confirmed. Browser/admin assistant/cursor overlays may appear in captures and are not page additions. Browser emulation rather than physical-device certification.
+
+Saved/promoted existing Home5894 behind the unchanged Coming Soon gate for authenticated owner review under the standing instruction. Anonymous root HTTP200 still serves5858 and does not expose5894. No public launch, merge or unrelated PR changes. Native settings remain in the WordPress database; this documentation/QA is not a portable Elementor export. Pre-task page undo6135; subsequent tablet6141 and junction6143 undo points exist. Do not restore whole documents without checking intervening edits; shared rb-outcome-label must be handled separately.
