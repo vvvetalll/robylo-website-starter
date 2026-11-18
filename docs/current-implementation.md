@@ -138,3 +138,8 @@ Atomic Lab now includes three consecutive Light / Soft / Dark examples after its
 ## 2026-11-17 — Homepage V2 private review snapshot
 
 The older foundation snapshot above is historical. Actual Home 5894 now has a staged V2 autosave (not promoted); Header/Footer components 5886/5889 were updated in place and published behind Coming Soon. Four new reusable Atomic compositions: 6010 Section head, 6013 Service row, 6016 Project tile, 6019 Approach step. Native mobile-menu Popup 5996 is scoped only to Home with no automatic triggers. Kit adds rb-mute #8A8A8A and 13 scoped V2 classes; existing Manrope defaults, spacing tokens, 4px radius, Button 5864 and Glide remain. Full IDs, exact classes, persistence/rollback, screenshots and native-menu limitation: [implementation record](homepage-v2-implementation-2026-11-17.md). The accompanying recipe is site-ID-dependent documentation, not a portable Elementor export. Coming Soon, Atomic Lab and Styleguide element trees are unchanged.
+
+
+## 2026-11-18 — All five Work cards implemented
+
+Home5894 ordinary authenticated root now displays five real Studio Plates, with native desktop/portrait visibility at767/768 and uniform media proportions. Chicago v3 unchanged in the four-card expansion. Captions, links, typography, card widths, navigation and unrelated sections preserved. Coming Soon still public. [Exact settings, IDs, actual five-width checks and limits](horizontal-portfolio-prototype-2026-11-17.md#all-five-studio-plates--2026-11-18). [Production process](portfolio-image-guidelines.md).

@@ -13,6 +13,8 @@
 - Require compact, carefully proportioned mobile layouts, clear role-based typography hierarchy and intentional spacing. Use the existing concept document as the specification; do not duplicate its values or introduce an additional design system.
 - Verify actual rendered output visually at the documented desktop, tablet and mobile widths, including wrapping, proportions, overflow and affected interactions. Saved settings alone do not establish completion. Record evidence and any verification limits.
 
+- For approved portfolio-image work, follow [portfolio image production](docs/portfolio-image-guidelines.md) and preserve the canonical Chicago v3 composition.
+
 ## Coding standards and minimal changes
 
 - Make the smallest change that satisfies the approved task. Preserve unrelated work.

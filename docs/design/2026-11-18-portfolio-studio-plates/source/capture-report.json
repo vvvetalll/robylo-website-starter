@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-18",
+  "captures": [
+    {
+      "slug": "gcpro-restoration",
+      "kind": "desktop",
+      "file": "gcpro-restoration-desktop.png",
+      "adminHidden": true,
+      "clientWidth": 1425,
+      "fonts": "loaded",
+      "height": 992,
+      "missing": 0,
+      "width": 1440
+    },
+    {
+      "slug": "kolo-properties",
+      "kind": "desktop",
+      "file": "kolo-properties-desktop.png",
+      "adminHidden": true,
+      "clientWidth": 1425,
+      "fonts": "loaded",
+      "height": 992,
+      "missing": 0,
+      "width": 1440
+    },
+    {
+      "slug": "center-for-dental-healing",
+      "kind": "desktop",
+      "file": "center-for-dental-healing-desktop.png",
+      "adminHidden": true,
+      "clientWidth": 1425,
+      "fonts": "loaded",
+      "height": 992,
+      "missing": 0,
+      "width": 1440
+    },
+    {
+      "slug": "elite-mechanical-services",
+      "kind": "desktop",
+      "file": "elite-mechanical-services-desktop.png",
+      "adminHidden": true,
+      "clientWidth": 1425,
+      "fonts": "loaded",
+      "height": 992,
+      "missing": 0,
+      "width": 1440
+    },
+    {
+      "slug": "gcpro-restoration",
+      "kind": "mobile",
+      "file": "gcpro-restoration-mobile.png",
+      "width": 480,
+      "height": 1100,
+      "clientWidth": 480,
+      "fonts": "loaded",
+      "adminHidden": true,
+      "missing": 0,
+      "crop": "Canonical phone screen shows top ~978 source pixels; capture margin excludes pointer."
+    },
+    {
+      "slug": "kolo-properties",
+      "kind": "mobile",
+      "file": "kolo-properties-mobile.png",
+      "width": 480,
+      "height": 1100,
+      "clientWidth": 480,
+      "fonts": "loaded",
+      "adminHidden": true,
+      "missing": 0,
+      "crop": "Canonical phone screen shows top ~978 source pixels; capture margin excludes pointer."
+    },
+    {
+      "slug": "center-for-dental-healing",
+      "kind": "mobile",
+      "file": "center-for-dental-healing-mobile.png",
+      "width": 480,
+      "height": 1100,
+      "clientWidth": 480,
+      "fonts": "loaded",
+      "adminHidden": true,
+      "missing": 0,
+      "crop": "Canonical phone screen shows top ~978 source pixels; capture margin excludes pointer."
+    },
+    {
+      "slug": "elite-mechanical-services",
+      "kind": "mobile",
+      "file": "elite-mechanical-services-mobile.png",
+      "width": 480,
+      "height": 1100,
+      "clientWidth": 480,
+      "fonts": "loaded",
+      "adminHidden": true,
+      "missing": 0,
+      "crop": "Canonical phone screen shows top ~978 source pixels; capture margin excludes pointer."
+    }
+  ]
+}

@@ -52,3 +52,8 @@ Owner requested compact mobile proportions using the supplied Apple references, 
 **Approved scope:** owner request in GCPRO on 2026-11-18 approves the overall Studio Plate direction and authorizes Chicago Mounting v3 visual refinement, local renders, comparison, documentation, commit and push on a separate branch. Requires a recognizable complete smartphone and a better mobile balance, using existing real captures. Preserves v2; excludes WordPress, Elementor, live ROBYLO, existing carousel, other four projects, merge and final production guidelines.
 
 **Implemented as local artifacts; Proposed for visual approval:** [v3 composition](design-studio-plate-chicago-mounting-2026-11-18.md#studio-plate-v3--visual-refinement-2026-11-18), including a separate portrait asset for the mobile preview. This supersedes the earlier unapproved status only for the overall direction and requested exploration; it does not approve the new geometry, mobile asset strategy or production rollout.
+
+
+## 2026-11-18 — Approved all-five Studio Plate production
+
+Owner request **Complete All Five Portfolio Studio Plates** explicitly approves Chicago v3 as the unchanged production reference and authorizes genuine captures of the remaining four sites, replacement of the four Work placeholders, actual responsive/interaction verification and reusable production guidance. Implemented and verified behind Coming Soon; no launch or merge approval. [Implementation/evidence](horizontal-portfolio-prototype-2026-11-17.md#all-five-studio-plates--2026-11-18), [guidelines](portfolio-image-guidelines.md). Earlier proposed/single-card-only records are historical for this scope.

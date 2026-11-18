@@ -4,6 +4,10 @@ Maintained by Claude (design). Newest entry first. This file keeps the design pr
 
 Statuses used here: **Current proposal** (recommended, awaiting owner approval), **Exploration** (earlier work, kept for reference), **Rejected** (dropped, with the reason).
 
+## 2026-11-18 — Approved Studio Plate v3 produced for all five projects
+
+ChatGPT/Codex implemented the owner's all-five production request using unchanged Chicago v3 geometry and genuine live desktop/mobile captures. Four new asset pairs are integrated in native Elementor; Chicago remains unchanged. All five cards visually checked at1440/1024/768/390/320, links and carousel interactions tested. [Assets/contact sheets](design/2026-11-18-portfolio-studio-plates/), [actual site verification](horizontal-portfolio-prototype-2026-11-17.md#all-five-studio-plates--2026-11-18), [approved production process](portfolio-image-guidelines.md). Status: **Approved scope / Implemented / Verified in Chrome**, Coming Soon retained, no merge. Older proposal statuses below are historical.
+
 ## Current recommended design
 
 **Homepage V2, 2026-11-16 — Current proposal, not approved.**
