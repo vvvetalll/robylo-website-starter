@@ -1,0 +1,243 @@
+{
+  "date": "2026-11-18",
+  "browser": "157.0.8103.52",
+  "rendering": [
+    {
+      "name": "plate",
+      "viewport": [
+        1600,
+        1200
+      ],
+      "plate": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1200,
+        "right": 1600,
+        "bottom": 1200
+      },
+      "desktop": {
+        "x": 80,
+        "y": 80,
+        "width": 1248,
+        "height": 1040,
+        "right": 1328,
+        "bottom": 1120
+      },
+      "phone": {
+        "x": 1160,
+        "y": 340,
+        "width": 360,
+        "height": 773.046875,
+        "right": 1520,
+        "bottom": 1113.046875
+      }
+    },
+    {
+      "name": "plate-mobile",
+      "viewport": [
+        1000,
+        1250
+      ],
+      "plate": {
+        "x": 0,
+        "y": 0,
+        "width": 1000,
+        "height": 1250,
+        "right": 1000,
+        "bottom": 1250
+      },
+      "desktop": {
+        "x": 48,
+        "y": 64,
+        "width": 904,
+        "height": 790,
+        "right": 952,
+        "bottom": 854
+      },
+      "phone": {
+        "x": 592,
+        "y": 440,
+        "width": 344,
+        "height": 740.4375,
+        "right": 936,
+        "bottom": 1180.4375
+      }
+    },
+    {
+      "name": "desktop-1440",
+      "viewport": [
+        1440,
+        900
+      ],
+      "deviceScaleFactor": 2,
+      "scrollWidth": 1440,
+      "card": [
+        120,
+        266.53125,
+        560,
+        420
+      ],
+      "manrope": true,
+      "image": "robylo-work-chicago-mounting-plate-v3.webp",
+      "imagesLoaded": true,
+      "errors": []
+    },
+    {
+      "name": "tablet-1024",
+      "viewport": [
+        1024,
+        900
+      ],
+      "deviceScaleFactor": 2,
+      "scrollWidth": 1024,
+      "card": [
+        40,
+        248.625,
+        560,
+        420
+      ],
+      "manrope": true,
+      "image": "robylo-work-chicago-mounting-plate-v3.webp",
+      "imagesLoaded": true,
+      "errors": []
+    },
+    {
+      "name": "tablet-768",
+      "viewport": [
+        768,
+        900
+      ],
+      "deviceScaleFactor": 2,
+      "scrollWidth": 768,
+      "card": [
+        40,
+        248.625,
+        560,
+        420
+      ],
+      "manrope": true,
+      "image": "robylo-work-chicago-mounting-plate-v3.webp",
+      "imagesLoaded": true,
+      "errors": []
+    },
+    {
+      "name": "mobile-390",
+      "viewport": [
+        390,
+        844
+      ],
+      "deviceScaleFactor": 2,
+      "scrollWidth": 390,
+      "card": [
+        20,
+        203.5,
+        331.5,
+        414.375
+      ],
+      "manrope": true,
+      "image": "robylo-work-chicago-mounting-plate-v3-mobile.webp",
+      "imagesLoaded": true,
+      "errors": []
+    },
+    {
+      "name": "mobile-320",
+      "viewport": [
+        320,
+        844
+      ],
+      "deviceScaleFactor": 2,
+      "scrollWidth": 320,
+      "card": [
+        20,
+        203.5,
+        272,
+        340
+      ],
+      "manrope": true,
+      "image": "robylo-work-chicago-mounting-plate-v3-mobile.webp",
+      "imagesLoaded": true,
+      "errors": []
+    }
+  ],
+  "exports": [
+    {
+      "name": "carousel-v3-desktop-1440.png",
+      "width": 2880,
+      "height": 1800,
+      "bytes": 414817
+    },
+    {
+      "name": "carousel-v3-mobile-320.png",
+      "width": 640,
+      "height": 1688,
+      "bytes": 195881
+    },
+    {
+      "name": "carousel-v3-mobile-390.png",
+      "width": 780,
+      "height": 1688,
+      "bytes": 253316
+    },
+    {
+      "name": "carousel-v3-tablet-1024.png",
+      "width": 2048,
+      "height": 1800,
+      "bytes": 395333
+    },
+    {
+      "name": "carousel-v3-tablet-768.png",
+      "width": 1536,
+      "height": 1800,
+      "bytes": 384774
+    },
+    {
+      "name": "comparison-v2-v3-desktop.png",
+      "width": 1440,
+      "height": 506,
+      "bytes": 157754
+    },
+    {
+      "name": "comparison-v2-v3-mobile.png",
+      "width": 780,
+      "height": 900,
+      "bytes": 270857
+    },
+    {
+      "name": "comparison-v2-v3-plate.png",
+      "width": 1600,
+      "height": 656,
+      "bytes": 432982
+    },
+    {
+      "name": "robylo-work-chicago-mounting-plate-v3-800.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 44284
+    },
+    {
+      "name": "robylo-work-chicago-mounting-plate-v3-mobile.png",
+      "width": 1000,
+      "height": 1250,
+      "bytes": 292897
+    },
+    {
+      "name": "robylo-work-chicago-mounting-plate-v3-mobile.webp",
+      "width": 1000,
+      "height": 1250,
+      "bytes": 78628
+    },
+    {
+      "name": "robylo-work-chicago-mounting-plate-v3.png",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 425803
+    },
+    {
+      "name": "robylo-work-chicago-mounting-plate-v3.webp",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 103804
+    }
+  ]
+}

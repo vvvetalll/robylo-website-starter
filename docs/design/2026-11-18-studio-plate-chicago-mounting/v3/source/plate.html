@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chicago Mounting — Studio Plate v3</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  .plate { position: relative; width: 1600px; height: 1200px; overflow: hidden; background: #F5F5F5; }
+  .desktop { position: absolute; left: 80px; top: 80px; width: 1248px; height: 1040px; overflow: hidden; border: 1px solid #D6D6D6; border-radius: 6px; background: #fff; }
+  .desktop img { display: block; width: 100%; height: auto; }
+  /* A quiet, flat device outline. The capture begins BELOW the hardware detail:
+     no notch, status bar or invented UI is painted over the real website. */
+  .phone { position: absolute; left: 1160px; top: 340px; width: 360px; padding: 32px 2px 24px; border: 4px solid #282828; border-radius: 40px; background: #F5F5F5; outline: 10px solid #F5F5F5; }
+  .speaker { position: absolute; top: 13px; left: calc(50% - 24px); width: 40px; height: 4px; border-radius: 4px; background: #444; }
+  .camera { position: absolute; top: 11px; left: calc(50% + 28px); width: 7px; height: 7px; border: 1px solid #666; border-radius: 50%; background: #282828; }
+  .phone-screen { overflow: hidden; width: 100%; aspect-ratio: 480 / 978; border: 1px solid #D6D6D6; border-radius: 16px; background: #fff; }
+  .phone-screen img { display: block; width: 100%; height: auto; }
+  /* Portrait is art directed from exactly the same two captures. Keep the
+     entire desktop width rather than cropping away its left-hand headline. */
+  @media (max-width: 1000px) {
+    .plate { width: 1000px; height: 1250px; }
+    .desktop { left: 48px; top: 64px; width: 904px; height: 790px; }
+    .phone { left: 592px; top: 440px; width: 344px; }
+  }
+</style>
+</head>
+<body>
+  <div class="plate" role="img" aria-label="Chicago Mounting website shown on desktop and phone">
+    <div class="desktop"><img src="../../source/captures/chicago-mounting-desktop-1420.png" alt=""></div>
+    <div class="phone">
+      <span class="speaker" aria-hidden="true"></span><span class="camera" aria-hidden="true"></span>
+      <div class="phone-screen"><img src="../../source/captures/chicago-mounting-mobile-480.png" alt=""></div>
+    </div>
+  </div>
+</body>
+</html>

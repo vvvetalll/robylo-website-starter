@@ -26,6 +26,14 @@ The iteration 3 proposal ([handoff](design-homepage-handoff-2026-11-16.md)) is k
 
 ---
 
+## 2026-11-18 — Studio Plate v3: complete phone and deliberate mobile composition
+
+ChatGPT/Codex, owner-authorized refinement of Chicago Mounting only. **Implemented as design artifacts; visual result Proposed.** The owner approved the Studio Plate direction, not v2 geometry or a production rollout. Added a thin dark phone outline with rounded corners, a subtle speaker/camera and a visible bottom edge. The desktop screenshot now has an inset bottom edge too. All capture content is reused unchanged.
+
+The portrait preview is recomposed from those same captures, preserving the complete desktop width instead of v2's right-side crop. Tradeoff: an additional 1000 × 1250 mobile export; 4:5 card, complete phone, desktop hero/headline retained, some desktop pricing naturally covered by the overlap. The caption follows the permanent 20/12 mobile scale. No live carousel changes or finalized guidelines.
+
+Evidence: [v3 specification and verification](design-studio-plate-chicago-mounting-2026-11-18.md#studio-plate-v3--visual-refinement-2026-11-18), [desktop](design/2026-11-18-studio-plate-chicago-mounting/v3/carousel-v3-desktop-1440.png), [mobile](design/2026-11-18-studio-plate-chicago-mounting/v3/carousel-v3-mobile-390.png), [v2/v3 plate comparison](design/2026-11-18-studio-plate-chicago-mounting/v3/comparison-v2-v3-plate.png), [v2/v3 mobile comparison](design/2026-11-18-studio-plate-chicago-mounting/v3/comparison-v2-v3-mobile.png). Local renders checked visually at 1440/1024/768/390/320; v2 preserved. Branch `design/studio-plate-v3-2026-11-18`; no WordPress change or merge.
+
 ## 2026-11-18 — Studio Plate prototype: Chicago Mounting
 
 **Exploration, Proposed.** First real Studio Plate built from fresh public captures of chicagomounting.com: [plate 1600 × 1200](design/2026-11-18-studio-plate-chicago-mounting/robylo-work-chicago-mounting-plate.webp), [carousel desktop 1440](design/2026-11-18-studio-plate-chicago-mounting/2026-11-18-studio-plate-carousel-desktop-1440.png), [carousel mobile 390](design/2026-11-18-studio-plate-chicago-mounting/2026-11-18-studio-plate-carousel-mobile-390.png). [Specification and rationale](design-studio-plate-chicago-mounting-2026-11-18.md). Geometry changed from the research after testing: no shadow (owner brief), both screens bleed off the bottom, margins 80, mobile card crop 3:4 instead of 4:5 so the crop line avoids cutting the headline.
