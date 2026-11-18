@@ -159,3 +159,18 @@ Actual rendered section+Services transition was visually inspected at1440/1024/7
 Native audit120→120 nodes, identical IDs/types/tags/child order/content/destinations. Only section7d73938f local padding, strip57453cf6 layout and two labels' divider styles changed. Native local-style references were added to those labels; all changes remain within the authorized section. Shared label-class geometry refined in place; no global section-style edit. Static labels have no interaction test surface; existing diagram behavior was not changed. Browser emulation, not physical-device certification.
 
 Home5894 saved/promoted behind unchanged Coming Soon for authenticated owner review under the existing instruction. Anonymous root200 serves5858 without5894. SamePR15, no merge or public launch. Pre-change page undo6131; review subsequent edits before restoration and handle the shared label class separately.
+
+## Subtle editorial eyebrow — owner refinement, 2026-11-18
+Contributor: ChatGPT/Codex. **Implemented and visually verified for review:** shortened only the section eyebrow4822bce9 from “ROBYLO / THE BIG PICTURE” to “THE BIG PICTURE”.
+
+Retained existing rb-hero__eyebrow and its Manrope400/line-height1.5; existing rb-text#444 and native bottom margins24px desktop/tablet,16px mobile. Set only this element's native font-size control to12px to make it clearly subordinate. The existing local style already held color and spacing; no new class/token, global typography change, custom CSS, component or dependency. A shared-class change would also affect unrelated eyebrow consumers, so its definition was preserved.
+
+Actual Chrome render visually inspected at1440/1024/768/390/320. At every width the eyebrow is12px/400 Manrope,18px high, one line, #444, with the existing responsive bottom margin and zero document horizontal overflow. Main heading/lead, diagram/interactions, transition strip and surrounding native layout settings are unchanged.
+- [Desktop1440](screenshots/everything-connected-2026-11-18/eyebrow-1440.jpg)
+- [Mobile390](screenshots/everything-connected-2026-11-18/eyebrow-390.jpg)
+- [Mobile320](screenshots/everything-connected-2026-11-18/eyebrow-320.jpg)
+- [Native audit and rendered measurements](everything-connected-eyebrow-qa-2026-11-18.json)
+
+Native before/after audit120→120 nodes; **only4822bce9 changed**, with new copy and font-size. No interaction code/state changes; this is static text. Browser emulation rather than physical-device certification. Existing admin-only assistant/cursor overlays may appear in captures and were not added to the page.
+
+Saved/promoted existing Home5894 for authenticated review under the standing owner instruction; Coming Soon remains active. Anonymous root returns200/5858 and no5894. PR15 updated without merge; no public launch or unrelated work. Pre-change page undo6133; review later edits before whole-document restoration.
