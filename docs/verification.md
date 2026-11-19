@@ -250,3 +250,17 @@ Evidence:
 No full designs or detailed content produced. Chrome responsive emulation, not physical-device/Safari/screen-reader certification. Logged-in WordPress admin bar consumes mobile popup space; primary links remain visible, secondary email may require a short scroll. Existing browser assistant/cursor overlays may appear. No email sent or live launch. Native configuration remains DB-held, not a portable export.
 
 Rollback must preserve intervening edits: Header component pre-task6255; Footer component6257; Popup6259; active Header5892 pre-task5897. Popup condition was formerly Home-only and must be restored separately if rolling back. New page IDs6191–6221 (odd IDs) can be returned to draft using native WordPress controls if requested; do not delete unrelated pages. Homepage body was never edited. Dedicated implementation/site-architecture-2026-11-18 branch stacks on PR18; no unrelated PR merged.
+
+## 2026-11-19 — Services hub and About restoration
+
+**Services 6191 · Draft for owner review.** Replaced the skeleton inside main `72b61dd7` with six native Atomic sections from Claude's final *ROBYLO — Services page concept*. Reused Kit 5744, ROBYLO section and container classes, two-tone headings, existing tokens, and Primary Button 5864. The layout uses a four-link service index, six problem rows, four service scope blocks with native lists, a standards grid, two collaboration formats and the existing black contact layout. No shared components, theme files, or global styles changed. Undo revision 6224 holds the previous body.
+
+Set the exact artifact SEO title and description in AIOSEO on the existing Services page. The plugin stores this metadata directly against 6191. The rendered preview shows both values and `noindex`. The Services content is an Elementor autosave, and the ordinary site remains gated.
+
+**Verified in authenticated Chrome** at 1440, 1024, 768, 390 and 320px. Six backgrounds, one H1, Manrope, two-tone headings, no horizontal overflow and 48px minimum action targets. The 36px H1 wraps naturally on narrow screens. Tab reached all 25 body links with visible focus at 320px. Verified the problem jump, all six problem-link destinations, the shared mobile popup and the Elementor canvas. The four service child URLs render their existing one-hero skeletons. Work and Contact also resolve. Anonymous Services and About each returned HTTP 200 with Coming Soon 5858.
+
+**Eight pending approvals.** The review copy flags automatic first replies and follow-up reminders (shown in two places), post-launch website care, SEO review requests, plain-language ads reports, AI assistants for routine questions, guidance for client-managed updates, ownership and full access to accounts and assets with nothing withheld on departure, and the four monthly support examples. The conditional copy is review-only. Do not publish the ownership commitment before confirmation.
+
+[Desktop preview capture](verification/2026-11-19-services/services-1440-hero.jpg) · [Mobile preview capture](verification/2026-11-19-services/services-390-hero.jpg).
+
+**About 6197 · Restored behind Coming Soon.** The ordinary authenticated route previously showed a one-section skeleton. Saved the existing six-section approved About revision to the ordinary page at the owner's request. At 1440px and 390px it showed “Independent on purpose.”, six sections, no document overflow and an active About nav link. The approved-photo placeholder remains. No code from PR #21 was merged.
