@@ -5,6 +5,10 @@ Maintained by Claude (design). Newest entry first. This file keeps the design pr
 Statuses used here: **Current proposal** (recommended, awaiting owner approval), **Exploration** (earlier work, kept for reference), **Rejected** (dropped, with the reason).
 
 
+## 2026-11-19 — Specifications recovered into GitHub
+
+Claude committed the complete specifications that existed only as Claude Docs: [Services](design-services-page-2026-11-19.md) (direction approved, 8 confirmations open), [Website Design & Development](design-service-web-design-2026-11-19.md) (Proposed, 9 confirmations open), [About](design-about-page-2026-11-19.md) (owner copy approved and staged; Claude concept historical), and the [service-page template](design-service-pages-architecture-2026-11-19.md) (Proposed). It also added the superseded homepage [copy review](design-homepage-copy-review-2026-11-18.md) from PR #14, the superseded September [theme architecture](theme-architecture-2026-09-17-superseded.md), a [design-system index](design-system-index-2026-11-19.md) and a [specs index](design-specs-index.md). From now on, specs are committed before implementation (AGENTS.md).
+
 ## 2026-11-18 — Owner-approved final homepage copy implemented
 ChatGPT/Codex implemented the supplied final copy, Chicago/suburbs positioning and direct-implementer message. Content only; original Hero/contact headlines, circular diagram, six Studio Plates, native carousel and Atomic styling preserved. Six external project actions now say “Visit site.” **Approved scope / Implemented / Verified in Chrome**; no redesign or public launch. Owner copy supersedes differing recommendations in Claude's copy analysis, which was reviewed on its design branch. [Exact approved copy](ROBYLO-CONCEPT.md#approved-homepage-positioning-and-final-copy--2026-11-18), [implementation and screenshots](verification.md#2026-11-18--approved-homepage-copy-and-chicago-positioning).
 
