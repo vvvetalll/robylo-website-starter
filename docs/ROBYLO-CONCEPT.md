@@ -271,3 +271,9 @@ Start this rollout on Website Design & Development. The approved Homepage and Se
 | White `#FFFFFF` | Main backgrounds, whitespace and primary text on dark surfaces |
 
 Use strong, dark headings on light surfaces and white headings on dark surfaces. Give body and supporting text a softer gray with sufficient contrast. Reserve darker or heavier treatment for the phrases that need emphasis. Let white, soft-gray and occasional dark sections establish rhythm. Consider charcoal cards within dark compositions where the grouping clarifies content. The palette is a guide for approved work and carries no requirement to recolor existing pages or shared components.
+
+### Buttons and links hierarchy
+
+**Approved owner direction, 2026-11-19.** Give the hero a primary CTA and an optional secondary action. Use a prominent primary button in the final CTA. For navigation within content, prefer clean text links with a subtle right arrow (→) to services, case studies and related pages. Keep links within sentences readable without requiring an arrow. Use an additional in-page button only for a distinct, important action that genuinely needs the emphasis.
+
+Reuse established Elementor button and link styles. Keep link typography, spacing, hover, visible keyboard focus and accessible contrast consistent. Preserve approved CTA components and working destinations. Follow this hierarchy on unfinished pages and in future approved work. Revisit already approved sections only when their own scope calls for it.

@@ -21,6 +21,7 @@
 - Reuse only existing approved ROBYLO project screenshots, Studio Plates, other real project images and approved icons. Do not search for or download new images, generate final images or illustrations, introduce stock imagery, or replace or modify approved project imagery. Obtain owner approval before creating final icons. Final graphic production or asset replacement also requires owner approval.
 - Represent missing images, illustrations and icons with neutral, clearly identified internal placeholders. Set realistic proportions and responsive dimensions. Make each slot replaceable without rebuilding its section. When a design calls for visuals, a text-only layout is incomplete.
 - Apply the existing 70/30 visual balance, permanent visual quality standard and [monochrome palette and typography guideline](docs/ROBYLO-CONCEPT.md#monochrome-palette-and-typography). Record placeholder purpose, aspect ratio and approval status with the page's verification.
+- Follow the [buttons and links hierarchy](docs/ROBYLO-CONCEPT.md#buttons-and-links-hierarchy). Use the primary CTA in the hero and final CTA, prefer text links with a subtle right arrow for in-content navigation, and reserve additional buttons for distinct, important actions. Preserve approved CTA components and working destinations.
 
 ## Coding standards and minimal changes
 
