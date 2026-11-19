@@ -199,3 +199,7 @@ Home5894 remains the assigned front page. Its WordPress title and underlying bod
 - Homepage Hero #contact/#work actions, all six external Visit site destinations and Studio Plates unchanged. Native Home body139 nodes identical before/after. Global class/variable registries unchanged.
 
 [Verification/evidence](verification.md#2026-11-18--website-architecture-and-page-skeletons). Native page trees, parents/slugs/status, component overrides, Popup conditions and AIOSEO settings remain database-held, not portable exports. Full page designs/content, noindex removal and eventual launch are separate future scopes.
+
+
+## 2026-11-19 — Staged Homepage UI refinement
+Home5894 has a142-node staged preview: three cropped decorative Approach numerals and a mobile-only final carousel-slide end margin. Ordinary authenticated Home remains139 nodes; Coming Soon stays public. No shared component/class/token or SEO changes. Current carousel has six projects, all preserved. [Exact native changes, evidence, limits and rollback](verification.md#2026-11-19--homepage-process-numerals-and-mobile-carousel-end-alignment). Not deployed or merged; owner visual review pending.
