@@ -288,3 +288,11 @@ Only Quickzy slide `79928cc9` changed in the staged Home 5894 document. The mobi
 In Chrome mobile emulation at 320px and 390px, both the Next arrow and a swipe from Elite reached the same final position. Quickzy was fully visible, Elite's right edge stayed 16px outside the carousel viewport, Next was disabled, and no horizontal page overflow appeared. Previous returned to Elite at both widths. The change is saved in the Elementor draft for owner review.
 
 [320px final position](verification/2026-11-19-home-ui/carousel-final-320.jpg) · [390px final position](verification/2026-11-19-home-ui/carousel-final-390.jpg) · [Browser measurements](verification/2026-11-19-home-ui/carousel-final-checks.json).
+
+## 2026-11-19 — Selected Work native slide alignment
+
+The previous end-margin compensation is superseded in the Home 5894 Elementor draft. The six local slide styles forced fixed widths at each breakpoint while the native carousel positioned its last group based on the viewport and measured track width. In the authenticated published view, the previous card remained visible at the end after the track clamped to its final position.
+
+Removed the fixed `flex` sizing and mobile `max-width` on slides `5751938`, `f84437a`, `d55796c`, `4c5d9f1`, `1263166` and `79928cc9`, including the Quickzy-only end margin. Elementor's existing responsive Slides per view now supplies sizing for the six cards. It is set to one on mobile and tablet, two on desktop. The slides, gap, native controls and shared styles were kept.
+
+Saved and read back the six changes. Opened the authenticated page preview in Chrome. The owner took over visual verification before the responsive interaction matrix and screenshots were completed. The change remains in the editor draft alongside pending homepage edits. The anonymous root still returns Coming Soon page 5858. Undo revision for this edit is 6296.
