@@ -250,3 +250,12 @@ Evidence:
 No full designs or detailed content produced. Chrome responsive emulation, not physical-device/Safari/screen-reader certification. Logged-in WordPress admin bar consumes mobile popup space; primary links remain visible, secondary email may require a short scroll. Existing browser assistant/cursor overlays may appear. No email sent or live launch. Native configuration remains DB-held, not a portable export.
 
 Rollback must preserve intervening edits: Header component pre-task6255; Footer component6257; Popup6259; active Header5892 pre-task5897. Popup condition was formerly Home-only and must be restored separately if rolling back. New page IDs6191–6221 (odd IDs) can be returned to draft using native WordPress controls if requested; do not delete unrelated pages. Homepage body was never edited. Dedicated implementation/site-architecture-2026-11-18 branch stacks on PR18; no unrelated PR merged.
+
+## 2026-11-19 — Design specifications recovered into GitHub (documentation only)
+
+Collaborator: Claude. Branch `docs/concept-specs-2026-11-19` from PR #19 head f67d30d. Added docs/design-services-page-2026-11-19.md, docs/design-service-web-design-2026-11-19.md, docs/design-about-page-2026-11-19.md, docs/design-service-pages-architecture-2026-11-19.md, docs/design-system-index-2026-11-19.md, docs/design-specs-index.md, docs/theme-architecture-2026-09-17-superseded.md and docs/design-homepage-copy-review-2026-11-18.md (copied unchanged from PR #14 with a status note). Updated AGENTS.md (specification-before-implementation rule), decisions.md and design-log.md.
+
+- **Sources:** Claude Docs (Services rev 21, Website rev 14, About rev 10), each read on 2026-11-19 with no edits since their last revision; About approved copy from PR #21 `docs/verification/2026-11-19-about/checks.json`; the theme-architecture text from the claude.ai Project document of 2026-09-17.
+- **Checks run:** relative links in all new and changed files resolve to existing files; confirmation checklists counted (Services 8, Website 9); phrase searches in the source Claude Docs matched the committed text at the sampled points.
+- **Limit:** the Claude Docs export tool returns the file inline as base64 that could not be written to disk, so the three Claude Doc specs were transcribed from the doc content rather than byte-copied. Not a byte-level comparison. If a discrepancy is found, the Claude Doc revision named in each file header is the reference.
+- No WordPress, Elementor or website change. No existing PR merged.

@@ -70,3 +70,13 @@ Owner request **Complete All Five Portfolio Studio Plates** explicitly approves 
 
 ## 2026-11-18 — Website architecture and skeleton scope
 **Approved by owner:**17-URL sitemap,16 minimal Page skeletons, hierarchical Services/Work children, six verified-project shells, per-page noindex and authenticated review behind Coming Soon. Owner separately confirmed shared navigation changes across all pages while leaving homepage content unchanged. This authorizes Header/Footer/Popup links, not a homepage redesign or public launch. **Implemented/verified:** [actual sitemap](current-implementation.md#website-architecture-and-page-skeletons--2026-11-18), [evidence](verification.md#2026-11-18--website-architecture-and-page-skeletons). Full page designs/content and removal of noindex remain future approval scopes. No merge authorized.
+
+## 2026-11-19 — About copy, Services direction and specification-first workflow
+
+**Approved by owner (About):** the owner supplied the final About copy for implementation on 2026-11-19 (staged in PR #21; original brief not in the repository). Preserved verbatim from rendered evidence in [design-about-page-2026-11-19.md](design-about-page-2026-11-19.md), Part A. Claude's earlier About concept remains Proposed/historical. Not approved: the founder portrait (pending) and public launch.
+
+**Approved by owner (Services):** the overall "Start with the problem" direction of Claude's Services concept, followed by the owner's refinement brief the same day (six problems, build standards, "Solve the right problem. Build it properly.", One-Time Projects and Ongoing Support). Final spec: [design-services-page-2026-11-19.md](design-services-page-2026-11-19.md). **Not approved:** the 8 claims marked [Confirm] in that spec; they must not be published before confirmation. Implemented as an owner-review draft in PR #24.
+
+**Proposed, not approved:** [Website Design & Development](design-service-web-design-2026-11-19.md) and the [service-page template](design-service-pages-architecture-2026-11-19.md).
+
+**Approved by owner (workflow):** every finalized ROBYLO concept or content specification is committed to GitHub before implementation begins; Claude commits source specifications and approved revisions; ChatGPT Work implements from the committed text and records implementation and verification. Source: owner instruction "Commit All Design Concepts and Decisions to GitHub", 2026-11-19. Rule text added to [AGENTS.md](../AGENTS.md) (Shared GitHub workflow).
