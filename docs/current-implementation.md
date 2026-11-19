@@ -199,3 +199,15 @@ Home5894 remains the assigned front page. Its WordPress title and underlying bod
 - Homepage Hero #contact/#work actions, all six external Visit site destinations and Studio Plates unchanged. Native Home body139 nodes identical before/after. Global class/variable registries unchanged.
 
 [Verification/evidence](verification.md#2026-11-18--website-architecture-and-page-skeletons). Native page trees, parents/slugs/status, component overrides, Popup conditions and AIOSEO settings remain database-held, not portable exports. Full page designs/content, noindex removal and eventual launch are separate future scopes.
+
+## 2026-11-19 — Services visual implementation
+
+**Implemented for authenticated review.** WordPress page 6191, `/services/`. The five sections above the existing CTA have been redesigned. The six section roots and `#where-to-start` were retained. The existing CTA subtree `46a02eb3` is identical to its pre-change read-back. The global footer, Homepage, About and Web Design were outside the edit scope.
+
+- Split hero with four instances of Atomic component 6316, **ROBYLO / Drawing tile**. The component exposes one link destination, image and label. The native grid uses four columns at 1440, 1024 and 768px and two at 390 and 320px. The Primary Button component 5864 remains in use.
+- A black band groups six customer quotes, followed by four alternating text and visual panels with native lists and a service pairing callout. Mobile puts the visual above each text group.
+- Statement rows on the soft section use `rb-statement` (64/48/34px, 700), and problem quotes use `rb-quote` (28/24/22px, 600). Existing Manrope and Kit 5744 variables remain authoritative. The native tile and panel controls set radius to 0px locally because the current shared `rb-radius` token is 4px.
+- The engagement panels use contrast and the approved “Start and finish” and “Every month” labels. The supplied schematics are omitted from the rendered page. The six SVGs imported during the initial scope remain in the Media Library under 6308–6312 and 6315.
+- Visuals are the existing Chicago Mounting Studio Plate 6145 and [three illustrative UI previews](design/services-studio-visuals-2026-11-19/) under attachments 6319–6321. The previews use generic interface labels without client records or performance figures.
+
+No new theme styles, scripts, packages or global variables. All edits are native Atomic. The editor data, component, media and global classes live in WordPress. GitHub carries the approved source art and implementation notes. Revision 6325 is the pre-redesign Elementor rollback snapshot. A whole-page export would include owner-review copy and depends on the installed kit and component. Keep that data within WordPress and private review channels.

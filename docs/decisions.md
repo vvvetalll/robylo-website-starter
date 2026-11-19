@@ -84,3 +84,7 @@ Owner request **Complete All Five Portfolio Studio Plates** explicitly approves 
 ## 2026-11-19 — Visual direction "Working Drawings" (proposed)
 
 **Proposed by Claude, not approved:** [visual audit, art direction and Services redesign](design-visual-direction-2026-11-19.md). Copy unchanged. New items if approved: one Drawing tile component, two global classes (Statement, Quote), six SVG drawings. No implementation authorized.
+
+## 2026-11-19 — Approved Services composition and visual balance
+
+**Approved by the owner.** Use PR #27 as the Services composition reference and adopt the [70/30 visual balance](ROBYLO-CONCEPT.md#visual-balance-for-robylo). The current direction favors a Studio Plate and simplified UI examples. The initial Working Drawings treatment stays in the design record as a superseded visual proposal. Keep the approved service copy, links and the two engagement labels. The existing black CTA and footer are outside the redesign scope. Home remains approved in structure and requires separate approval for significant changes. Coming Soon and noindex remain in place with all owner-review markers retained.

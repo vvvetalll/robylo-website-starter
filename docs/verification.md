@@ -269,3 +269,13 @@ Collaborator: Claude. Added docs/design-visual-direction-2026-11-19.md and docs/
 - Not verified: tablet widths (768/1024) of the mockup; native Elementor feasibility of SVG upload on this site; entrance motion.
 - Observed issue: public `/services/` and `/services/web-design/` display literal "[Confirm]" markers.
 - No WordPress, Elementor or website change. No PR merged.
+
+## 2026-11-19 — Services visual balance and release QA
+
+**Verified in authenticated Chrome.** Opened and visually inspected both PR #27 images before the redesign. Compared the rendered Elementor page on desktop and mobile by section. The hero retains the split introduction and service grid. The six problems form a distinct black band. The four solution visuals alternate on large screens and lead each mobile group. The standards use display-sized statements. Engagement uses shorter contrasting panels with no diagram. The sixth section and footer use their existing designs. Differences in imagery, accent density, engagement panels and CTA follow the owner's later 70/30 and CTA decisions.
+
+- Checked the saved frontend at 1440, 1024, 768, 390 and 320px. No horizontal overflow or clipped tile labels. Card heights exceeded 48px. Checked all eight visual instances, including below-the-fold images after scrolling. Full-page captures are provided privately for owner review.
+- All 25 main-content links showed visible keyboard focus at 1440 and 390px. Enter on the hero secondary action reached `#where-to-start`. Pointer entry and leave added and removed the tile outline. A touch-emulated tap on the Web Design tile opened its destination. No new script or animation states were added.
+- All nine literal owner-review markers remain in 6191. The full saved CTA subtree matches the original. The SEO title, description, canonical and robots settings match the pre-change read-back. Home, About and Web Design still render their existing content in the authenticated session.
+- Coming Soon was restored before visual editing. Logged-out requests to Home, About, Services and Web Design returned the Coming Soon template before and after the save. None showed review markers. Authenticated Services returned `noindex, nofollow`.
+- Native revision 6325 provides rollback on this WordPress site. An importable whole-page export and full screenshots are omitted from the public PR because they reproduce owner-review text.
