@@ -250,3 +250,69 @@ Evidence:
 No full designs or detailed content produced. Chrome responsive emulation, not physical-device/Safari/screen-reader certification. Logged-in WordPress admin bar consumes mobile popup space; primary links remain visible, secondary email may require a short scroll. Existing browser assistant/cursor overlays may appear. No email sent or live launch. Native configuration remains DB-held, not a portable export.
 
 Rollback must preserve intervening edits: Header component pre-task6255; Footer component6257; Popup6259; active Header5892 pre-task5897. Popup condition was formerly Home-only and must be restored separately if rolling back. New page IDs6191–6221 (odd IDs) can be returned to draft using native WordPress controls if requested; do not delete unrelated pages. Homepage body was never edited. Dedicated implementation/site-architecture-2026-11-18 branch stacks on PR18; no unrelated PR merged.
+
+
+## 2026-11-19 — Homepage process numerals and mobile carousel end alignment
+Contributor: ChatGPT/Codex. **Owner-authorized / Implemented as staged Home5894 only / Visually verified for review.** Latest instruction explicitly prohibits merge or deployment. No publish-document, component publish, global-class/token change or merge performed. Coming Soon5858 remains public HTTP200; authenticated ordinary Home remains the original139-node version without the new numerals. Use [Home Elementor editor → Preview Changes](https://robylo.com/wp-admin/post.php?post=5894&action=elementor). Signed agent verification snapshots are intentionally excluded.
+
+### Native changes
+- Existing Approach step wrappers6311bb78/460dfd57/3e1a140f: add position:relative, overflow:hidden and isolation:isolate. Existing padding, grid columns and mobile final-step margin preserved. Clipping is local to each step; no page overflow suppression.
+- Add three native e-paragraph elements283cd2a/45180c90/5657317, rendered as spans1/2/3. Native common attributes set aria-hidden=true on each outer span. Inline HTML aria attributes are sanitized, so native common attributes are essential; actual frontend DOM and accessibility tree were checked.
+- Numbers use existing rb-font Manrope700, normal/upright, rb-ink at6% opacity;280px desktop,240px tablet,200px mobile; line-height1, zero letter-spacing/margin/padding. Absolute left0/top50%, translate(-50%,-50%), width:auto, z-index:-1, pointer-events:none. Local isolated stacking contexts keep them behind content. Each is50% clipped at its step's left boundary. No text/divider movement or new font weight/family.
+- Existing final carousel slide79928cc9 receives only mobile margin-inline-end:calc(var(--rb-gutter) + var(--rb-space-2)). Native runtime track includes a trailing gap-sized padding; the combined margin compensates that16px and leaves the existing20px mobile gutter in the final trimmed snap. Desktop/tablet and all preceding slide geometry unchanged. Native trimSnaps engine,300ms setting, arrows, images, text and external links preserved.
+- Actual current carousel contains SIX projects, not five: Quickzy was already appended in PR18. All six retained. Before-state already reached the final card, but it finished flush against the viewport edge. An unreachable fifth card was not reproducible on this current six-card version; this patch corrects the observed end alignment rather than replacing the working engine.
+
+### Verification
+Actual Chrome rendering at1440/1024/768/390/320px; screenshots visually inspected. Native staged audit139→142 nodes: exactly3 number additions and4 existing local-style changes (three wrappers plus final slide), no deleted/replaced/reparented content, no existing setting/content changes. Component6019 and shared typography/classes/tokens unchanged.
+- All six cards reached through native next navigation; first/last aria-disabled states correct. At390 cards1–5 align left20/right340; final card left50/right370. At320 final left44/right300. Both mobile endpoints leave20px at the right; full final image/title/action visible, no excessive trailing space. Partial neighboring card remains visible.
+- Desktop/tablet last snaps retain existing geometry and show the last complete card. No horizontal document overflow at any tested width.
+- Three numeral boxes measure50% crop, Manrope700, opacity0.06 and the prescribed responsive sizes at all widths. Existing section heights and text geometry match live baseline; maximum measured text-coordinate difference below0.001px at1440/1024/768/320.390px section height also matches809.77px. Text/dividers remain readable and unmoved.
+- Desktop keyboard Enter advances, Space reverses, visible focus retained. Mouse click→release→leave returns white.390px native swipe advances; four rapid clicks reach the fifth card; swipe from fifth reaches final with correct disabled next; touch previous tap/release returns white; mobile Enter/Space retains visible focus. Tab proceeds to the next existing action. No blur/event workaround.
+- No new animation or transition. Existing reduced-motion handler is untouched. A separate emulation attempt did not retain the media override after navigation and is **not counted as a passed reduced-motion test**. Physical devices, Safari and screen-reader speech output were not certified; semantic aria-hidden was verified.
+- Live-root native baseline has no decorative numerals, confirming no promotion. Anonymous HTTP200 still returns Coming Soon5858, not Home5894. Header/Footer, other sections, SEO, page architecture and public gate unchanged.
+
+Evidence (actual browser captures, admin bar cropped out):
+- [Approach desktop](verification/2026-11-19-home-ui/approach-1440.jpg) · [390px](verification/2026-11-19-home-ui/approach-390.jpg) · [320px](verification/2026-11-19-home-ui/approach-320.jpg)
+- [Carousel final desktop](verification/2026-11-19-home-ui/carousel-1440.jpg) · [390px](verification/2026-11-19-home-ui/carousel-390.jpg) · [320px](verification/2026-11-19-home-ui/carousel-320.jpg)
+- [Five-width geometry/navigation evidence](verification/2026-11-19-home-ui/checks.json)
+
+Configuration remains in the WordPress staged autosave, not a portable export or Git-driven deployment. Pre-task undo6267; preserve intervening work before whole-document rollback. Surgical rollback removes the three new spans and the four listed local additions. Branch stacks on unmerged PR19 without merging it or other dependencies. Stop for owner review; no launch approval.
+
+
+### Follow-up: remove the previous-card sliver on mobile
+
+The earlier staged preview reproduced the reported gray strip. At 390px, Elite ended at x=34 while the carousel viewport began at x=20, leaving 14px visible. The phone screenshot alone does not identify its revision. The public homepage still serves Coming Soon.
+
+Only Quickzy slide `79928cc9` changed in the staged Home 5894 document. The mobile end margin now uses `calc(100% - min(320px, 100vw - 64px) + var(--rb-space-2))`. This accounts for the remaining viewport width and the gap Elementor uses in its native end calculation, so the final snap aligns Quickzy with the other cards at x=20. The existing card widths and adjacent-card previews on earlier slides are preserved. All six cards, the native carousel, and its arrows remain in place.
+
+In Chrome mobile emulation at 320px and 390px, both the Next arrow and a swipe from Elite reached the same final position. Quickzy was fully visible, Elite's right edge stayed 16px outside the carousel viewport, Next was disabled, and no horizontal page overflow appeared. Previous returned to Elite at both widths. The change is saved in the Elementor draft for owner review.
+
+[320px final position](verification/2026-11-19-home-ui/carousel-final-320.jpg) · [390px final position](verification/2026-11-19-home-ui/carousel-final-390.jpg) · [Browser measurements](verification/2026-11-19-home-ui/carousel-final-checks.json).
+
+## 2026-11-19 — Selected Work native slide alignment
+
+The previous end-margin compensation is superseded in the Home 5894 Elementor draft. The six local slide styles forced fixed widths at each breakpoint while the native carousel positioned its last group based on the viewport and measured track width. In the authenticated published view, the previous card remained visible at the end after the track clamped to its final position.
+
+Removed the fixed `flex` sizing and mobile `max-width` on slides `5751938`, `f84437a`, `d55796c`, `4c5d9f1`, `1263166` and `79928cc9`, including the Quickzy-only end margin. Elementor's existing responsive Slides per view now supplies sizing for the six cards. It is set to one on mobile and tablet, two on desktop. The slides, gap, native controls and shared styles were kept.
+
+Saved and read back the six changes. Opened the authenticated page preview in Chrome. The owner took over visual verification before the responsive interaction matrix and screenshots were completed. The change remains in the editor draft alongside pending homepage edits. The anonymous root still returns Coming Soon page 5858. Undo revision for this edit is 6296.
+
+### Mobile recheck and follow-up
+
+The bare `preview_id` link rendered the published version. After clearing Elementor cache and invoking SiteGround purge, Chrome still reproduced the previous-card strip at 375px with browser cache disabled. The actual Elementor Preview Changes URL with a nonce showed the first draft's regression at 390px: all six cards shrank into one track. Removing every slide size was therefore insufficient for this layout.
+
+The next Home 5894 autosave uses the viewport's width for one mobile card and half of the track's available width after the existing gap for each of two tablet/desktop cards. The viewport reserves the right gutter, and every slide uses the same width rule. There is no final-slide margin or offset. IDs and assets for the six cards are preserved. Undo revision for this follow-up is 6297.
+
+Confirmed settings read-back and anonymous Coming Soon (HTTP 200). Latest autosave still needs rendered endpoint and interaction verification. The published homepage continues to use its preceding configuration. The draft includes unrelated Approach work and has not been promoted.
+
+### Final production fix and verification
+
+The previous viewport fix still inherited a 320px mobile maximum and a tablet flex rule that allowed shrinking. Chrome's computed styles exposed both. In the native layout, unequal available track and slide widths allowed a partial neighbor when the track settled at its final clamped position.
+
+Home 5894 now uses one full-width card on mobile and two full cards on tablet and desktop. Viewport `16f9bf6` reserves the existing right gutter. All six slides use the same flex sizing, including an explicit tablet variant and removal of the shared mobile max-width cap locally. Existing 16px mobile and 24px wider gaps, arrows, slide links, animation and native touch handling remain. No Quickzy-only offset, shared-class edit, custom script or theme change.
+
+Promoted the carousel-only revision on the already-published Home while Coming Soon was active. The isolated draft matched the ordinary homepage's rendered element IDs, visible copy, destinations, title and Kit 5744. Restored the prior Approach draft with the three decorative numbers after saving the carousel-only version. Revision 6300 holds the pre-fix baseline; 6299 preserves the earlier Approach draft with the verified carousel settings. The anonymous homepage still returns HTTP 200 with Coming Soon 5858.
+
+On the actual authenticated homepage, Chrome verified the first, middle and final resting positions at 320, 390, 768, 1024 and 1440px. No partial neighbors or document overflow were observed when settled. At 320px and 390px, Quickzy is the sole visible card at the final position, with zero pixels of Elite visible. At wider sizes, Elite and Quickzy are the two complete final cards. Keyboard activation advances/reverses and arrows reflect the boundaries. Emulated touch swipe at 390px returned to Elite and then advanced to Quickzy, with Next disabled at the final stop. Captures were inspected on mobile; no physical-device or Safari test was run.
+
+[Quickzy at 320px](verification/2026-11-19-carousel-native/live-320-final.jpg) · [Quickzy at 390px](verification/2026-11-19-carousel-native/live-390-final.jpg) · [Five-width checks](verification/2026-11-19-carousel-native/live-checks.json) · [390px swipe checks](verification/2026-11-19-carousel-native/live-390-swipe.json).
