@@ -304,3 +304,15 @@ The bare `preview_id` link rendered the published version. After clearing Elemen
 The next Home 5894 autosave uses the viewport's width for one mobile card and half of the track's available width after the existing gap for each of two tablet/desktop cards. The viewport reserves the right gutter, and every slide uses the same width rule. There is no final-slide margin or offset. IDs and assets for the six cards are preserved. Undo revision for this follow-up is 6297.
 
 Confirmed settings read-back and anonymous Coming Soon (HTTP 200). Latest autosave still needs rendered endpoint and interaction verification. The published homepage continues to use its preceding configuration. The draft includes unrelated Approach work and has not been promoted.
+
+### Final production fix and verification
+
+The previous viewport fix still inherited a 320px mobile maximum and a tablet flex rule that allowed shrinking. Chrome's computed styles exposed both. In the native layout, unequal available track and slide widths allowed a partial neighbor when the track settled at its final clamped position.
+
+Home 5894 now uses one full-width card on mobile and two full cards on tablet and desktop. Viewport `16f9bf6` reserves the existing right gutter. All six slides use the same flex sizing, including an explicit tablet variant and removal of the shared mobile max-width cap locally. Existing 16px mobile and 24px wider gaps, arrows, slide links, animation and native touch handling remain. No Quickzy-only offset, shared-class edit, custom script or theme change.
+
+Promoted the carousel-only revision on the already-published Home while Coming Soon was active. The isolated draft matched the ordinary homepage's rendered element IDs, visible copy, destinations, title and Kit 5744. Restored the prior Approach draft with the three decorative numbers after saving the carousel-only version. Revision 6300 holds the pre-fix baseline; 6299 preserves the earlier Approach draft with the verified carousel settings. The anonymous homepage still returns HTTP 200 with Coming Soon 5858.
+
+On the actual authenticated homepage, Chrome verified the first, middle and final resting positions at 320, 390, 768, 1024 and 1440px. No partial neighbors or document overflow were observed when settled. At 320px and 390px, Quickzy is the sole visible card at the final position, with zero pixels of Elite visible. At wider sizes, Elite and Quickzy are the two complete final cards. Keyboard activation advances/reverses and arrows reflect the boundaries. Emulated touch swipe at 390px returned to Elite and then advanced to Quickzy, with Next disabled at the final stop. Captures were inspected on mobile; no physical-device or Safari test was run.
+
+[Quickzy at 320px](verification/2026-11-19-carousel-native/live-320-final.jpg) · [Quickzy at 390px](verification/2026-11-19-carousel-native/live-390-final.jpg) · [Five-width checks](verification/2026-11-19-carousel-native/live-checks.json) · [390px swipe checks](verification/2026-11-19-carousel-native/live-390-swipe.json).
