@@ -311,3 +311,4 @@ Confirmed or factual, no approval needed: the four service names and URLs; One-T
 - Give the four project scope groups a shared editorial composition alongside one clearly labeled, replaceable **Design review preview** placeholder at 4:3. Use a 2×2 scope group grid on larger screens and one column on mobile.
 - Pair the existing Work reference with the already approved real GCPRO Restoration Studio Plate, following the related services in the existing section. Keep the existing Work destination and image proportions.
 - Review with Coming Soon and noindex active. Final artwork for the design review slot remains pending owner approval.
+- Keep the existing Hero and final CTA actions. Use the established text-link treatment with a subtle right arrow for the standalone Approach and FAQ links in content. Preserve their existing destinations.

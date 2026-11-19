@@ -238,3 +238,5 @@ The fix, redesign and rebuild choices use equal charcoal panels on large screens
 | About 6197 · Founder portrait | Existing portrait placeholder `5c42ac2c`, checked for inventory only. It remains pending the separately approved photo. |
 
 No media, icon, theme or shared component changes. Other unfinished pages follow the same approval sequence, starting from their own structure and hierarchy. Homepage, Services and the global footer are outside the changes. Elementor revision 6347 was created immediately before this Web Design pass.
+
+Final action hierarchy uses the existing Hero and final CTA components. The standalone “How every ROBYLO project works” (`6cda9e60`) and “More questions” (`9f3988a`) links retain their native Atomic text-link styling and `/approach/` and `/faq/` destinations. Their labels gained a right arrow. Linked service headings, inline links and shared components were preserved.
