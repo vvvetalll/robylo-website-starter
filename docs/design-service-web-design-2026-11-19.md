@@ -312,3 +312,13 @@ Confirmed or factual, no approval needed: the four service names and URLs; One-T
 - Pair the existing Work reference with the already approved real GCPRO Restoration Studio Plate, following the related services in the existing section. Keep the existing Work destination and image proportions.
 - Review with Coming Soon and noindex active. Final artwork for the design review slot remains pending owner approval.
 - Keep the existing Hero and final CTA actions. Use the established text-link treatment with a subtle right arrow for the standalone Approach and FAQ links in content. Preserve their existing destinations.
+
+## 2026-11-19 — Targeted visual refinement
+
+**Owner-authorized scope for review.** Refine four existing sections in Elementor page 6203, using the approved Services page as a reference for visual rhythm. Retain the nine-section order, approved content and links, all unresolved review markers, page hierarchy, SEO settings, Coming Soon, and the existing Hero, Chicago Mounting, signature phone illustration, GCPRO Studio Plate, FAQ, CTA and footer.
+
+- Give the existing fix, redesign and rebuild choices a more generous graphite card layout with white headings and readable light-gray descriptions. Stack the three cards on phones.
+- Give each of the four project stages one neutral, separately replaceable icon slot and a clearer text hierarchy. Arrange them in two spacious columns with two stages per row on larger screens and one column on phones.
+- Present the six existing process steps as a spacious numbered grid. Use three columns on desktop, two on tablet and one on phones, with prominent numbers and no connecting line.
+- Arrange the ownership text as a single editorial column beside a neutral 4:3 website editing preview. Reuse the existing review slot from Scope, where the four icon slots now serve as visual anchors. Stack ownership text and preview on phones.
+- Use approved Atomic styles and placeholder-only elements. Final icons and preview artwork remain pending owner approval.
