@@ -1,0 +1,604 @@
+{
+  "purpose": "Installation-specific native composition; authoring draft 6040, transplanted using native Copy/Paste into staged Home5894. Not a portable Elementor export or a deployment script.",
+  "payload": {
+    "post_id": 6040,
+    "xml_structure": "<e-div-block configuration-id=\"Selected Work horizontal prototype\"><e-div-block configuration-id=\"Work heading alignment\"><e-component configuration-id=\"Existing Selected Work heading\"/></e-div-block><e-carousel configuration-id=\"Five project portfolio\"><e-carousel-viewport configuration-id=\"Portfolio viewport\"><e-carousel-container configuration-id=\"Portfolio horizontal track\"><e-carousel-slide configuration-id=\"chicago project card\"><e-div-block configuration-id=\"chicago neutral placeholder\"><e-paragraph configuration-id=\"chicago placeholder name\"/></e-div-block><e-div-block configuration-id=\"chicago project caption\"><e-heading configuration-id=\"chicago project title\"/><e-paragraph configuration-id=\"chicago project category\"/><e-div-block configuration-id=\"chicago project website\"><e-component configuration-id=\"chicago external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"gcpro project card\"><e-div-block configuration-id=\"gcpro neutral placeholder\"><e-paragraph configuration-id=\"gcpro placeholder name\"/></e-div-block><e-div-block configuration-id=\"gcpro project caption\"><e-heading configuration-id=\"gcpro project title\"/><e-paragraph configuration-id=\"gcpro project category\"/><e-div-block configuration-id=\"gcpro project website\"><e-component configuration-id=\"gcpro external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"kolo project card\"><e-div-block configuration-id=\"kolo neutral placeholder\"><e-paragraph configuration-id=\"kolo placeholder name\"/></e-div-block><e-div-block configuration-id=\"kolo project caption\"><e-heading configuration-id=\"kolo project title\"/><e-paragraph configuration-id=\"kolo project category\"/><e-div-block configuration-id=\"kolo project website\"><e-component configuration-id=\"kolo external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"dental project card\"><e-div-block configuration-id=\"dental neutral placeholder\"><e-paragraph configuration-id=\"dental placeholder name\"/></e-div-block><e-div-block configuration-id=\"dental project caption\"><e-heading configuration-id=\"dental project title\"/><e-paragraph configuration-id=\"dental project category\"/><e-div-block configuration-id=\"dental project website\"><e-component configuration-id=\"dental external link\"/></e-div-block></e-div-block></e-carousel-slide><e-carousel-slide configuration-id=\"elite project card\"><e-div-block configuration-id=\"elite neutral placeholder\"><e-paragraph configuration-id=\"elite placeholder name\"/></e-div-block><e-div-block configuration-id=\"elite project caption\"><e-heading configuration-id=\"elite project title\"/><e-paragraph configuration-id=\"elite project category\"/><e-div-block configuration-id=\"elite project website\"><e-component configuration-id=\"elite external link\"/></e-div-block></e-div-block></e-carousel-slide></e-carousel-container></e-carousel-viewport><e-carousel-arrow-prev configuration-id=\"Previous project\"><e-paragraph configuration-id=\"Previous glyph\"/></e-carousel-arrow-prev><e-carousel-arrow-next configuration-id=\"Next project\"><e-paragraph configuration-id=\"Next glyph\"/></e-carousel-arrow-next></e-carousel></e-div-block>",
+    "element_config": {
+      "Selected Work horizontal prototype": {
+        "tag": "section"
+      },
+      "Existing Selected Work heading": {
+        "component_id": 6010,
+        "overrides": {
+          "heading": "Selected work.<span>Five businesses, five live sites.</span>",
+          "paragraph": "Websites we designed and built for local businesses in the Chicago area. Each one is live. Open any of them."
+        }
+      },
+      "Five project portfolio": {
+        "carousel_name": "Selected work portfolio",
+        "transition_type": "slide",
+        "slides_per_view": {
+          "desktop": 2,
+          "tablet": 1,
+          "mobile": 1
+        },
+        "slides_to_scroll": {
+          "desktop": 1,
+          "tablet": 1,
+          "mobile": 1
+        },
+        "equal_height": true,
+        "loop": false,
+        "autoplay": false,
+        "transition_speed": 300,
+        "show_arrows": true,
+        "pagination_type": "none"
+      },
+      "Previous glyph": {
+        "paragraph": "←",
+        "tag": "span"
+      },
+      "Next glyph": {
+        "paragraph": "→",
+        "tag": "span"
+      },
+      "chicago placeholder name": {
+        "paragraph": "Chicago Mounting",
+        "tag": "span"
+      },
+      "chicago project title": {
+        "title": "Chicago Mounting",
+        "tag": "h3"
+      },
+      "chicago project category": {
+        "paragraph": "TV mounting and AV installation · Chicago, IL",
+        "tag": "p"
+      },
+      "chicago external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "chicagomounting.com ↗",
+          "link": {
+            "destination": "https://chicagomounting.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "gcpro placeholder name": {
+        "paragraph": "GCPRO Restoration",
+        "tag": "span"
+      },
+      "gcpro project title": {
+        "title": "GCPRO Restoration",
+        "tag": "h3"
+      },
+      "gcpro project category": {
+        "paragraph": "Disaster restoration · Lombard, IL",
+        "tag": "p"
+      },
+      "gcpro external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "gcprochicago.com ↗",
+          "link": {
+            "destination": "https://gcprochicago.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "kolo placeholder name": {
+        "paragraph": "Kolo Properties",
+        "tag": "span"
+      },
+      "kolo project title": {
+        "title": "Kolo Properties",
+        "tag": "h3"
+      },
+      "kolo project category": {
+        "paragraph": "Property management · Park Ridge, IL",
+        "tag": "p"
+      },
+      "kolo external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "kolo-properties.com ↗",
+          "link": {
+            "destination": "https://kolo-properties.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "dental placeholder name": {
+        "paragraph": "Center For Dental Healing",
+        "tag": "span"
+      },
+      "dental project title": {
+        "title": "Center For Dental Healing",
+        "tag": "h3"
+      },
+      "dental project category": {
+        "paragraph": "Dental practice · Glenview, IL",
+        "tag": "p"
+      },
+      "dental external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "glenviewsmiles.com ↗",
+          "link": {
+            "destination": "https://glenviewsmiles.com/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      },
+      "elite placeholder name": {
+        "paragraph": "Elite Mechanical Services",
+        "tag": "span"
+      },
+      "elite project title": {
+        "title": "Elite Mechanical Services",
+        "tag": "h3"
+      },
+      "elite project category": {
+        "paragraph": "HVAC and refrigeration · West Chicago, IL",
+        "tag": "p"
+      },
+      "elite external link": {
+        "component_id": 5864,
+        "overrides": {
+          "text": "elitemechanical.services ↗",
+          "link": {
+            "destination": "https://elitemechanical.services/",
+            "isTargetBlank": true,
+            "tag": "a"
+          }
+        }
+      }
+    },
+    "classes": {
+      "Selected Work horizontal prototype": [
+        "rb-section"
+      ],
+      "Previous project": [
+        "rb-btn",
+        "rb-btn--outline",
+        "rb-btn--sm",
+        "rb-btn--carousel"
+      ],
+      "Next project": [
+        "rb-btn",
+        "rb-btn--outline",
+        "rb-btn--sm",
+        "rb-btn--carousel"
+      ],
+      "chicago project card": [
+        "rb-portfolio-slide"
+      ],
+      "chicago neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "chicago placeholder name": [
+        "rb-meta"
+      ],
+      "chicago project caption": [
+        "rb-portfolio-caption"
+      ],
+      "chicago project category": [
+        "rb-meta"
+      ],
+      "chicago project website": [
+        "rb-btn--text"
+      ],
+      "gcpro project card": [
+        "rb-portfolio-slide"
+      ],
+      "gcpro neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "gcpro placeholder name": [
+        "rb-meta"
+      ],
+      "gcpro project caption": [
+        "rb-portfolio-caption"
+      ],
+      "gcpro project category": [
+        "rb-meta"
+      ],
+      "gcpro project website": [
+        "rb-btn--text"
+      ],
+      "kolo project card": [
+        "rb-portfolio-slide"
+      ],
+      "kolo neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "kolo placeholder name": [
+        "rb-meta"
+      ],
+      "kolo project caption": [
+        "rb-portfolio-caption"
+      ],
+      "kolo project category": [
+        "rb-meta"
+      ],
+      "kolo project website": [
+        "rb-btn--text"
+      ],
+      "dental project card": [
+        "rb-portfolio-slide"
+      ],
+      "dental neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "dental placeholder name": [
+        "rb-meta"
+      ],
+      "dental project caption": [
+        "rb-portfolio-caption"
+      ],
+      "dental project category": [
+        "rb-meta"
+      ],
+      "dental project website": [
+        "rb-btn--text"
+      ],
+      "elite project card": [
+        "rb-portfolio-slide"
+      ],
+      "elite neutral placeholder": [
+        "rb-mat",
+        "rb-portfolio-placeholder"
+      ],
+      "elite placeholder name": [
+        "rb-meta"
+      ],
+      "elite project caption": [
+        "rb-portfolio-caption"
+      ],
+      "elite project category": [
+        "rb-meta"
+      ],
+      "elite project website": [
+        "rb-btn--text"
+      ]
+    },
+    "style": {
+      "Selected Work horizontal prototype": "display: grid; grid-template-columns: minmax(var(--rb-gutter), 1fr) minmax(0, var(--rb-container)) minmax(var(--rb-gutter), 1fr); grid-template-rows: auto auto; gap: 0; width: 100%; min-width: 0; padding-inline-start: 0; padding-inline-end: 0;",
+      "Work heading alignment": "grid-column: 2; grid-row: 1; width: 100%; min-width: 0; padding: 0;",
+      "Five project portfolio": "grid-column: 2 / 4; grid-row: 2; width: 100%; min-width: 0; display: grid; grid-template-columns: 1fr 48px 48px var(--rb-gutter); grid-template-rows: auto auto; gap: 12px; margin-top: 40px;",
+      "Portfolio viewport": "grid-column: 1 / 5; grid-row: 1; min-width: 0;",
+      "Portfolio horizontal track": "gap: var(--rb-space-3); @media(--mobile) { gap: var(--rb-space-2); }",
+      "Previous project": "grid-column: 2; grid-row: 2; width: 48px; height: 48px; min-height: 48px; padding: 0; margin: 12px 0 0; opacity: 1; outline: none; color: var(--rb-ink);",
+      "Next project": "grid-column: 3; grid-row: 2; width: 48px; height: 48px; min-height: 48px; padding: 0; margin: 12px 0 0; opacity: 1; outline: none; color: var(--rb-ink);",
+      "Previous glyph": "font-size: 24px; line-height: 1;",
+      "Next glyph": "font-size: 24px; line-height: 1;",
+      "chicago project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "gcpro project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "kolo project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "dental project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "elite project website": "padding: 0; width: fit-content; margin-top: 2px;",
+      "chicago project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "gcpro project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "kolo project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "dental project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }",
+      "elite project card": "flex: 0 0 480px; @media(--tablet) { flex: 0 0 400px; } @media(--mobile) { flex: 0 0 calc(100vw - 64px); max-width: 320px; }"
+    }
+  },
+  "native_followup": {
+    "home_post_id": 5894,
+    "section_element_id": "58c9fc4",
+    "native_id": "work",
+    "position": "Main1117679b, after Services2b42c245 and before Approach8b0906a",
+    "save": "Save Draft; no Publish",
+    "arrow_elements": {
+      "previous": "a01fd95",
+      "next": "ac514e2"
+    },
+    "state_fix": "Attach rb-btn--carousel to both arrows through the native editor; Save Draft. Authoring6040 predates this follow-up and is not the latest state reference."
+  },
+  "new_native_classes": {
+    "rb-portfolio-placeholder": "Centered label; 16:10 aspect ratio; rb-mat supplies #F5F5F5 and 4px radius.",
+    "rb-portfolio-caption": "Column, 4px gap, start alignment.",
+    "rb-portfolio-slide": "Column, 24px content gap / 16px mobile; responsive basis. Local full flex value is necessary to override native responsive shrink defaults.",
+    "rb-btn--carousel": {
+      "id": "g-85ea9ae",
+      "css": "&:focus { color: var(--rb-ink); background-color: transparent; } &:hover { color: var(--rb-paper); background-color: var(--rb-ink); } &:active { color: var(--rb-paper); background-color: var(--rb-hover); } &[aria-disabled=true] { color: var(--rb-ink); background-color: transparent; opacity: 0.35; cursor: not-allowed; } &:hover:not(:focus-visible):not(:active) { @media (hover: none) { color: var(--rb-ink); background-color: transparent; } }",
+      "reason": "Native arrow hover/focus specificity and sticky touch hover; scoped to the two carousel controls only. Reuses rb-btn, rb-btn--outline and rb-btn--sm."
+    }
+  },
+  "mobile_header_followup": {
+    "authorization": "Owner explicitly reported misplaced mobile Menu and requested correction. This extends the earlier Selected Work-only scope to this specific header control.",
+    "class_id": "g-ca8e57d",
+    "class_label": "rb-header__toggle",
+    "native_patch": "@media(--mobile) { width: fit-content; flex: 0 0 auto; margin-inline-start: auto; }",
+    "consumers": "Header5892/component5886 Menu; Popup5996 Close. Existing shared class updated, no new class or local duplicate.",
+    "publication": "Native shared-class setting applied; no homepage Publish, popup/template publication or maintenance change.",
+    "native_button_replacement": {
+      "reason": "Owner continued to report centered Menu on phone. Replace div-block button inheriting .e-con width100% with intrinsically sized native e-button, avoiding reliance on a newly cached width override.",
+      "component_id": 5886,
+      "parent_id": "496fa604",
+      "removed_element_id": "1193db17",
+      "new_element_id": "344e021f",
+      "type": "e-button",
+      "settings": {
+        "tag": "button",
+        "link": {
+          "tag": "button"
+        },
+        "text": "Menu <span>☰</span>"
+      },
+      "classes": [
+        "rb-header__toggle"
+      ],
+      "styles": "No new local or global style declarations.",
+      "popup": "Existing Popup5996 open_selector .rb-header__toggle retained.",
+      "publication": "Shared Header component5886 promoted, existing Coming Soon remains active; anonymous root200/5858."
+    }
+  },
+  "current_visibility": {
+    "authorization": "Owner explicitly clarified that Coming Soon must remain active while logged-in users must see the latest homepage at the normal root URL. This supersedes draft-only delivery for Home5894; it does not authorize an anonymous public launch.",
+    "home_status": "publish, staged V2 promoted through native Elementor Publish; subsequently resaved unchanged through supported tools.",
+    "logged_in_url": "https://robylo.com/",
+    "anonymous": "HTTP200 Coming Soon5858; no V2 portfolio text.",
+    "cache_fix": "Elementor cache cleared once after explicit approval, followed by SiteGround purge. Neither fixed stale Cloudflare edge CSS. Purged eight exact changed Home/Header CSS URLs in Cloudflare; one follow-up purge for the Header mobile CSS after removing an unneeded temporary local alignment override. No cache rule, TTL, security setting or maintenance setting changed.",
+    "header": "Original global-class mobile patch remains canonical. Temporary component5886/1193db17 mobile justify-content override was removed.",
+    "verification": "Actual logged-in root, not only a preview;390px Menu width76.6px, iconRight==buttonRight354.67px, five320px cards, no page overflow. Pointer/keyboard/disabled/rapid/touch cycles rerun on root.",
+    "asset_versions": {
+      "setting": "Speed Optimizer → Frontend → General → Remove Query Strings from Static Resources",
+      "enabled": false,
+      "result": "Actual root emits native Elementor CSS ?ver=<generated revision> and carousel-handler.min.js?ver=4.4.1. Owner confirmed horizontal scrolling on phone after also clearing its cache."
+    }
+  },
+  "card_refinement_2026_11_18": {
+    "scope": "Private staged Home5894 only; no Publish or merge. Existing same-prototype authoring6040 inherits shared slide gap.",
+    "ownerReference": "Apple screenshot for compact project-title/secondary-copy proportions; monochrome Manrope remains.",
+    "globalClasses": [
+      {
+        "action": "create",
+        "label": "rb-portfolio-title",
+        "css": "font-family:var(--rb-font);font-size:26px;font-weight:600;line-height:1.25; @media(--tablet){font-size:24px;} @media(--mobile){font-size:22px;}"
+      },
+      {
+        "action": "create",
+        "label": "rb-portfolio-description",
+        "css": "font-family:var(--rb-font);font-size:15px;font-weight:400;line-height:1.5;color:var(--rb-text);"
+      },
+      {
+        "action": "update",
+        "label": "rb-portfolio-slide",
+        "css": "gap:var(--rb-space-2); @media(--mobile){gap:12px;}"
+      }
+    ],
+    "newClassIds": {
+      "title": "g-eaef0d8",
+      "description": "g-9ae850a"
+    },
+    "priority": "New role classes placed before g-aec96cc; all pre-existing relative priorities preserved.",
+    "updates": [
+      {
+        "action": "update",
+        "element_id": "398df07",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "8100744",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "c31d2f5",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "31f149a",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "c41db73",
+        "classes": [
+          "rb-portfolio-title"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "fad753b",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "f9e7e8d",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "47068a8",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "a9a54ad",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "65b9db0",
+        "classes": [
+          "rb-portfolio-description"
+        ]
+      },
+      {
+        "action": "update",
+        "element_id": "6763114",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://chicagomounting.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "3b1d6f1",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://gcprochicago.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "5729e9f",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://kolo-properties.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "bc72877",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://glenviewsmiles.com/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      },
+      {
+        "action": "update",
+        "element_id": "5937a59",
+        "settings": {
+          "component_id": 5864,
+          "overrides": {
+            "text": "View project",
+            "link": {
+              "destination": "https://elitemechanical.services/",
+              "isTargetBlank": true,
+              "tag": "a"
+            }
+          }
+        }
+      }
+    ],
+    "iconChildrenReplacements": [
+      {
+        "input": {
+          "post_id": 5894,
+          "parent_id": "a01fd95",
+          "mode": "replace_children",
+          "xml_structure": "<e-svg configuration-id=\"Previous chevron\"/>",
+          "element_config": {
+            "Previous chevron": {
+              "svg": {
+                "value": "fa-solid fa-chevron-left",
+                "library": "fa-solid"
+              }
+            }
+          },
+          "style": {
+            "Previous chevron": "width:18px;height:18px;color:inherit;"
+          }
+        },
+        "result": {
+          "success": true,
+          "post_id": 5894,
+          "root_element_ids": [
+            "3bee3764"
+          ],
+          "edit_url": "https://robylo.com/wp-admin/post.php?post=5894&action=elementor",
+          "version": "2026-11-17 18:54:56",
+          "resolved_xml": "<e-svg configuration-id=\"Previous chevron\" id=\"3bee3764\"/>",
+          "removed_element_ids": [
+            "fdd14b7"
+          ],
+          "undo_revision_id": 6085,
+          "llm_instructions": "To undo this change, call elementor/manage-revisions with action=restore, post_id 5894 and revision_id 6085."
+        }
+      },
+      {
+        "input": {
+          "post_id": 5894,
+          "parent_id": "ac514e2",
+          "mode": "replace_children",
+          "xml_structure": "<e-svg configuration-id=\"Next chevron\"/>",
+          "element_config": {
+            "Next chevron": {
+              "svg": {
+                "value": "fa-solid fa-chevron-right",
+                "library": "fa-solid"
+              }
+            }
+          },
+          "style": {
+            "Next chevron": "width:18px;height:18px;color:inherit;"
+          }
+        },
+        "result": {
+          "success": true,
+          "post_id": 5894,
+          "root_element_ids": [
+            "7897cb5b"
+          ],
+          "edit_url": "https://robylo.com/wp-admin/post.php?post=5894&action=elementor",
+          "version": "2026-11-17 18:54:56",
+          "resolved_xml": "<e-svg configuration-id=\"Next chevron\" id=\"7897cb5b\"/>",
+          "removed_element_ids": [
+            "f697708"
+          ],
+          "undo_revision_id": 6086,
+          "llm_instructions": "To undo this change, call elementor/manage-revisions with action=restore, post_id 5894 and revision_id 6086."
+        }
+      }
+    ],
+    "undo": 6084
+  }
+}

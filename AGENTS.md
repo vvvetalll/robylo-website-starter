@@ -7,6 +7,12 @@
 - Keep the child theme limited to necessary WordPress integration and functionality Elementor cannot adequately provide. Document the reason for each exception.
 - All three collaborators may contribute to GitHub independently within their authorized scope. Claude owns design concepts, mockups, visual decisions and handoffs; ChatGPT Work owns Elementor implementation, screenshots, testing and implementation documentation; ChatGPT/Codex owns architecture, code, audits and technical documentation. These roles do not grant website or repository permissions. Follow AI-CONTEXT.md.
 
+## Mandatory permanent visual quality standard
+
+- For every future ROBYLO design and implementation task, all collaborators must read and follow the [Permanent visual quality standard](docs/ROBYLO-CONCEPT.md#permanent-visual-quality-standard--owner-direction-2026-11-18). It applies to every page, section and reusable component, not only Homepage V2.
+- Require compact, carefully proportioned mobile layouts, clear role-based typography hierarchy and intentional spacing. Use the existing concept document as the specification; do not duplicate its values or introduce an additional design system.
+- Verify actual rendered output visually at the documented desktop, tablet and mobile widths, including wrapping, proportions, overflow and affected interactions. Saved settings alone do not establish completion. Record evidence and any verification limits.
+
 ## Coding standards and minimal changes
 
 - Make the smallest change that satisfies the approved task. Preserve unrelated work.
@@ -26,6 +32,7 @@
 - Confirm parent CSS is not loaded twice. Check the child stylesheet still loads if Hello's theme stylesheet is disabled.
 - Use focused tests when behavior warrants them. Do not add tooling or tests merely to mirror trivial implementation.
 - Distinguish static review, upstream documentation, and staging-tested behavior. Never report an unrun check as passed.
+- Owner-required interaction QA (2026-11-17): for every interactive component implemented or changed, test the complete default → hover → click → release → mouse-leave cycle; keyboard Tab → focus → Enter/Space → retained focus; disabled → enabled → disabled; touch tap → release; and repeated rapid clicks. Check desktop and mobile, including keyboard navigation. A successful click alone is insufficient. Record actual state/behavior results and verification limits; preserve keyboard focus indicators and never add JavaScript blur workarounds. Keep checks scoped to the affected component and its actual shared dependencies.
 
 ## AI agent rules
 

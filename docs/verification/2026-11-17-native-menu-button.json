@@ -1,0 +1,106 @@
+{
+  "keyboard": {
+    "tab": {
+      "focus": true,
+      "fv": true,
+      "outline": "rgb(0, 0, 0) solid 2px"
+    },
+    "enterOpen": true,
+    "spaceOpen": true,
+    "focusReturnDuringClose": {
+      "focus": false,
+      "fv": false,
+      "outline": "rgb(0, 0, 0) none 2px"
+    },
+    "focusReturnSettled": {
+      "focus": true,
+      "fv": true,
+      "source": "Separate computed-state read after native close animation completed; document.activeElement was new Menu button344e021f."
+    }
+  },
+  "pointer": [
+    {
+      "stage": "hover",
+      "state": {
+        "active": false,
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "hover": true
+      }
+    },
+    {
+      "stage": "down",
+      "state": {
+        "active": true,
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "hover": true
+      }
+    },
+    {
+      "stage": "release",
+      "state": {
+        "active": false,
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "hover": true
+      }
+    },
+    {
+      "stage": "leave",
+      "state": {
+        "active": false,
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "hover": false
+      }
+    },
+    {
+      "stage": "rapid8",
+      "visiblePopups": 1
+    }
+  ],
+  "touch": {
+    "open": true,
+    "button": {
+      "active": false,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)"
+    }
+  },
+  "widths": [
+    {
+      "containerRight": 284.66668701171875,
+      "display": "flex",
+      "overflow": 0,
+      "right": 284.6666717529297,
+      "viewport": 320,
+      "width": 92.59375
+    },
+    {
+      "containerRight": 394.6666870117187,
+      "display": "flex",
+      "overflow": 0,
+      "right": 394.6666870117187,
+      "viewport": 430,
+      "width": 92.59375
+    },
+    {
+      "containerRight": 1312.3333358764648,
+      "display": "none",
+      "overflow": 0,
+      "right": 0,
+      "viewport": 1440,
+      "width": 0
+    },
+    {
+      "containerRight": 354.66668701171875,
+      "display": "flex",
+      "overflow": 0,
+      "right": 354.66668701171875,
+      "viewport": 390,
+      "width": 92.59375
+    }
+  ],
+  "limits": "Chrome emulation at320/390/430px; desktop1440 confirms Menu remains hidden. Physical owner phone/cache state and screen-reader announcements were not directly observed. Menu has no disabled state."
+}

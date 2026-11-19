@@ -1,0 +1,233 @@
+{
+  "environment": "Chrome desktop1440x900 and mobile390x1100; touch emulation explicitly enabled for final-touch-coarse-release. Native aria-disabled; HTML disabled property stays false.",
+  "observations": [
+    {
+      "label": "before-hover",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "id": "a01fd95",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": false,
+          "focusVisible": false,
+          "hover": true,
+          "id": "ac514e2",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        }
+      ]
+    },
+    {
+      "label": "before-mouse-down",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": false,
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "id": "a01fd95",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": true,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": true,
+          "focusVisible": false,
+          "hover": true,
+          "id": "ac514e2",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        }
+      ]
+    },
+    {
+      "label": "before-release-leave",
+      "buttons": [
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "disabled": false,
+          "focus": false,
+          "focusVisible": false,
+          "hover": false,
+          "id": "a01fd95",
+          "opacity": "1",
+          "outline": "rgb(0, 0, 0) none 2.66667px"
+        },
+        {
+          "active": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "border": "rgb(0, 0, 0)",
+          "color": "rgba(238, 238, 238, 0.9)",
+          "disabled": false,
+          "focus": true,
+          "focusVisible": false,
+          "hover": false,
+          "id": "ac514e2",
+          "opacity": "1",
+          "outline": "rgba(238, 238, 238, 0.9) none 2.66667px"
+        }
+      ]
+    }
+  ],
+  "after_evidence_source": "The following compact records are transcribed from actual CUA computed-state outputs. The reusable observer closure did not persist its appended array across calls; only the three initial before records survived the automatic export. No failed or obscured interaction is counted as passed.",
+  "after_observations": [
+    {
+      "label": "desktop-hover",
+      "hover": true,
+      "active": false,
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(0, 0, 0)"
+    },
+    {
+      "label": "desktop-down",
+      "hover": true,
+      "active": true,
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(51, 51, 51)"
+    },
+    {
+      "label": "desktop-release",
+      "hover": true,
+      "active": false,
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(0, 0, 0)"
+    },
+    {
+      "label": "final-desktop-pointer-focus-only",
+      "hover": false,
+      "focus": true,
+      "focusVisible": false,
+      "active": false,
+      "color": "rgb(0, 0, 0)",
+      "background": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "transform": "translate3d(-1008px, 0px, 0px)"
+    },
+    {
+      "label": "desktop-tab-focus",
+      "hover": false,
+      "focus": true,
+      "focusVisible": true,
+      "active": false,
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(0, 0, 0)",
+      "outline": "rgb(0, 0, 0) solid 2px"
+    },
+    {
+      "label": "desktop-disabled-hover-down",
+      "ariaDisabled": "true",
+      "active": true,
+      "hover": true,
+      "focus": true,
+      "focusVisible": true,
+      "color": "rgb(0, 0, 0)",
+      "background": "rgba(0, 0, 0, 0)",
+      "opacity": "0.35",
+      "cursor": "not-allowed",
+      "outline": "rgb(0, 0, 0) solid 2px"
+    },
+    {
+      "label": "desktop-prev-settled",
+      "control": "previous",
+      "ariaDisabled": "true",
+      "transform": "translate3d(0px, 0px, 0px)",
+      "opacity": "0.35",
+      "active": false
+    },
+    {
+      "label": "desktop-next-settled",
+      "control": "next",
+      "ariaDisabled": "true",
+      "transform": "translate3d(-1184px, 0px, 0px)",
+      "opacity": "0.35",
+      "active": false
+    },
+    {
+      "label": "mobile-leave-pointer",
+      "hover": false,
+      "focus": true,
+      "focusVisible": false,
+      "active": false,
+      "color": "rgb(0, 0, 0)",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "label": "intermediate-mobile-touch-sticky-hover-before-media-fix",
+      "hoverNone": true,
+      "coarsePointer": true,
+      "hover": true,
+      "focus": true,
+      "focusVisible": false,
+      "active": false,
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(0, 0, 0)",
+      "transform": "translate3d(-672px, 0px, 0px)"
+    },
+    {
+      "label": "final-touch-coarse-release",
+      "control": "previous",
+      "hoverNone": true,
+      "coarsePointer": true,
+      "hover": true,
+      "focus": true,
+      "focusVisible": false,
+      "active": false,
+      "color": "rgb(0, 0, 0)",
+      "background": "rgba(0, 0, 0, 0)",
+      "opacity": "1",
+      "transform": "translate3d(-1008px, 0px, 0px)"
+    },
+    {
+      "label": "final-mobile-prev-disabled",
+      "ariaDisabled": "true",
+      "focus": true,
+      "focusVisible": false,
+      "active": false,
+      "color": "rgb(0, 0, 0)",
+      "background": "rgba(0, 0, 0, 0)",
+      "opacity": "0.35",
+      "cursor": "not-allowed"
+    },
+    {
+      "label": "final-mobile-keyboard-settled-after-Space-and-Enter",
+      "focus": true,
+      "focusVisible": true,
+      "active": false,
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(0, 0, 0)",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "transform": "translate3d(-672px, 0px, 0px)"
+    }
+  ],
+  "rapid_click_results": {
+    "count_per_direction": 8,
+    "desktop": "Both boundaries reached,0 and -1184px; disabled/enabled changes correct; active=false after release.",
+    "mobile": "Both directions exercised; previous returned to disabled at start, next became disabled at end; no looping or retained active state."
+  }
+}

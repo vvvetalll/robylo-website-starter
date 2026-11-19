@@ -48,4 +48,6 @@ After deployment, repeat activation, frontend/editor, asset, and configuration c
 
 ## Foundation environment observations
 
+Current native asset-cache setting,2026-11-17: SiteGround Speed Optimizer → Frontend → General → **Remove Query Strings from Static Resources is OFF**. Preserve Elementor's generated CSS/JS version parameters so updated assets receive different browser-cache keys. This was changed after the owner reported vertically stacked phone portfolio cards; horizontal scrolling was subsequently confirmed on the phone after its cache was also cleared. Other optimizer settings were left unchanged. Evidence: [asset-version verification](verification/2026-11-17-carousel-asset-versions.json).
+
 During the foundation inspection on 2026-10-15, Git and Node/npm were available, while PHP, Composer, and WP-CLI were not found on PATH. Git also reported an unreadable user-level ignore file, and a GitHub remote query could not connect. These are local environment observations, not requirements imposed by the theme. No staging runtime or MCP connection has been tested.
