@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- form -->
+  <rect x="30" y="102" width="92" height="96" rx="5" fill="#FFFFFF" stroke="#000" stroke-width="1.5"/>
+  <rect x="42" y="116" width="40" height="6" rx="2" fill="#000"/>
+  <rect x="42" y="130" width="68" height="12" rx="2" fill="#F5F5F5" stroke="#000" stroke-width="1"/>
+  <rect x="42" y="148" width="68" height="12" rx="2" fill="#F5F5F5" stroke="#000" stroke-width="1"/>
+  <rect x="42" y="170" width="68" height="16" rx="2" fill="#000"/>
+  <!-- hub -->
+  <circle cx="200" cy="150" r="22" fill="#000"/>
+  <circle cx="200" cy="150" r="38" stroke="#000" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M122 150 H178" stroke="#000" stroke-width="1.5"/>
+  <path d="M172 145 l6 5 -6 5" stroke="#000" stroke-width="1.5"/>
+  <!-- outputs -->
+  <path d="M222 150 C 250 150, 252 70, 280 70 M222 150 H280 M222 150 C 250 150, 252 230, 280 230" stroke="#000" stroke-width="1.5"/>
+  <!-- calendar -->
+  <rect x="280" y="44" width="90" height="54" rx="4" fill="#FFFFFF" stroke="#000" stroke-width="1.5"/>
+  <line x1="280" y1="58" x2="370" y2="58" stroke="#000" stroke-width="1.5"/>
+  <rect x="290" y="66" width="12" height="10" rx="1" fill="#D6D6D6"/><rect x="308" y="66" width="12" height="10" rx="1" fill="#000"/><rect x="326" y="66" width="12" height="10" rx="1" fill="#D6D6D6"/><rect x="344" y="66" width="12" height="10" rx="1" fill="#D6D6D6"/>
+  <rect x="290" y="80" width="12" height="10" rx="1" fill="#D6D6D6"/><rect x="308" y="80" width="12" height="10" rx="1" fill="#D6D6D6"/><rect x="326" y="80" width="12" height="10" rx="1" fill="#D6D6D6"/>
+  <!-- inbox / reply -->
+  <rect x="280" y="124" width="90" height="52" rx="4" fill="#FFFFFF" stroke="#000" stroke-width="1.5"/>
+  <path d="M280 128 L325 154 L370 128" stroke="#000" stroke-width="1.5"/>
+  <!-- list / CRM -->
+  <rect x="280" y="204" width="90" height="54" rx="4" fill="#FFFFFF" stroke="#000" stroke-width="1.5"/>
+  <circle cx="292" cy="218" r="4" fill="#000"/><rect x="302" y="215" width="54" height="6" rx="2" fill="#000"/>
+  <circle cx="292" cy="232" r="4" fill="#D6D6D6"/><rect x="302" y="229" width="44" height="6" rx="2" fill="#D6D6D6"/>
+  <circle cx="292" cy="246" r="4" fill="#D6D6D6"/><rect x="302" y="243" width="50" height="6" rx="2" fill="#D6D6D6"/>
+</svg>

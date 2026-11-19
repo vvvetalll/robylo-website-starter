@@ -80,3 +80,7 @@ Owner request **Complete All Five Portfolio Studio Plates** explicitly approves 
 **Proposed, not approved:** [Website Design & Development](design-service-web-design-2026-11-19.md) and the [service-page template](design-service-pages-architecture-2026-11-19.md).
 
 **Approved by owner (workflow):** every finalized ROBYLO concept or content specification is committed to GitHub before implementation begins; Claude commits source specifications and approved revisions; ChatGPT Work implements from the committed text and records implementation and verification. Source: owner instruction "Commit All Design Concepts and Decisions to GitHub", 2026-11-19. Rule text added to [AGENTS.md](../AGENTS.md) (Shared GitHub workflow).
+
+## 2026-11-19 — Visual direction "Working Drawings" (proposed)
+
+**Proposed by Claude, not approved:** [visual audit, art direction and Services redesign](design-visual-direction-2026-11-19.md). Copy unchanged. New items if approved: one Drawing tile component, two global classes (Statement, Quote), six SVG drawings. No implementation authorized.

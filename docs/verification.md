@@ -259,3 +259,13 @@ Collaborator: Claude. Branch `docs/concept-specs-2026-11-19` from PR #19 head f6
 - **Checks run:** relative links in all new and changed files resolve to existing files; confirmation checklists counted (Services 8, Website 9); phrase searches in the source Claude Docs matched the committed text at the sampled points.
 - **Limit:** the Claude Docs export tool returns the file inline as base64 that could not be written to disk, so the three Claude Doc specs were transcribed from the doc content rather than byte-copied. Not a byte-level comparison. If a discrepancy is found, the Claude Doc revision named in each file header is the reference.
 - No WordPress, Elementor or website change. No existing PR merged.
+
+## 2026-11-19 — Visual audit and Services redesign mockup (design only)
+
+Collaborator: Claude. Added docs/design-visual-direction-2026-11-19.md and docs/design/2026-11-19-visual-direction/ (desktop 1440 and mobile 390 renders, source HTML, render script, six SVG drawings). Status **Proposed**.
+
+- Evidence: live `/`, `/services/`, `/services/web-design/` opened anonymously in a cloud Chrome browser at 1440 px on 2026-11-19 (site publicly reachable at that time); About from PR #21 capture; stripe.com opened as a reference.
+- Checks run: mockup rendered in headless Chrome at 1440 × 900 (1×) and 390 × 844; `scrollWidth` equals viewport at both; Manrope loaded; visual review of all sections at both widths after one layout fix (zigzag alternation and CTA width).
+- Not verified: tablet widths (768/1024) of the mockup; native Elementor feasibility of SVG upload on this site; entrance motion.
+- Observed issue: public `/services/` and `/services/web-design/` display literal "[Confirm]" markers.
+- No WordPress, Elementor or website change. No PR merged.
