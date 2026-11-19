@@ -19,7 +19,7 @@
 4. Record WordPress, PHP, Hello Elementor, Elementor, optional Pro, and MCP connector versions in the staging handoff. Versions alone do not establish compatibility.
 5. Follow [elementor.md](elementor.md) to validate Atomic capabilities before configuring the design system.
 
-The child stylesheet contains theme metadata and scoped About current-page styling. See the [migration record](theme-consolidation-2026-11-19.md) for the production theme, tested setup, and pending staging checks. Its enqueue uses the theme header version for cache versioning. Hello loads its own styles; the child runs at priority 20 and uses `hello-elementor-theme-style` as a dependency only if already enqueued. It does not force that optional parent style back on.
+The child stylesheet contains theme metadata and scoped About current-page styling. See the [migration record](theme-consolidation-2026-11-19.md) for the installed production theme, verified recovery, and frontend checks. Its enqueue uses the theme header version for cache versioning. Hello loads its own styles; the child runs at priority 20 and uses `hello-elementor-theme-style` as a dependency only if already enqueued. It does not force that optional parent style back on.
 
 ## Verification before deployment
 
