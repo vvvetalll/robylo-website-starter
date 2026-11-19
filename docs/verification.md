@@ -264,3 +264,27 @@ Set the exact artifact SEO title and description in AIOSEO on the existing Servi
 [Desktop preview capture](verification/2026-11-19-services/services-1440-hero.jpg) · [Mobile preview capture](verification/2026-11-19-services/services-390-hero.jpg).
 
 **About 6197 · Restored behind Coming Soon.** The ordinary authenticated route previously showed a one-section skeleton. Saved the existing six-section approved About revision to the ordinary page at the owner's request. At 1440px and 390px it showed “Independent on purpose.”, six sections, no document overflow and an active About nav link. The approved-photo placeholder remains. No code from PR #21 was merged.
+
+## 2026-11-19 · Website Design & Development
+
+**Implemented and verified in the Elementor draft.** Page 6203, `/services/web-design/`. Review via [Elementor → Preview Changes](https://robylo.com/wp-admin/post.php?post=6203&action=elementor) while signed into WordPress. The new content is in the Elementor autosave. The pre-existing skeleton stays on the ordinary authenticated URL and Coming Soon protects public access. This work is based on the Services hub in PR #24.
+
+The November 19 Claude specification supplies the English copy, section order and search metadata. The nine sections cover the hero, signs and comparison, project scope, five website principles with the phone diagram, ownership, six-step timeline, related services, six visible Q&As and the black contact section. The hero reuses Chicago Mounting Studio Plate 6145 at 4:3. The [static phone diagram](verification/2026-11-19-website-design/website-phone-diagram.svg) is Media Library attachment 6305, rendered as an Atomic image with descriptive alt text.
+
+The draft reuses Kit 5744 styles and the Primary Button component 5864. Layout, breakpoint changes and focus are saved in Atomic element settings. No theme, global kit, component definition or script changes. The page, its Elementor styles and AIOSEO fields are stored in WordPress. Pre-change Elementor rollback revision is 6236. Revision 6307 precedes the isolated keyboard-focus follow-up.
+
+**Verified in authenticated Chrome preview.** At 1440, 1024, 768, 390 and 320px, all nine sections rendered with Manrope, both assets loaded and document width matched viewport width. The timeline reflows from six to three to one column. The diagram remained readable at 320px. All 14 content links were reachable with a visible keyboard outline at 1440 and 320px. All nine distinct route destinations opened, with the mail link checked as `mailto:info@robylo.com`. Home and About rendered their existing content and Services rendered its existing skeleton on the ordinary route. Work and the three other service pages are existing skeletons. The live preview returned the assigned AIOSEO title and description and `noindex`. Logged-out requests to Home, About, Services and Web Design all returned Coming Soon. Hero, diagram, timeline and mobile screenshots were captured for private owner review.
+
+### Pending owner confirmation before publication
+
+| Claim | Draft location |
+| --- | --- |
+| Domain, hosting, WordPress admin and Google accounts are in the client's name with full access, and the site and its assets go with the client if they leave. | 5 · Set up in your name |
+| Whether the site is on the client's hosting account or ROBYLO provides hosting. | 5 · Ownership |
+| ROBYLO helps write or edit page copy and the client reviews it before launch. | 3 · Scope note, 6 · Step 03, 8 · Content FAQ |
+| Analytics and form tracking are included. | 3 · Build |
+| ROBYLO shows the client how to edit the site after launch. | 3 · Launch and after, 6 · Step 06, 8 · Updates FAQ |
+| Care and updates are offered through Ongoing Support. | 3 · Launch and after |
+| Clients see the key pages on phone and desktop before the full build. | 6 · Step 04 |
+| Estimated timeline and price are provided with scope before work begins. | 8 · Timing and cost FAQs |
+| Automation can send an automatic first reply on incoming leads. | 7 · AI & Business Automation |
