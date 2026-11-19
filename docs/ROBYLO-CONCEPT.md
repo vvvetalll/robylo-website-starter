@@ -234,3 +234,11 @@ Web design, local SEO, Google Ads, and practical automation for businesses in Ch
 Do not install a new SEO plugin or introduce duplicate metadata.
 
 Keep the existing indexing and Coming Soon configuration unchanged.
+
+### Visual balance for ROBYLO
+
+**Owner direction, 2026-11-19.** Aim for 70% clear, intuitive interface and 30% meaningful visual accents. This is a qualitative balance. Design for readable type, simple navigation, clear contact actions, generous spacing and straightforward mobile use. Use the existing Manrope and monochrome system.
+
+Use real project imagery and Studio Plates for evidence. Use simplified interface previews or occasional illustrations when they clarify an idea. Let section composition and contrast provide variety. Avoid pages made up solely of text and rules, engineering-style drawings and connectors, decorative clutter, and unnecessary motion.
+
+PR #27 is a reference for composition and rhythm. Services is the first application of this direction. The Homepage is largely approved. Preserve its structure, visual identity, content, functionality, CTA and footer. Propose a Homepage change only when something is concretely inconsistent or when a new solution clearly improves clarity, usability or visual quality. Explain the issue, proposed change and benefit. Obtain owner approval before significant changes.

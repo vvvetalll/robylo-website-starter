@@ -199,3 +199,29 @@ Home5894 remains the assigned front page. Its WordPress title and underlying bod
 - Homepage Hero #contact/#work actions, all six external Visit site destinations and Studio Plates unchanged. Native Home body139 nodes identical before/after. Global class/variable registries unchanged.
 
 [Verification/evidence](verification.md#2026-11-18--website-architecture-and-page-skeletons). Native page trees, parents/slugs/status, component overrides, Popup conditions and AIOSEO settings remain database-held, not portable exports. Full page designs/content, noindex removal and eventual launch are separate future scopes.
+
+## 2026-11-19 — Services visual implementation
+
+**Implemented for authenticated review.** WordPress page 6191, `/services/`. The five sections above the existing CTA have been redesigned. The six section roots and `#where-to-start` were retained. The existing CTA subtree `46a02eb3` is identical to its pre-change read-back. The global footer, Homepage, About and Web Design were outside the edit scope.
+
+- Split hero with four instances of Atomic component 6316, **ROBYLO / Drawing tile**. The component exposes one link destination, image and label. The native grid uses four columns at 1440, 1024 and 768px and two at 390 and 320px. The Primary Button component 5864 remains in use.
+- A black band groups six customer quotes, followed by four alternating text and visual panels with native lists and a service pairing callout. Mobile puts the visual above each text group.
+- Statement rows on the soft section use `rb-statement` (64/48/34px, 700), and problem quotes use `rb-quote` (28/24/22px, 600). Existing Manrope and Kit 5744 variables remain authoritative. The native tile and panel controls set radius to 0px locally because the current shared `rb-radius` token is 4px.
+- The engagement panels use contrast and the approved “Start and finish” and “Every month” labels. The supplied schematics are omitted from the rendered page. The six SVGs imported during the initial scope remain in the Media Library under 6308–6312 and 6315.
+- Visuals are the existing Chicago Mounting Studio Plate 6145 and [three illustrative UI previews](design/services-studio-visuals-2026-11-19/) under attachments 6319–6321. The previews use generic interface labels without client records or performance figures.
+
+No new theme styles, scripts, packages or global variables. All edits are native Atomic. The editor data, component, media and global classes live in WordPress. GitHub carries the approved source art and implementation notes. Revision 6325 is the pre-redesign Elementor rollback snapshot. A whole-page export would include owner-review copy and depends on the installed kit and component. Keep that data within WordPress and private review channels.
+
+## 2026-11-19 — Services visual refinement
+
+**Saved for review in Elementor on page 6191.** The staged changes are limited to the customer problems, service details and four standards. The approved copy, links, four images, SEO fields and section order were preserved. The hero, engagement panels and black CTA subtrees match the published baseline. The global footer and Homepage are outside the change. Restore revision 6336 for the baseline before this pass.
+
+- Customer problems retain the existing black background and 3/2/1-column grid. The shared dark modifier made all paragraphs white, so the section uses the existing ink and paper tokens through its native Atomic controls. Quotes use weight 700 and answers render at 16px / 1.6 in their existing gray. Tablet quote minimum height is 60px.
+- Service lists and related-service callouts use 16px type. The 4:3 desktop illustration slots are 624px wide, previously 576px for the Studio Plate and 560px for the three UI previews. Removed the extra UI panel padding and tightened row spacing. Tablet illustrations align to the start of the text. Mobile keeps the same full-width image-first sequence.
+- The four standards use smaller markers and 56/42/30px statement text with a wider explanation column. The intermediate rules are gone. The top and bottom rules frame the group. Explanations use 17px on desktop and tablet and 16px on mobile.
+
+All changes use existing Elementor Atomic settings and class roles. No shared tokens, components, stylesheets or scripts were added. Coming Soon is active and the edited version is unpublished.
+
+## 2026-11-19 — Services ownership copy
+
+**Saved for owner review.** Only the paragraph under “Yours to own.” on Services 6191 changed. The [approved wording](design-services-page-2026-11-19.md#2026-11-19--approved-ownership-copy-revision) replaces that paragraph and its specific review marker. The other eight marker occurrences and the previous visual refinement are preserved in the saved draft.

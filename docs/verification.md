@@ -269,3 +269,26 @@ Collaborator: Claude. Added docs/design-visual-direction-2026-11-19.md and docs/
 - Not verified: tablet widths (768/1024) of the mockup; native Elementor feasibility of SVG upload on this site; entrance motion.
 - Observed issue: public `/services/` and `/services/web-design/` display literal "[Confirm]" markers.
 - No WordPress, Elementor or website change. No PR merged.
+
+## 2026-11-19 — Services visual balance and release QA
+
+**Verified in authenticated Chrome.** Opened and visually inspected both PR #27 images before the redesign. Compared the rendered Elementor page on desktop and mobile by section. The hero retains the split introduction and service grid. The six problems form a distinct black band. The four solution visuals alternate on large screens and lead each mobile group. The standards use display-sized statements. Engagement uses shorter contrasting panels with no diagram. The sixth section and footer use their existing designs. Differences in imagery, accent density, engagement panels and CTA follow the owner's later 70/30 and CTA decisions.
+
+- Checked the saved frontend at 1440, 1024, 768, 390 and 320px. No horizontal overflow or clipped tile labels. Card heights exceeded 48px. Checked all eight visual instances, including below-the-fold images after scrolling. Full-page captures are provided privately for owner review.
+- All 25 main-content links showed visible keyboard focus at 1440 and 390px. Enter on the hero secondary action reached `#where-to-start`. Pointer entry and leave added and removed the tile outline. A touch-emulated tap on the Web Design tile opened its destination. No new script or animation states were added.
+- All nine literal owner-review markers remain in 6191. The full saved CTA subtree matches the original. The SEO title, description, canonical and robots settings match the pre-change read-back. Home, About and Web Design still render their existing content in the authenticated session.
+- Coming Soon was restored before visual editing. Logged-out requests to Home, About, Services and Web Design returned the Coming Soon template before and after the save. None showed review markers. Authenticated Services returned `noindex, nofollow`.
+- Native revision 6325 provides rollback on this WordPress site. An importable whole-page export and full screenshots are omitted from the public PR because they reproduce owner-review text.
+
+## 2026-11-19 — Services refinement preview QA
+
+**Verified in authenticated Chrome.** Visually compared the published baseline with the staged frontend, using full-page captures at 1440 and 390px and section captures at 1024, 768 and 320px. Rechecked tablet alignment, consistent 4:3 media, text wrapping and the revised statement rhythm. All eight image instances rendered, and none of the five widths had horizontal overflow.
+
+- Full-page capture heights changed from 7742 to 7610px at desktop and 9834 to 9740px at 390px. The six main sections gained 43px at 320px as the larger supporting copy wrapped.
+- All 25 main-content links retained visible keyboard focus at 1440 and 390px. Enter on the secondary hero action still targets `#where-to-start`.
+- Elementor configuration read-back confirmed unchanged content, URLs and assets. The hero, engagement and CTA subtrees matched the baseline exactly. AIOSEO title, description, canonical and robots flags matched the baseline. The preview emits noindex, and a logged-out request still returns Coming Soon with no review text.
+- Before/after captures are provided privately. Elementor remains staged, and no launch or PR merge was performed.
+
+## 2026-11-19 — Services ownership copy QA
+
+Verified the exact approved text in the authenticated Elementor frontend at 1440 and 390px, with the existing Manrope sizes of 17 and 16px and zero horizontal overflow. A complete configuration comparison of the Services draft against its pre-edit state found only the “Yours to own.” paragraph changed. Eight other review markers remain. Coming Soon and noindex were verified, and the ownership revision remains unpublished.
