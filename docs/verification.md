@@ -292,3 +292,21 @@ Collaborator: Claude. Added docs/design-visual-direction-2026-11-19.md and docs/
 ## 2026-11-19 — Services ownership copy QA
 
 Verified the exact approved text in the authenticated Elementor frontend at 1440 and 390px, with the existing Manrope sizes of 17 and 16px and zero horizontal overflow. A complete configuration comparison of the Services draft against its pre-edit state found only the “Yours to own.” paragraph changed. Eight other review markers remain. Coming Soon and noindex were verified, and the ownership revision remains unpublished.
+
+## 2026-11-19 — Visual workflow and Web Design composition QA
+
+**Verified in the authenticated Chrome frontend preview.** Compared the existing and staged page visually, with full-page captures at 1440 and 390px and section checks at 1024, 768 and 320px. All three established attachments loaded. The design-review placeholder and GCPRO proof retained 4:3 proportions, the comparison cards stacked cleanly on mobile, and no viewport had horizontal overflow. The new scope slot measured 487×365px at desktop, 320×240px on 390px mobile and 280×210px at 320px.
+
+All 14 existing content links showed visible keyboard focus at 1440 and 390px. Read-back confirmed all original nodes and content remained present, all nine section roots kept their order and all 12 existing confirmation marker occurrences remained. The Hero, signature and final CTA trees matched the baseline exactly. The pending Services draft also matched its prior state. No changes were made to the global footer.
+
+The edited page emits noindex. Anonymous Home, Services and Web Design requests showed Coming Soon without review copy. No publication or PR merge was performed. Full-page evidence is delivered privately because it includes owner-review content. Composition approval and a final asset for the design-review slot remain pending.
+
+Final pass following the [buttons and links hierarchy](ROBYLO-CONCEPT.md#buttons-and-links-hierarchy): the only additional changes in 6203 were two native link labels. Rechecked the frontend at 320, 390, 768, 1024 and 1440px with zero horizontal overflow, and refreshed full-page desktop and mobile evidence with all three existing visuals loaded. Both updated links retained their transparent underlined style and showed a visible 2px keyboard focus outline at 390 and 1440px. Both destinations opened in the authenticated frontend. The actual Web Design preview still emitted `noindex, nofollow`. Unauthenticated requests returned only the existing Coming Soon page, which did not itself send a robots meta directive or `X-Robots-Tag` during this check. Indexing and gate settings were preserved.
+
+## 2026-11-19 — Web Design targeted refinement and FAQ QA
+
+**Verified in the authenticated Chrome preview.** Visually compared before/after captures at 1440 and 390px and inspected intermediate renders at 320, 768 and 1024px. The graphite cards render with equal widths and contrast, Scope stages wrap and stack with four square icon slots, the process numbers remain prominent, and the editing preview preserves 4:3. No horizontal overflow at any of the five widths. Private review evidence includes the desktop/mobile comparisons and mobile collapsed and open FAQ states.
+
+The FAQ started with all six items closed. Actual mouse clicks on desktop and emulated touch taps at 390px opened the first item, switched to the second and closed it. Enter, Space and Tab worked at 1440 and 390px, with a visible 2px outline and focus retained on the toggled row. Checked all six answers individually and verified native single-open grouping and the visible plus/minus swap. The existing Approach and FAQ text links retained destinations and visible keyboard focus.
+
+Structure comparison found identical order for the nine sections and unchanged Hero, signature illustration, related Work section and final CTA subtrees. FAQ heading and follow-up link were identical. Full content and destination comparison matched after excluding the two updated placeholder labels. All 12 existing review markers remain, including four in FAQ. Web Design preview emitted `noindex, nofollow`, while anonymous Home, Services and Web Design returned Coming Soon. No content was released or merged.

@@ -225,3 +225,26 @@ All changes use existing Elementor Atomic settings and class roles. No shared to
 ## 2026-11-19 — Services ownership copy
 
 **Saved for owner review.** Only the paragraph under “Yours to own.” on Services 6191 changed. The [approved wording](design-services-page-2026-11-19.md#2026-11-19--approved-ownership-copy-revision) replaces that paragraph and its specific review marker. The other eight marker occurrences and the previous visual refinement are preserved in the saved draft.
+
+## 2026-11-19 — Website Design composition with approved assets
+
+**Staged for composition approval.** WordPress 6203 keeps its nine sections, existing approved copy, CTA, links and SEO fields. Existing Hero asset 6145 and signature diagram 6305 retain their original placements and settings. The new Work proof references the existing GCPRO Restoration Studio Plate 6167, with its original 4:3 aspect ratio and attachment alt text.
+
+The fix, redesign and rebuild choices use equal charcoal panels on large screens and stack on phones. They use the existing `rb-hover` (#333333), `rb-paper` and `rb-line` colors. The Scope section groups its four existing phases next to a neutral temporary visual. Its two-column phase grid becomes one column on mobile. All styling is native Atomic and the design system has no new tokens.
+
+| Remaining asset slot | Purpose and treatment |
+| --- | --- |
+| Web Design 6203 · Design review preview | Labeled neutral 4:3 placeholder. Replace only placeholder child `6ecbeb65` inside the existing slot `4eef8dd9` with an approved design-review visual after owner sign-off. |
+| About 6197 · Founder portrait | Existing portrait placeholder `5c42ac2c`, checked for inventory only. It remains pending the separately approved photo. |
+
+No media, icon, theme or shared component changes. Other unfinished pages follow the same approval sequence, starting from their own structure and hierarchy. Homepage, Services and the global footer are outside the changes. Elementor revision 6347 was created immediately before this Web Design pass.
+
+Final action hierarchy uses the existing Hero and final CTA components. The standalone “How every ROBYLO project works” (`6cda9e60`) and “More questions” (`9f3988a`) links retain their native Atomic text-link styling and `/approach/` and `/faq/` destinations. Their labels gained a right arrow. Linked service headings, inline links and shared components were preserved.
+
+## 2026-11-19 — Website Design targeted refinement and native FAQ
+
+**Implemented for owner review, WordPress 6203, [PR #29](https://github.com/vvvetalll/robylo-website-starter/pull/29).** The comparison keeps three graphite cards with 28px desktop, 22px tablet and 20px mobile padding, stronger white headings and light-gray descriptions. Scope uses a full-width two-by-two stage grid that stacks on phones. The process uses three columns on desktop, two on tablet and one on phones. Existing step numbers are 36px, 32px and 28px respectively. Ownership groups the original copy in a readable text column next to the reused 4:3 review slot and stacks the preview below the copy on phones.
+
+The review placeholders are the four decorative Atomic icon slots (Plan `7931603b`, Design `1eb245f5`, Build `9f7ef65`, Launch and after `3687beca`) and the **Website editing preview** slot (`4eef8dd9`, replace its placeholder child `6ecbeb65`). The preview slot moved from Scope to Ownership. The icon slots are 44px square on larger screens and 36px square on phones. Final assets await owner approval. No graphic assets were created or uploaded.
+
+The FAQ uses Atomic `e-accordion` `4361048c` with all six answers collapsed on load, one answer open at most, and existing library plus/minus indicators. The entire native summary row is operable and has a visible 2px keyboard focus outline. FAQ structured data is disabled, maintaining the existing SEO scope. All approved copy, link destinations and 12 `[Confirm]` occurrences remain. Elementor revision 6353 is the checkpoint before this pass.

@@ -242,3 +242,38 @@ Keep the existing indexing and Coming Soon configuration unchanged.
 Use real project imagery and Studio Plates for evidence. Use simplified interface previews or occasional illustrations when they clarify an idea. Let section composition and contrast provide variety. Avoid pages made up solely of text and rules, engineering-style drawings and connectors, decorative clutter, and unnecessary motion.
 
 PR #27 is a reference for composition and rhythm. Services is the first application of this direction. The Homepage is largely approved. Preserve its structure, visual identity, content, functionality, CTA and footer. Propose a Homepage change only when something is concretely inconsistent or when a new solution clearly improves clarity, usability or visual quality. Explain the issue, proposed change and benefit. Obtain owner approval before significant changes.
+
+### Visual design and placeholder workflow
+
+**Approved by the owner, 2026-11-19.** Applies to unfinished pages, new pages and major redesigns. Use the [70/30 visual balance](#visual-balance-for-robylo) and the permanent quality standard above.
+
+1. Define the page structure and content hierarchy.
+2. Build the complete composition with available approved project assets and neutral temporary placeholders wherever an image, icon or illustration is expected. Keep placeholder labels visible for internal review. Match the anticipated asset proportions and make replacement independent of layout.
+3. Visually verify the rendered layout on desktop, tablet and mobile, including spacing, type, responsive wrapping and proportions.
+4. Obtain owner approval of the composition and record the remaining asset slots.
+5. Place final assets with owner approval. Final graphic production begins only after approval.
+6. Perform final visual and accessibility QA with those assets in place.
+
+For asset sourcing and production, follow [the mandatory restrictions in AGENTS.md](../AGENTS.md#visual-design--placeholder-workflow). Existing approved project imagery and icons are the available asset pool during composition. A layout that omits planned visual slots is incomplete.
+
+Start this rollout on Website Design & Development. The approved Homepage and Services, shared CTA, footer and site architecture are outside the redesign scope.
+
+### Monochrome palette and typography
+
+**Approved owner direction, 2026-11-19.** Use a professional grayscale within the [70/30 visual balance](#visual-balance-for-robylo). Reuse existing Atomic color variables. Add a token only when an approved repeated need warrants it.
+
+| Range | Role |
+| --- | --- |
+| Black `#000000` | Primary CTAs and occasional high-contrast sections |
+| Charcoal `#171717–#333333` | Secondary dark surfaces, cards and selected accents |
+| Gray `#444444–#666666` | Body copy, descriptions and supporting text on light surfaces |
+| Soft gray `#F5F5F5` | Section backgrounds, cards and subtle separation |
+| White `#FFFFFF` | Main backgrounds, whitespace and primary text on dark surfaces |
+
+Use strong, dark headings on light surfaces and white headings on dark surfaces. Give body and supporting text a softer gray with sufficient contrast. Reserve darker or heavier treatment for the phrases that need emphasis. Let white, soft-gray and occasional dark sections establish rhythm. Consider charcoal cards within dark compositions where the grouping clarifies content. The palette is a guide for approved work and carries no requirement to recolor existing pages or shared components.
+
+### Buttons and links hierarchy
+
+**Approved owner direction, 2026-11-19.** Give the hero a primary CTA and an optional secondary action. Use a prominent primary button in the final CTA. For navigation within content, prefer clean text links with a subtle right arrow (→) to services, case studies and related pages. Keep links within sentences readable without requiring an arrow. Use an additional in-page button only for a distinct, important action that genuinely needs the emphasis.
+
+Reuse established Elementor button and link styles. Keep link typography, spacing, hover, visible keyboard focus and accessible contrast consistent. Preserve approved CTA components and working destinations. Follow this hierarchy on unfinished pages and in future approved work. Revisit already approved sections only when their own scope calls for it.

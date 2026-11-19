@@ -15,6 +15,15 @@
 
 - For approved portfolio-image work, follow [portfolio image production](docs/portfolio-image-guidelines.md) and preserve the canonical Chicago v3 composition.
 
+## Visual Design & Placeholder Workflow
+
+- **Mandatory for ChatGPT Work, Claude, Codex and all development agents.** Follow the [visual design and placeholder workflow](docs/ROBYLO-CONCEPT.md#visual-design-and-placeholder-workflow) for every new page and major redesign. Complete the responsive composition and obtain owner approval before replacing temporary assets. Final QA follows approved asset placement.
+- Reuse only existing approved ROBYLO project screenshots, Studio Plates, other real project images and approved icons. Do not search for or download new images, generate final images or illustrations, introduce stock imagery, or replace or modify approved project imagery. Obtain owner approval before creating final icons. Final graphic production or asset replacement also requires owner approval.
+- Represent missing images, illustrations and icons with neutral, clearly identified internal placeholders. Set realistic proportions and responsive dimensions. Make each slot replaceable without rebuilding its section. When a design calls for visuals, a text-only layout is incomplete.
+- Apply the existing 70/30 visual balance, permanent visual quality standard and [monochrome palette and typography guideline](docs/ROBYLO-CONCEPT.md#monochrome-palette-and-typography). Record placeholder purpose, aspect ratio and approval status with the page's verification.
+- Follow the [buttons and links hierarchy](docs/ROBYLO-CONCEPT.md#buttons-and-links-hierarchy). Use the primary CTA in the hero and final CTA, prefer text links with a subtle right arrow for in-content navigation, and reserve additional buttons for distinct, important actions. Preserve approved CTA components and working destinations.
+- For future ROBYLO FAQ sections, use the native Elementor Atomic Accordion. Start fully collapsed, allow one open item at a time, show plus when closed and minus when open, and make the whole question row operable. Keep visible keyboard focus and native expanded/collapsed semantics. Verify click, touch, Enter and Space on the rendered page. Preserve approved question and answer text and review markers.
+
 ## Coding standards and minimal changes
 
 - Make the smallest change that satisfies the approved task. Preserve unrelated work.

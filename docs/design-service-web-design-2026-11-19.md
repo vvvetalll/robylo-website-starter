@@ -301,3 +301,28 @@ Work can build the full page now. Each line below goes live only after the owner
 - [ ] **Automatic first reply** (section 7, Automation row): same as the Services hub item.
 
 Confirmed or factual, no approval needed: the four service names and URLs; One-Time Projects with an agreed scope; Ongoing Support; the six live projects on /work/; the use of the Chicago Mounting plate already shown on the homepage; WordPress and Elementor as the platform; the redirect and no-ranking-promise wording.
+
+## 2026-11-19 — Owner-review composition with existing assets
+
+**Scope authorized.** Apply the [visual design and placeholder workflow](ROBYLO-CONCEPT.md#visual-design-and-placeholder-workflow) to WordPress page 6203. The existing nine sections and their copy form the content baseline. Preserve all links, confirmation markers, SEO fields, the contact CTA and global footer. Composition approval is pending. See [PR #25](https://github.com/vvvetalll/robylo-website-starter/pull/25) for the earlier implementation.
+
+- Keep the Chicago Mounting Studio Plate in the hero and the existing annotated phone-page illustration in the signature section.
+- Clarify the fix, redesign and rebuild comparison with three equal charcoal panels. Use the existing charcoal token, white headings and softer light-gray descriptions. Keep the seven signs and their reading order.
+- Give the four project scope groups a shared editorial composition alongside one clearly labeled, replaceable **Design review preview** placeholder at 4:3. Use a 2×2 scope group grid on larger screens and one column on mobile.
+- Pair the existing Work reference with the already approved real GCPRO Restoration Studio Plate, following the related services in the existing section. Keep the existing Work destination and image proportions.
+- Review with Coming Soon and noindex active. Final artwork for the design review slot remains pending owner approval.
+- Keep the existing Hero and final CTA actions. Use the established text-link treatment with a subtle right arrow for the standalone Approach and FAQ links in content. Preserve their existing destinations.
+
+## 2026-11-19 — Targeted visual refinement
+
+**Owner-authorized scope for review.** Refine four existing sections in Elementor page 6203, using the approved Services page as a reference for visual rhythm. Retain the nine-section order, approved content and links, all unresolved review markers, page hierarchy, SEO settings, Coming Soon, and the existing Hero, Chicago Mounting, signature phone illustration, GCPRO Studio Plate, FAQ, CTA and footer.
+
+- Give the existing fix, redesign and rebuild choices a more generous graphite card layout with white headings and readable light-gray descriptions. Stack the three cards on phones.
+- Give each of the four project stages one neutral, separately replaceable icon slot and a clearer text hierarchy. Arrange them in two spacious columns with two stages per row on larger screens and one column on phones.
+- Present the six existing process steps as a spacious numbered grid. Use three columns on desktop, two on tablet and one on phones, with prominent numbers and no connecting line.
+- Arrange the ownership text as a single editorial column beside a neutral 4:3 website editing preview. Reuse the existing review slot from Scope, where the four icon slots now serve as visual anchors. Stack ownership text and preview on phones.
+- Use approved Atomic styles and placeholder-only elements. Final icons and preview artwork remain pending owner approval.
+
+### FAQ interaction update
+
+**Owner-authorized refinement.** This supersedes the earlier open Q&A presentation for page 6203. Keep the FAQ heading, section background, six exact questions and answers, all review markers, and the existing link below the questions. Use Elementor's native Atomic Accordion with all rows initially collapsed, one open answer at a time, whole-row activation, plus and minus indicators, subtle dividers and visible keyboard focus. Leave SEO settings and FAQ schema unchanged. Verify with mouse, touch, Enter and Space on the rendered preview.
