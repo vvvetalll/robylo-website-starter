@@ -310,3 +310,13 @@ Work can build the page now. These lines go live only after the owner confirms e
 Already confirmed by the owner and safe to publish: the two engagement formats and their names; One-Time Projects have an agreed scope and deliverables; the four service names; the target customer types.
 
 If a line can't be confirmed, delete it rather than soften it. Every section still works with one fewer item.
+
+## 2026-11-19 — Approved ownership copy revision
+
+Owner approval in the “Update ‘Yours to own’ Copy” brief applies to Services page 6191, “What properly means.” This revision supersedes the earlier description and resolves its specific review marker. Other confirmation items retain their status.
+
+**Yours to own.**
+
+Your business, your digital assets. We can handle the entire setup and ongoing management, while keeping ownership and access clear. If you ever decide to move on, we'll help make the transition straightforward.
+
+[Approved business principle](decisions.md#2026-11-19--client-ownership-and-flexible-management).
