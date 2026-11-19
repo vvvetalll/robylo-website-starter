@@ -211,3 +211,13 @@ Home5894 remains the assigned front page. Its WordPress title and underlying bod
 - Visuals are the existing Chicago Mounting Studio Plate 6145 and [three illustrative UI previews](design/services-studio-visuals-2026-11-19/) under attachments 6319–6321. The previews use generic interface labels without client records or performance figures.
 
 No new theme styles, scripts, packages or global variables. All edits are native Atomic. The editor data, component, media and global classes live in WordPress. GitHub carries the approved source art and implementation notes. Revision 6325 is the pre-redesign Elementor rollback snapshot. A whole-page export would include owner-review copy and depends on the installed kit and component. Keep that data within WordPress and private review channels.
+
+## 2026-11-19 — Services visual refinement
+
+**Saved for review in Elementor on page 6191.** The staged changes are limited to the customer problems, service details and four standards. The approved copy, links, four images, SEO fields and section order were preserved. The hero, engagement panels and black CTA subtrees match the published baseline. The global footer and Homepage are outside the change. Restore revision 6336 for the baseline before this pass.
+
+- Customer problems retain the existing black background and 3/2/1-column grid. The shared dark modifier made all paragraphs white, so the section uses the existing ink and paper tokens through its native Atomic controls. Quotes use weight 700 and answers render at 16px / 1.6 in their existing gray. Tablet quote minimum height is 60px.
+- Service lists and related-service callouts use 16px type. The 4:3 desktop illustration slots are 624px wide, previously 576px for the Studio Plate and 560px for the three UI previews. Removed the extra UI panel padding and tightened row spacing. Tablet illustrations align to the start of the text. Mobile keeps the same full-width image-first sequence.
+- The four standards use smaller markers and 56/42/30px statement text with a wider explanation column. The intermediate rules are gone. The top and bottom rules frame the group. Explanations use 17px on desktop and tablet and 16px on mobile.
+
+All changes use existing Elementor Atomic settings and class roles. No shared tokens, components, stylesheets or scripts were added. Coming Soon is active and the edited version is unpublished.

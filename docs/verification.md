@@ -279,3 +279,12 @@ Collaborator: Claude. Added docs/design-visual-direction-2026-11-19.md and docs/
 - All nine literal owner-review markers remain in 6191. The full saved CTA subtree matches the original. The SEO title, description, canonical and robots settings match the pre-change read-back. Home, About and Web Design still render their existing content in the authenticated session.
 - Coming Soon was restored before visual editing. Logged-out requests to Home, About, Services and Web Design returned the Coming Soon template before and after the save. None showed review markers. Authenticated Services returned `noindex, nofollow`.
 - Native revision 6325 provides rollback on this WordPress site. An importable whole-page export and full screenshots are omitted from the public PR because they reproduce owner-review text.
+
+## 2026-11-19 — Services refinement preview QA
+
+**Verified in authenticated Chrome.** Visually compared the published baseline with the staged frontend, using full-page captures at 1440 and 390px and section captures at 1024, 768 and 320px. Rechecked tablet alignment, consistent 4:3 media, text wrapping and the revised statement rhythm. All eight image instances rendered, and none of the five widths had horizontal overflow.
+
+- Full-page capture heights changed from 7742 to 7610px at desktop and 9834 to 9740px at 390px. The six main sections gained 43px at 320px as the larger supporting copy wrapped.
+- All 25 main-content links retained visible keyboard focus at 1440 and 390px. Enter on the secondary hero action still targets `#where-to-start`.
+- Elementor configuration read-back confirmed unchanged content, URLs and assets. The hero, engagement and CTA subtrees matched the baseline exactly. AIOSEO title, description, canonical and robots flags matched the baseline. The preview emits noindex, and a logged-out request still returns Coming Soon with no review text.
+- Before/after captures are provided privately. Elementor remains staged, and no launch or PR merge was performed.
