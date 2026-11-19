@@ -288,3 +288,7 @@ Collaborator: Claude. Added docs/design-visual-direction-2026-11-19.md and docs/
 - All 25 main-content links retained visible keyboard focus at 1440 and 390px. Enter on the secondary hero action still targets `#where-to-start`.
 - Elementor configuration read-back confirmed unchanged content, URLs and assets. The hero, engagement and CTA subtrees matched the baseline exactly. AIOSEO title, description, canonical and robots flags matched the baseline. The preview emits noindex, and a logged-out request still returns Coming Soon with no review text.
 - Before/after captures are provided privately. Elementor remains staged, and no launch or PR merge was performed.
+
+## 2026-11-19 — Services ownership copy QA
+
+Verified the exact approved text in the authenticated Elementor frontend at 1440 and 390px, with the existing Manrope sizes of 17 and 16px and zero horizontal overflow. A complete configuration comparison of the Services draft against its pre-edit state found only the “Yours to own.” paragraph changed. Eight other review markers remain. Coming Soon and noindex were verified, and the ownership revision remains unpublished.

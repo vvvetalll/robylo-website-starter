@@ -221,3 +221,7 @@ No new theme styles, scripts, packages or global variables. All edits are native
 - The four standards use smaller markers and 56/42/30px statement text with a wider explanation column. The intermediate rules are gone. The top and bottom rules frame the group. Explanations use 17px on desktop and tablet and 16px on mobile.
 
 All changes use existing Elementor Atomic settings and class roles. No shared tokens, components, stylesheets or scripts were added. Coming Soon is active and the edited version is unpublished.
+
+## 2026-11-19 — Services ownership copy
+
+**Saved for owner review.** Only the paragraph under “Yours to own.” on Services 6191 changed. The [approved wording](design-services-page-2026-11-19.md#2026-11-19--approved-ownership-copy-revision) replaces that paragraph and its specific review marker. The other eight marker occurrences and the previous visual refinement are preserved in the saved draft.
