@@ -1,0 +1,891 @@
+{
+  "checks": [
+    {
+      "client": 1425,
+      "heads": [
+        [
+          "H1",
+          "Independent on purpose."
+        ],
+        [
+          "H2",
+          "One point of contact. The person doing the work."
+        ],
+        [
+          "H2",
+          "Your business doesn't need more complexity."
+        ],
+        [
+          "H2",
+          "A simpler way to work together."
+        ],
+        [
+          "H3",
+          "01 / Direct communication"
+        ],
+        [
+          "H3",
+          "02 / Connected thinking"
+        ],
+        [
+          "H3",
+          "03 / Practical decisions"
+        ],
+        [
+          "H3",
+          "04 / Personal accountability"
+        ],
+        [
+          "H2",
+          "See the work. Understand the approach."
+        ],
+        [
+          "H3",
+          "Selected Work"
+        ],
+        [
+          "H3",
+          "Our Approach"
+        ],
+        [
+          "H2",
+          "Let's make something work better."
+        ]
+      ],
+      "height": 3756,
+      "links": [
+        [
+          "Explore our work",
+          "/work/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "How we work",
+          "/approach/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "Let's talk",
+          "/contact/",
+          "rgb(255, 255, 255)",
+          "rgb(0, 0, 0)"
+        ]
+      ],
+      "mainTop": 120,
+      "scroll": 1425,
+      "sections": [
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Independent on purpose.",
+          "height": 558,
+          "size": "76px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "One point of contact. The person doing the work.",
+          "height": 558,
+          "size": "44px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Your business doesn't need more complexity.",
+          "height": 515,
+          "size": "44px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "A simpler way to work together.",
+          "height": 696,
+          "size": "44px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "See the work. Understand the approach.",
+          "height": 444,
+          "size": "44px"
+        },
+        {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Manrope",
+          "head": "Let's make something work better.",
+          "height": 352,
+          "size": "44px"
+        }
+      ],
+      "width": 1440,
+      "body": [
+        "ABOUT ROBYLO",
+        "ROBYLO is an independent digital studio helping small businesses build a stronger online presence, reach more customers, and make technology work for them.",
+        "Based in the Chicago area. Built around direct communication, practical solutions, and personal accountability.",
+        "THE PERSON BEHIND ROBYLO",
+        "I'm Vitalii Vozniak, the founder of ROBYLO.",
+        "I work across web development, digital marketing, and business technology — bringing these areas together to solve practical problems for small businesses.",
+        "Today, I personally plan, build, and manage every ROBYLO project. I use modern tools, including AI, to work more efficiently, while keeping the decisions, implementation, and responsibility in my hands.",
+        "No unnecessary layers between you and the work being done.",
+        "Vitalii Vozniak",
+        "Founder, ROBYLO",
+        "THE IDEA",
+        "A website, search visibility, advertising, and business systems shouldn't operate as disconnected pieces.",
+        "ROBYLO brings them together with one practical goal: helping small businesses build a digital presence that supports how they actually work.",
+        "Sometimes that means building a better website. Sometimes it's improving how customers find you, simplifying a process, or connecting tools that should already be working together.",
+        "The right solution starts with understanding the problem — not selling another service.",
+        "THE DIFFERENCE",
+        "Talk directly with the person responsible for your project. No unnecessary handoffs or layers of management.",
+        "Your website, marketing, and business tools should support each other, not compete for attention.",
+        "Recommendations are based on what your business needs, not on adding more tools, features, or complexity.",
+        "Clear ownership of the work, straightforward communication, and responsibility for the decisions being made.",
+        "GO DEEPER",
+        "Explore real projects and the digital solutions behind them.",
+        "See how we move from understanding a business problem to building a practical solution.",
+        "Have a project in mind or a business problem you're trying to solve? Let's talk about what makes sense."
+      ],
+      "bodySize": "18px",
+      "fontLoaded": true,
+      "founderColumns": "681.333px 486.667px",
+      "portrait": [
+        400,
+        320,
+        "true"
+      ]
+    },
+    {
+      "client": 1009,
+      "heads": [
+        [
+          "H1",
+          "Independent on purpose."
+        ],
+        [
+          "H2",
+          "One point of contact. The person doing the work."
+        ],
+        [
+          "H2",
+          "Your business doesn't need more complexity."
+        ],
+        [
+          "H2",
+          "A simpler way to work together."
+        ],
+        [
+          "H3",
+          "01 / Direct communication"
+        ],
+        [
+          "H3",
+          "02 / Connected thinking"
+        ],
+        [
+          "H3",
+          "03 / Practical decisions"
+        ],
+        [
+          "H3",
+          "04 / Personal accountability"
+        ],
+        [
+          "H2",
+          "See the work. Understand the approach."
+        ],
+        [
+          "H3",
+          "Selected Work"
+        ],
+        [
+          "H3",
+          "Our Approach"
+        ],
+        [
+          "H2",
+          "Let's make something work better."
+        ]
+      ],
+      "height": 3496,
+      "links": [
+        [
+          "Explore our work",
+          "/work/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "How we work",
+          "/approach/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "Let's talk",
+          "/contact/",
+          "rgb(255, 255, 255)",
+          "rgb(0, 0, 0)"
+        ]
+      ],
+      "mainTop": 120,
+      "scroll": 1009,
+      "sections": [
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Independent on purpose.",
+          "height": 365,
+          "size": "56px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "One point of contact. The person doing the work.",
+          "height": 563,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Your business doesn't need more complexity.",
+          "height": 567,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "A simpler way to work together.",
+          "height": 655,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "See the work. Understand the approach.",
+          "height": 401,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Manrope",
+          "head": "Let's make something work better.",
+          "height": 311,
+          "size": "36px"
+        }
+      ],
+      "width": 1024,
+      "body": [
+        "ABOUT ROBYLO",
+        "ROBYLO is an independent digital studio helping small businesses build a stronger online presence, reach more customers, and make technology work for them.",
+        "Based in the Chicago area. Built around direct communication, practical solutions, and personal accountability.",
+        "THE PERSON BEHIND ROBYLO",
+        "I'm Vitalii Vozniak, the founder of ROBYLO.",
+        "I work across web development, digital marketing, and business technology — bringing these areas together to solve practical problems for small businesses.",
+        "Today, I personally plan, build, and manage every ROBYLO project. I use modern tools, including AI, to work more efficiently, while keeping the decisions, implementation, and responsibility in my hands.",
+        "No unnecessary layers between you and the work being done.",
+        "Vitalii Vozniak",
+        "Founder, ROBYLO",
+        "THE IDEA",
+        "A website, search visibility, advertising, and business systems shouldn't operate as disconnected pieces.",
+        "ROBYLO brings them together with one practical goal: helping small businesses build a digital presence that supports how they actually work.",
+        "Sometimes that means building a better website. Sometimes it's improving how customers find you, simplifying a process, or connecting tools that should already be working together.",
+        "The right solution starts with understanding the problem — not selling another service.",
+        "THE DIFFERENCE",
+        "Talk directly with the person responsible for your project. No unnecessary handoffs or layers of management.",
+        "Your website, marketing, and business tools should support each other, not compete for attention.",
+        "Recommendations are based on what your business needs, not on adding more tools, features, or complexity.",
+        "Clear ownership of the work, straightforward communication, and responsibility for the decisions being made.",
+        "GO DEEPER",
+        "Explore real projects and the digital solutions behind them.",
+        "See how we move from understanding a business problem to building a practical solution.",
+        "Have a project in mind or a business problem you're trying to solve? Let's talk about what makes sense."
+      ],
+      "bodySize": "18px",
+      "fontLoaded": true,
+      "founderColumns": "521.938px 372.812px",
+      "portrait": [
+        373,
+        298,
+        "true"
+      ]
+    },
+    {
+      "client": 753,
+      "heads": [
+        [
+          "H1",
+          "Independent on purpose."
+        ],
+        [
+          "H2",
+          "One point of contact. The person doing the work."
+        ],
+        [
+          "H2",
+          "Your business doesn't need more complexity."
+        ],
+        [
+          "H2",
+          "A simpler way to work together."
+        ],
+        [
+          "H3",
+          "01 / Direct communication"
+        ],
+        [
+          "H3",
+          "02 / Connected thinking"
+        ],
+        [
+          "H3",
+          "03 / Practical decisions"
+        ],
+        [
+          "H3",
+          "04 / Personal accountability"
+        ],
+        [
+          "H2",
+          "See the work. Understand the approach."
+        ],
+        [
+          "H3",
+          "Selected Work"
+        ],
+        [
+          "H3",
+          "Our Approach"
+        ],
+        [
+          "H2",
+          "Let's make something work better."
+        ]
+      ],
+      "height": 3887,
+      "links": [
+        [
+          "Explore our work",
+          "/work/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "How we work",
+          "/approach/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "Let's talk",
+          "/contact/",
+          "rgb(255, 255, 255)",
+          "rgb(0, 0, 0)"
+        ]
+      ],
+      "mainTop": 134,
+      "scroll": 753,
+      "sections": [
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Independent on purpose.",
+          "height": 365,
+          "size": "56px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "One point of contact. The person doing the work.",
+          "height": 689,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Your business doesn't need more complexity.",
+          "height": 678,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "A simpler way to work together.",
+          "height": 767,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "See the work. Understand the approach.",
+          "height": 429,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Manrope",
+          "head": "Let's make something work better.",
+          "height": 311,
+          "size": "36px"
+        }
+      ],
+      "width": 768,
+      "body": [
+        "ABOUT ROBYLO",
+        "ROBYLO is an independent digital studio helping small businesses build a stronger online presence, reach more customers, and make technology work for them.",
+        "Based in the Chicago area. Built around direct communication, practical solutions, and personal accountability.",
+        "THE PERSON BEHIND ROBYLO",
+        "I'm Vitalii Vozniak, the founder of ROBYLO.",
+        "I work across web development, digital marketing, and business technology — bringing these areas together to solve practical problems for small businesses.",
+        "Today, I personally plan, build, and manage every ROBYLO project. I use modern tools, including AI, to work more efficiently, while keeping the decisions, implementation, and responsibility in my hands.",
+        "No unnecessary layers between you and the work being done.",
+        "Vitalii Vozniak",
+        "Founder, ROBYLO",
+        "THE IDEA",
+        "A website, search visibility, advertising, and business systems shouldn't operate as disconnected pieces.",
+        "ROBYLO brings them together with one practical goal: helping small businesses build a digital presence that supports how they actually work.",
+        "Sometimes that means building a better website. Sometimes it's improving how customers find you, simplifying a process, or connecting tools that should already be working together.",
+        "The right solution starts with understanding the problem — not selling another service.",
+        "THE DIFFERENCE",
+        "Talk directly with the person responsible for your project. No unnecessary handoffs or layers of management.",
+        "Your website, marketing, and business tools should support each other, not compete for attention.",
+        "Recommendations are based on what your business needs, not on adding more tools, features, or complexity.",
+        "Clear ownership of the work, straightforward communication, and responsibility for the decisions being made.",
+        "GO DEEPER",
+        "Explore real projects and the digital solutions behind them.",
+        "See how we move from understanding a business problem to building a practical solution.",
+        "Have a project in mind or a business problem you're trying to solve? Let's talk about what makes sense."
+      ],
+      "bodySize": "18px",
+      "fontLoaded": true,
+      "founderColumns": "384.542px 274.688px",
+      "portrait": [
+        275,
+        220,
+        "true"
+      ]
+    },
+    {
+      "client": 390,
+      "heads": [
+        [
+          "H1",
+          "Independent on purpose."
+        ],
+        [
+          "H2",
+          "One point of contact. The person doing the work."
+        ],
+        [
+          "H2",
+          "Your business doesn't need more complexity."
+        ],
+        [
+          "H2",
+          "A simpler way to work together."
+        ],
+        [
+          "H3",
+          "01 / Direct communication"
+        ],
+        [
+          "H3",
+          "02 / Connected thinking"
+        ],
+        [
+          "H3",
+          "03 / Practical decisions"
+        ],
+        [
+          "H3",
+          "04 / Personal accountability"
+        ],
+        [
+          "H2",
+          "See the work. Understand the approach."
+        ],
+        [
+          "H3",
+          "Selected Work"
+        ],
+        [
+          "H3",
+          "Our Approach"
+        ],
+        [
+          "H2",
+          "Let's make something work better."
+        ]
+      ],
+      "height": 4537,
+      "links": [
+        [
+          "Explore our work",
+          "/work/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "How we work",
+          "/approach/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "Let's talk",
+          "/contact/",
+          "rgb(255, 255, 255)",
+          "rgb(0, 0, 0)"
+        ]
+      ],
+      "mainTop": 110,
+      "scroll": 390,
+      "sections": [
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Independent on purpose.",
+          "height": 416,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "One point of contact. The person doing the work.",
+          "height": 895,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Your business doesn't need more complexity.",
+          "height": 625,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "A simpler way to work together.",
+          "height": 799,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "See the work. Understand the approach.",
+          "height": 634,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Manrope",
+          "head": "Let's make something work better.",
+          "height": 328,
+          "size": "30px"
+        }
+      ],
+      "width": 390,
+      "body": [
+        "ABOUT ROBYLO",
+        "ROBYLO is an independent digital studio helping small businesses build a stronger online presence, reach more customers, and make technology work for them.",
+        "Based in the Chicago area. Built around direct communication, practical solutions, and personal accountability.",
+        "THE PERSON BEHIND ROBYLO",
+        "I'm Vitalii Vozniak, the founder of ROBYLO.",
+        "I work across web development, digital marketing, and business technology — bringing these areas together to solve practical problems for small businesses.",
+        "Today, I personally plan, build, and manage every ROBYLO project. I use modern tools, including AI, to work more efficiently, while keeping the decisions, implementation, and responsibility in my hands.",
+        "No unnecessary layers between you and the work being done.",
+        "Vitalii Vozniak",
+        "Founder, ROBYLO",
+        "THE IDEA",
+        "A website, search visibility, advertising, and business systems shouldn't operate as disconnected pieces.",
+        "ROBYLO brings them together with one practical goal: helping small businesses build a digital presence that supports how they actually work.",
+        "Sometimes that means building a better website. Sometimes it's improving how customers find you, simplifying a process, or connecting tools that should already be working together.",
+        "The right solution starts with understanding the problem — not selling another service.",
+        "THE DIFFERENCE",
+        "Talk directly with the person responsible for your project. No unnecessary handoffs or layers of management.",
+        "Your website, marketing, and business tools should support each other, not compete for attention.",
+        "Recommendations are based on what your business needs, not on adding more tools, features, or complexity.",
+        "Clear ownership of the work, straightforward communication, and responsibility for the decisions being made.",
+        "GO DEEPER",
+        "Explore real projects and the digital solutions behind them.",
+        "See how we move from understanding a business problem to building a practical solution.",
+        "Have a project in mind or a business problem you're trying to solve? Let's talk about what makes sense."
+      ],
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "founderColumns": "350px",
+      "portrait": [
+        240,
+        192,
+        "true"
+      ]
+    },
+    {
+      "client": 320,
+      "heads": [
+        [
+          "H1",
+          "Independent on purpose."
+        ],
+        [
+          "H2",
+          "One point of contact. The person doing the work."
+        ],
+        [
+          "H2",
+          "Your business doesn't need more complexity."
+        ],
+        [
+          "H2",
+          "A simpler way to work together."
+        ],
+        [
+          "H3",
+          "01 / Direct communication"
+        ],
+        [
+          "H3",
+          "02 / Connected thinking"
+        ],
+        [
+          "H3",
+          "03 / Practical decisions"
+        ],
+        [
+          "H3",
+          "04 / Personal accountability"
+        ],
+        [
+          "H2",
+          "See the work. Understand the approach."
+        ],
+        [
+          "H3",
+          "Selected Work"
+        ],
+        [
+          "H3",
+          "Our Approach"
+        ],
+        [
+          "H2",
+          "Let's make something work better."
+        ]
+      ],
+      "height": 4893,
+      "links": [
+        [
+          "Explore our work",
+          "/work/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "How we work",
+          "/approach/",
+          "rgba(0, 0, 0, 0)",
+          "rgb(0, 0, 0)"
+        ],
+        [
+          "Let's talk",
+          "/contact/",
+          "rgb(255, 255, 255)",
+          "rgb(0, 0, 0)"
+        ]
+      ],
+      "mainTop": 110,
+      "scroll": 320,
+      "sections": [
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Independent on purpose.",
+          "height": 466,
+          "size": "36px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "One point of contact. The person doing the work.",
+          "height": 1005,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "Your business doesn't need more complexity.",
+          "height": 736,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "A simpler way to work together.",
+          "height": 848,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "font": "Manrope",
+          "head": "See the work. Understand the approach.",
+          "height": 634,
+          "size": "30px"
+        },
+        {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "font": "Manrope",
+          "head": "Let's make something work better.",
+          "height": 364,
+          "size": "30px"
+        }
+      ],
+      "width": 320,
+      "body": [
+        "ABOUT ROBYLO",
+        "ROBYLO is an independent digital studio helping small businesses build a stronger online presence, reach more customers, and make technology work for them.",
+        "Based in the Chicago area. Built around direct communication, practical solutions, and personal accountability.",
+        "THE PERSON BEHIND ROBYLO",
+        "I'm Vitalii Vozniak, the founder of ROBYLO.",
+        "I work across web development, digital marketing, and business technology — bringing these areas together to solve practical problems for small businesses.",
+        "Today, I personally plan, build, and manage every ROBYLO project. I use modern tools, including AI, to work more efficiently, while keeping the decisions, implementation, and responsibility in my hands.",
+        "No unnecessary layers between you and the work being done.",
+        "Vitalii Vozniak",
+        "Founder, ROBYLO",
+        "THE IDEA",
+        "A website, search visibility, advertising, and business systems shouldn't operate as disconnected pieces.",
+        "ROBYLO brings them together with one practical goal: helping small businesses build a digital presence that supports how they actually work.",
+        "Sometimes that means building a better website. Sometimes it's improving how customers find you, simplifying a process, or connecting tools that should already be working together.",
+        "The right solution starts with understanding the problem — not selling another service.",
+        "THE DIFFERENCE",
+        "Talk directly with the person responsible for your project. No unnecessary handoffs or layers of management.",
+        "Your website, marketing, and business tools should support each other, not compete for attention.",
+        "Recommendations are based on what your business needs, not on adding more tools, features, or complexity.",
+        "Clear ownership of the work, straightforward communication, and responsibility for the decisions being made.",
+        "GO DEEPER",
+        "Explore real projects and the digital solutions behind them.",
+        "See how we move from understanding a business problem to building a practical solution.",
+        "Have a project in mind or a business problem you're trying to solve? Let's talk about what makes sense."
+      ],
+      "bodySize": "16px",
+      "fontLoaded": true,
+      "founderColumns": "280px",
+      "portrait": [
+        240,
+        192,
+        "true"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "focus": true,
+      "height": 48,
+      "href": "/work/",
+      "name": "Explore our work",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "width": 1440,
+      "wrapperOutline": null
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "focus": true,
+      "height": 48,
+      "href": "/approach/",
+      "name": "How we work",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "width": 1440,
+      "wrapperOutline": null
+    },
+    {
+      "bg": "rgb(245, 245, 245)",
+      "color": "rgb(0, 0, 0)",
+      "focus": true,
+      "height": 53,
+      "href": "/contact/",
+      "name": "Let's talk",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "width": 1440,
+      "wrapperOutline": "rgb(255, 255, 255) solid 2px"
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "focus": true,
+      "height": 48,
+      "href": "/work/",
+      "name": "Explore our work",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "width": 390,
+      "wrapperOutline": null
+    },
+    {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "focus": true,
+      "height": 48,
+      "href": "/approach/",
+      "name": "How we work",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "width": 390,
+      "wrapperOutline": null
+    },
+    {
+      "bg": "rgb(245, 245, 245)",
+      "color": "rgb(0, 0, 0)",
+      "focus": true,
+      "height": 53,
+      "href": "/contact/",
+      "name": "Let's talk",
+      "outline": "rgb(0, 0, 0) solid 2px",
+      "width": 390,
+      "wrapperOutline": "rgb(255, 255, 255) solid 2px"
+    }
+  ],
+  "links": [
+    {
+      "path": "/work/",
+      "heading": "Selected work"
+    },
+    {
+      "path": "/approach/",
+      "heading": "How we work"
+    },
+    {
+      "path": "/contact/",
+      "heading": "Contact"
+    }
+  ]
+}

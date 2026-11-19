@@ -250,3 +250,16 @@ Evidence:
 No full designs or detailed content produced. Chrome responsive emulation, not physical-device/Safari/screen-reader certification. Logged-in WordPress admin bar consumes mobile popup space; primary links remain visible, secondary email may require a short scroll. Existing browser assistant/cursor overlays may appear. No email sent or live launch. Native configuration remains DB-held, not a portable export.
 
 Rollback must preserve intervening edits: Header component pre-task6255; Footer component6257; Popup6259; active Header5892 pre-task5897. Popup condition was formerly Home-only and must be restored separately if rolling back. New page IDs6191–6221 (odd IDs) can be returned to draft using native WordPress controls if requested; do not delete unrelated pages. Homepage body was never edited. Dedicated implementation/site-architecture-2026-11-18 branch stacks on PR18; no unrelated PR merged.
+
+
+## 2026-11-19 — About page
+
+ChatGPT/Codex implemented the owner-approved copy and six sections in the staged Elementor document for About (6197). The existing main element `3d3f316f` contains the hero, founder, idea, principles, related pages, and final CTA. The implementation reuses Manrope, the section and container classes, the existing heading scale, and button component 5864. The founder section pairs the text with a neutral gray place for the approved portrait. The arrangement stacks at mobile widths. The four principles use typographic rows and thin dividers.
+
+The three actions use the existing `/work/`, `/approach/`, and `/contact/` destinations. The two exploration links use the existing text treatment. The dark CTA adds a local white keyboard-focus outline on wrapper `18c07775` for contrast. The homepage, shared navigation, component definitions, and global styles and variables were outside the edit scope.
+
+**Verified in Chrome** at 1440, 1024, 768, 390, and 320 CSS px. Compared the rendered headings and paragraphs against the supplied text. Confirmed one H1, five H2s, six H3s, loaded Manrope, both founder layouts, and zero horizontal overflow. Tab reaches each page action in order at 1440 and 390, with a visible 2px focus indicator. Enter opened all three destinations and reached the expected headings. The anonymous About route returned HTTP 200 with Coming Soon and omitted the new copy. An authenticated admin can see the revised content at the About route. The connector reports a staged revision and no publish operation was called.
+
+[Desktop preview](verification/2026-11-19-about/about-1440.jpg) · [Mobile preview](verification/2026-11-19-about/about-390.jpg) · [Browser measurements and link tests](verification/2026-11-19-about/checks.json). Browser emulation was used for the mobile widths. The captures omit the WordPress toolbar and may include capture-session cursor or assistant overlays.
+
+The portrait remains a placeholder until the owner provides an approved photograph. Open the [About Elementor editor](https://robylo.com/wp-admin/post.php?post=6197&action=elementor) and choose Preview Changes. The connector identified revision 6230 as the pre-change undo point. WordPress retains the editable draft. This branch records the implementation and verification for owner review and has no deployment step.
