@@ -322,3 +322,7 @@ Confirmed or factual, no approval needed: the four service names and URLs; One-T
 - Present the six existing process steps as a spacious numbered grid. Use three columns on desktop, two on tablet and one on phones, with prominent numbers and no connecting line.
 - Arrange the ownership text as a single editorial column beside a neutral 4:3 website editing preview. Reuse the existing review slot from Scope, where the four icon slots now serve as visual anchors. Stack ownership text and preview on phones.
 - Use approved Atomic styles and placeholder-only elements. Final icons and preview artwork remain pending owner approval.
+
+### FAQ interaction update
+
+**Owner-authorized refinement.** This supersedes the earlier open Q&A presentation for page 6203. Keep the FAQ heading, section background, six exact questions and answers, all review markers, and the existing link below the questions. Use Elementor's native Atomic Accordion with all rows initially collapsed, one open answer at a time, whole-row activation, plus and minus indicators, subtle dividers and visible keyboard focus. Leave SEO settings and FAQ schema unchanged. Verify with mouse, touch, Enter and Space on the rendered preview.
