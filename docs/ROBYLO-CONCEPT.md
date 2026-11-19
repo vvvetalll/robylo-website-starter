@@ -242,3 +242,18 @@ Keep the existing indexing and Coming Soon configuration unchanged.
 Use real project imagery and Studio Plates for evidence. Use simplified interface previews or occasional illustrations when they clarify an idea. Let section composition and contrast provide variety. Avoid pages made up solely of text and rules, engineering-style drawings and connectors, decorative clutter, and unnecessary motion.
 
 PR #27 is a reference for composition and rhythm. Services is the first application of this direction. The Homepage is largely approved. Preserve its structure, visual identity, content, functionality, CTA and footer. Propose a Homepage change only when something is concretely inconsistent or when a new solution clearly improves clarity, usability or visual quality. Explain the issue, proposed change and benefit. Obtain owner approval before significant changes.
+
+### Visual design and placeholder workflow
+
+**Approved by the owner, 2026-11-19.** Applies to unfinished pages, new pages and major redesigns. Use the [70/30 visual balance](#visual-balance-for-robylo) and the permanent quality standard above.
+
+1. Define the page structure and content hierarchy.
+2. Build the complete composition with available approved project assets and neutral temporary placeholders wherever an image, icon or illustration is expected. Keep placeholder labels visible for internal review. Match the anticipated asset proportions and make replacement independent of layout.
+3. Visually verify the rendered layout on desktop, tablet and mobile, including spacing, type, responsive wrapping and proportions.
+4. Obtain owner approval of the composition and record the remaining asset slots.
+5. Place final assets with owner approval. Final graphic production begins only after approval.
+6. Perform final visual and accessibility QA with those assets in place.
+
+For asset sourcing and production, follow [the mandatory restrictions in AGENTS.md](../AGENTS.md#visual-design--placeholder-workflow). Existing approved project imagery and icons are the available asset pool during composition. A layout that omits planned visual slots is incomplete.
+
+Start this rollout on Website Design & Development. The approved Homepage and Services, shared CTA, footer and site architecture are outside the redesign scope.
