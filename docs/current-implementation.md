@@ -225,3 +225,16 @@ All changes use existing Elementor Atomic settings and class roles. No shared to
 ## 2026-11-19 — Services ownership copy
 
 **Saved for owner review.** Only the paragraph under “Yours to own.” on Services 6191 changed. The [approved wording](design-services-page-2026-11-19.md#2026-11-19--approved-ownership-copy-revision) replaces that paragraph and its specific review marker. The other eight marker occurrences and the previous visual refinement are preserved in the saved draft.
+
+## 2026-11-19 — Website Design composition with approved assets
+
+**Staged for composition approval.** WordPress 6203 keeps its nine sections, existing approved copy, CTA, links and SEO fields. Existing Hero asset 6145 and signature diagram 6305 retain their original placements and settings. The new Work proof references the existing GCPRO Restoration Studio Plate 6167, with its original 4:3 aspect ratio and attachment alt text.
+
+The fix, redesign and rebuild choices use equal charcoal panels on large screens and stack on phones. They use the existing `rb-hover` (#333333), `rb-paper` and `rb-line` colors. The Scope section groups its four existing phases next to a neutral temporary visual. Its two-column phase grid becomes one column on mobile. All styling is native Atomic and the design system has no new tokens.
+
+| Remaining asset slot | Purpose and treatment |
+| --- | --- |
+| Web Design 6203 · Design review preview | Labeled neutral 4:3 placeholder. Replace only placeholder child `6ecbeb65` inside the existing slot `4eef8dd9` with an approved design-review visual after owner sign-off. |
+| About 6197 · Founder portrait | Existing portrait placeholder `5c42ac2c`, checked for inventory only. It remains pending the separately approved photo. |
+
+No media, icon, theme or shared component changes. Other unfinished pages follow the same approval sequence, starting from their own structure and hierarchy. Homepage, Services and the global footer are outside the changes. Elementor revision 6347 was created immediately before this Web Design pass.

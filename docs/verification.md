@@ -292,3 +292,11 @@ Collaborator: Claude. Added docs/design-visual-direction-2026-11-19.md and docs/
 ## 2026-11-19 — Services ownership copy QA
 
 Verified the exact approved text in the authenticated Elementor frontend at 1440 and 390px, with the existing Manrope sizes of 17 and 16px and zero horizontal overflow. A complete configuration comparison of the Services draft against its pre-edit state found only the “Yours to own.” paragraph changed. Eight other review markers remain. Coming Soon and noindex were verified, and the ownership revision remains unpublished.
+
+## 2026-11-19 — Visual workflow and Web Design composition QA
+
+**Verified in the authenticated Chrome frontend preview.** Compared the existing and staged page visually, with full-page captures at 1440 and 390px and section checks at 1024, 768 and 320px. All three established attachments loaded. The design-review placeholder and GCPRO proof retained 4:3 proportions, the comparison cards stacked cleanly on mobile, and no viewport had horizontal overflow. The new scope slot measured 487×365px at desktop, 320×240px on 390px mobile and 280×210px at 320px.
+
+All 14 existing content links showed visible keyboard focus at 1440 and 390px. Read-back confirmed all original nodes and content remained present, all nine section roots kept their order and all 12 existing confirmation marker occurrences remained. The Hero, signature and final CTA trees matched the baseline exactly. The pending Services draft also matched its prior state. No changes were made to the global footer.
+
+The edited page emits noindex. Anonymous Home, Services and Web Design requests showed Coming Soon without review copy. No publication or PR merge was performed. Full-page evidence is delivered privately because it includes owner-review content. Composition approval and a final asset for the design-review slot remain pending.
