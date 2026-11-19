@@ -20,7 +20,7 @@
 - **Mandatory for ChatGPT Work, Claude, Codex and all development agents.** Follow the [visual design and placeholder workflow](docs/ROBYLO-CONCEPT.md#visual-design-and-placeholder-workflow) for every new page and major redesign. Complete the responsive composition and obtain owner approval before replacing temporary assets. Final QA follows approved asset placement.
 - Reuse only existing approved ROBYLO project screenshots, Studio Plates, other real project images and approved icons. Do not search for or download new images, generate final images or illustrations, introduce stock imagery, or replace or modify approved project imagery. Obtain owner approval before creating final icons. Final graphic production or asset replacement also requires owner approval.
 - Represent missing images, illustrations and icons with neutral, clearly identified internal placeholders. Set realistic proportions and responsive dimensions. Make each slot replaceable without rebuilding its section. When a design calls for visuals, a text-only layout is incomplete.
-- Apply the existing 70/30 visual balance and permanent visual quality standard. Record placeholder purpose, aspect ratio and approval status with the page's verification.
+- Apply the existing 70/30 visual balance, permanent visual quality standard and [monochrome palette and typography guideline](docs/ROBYLO-CONCEPT.md#monochrome-palette-and-typography). Record placeholder purpose, aspect ratio and approval status with the page's verification.
 
 ## Coding standards and minimal changes
 

@@ -257,3 +257,17 @@ PR #27 is a reference for composition and rhythm. Services is the first applicat
 For asset sourcing and production, follow [the mandatory restrictions in AGENTS.md](../AGENTS.md#visual-design--placeholder-workflow). Existing approved project imagery and icons are the available asset pool during composition. A layout that omits planned visual slots is incomplete.
 
 Start this rollout on Website Design & Development. The approved Homepage and Services, shared CTA, footer and site architecture are outside the redesign scope.
+
+### Monochrome palette and typography
+
+**Approved owner direction, 2026-11-19.** Use a professional grayscale within the [70/30 visual balance](#visual-balance-for-robylo). Reuse existing Atomic color variables. Add a token only when an approved repeated need warrants it.
+
+| Range | Role |
+| --- | --- |
+| Black `#000000` | Primary CTAs and occasional high-contrast sections |
+| Charcoal `#171717–#333333` | Secondary dark surfaces, cards and selected accents |
+| Gray `#444444–#666666` | Body copy, descriptions and supporting text on light surfaces |
+| Soft gray `#F5F5F5` | Section backgrounds, cards and subtle separation |
+| White `#FFFFFF` | Main backgrounds, whitespace and primary text on dark surfaces |
+
+Use strong, dark headings on light surfaces and white headings on dark surfaces. Give body and supporting text a softer gray with sufficient contrast. Reserve darker or heavier treatment for the phrases that need emphasis. Let white, soft-gray and occasional dark sections establish rhythm. Consider charcoal cards within dark compositions where the grouping clarifies content. The palette is a guide for approved work and carries no requirement to recolor existing pages or shared components.

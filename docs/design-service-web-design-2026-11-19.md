@@ -307,7 +307,7 @@ Confirmed or factual, no approval needed: the four service names and URLs; One-T
 **Scope authorized.** Apply the [visual design and placeholder workflow](ROBYLO-CONCEPT.md#visual-design-and-placeholder-workflow) to WordPress page 6203. The existing nine sections and their copy form the content baseline. Preserve all links, confirmation markers, SEO fields, the contact CTA and global footer. Composition approval is pending. See [PR #25](https://github.com/vvvetalll/robylo-website-starter/pull/25) for the earlier implementation.
 
 - Keep the Chicago Mounting Studio Plate in the hero and the existing annotated phone-page illustration in the signature section.
-- Clarify the fix, redesign and rebuild comparison with three neutral panels. Keep the seven signs and their reading order.
+- Clarify the fix, redesign and rebuild comparison with three equal charcoal panels. Use the existing charcoal token, white headings and softer light-gray descriptions. Keep the seven signs and their reading order.
 - Give the four project scope groups a shared editorial composition alongside one clearly labeled, replaceable **Design review preview** placeholder at 4:3. Use a 2×2 scope group grid on larger screens and one column on mobile.
 - Pair the existing Work reference with the already approved real GCPRO Restoration Studio Plate, following the related services in the existing section. Keep the existing Work destination and image proportions.
 - Review with Coming Soon and noindex active. Final artwork for the design review slot remains pending owner approval.
