@@ -2,6 +2,8 @@
 
 > Current-status update (2026-11-16): the original starter inspection below is retained as historical context. The existing ROBYLO installation has since been configured and inspected. Use [current-implementation.md](current-implementation.md) and [verification.md](verification.md) for the dated observed state and its limits. Fresh-install portability, child-theme runtime checks and a complete installed-version compatibility matrix remain unverified.
 
+The [theme consolidation record](theme-consolidation-2026-11-19.md) documents the active production child theme, removed dependencies, and verification.
+
 ## Ownership
 
 Elementor Atomic V4 owns visual variables, HTML tag defaults, global classes, layouts, and reusable components. Use its supported features as the source of visual decisions. The child theme supplies only necessary WordPress integration and approved functionality gaps.
