@@ -1,7 +1,19 @@
 /*
 Theme Name: ROBYLO Child
-Description: Minimal Hello Elementor child theme for ROBYLO Website Starter 2.0.
+Description: Minimal Hello Elementor child theme for ROBYLO. Elementor owns the site UI.
 Template: hello-elementor
-Version: 0.1.0
+Version: 1.0.0
+Requires at least: 6.2
 Text Domain: robylo-child
 */
+
+/* The two Atomic About links receive aria-current from WordPress. */
+header nav a.rb-nav-link[aria-current="page"] {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: .25em;
+}
+
+a.rb-menu-row[aria-current="page"] {
+	box-shadow: inset 2px 0 var(--rb-paper, #fff);
+}
