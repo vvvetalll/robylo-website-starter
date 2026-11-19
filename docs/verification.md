@@ -296,3 +296,11 @@ The previous end-margin compensation is superseded in the Home 5894 Elementor dr
 Removed the fixed `flex` sizing and mobile `max-width` on slides `5751938`, `f84437a`, `d55796c`, `4c5d9f1`, `1263166` and `79928cc9`, including the Quickzy-only end margin. Elementor's existing responsive Slides per view now supplies sizing for the six cards. It is set to one on mobile and tablet, two on desktop. The slides, gap, native controls and shared styles were kept.
 
 Saved and read back the six changes. Opened the authenticated page preview in Chrome. The owner took over visual verification before the responsive interaction matrix and screenshots were completed. The change remains in the editor draft alongside pending homepage edits. The anonymous root still returns Coming Soon page 5858. Undo revision for this edit is 6296.
+
+### Mobile recheck and follow-up
+
+The bare `preview_id` link rendered the published version. After clearing Elementor cache and invoking SiteGround purge, Chrome still reproduced the previous-card strip at 375px with browser cache disabled. The actual Elementor Preview Changes URL with a nonce showed the first draft's regression at 390px: all six cards shrank into one track. Removing every slide size was therefore insufficient for this layout.
+
+The next Home 5894 autosave uses the viewport's width for one mobile card and half of the track's available width after the existing gap for each of two tablet/desktop cards. The viewport reserves the right gutter, and every slide uses the same width rule. There is no final-slide margin or offset. IDs and assets for the six cards are preserved. Undo revision for this follow-up is 6297.
+
+Confirmed settings read-back and anonymous Coming Soon (HTTP 200). Latest autosave still needs rendered endpoint and interaction verification. The published homepage continues to use its preceding configuration. The draft includes unrelated Approach work and has not been promoted.
