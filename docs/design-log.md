@@ -5,6 +5,10 @@ Maintained by Claude (design). Newest entry first. This file keeps the design pr
 Statuses used here: **Current proposal** (recommended, awaiting owner approval), **Exploration** (earlier work, kept for reference), **Rejected** (dropped, with the reason).
 
 
+## 2026-11-19 — Visual audit and "Working Drawings" direction
+
+**Current proposal.** Audit of the live Home, Services and Web Design pages (and About from PR #21 evidence): four of five pages are built mostly from one rule-and-text-row unit, with almost no imagery after the hero. Proposed direction "Working Drawings": precise monochrome line drawings of the things ROBYLO builds, beside real Studio Plates, with six reusable section patterns. Services redesign mockup at 1440 and 390, approved copy unchanged. [Audit, direction, Services spec and implementation plan](design-visual-direction-2026-11-19.md). Also found: public pages show literal [Confirm] markers.
+
 ## 2026-11-19 — Specifications recovered into GitHub
 
 Claude committed the complete specifications that existed only as Claude Docs: [Services](design-services-page-2026-11-19.md) (direction approved, 8 confirmations open), [Website Design & Development](design-service-web-design-2026-11-19.md) (Proposed, 9 confirmations open), [About](design-about-page-2026-11-19.md) (owner copy approved and staged; Claude concept historical), and the [service-page template](design-service-pages-architecture-2026-11-19.md) (Proposed). It also added the superseded homepage [copy review](design-homepage-copy-review-2026-11-18.md) from PR #14, the superseded September [theme architecture](theme-architecture-2026-09-17-superseded.md), a [design-system index](design-system-index-2026-11-19.md) and a [specs index](design-specs-index.md). From now on, specs are committed before implementation (AGENTS.md).
