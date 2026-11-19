@@ -5,3 +5,14 @@ Template: hello-elementor
 Version: 0.1.0
 Text Domain: robylo-child
 */
+
+/* Indicate the current page on the existing Atomic navigation links. */
+header nav a.rb-nav-link[aria-current="page"] {
+	text-decoration: underline;
+	text-underline-offset: .25em;
+	text-decoration-thickness: 1px;
+}
+
+a.rb-menu-row[aria-current="page"] {
+	box-shadow: inset 2px 0 var(--rb-paper, #fff);
+}

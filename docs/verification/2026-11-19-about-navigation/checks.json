@@ -1,0 +1,763 @@
+{
+  "home": [
+    {
+      "client": 1425,
+      "links": [
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            863,
+            919
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            959,
+            992
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            1032,
+            1096
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            1136,
+            1176
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            1216,
+            1312
+          ]
+        },
+        {
+          "current": null,
+          "display": "none",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            0,
+            0
+          ]
+        }
+      ],
+      "page": "/",
+      "scroll": 1425,
+      "width": 1440
+    },
+    {
+      "client": 1009,
+      "links": [
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            518,
+            575
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            615,
+            648
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            688,
+            751
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            791,
+            831
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            871,
+            968
+          ]
+        },
+        {
+          "current": null,
+          "display": "none",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            0,
+            0
+          ]
+        }
+      ],
+      "page": "/",
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 753,
+      "links": [
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            272,
+            329
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            369,
+            402
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            442,
+            506
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            546,
+            586
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            626,
+            722
+          ]
+        },
+        {
+          "current": null,
+          "display": "none",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            0,
+            0
+          ]
+        }
+      ],
+      "page": "/",
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 390,
+      "links": [
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            283,
+            370
+          ]
+        }
+      ],
+      "page": "/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "client": 320,
+      "links": [
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            213,
+            300
+          ]
+        }
+      ],
+      "page": "/",
+      "scroll": 320,
+      "width": 320
+    }
+  ],
+  "internalPreview": [
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "links": [
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            870,
+            927
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            967,
+            1000
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            1040,
+            1104
+          ]
+        },
+        {
+          "current": "page",
+          "display": "flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            1144,
+            1184
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            1224,
+            1320
+          ]
+        },
+        {
+          "current": null,
+          "display": "none",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "client": 1024,
+      "scroll": 1024,
+      "links": [
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            533,
+            590
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            630,
+            663
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            703,
+            767
+          ]
+        },
+        {
+          "current": "page",
+          "display": "flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            807,
+            847
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            887,
+            983
+          ]
+        },
+        {
+          "current": null,
+          "display": "none",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "client": 768,
+      "scroll": 768,
+      "links": [
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            288,
+            344
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            384,
+            417
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            457,
+            521
+          ]
+        },
+        {
+          "current": "page",
+          "display": "flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            561,
+            601
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            641,
+            737
+          ]
+        },
+        {
+          "current": null,
+          "display": "none",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "client": 390,
+      "scroll": 390,
+      "links": [
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": "page",
+          "display": "inline-flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            283,
+            370
+          ]
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "client": 320,
+      "scroll": 320,
+      "links": [
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/services/",
+          "label": "Services",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/work/",
+          "label": "Work",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/approach/",
+          "label": "Approach",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": "page",
+          "display": "inline-flex",
+          "href": "/about/",
+          "label": "About",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "inline-flex",
+          "href": "/contact/",
+          "label": "Contact",
+          "rect": [
+            0,
+            0
+          ]
+        },
+        {
+          "current": null,
+          "display": "flex",
+          "href": null,
+          "label": "Menu ☰",
+          "rect": [
+            213,
+            300
+          ]
+        }
+      ]
+    }
+  ],
+  "popup": [
+    {
+      "data": "3cba38b3",
+      "focus": true,
+      "href": "/about/",
+      "outline": "rgb(255, 255, 255) solid 2px",
+      "rect": {
+        "bottom": 437.4583358764648,
+        "height": 71.86458587646484,
+        "left": 20,
+        "right": 300,
+        "top": 365.59375,
+        "width": 280,
+        "x": 20,
+        "y": 365.59375
+      },
+      "scroll": 320,
+      "w": 320,
+      "closed": true
+    },
+    {
+      "data": "3cba38b3",
+      "focus": true,
+      "href": "/about/",
+      "outline": "rgb(255, 255, 255) solid 2px",
+      "rect": {
+        "bottom": 437.4583358764648,
+        "height": 71.86458587646484,
+        "left": 20,
+        "right": 370,
+        "top": 365.59375,
+        "width": 350,
+        "x": 20,
+        "y": 365.59375
+      },
+      "scroll": 390,
+      "w": 390,
+      "closed": true
+    }
+  ],
+  "desktopHover": {
+    "color": "rgb(51, 51, 51)",
+    "hover": true,
+    "underline": "none"
+  },
+  "desktopFocus": {
+    "focus": true,
+    "outline": "rgb(51, 51, 51) solid 2px"
+  },
+  "mobileDestination": {
+    "url": "https://robylo.com/about/",
+    "heading": "Independent on purpose.",
+    "closed": true
+  },
+  "aboutDraft": {
+    "heading": "Independent on purpose.",
+    "sections": 6
+  },
+  "browserOnlyPrototype": {
+    "desktop": [
+      {
+        "dec": "underline",
+        "id": "5d11a8d2",
+        "visible": true,
+        "width": 1440
+      }
+    ],
+    "mobile": [
+      {
+        "dec": "underline",
+        "id": "5d11a8d2",
+        "visible": false,
+        "width": 390
+      },
+      {
+        "dec": "underline",
+        "id": "3cba38b3",
+        "visible": true,
+        "width": 390
+      }
+    ]
+  }
+}

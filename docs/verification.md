@@ -263,3 +263,16 @@ The three actions use the existing `/work/`, `/approach/`, and `/contact/` desti
 [Desktop preview](verification/2026-11-19-about/about-1440.jpg) · [Mobile preview](verification/2026-11-19-about/about-390.jpg) · [Browser measurements and link tests](verification/2026-11-19-about/checks.json). Browser emulation was used for the mobile widths. The captures omit the WordPress toolbar and may include capture-session cursor or assistant overlays.
 
 The portrait remains a placeholder until the owner provides an approved photograph. Open the [About Elementor editor](https://robylo.com/wp-admin/post.php?post=6197&action=elementor) and choose Preview Changes. The connector identified revision 6230 as the pre-change undo point. WordPress retains the editable draft. This branch records the implementation and verification for owner review and has no deployment step.
+
+
+### About in the shared navigation
+
+ChatGPT/Codex reviewed PR #19 and checked the active Elementor Header template 5892, reusable Header 5886, and mobile popup 5996. The existing About links `5d11a8d2` and `3cba38b3` already point to `/about/`. In the authenticated homepage, About sits between Approach and Contact. The other links and their destinations match PR #19. The work reuses both existing menus.
+
+Chrome verification at 1440, 1024, 768, 390, and 320px found no horizontal overflow on Home or the About review page. The desktop nav displays About at the three wider widths and the mobile popup displays it at 390 and 320. The desktop hover uses the existing #333333 treatment, Tab reaches About with a visible 2px outline, and Enter follows the link. The mobile Menu opens with Enter, About receives a visible white focus ring, Escape closes the popup at both mobile widths, and activating About from the 390px popup opens the correct route and dismisses the menu. [Homepage desktop](verification/2026-11-19-about-navigation/home-desktop.jpg) · [Homepage mobile with keyboard focus](verification/2026-11-19-about-navigation/home-mobile.jpg) · [Measurements](verification/2026-11-19-about-navigation/checks.json).
+
+The ordinary authenticated About URL can show the previous skeleton. The editor-authenticated [About preview](https://robylo.com/about/?preview_id=6197&preview=true) rendered all six staged sections and “Independent on purpose.” The anonymous route still serves Coming Soon with HTTP 200.
+
+The Atomic links currently omit `aria-current`, so the About PR includes a scoped child-theme integration for review. It uses Elementor's frontend content filter and WordPress's HTML tag processor to mark just the two existing About links on the About page. The desktop treatment is a short underline and the mobile treatment is a white inset edge. A temporary browser-only prototype verified both styles against the actual navigation markup. [Desktop prototype](verification/2026-11-19-about-navigation/about-active-desktop-prototype.jpg) · [Mobile prototype](verification/2026-11-19-about-navigation/about-active-mobile-prototype.jpg).
+
+The code remains in this draft PR. PHP CLI was unavailable and the filter has not been executed on the site, so PHP lint and WordPress runtime verification are pending. Temporary Elementor style attempts were cleared. The About content remains staged. No changes were published or merged.
