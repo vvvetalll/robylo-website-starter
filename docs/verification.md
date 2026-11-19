@@ -277,3 +277,14 @@ Evidence (actual browser captures, admin bar cropped out):
 - [Five-width geometry/navigation evidence](verification/2026-11-19-home-ui/checks.json)
 
 Configuration remains in the WordPress staged autosave, not a portable export or Git-driven deployment. Pre-task undo6267; preserve intervening work before whole-document rollback. Surgical rollback removes the three new spans and the four listed local additions. Branch stacks on unmerged PR19 without merging it or other dependencies. Stop for owner review; no launch approval.
+
+
+### Follow-up: remove the previous-card sliver on mobile
+
+The earlier staged preview reproduced the reported gray strip. At 390px, Elite ended at x=34 while the carousel viewport began at x=20, leaving 14px visible. The phone screenshot alone does not identify its revision. The public homepage still serves Coming Soon.
+
+Only Quickzy slide `79928cc9` changed in the staged Home 5894 document. The mobile end margin now uses `calc(100% - min(320px, 100vw - 64px) + var(--rb-space-2))`. This accounts for the remaining viewport width and the gap Elementor uses in its native end calculation, so the final snap aligns Quickzy with the other cards at x=20. The existing card widths and adjacent-card previews on earlier slides are preserved. All six cards, the native carousel, and its arrows remain in place.
+
+In Chrome mobile emulation at 320px and 390px, both the Next arrow and a swipe from Elite reached the same final position. Quickzy was fully visible, Elite's right edge stayed 16px outside the carousel viewport, Next was disabled, and no horizontal page overflow appeared. Previous returned to Elite at both widths. The change is saved in the Elementor draft for owner review.
+
+[320px final position](verification/2026-11-19-home-ui/carousel-final-320.jpg) · [390px final position](verification/2026-11-19-home-ui/carousel-final-390.jpg) · [Browser measurements](verification/2026-11-19-home-ui/carousel-final-checks.json).
