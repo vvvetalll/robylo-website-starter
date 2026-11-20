@@ -233,3 +233,84 @@ h3 { font-size: 24px; line-height: 1.25; font-weight: 600; letter-spacing: -.015
   .service-feature .plate { aspect-ratio: 4 / 3; }
   .service-visual img { width: min(100%, 295px); }
 }
+
+/* Approved Business Center reference. All additions stay inside the Hero. */
+.hero-business { position: relative; isolation: isolate; overflow: clip; padding-block: 30px 130px; background: radial-gradient(ellipse at 78% 46%, #d9d9d9 0%, #eeeeee 32%, #fafafa 58%, #fff 80%); }
+.hero-business::before { content: ""; position: absolute; z-index: -1; width: 1120px; height: 1120px; left: 39%; top: -230px; border: 1px solid #fff; border-radius: 50%; }
+.hero-business::after { content: ""; position: absolute; z-index: -1; width: 145%; height: 260px; left: -18%; bottom: -195px; border-radius: 50%; border-top: 3px solid #fff; background: linear-gradient(#ddd, #fff 45%); transform: rotate(-6deg); box-shadow: 0 -6px 24px #fff8; }
+.hero-business .hero-grid { width: min(1240px, 100% - var(--rb-gutter) * 2); grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr); gap: 30px; }
+.hero-business .hero-copy { padding-bottom: 0; }
+.hero-business .location { font-size: 17px; color: #666; letter-spacing: .015em; }
+.hero-business h1 { margin-top: 20px; font-size: clamp(48px, 4.85vw, 76px); line-height: 1.07; letter-spacing: -.045em; white-space: nowrap; }
+.hero-business h1 span { font-size: 1em; font-weight: 700; color: #666; }
+.hero-business .intro { font-size: 19px; line-height: 1.5; max-width: 43ch; margin-top: 28px; }
+.hero-business .actions { margin-top: 42px; gap: 24px; }
+.hero-business .button { min-height: 58px; padding: 16px 25px; font-size: 18px; gap: 12px; }
+.hero-business .button-outline { background: #ffffff36; }
+.hero-business .button-outline:hover { background: var(--rb-ink); }
+.hero-business .button-outline:focus-visible { color: var(--rb-ink); background: transparent; }
+.business-caption { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.business-services { list-style: none; margin: 0; padding: 0; }
+.business-center { position: relative; aspect-ratio: 4 / 3; min-width: 0; }
+.business-connections { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; fill: none; stroke: #fff; stroke-width: 1.5; }
+.business-spokes { stroke-width: 2; filter: drop-shadow(0 0 4px #fff); }
+.business-mobile-spokes { display: none; }
+.business-junctions { fill: #fff; filter: drop-shadow(0 0 6px #fff); }
+.business-hub { position: absolute; width: 35%; aspect-ratio: 1; left: 32.5%; top: 26.6667%; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(145deg, #686868 0%, #252525 32%, #080808 74%, #333 100%); box-shadow: inset 1px 2px 2px #ffffff7a, inset -2px -2px 3px #ffffff38, 0 22px 30px #0003, 0 0 22px 8px #fff; }
+.business-hub img { width: 74%; filter: brightness(0) invert(1); }
+.business-node { position: absolute; display: flex; align-items: center; gap: 12px; width: 37%; min-height: 86px; padding: 17px 20px; border-radius: 30px; background: linear-gradient(135deg, #ffffffed, #ffffff73); box-shadow: inset -1px -2px 1px #fff, 5px 20px 30px #00000012; }
+.business-node svg { width: 36px; height: 36px; flex: none; fill: none; stroke: var(--rb-ink); stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; }
+.business-node > div { min-width: 0; flex: 1; }
+.business-node strong { display: block; font-size: 17px; line-height: 1.18; font-weight: 700; letter-spacing: -.03em; }
+.business-node i { display: block; width: 100%; height: 4px; margin-top: 7px; background: linear-gradient(90deg, #b8b8b8, #fff); }
+.business-node .short { width: 55%; margin-top: 9px; height: 3px; }
+.business-web { left: 2%; top: 8%; width: 32%; }
+.business-seo { right: 0; top: 8%; }
+.business-ads { left: 0; bottom: 7%; width: 36%; }
+.business-ai { right: 0; bottom: 7%; }
+@media (max-width: 1100px) and (min-width: 901px) {
+  .hero-business { padding-block: 50px 100px; }
+  .hero-business .location { font-size: 13px; }
+  .hero-business h1 { font-size: 48px; }
+  .hero-business .intro { font-size: 17px; }
+  .hero-business .button { font-size: 16px; min-height: 50px; padding: 12px 18px; }
+  .hero-business .actions { gap: 14px; margin-top: 30px; }
+  .business-node { padding: 12px; gap: 8px; min-height: 70px; border-radius: 22px; }
+  .business-node strong { font-size: 13px; }
+  .business-node svg { width: 27px; height: 27px; }
+}
+@media (max-width: 900px) {
+  .hero-business { padding-block: 40px 70px; background: radial-gradient(ellipse at 65% 73%, #dedede, #f8f8f8 42%, #fff 75%); }
+  .hero-business .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .hero-business .hero-copy { max-width: 640px; }
+  .hero-business h1 { font-size: clamp(36px, 8.2vw, 64px); margin-top: 14px; }
+  .hero-business .location { font-size: 14px; }
+  .hero-business .intro { font-size: 18px; margin-top: 20px; }
+  .hero-business .actions { margin-top: 26px; }
+  .business-center { width: 100%; max-width: 640px; justify-self: center; }
+  .hero-business::before { width: 760px; height: 760px; top: 160px; left: 15%; }
+}
+@media (max-width: 575px) {
+  .hero-business { padding-block: 30px 56px; }
+  .hero-business .hero-grid { gap: 32px; }
+  .hero-business .location { font-size: 11px; letter-spacing: .02em; }
+  .hero-business h1 { font-size: clamp(34px, 8.9vw, 48px); }
+  .hero-business .intro { font-size: 16px; margin-top: 20px; }
+  .hero-business .actions { gap: 12px; margin-top: 24px; }
+  .hero-business .button { padding: 13px 14px; min-height: 48px; font-size: 14px; gap: 8px; }
+  .business-center { aspect-ratio: 1.12; }
+  .business-connections { top: 8%; height: 84%; }
+  .business-spokes { display: none; }
+  .business-mobile-spokes { display: initial; stroke-width: 2; }
+  .business-hub { width: 35%; top: 30.4%; }
+  .business-node { gap: 7px; width: 47%; min-height: 64px; padding: 12px 10px; border-radius: 19px; }
+  .business-node strong { font-size: 12px; letter-spacing: -.025em; line-height: 1.2; }
+  .business-node svg { width: 24px; height: 24px; stroke-width: 2.5; }
+  .business-node i { height: 3px; margin-top: 6px; }
+  .business-node .short { display: none; }
+  .business-web, .business-seo { top: 0; }
+  .business-web, .business-ads { left: 0; }
+  .business-ads, .business-ai { bottom: 0; }
+  .hero-business::after { height: 160px; bottom: -135px; }
+}
+

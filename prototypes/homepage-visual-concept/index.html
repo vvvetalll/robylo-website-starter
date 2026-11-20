@@ -33,23 +33,44 @@
   </header>
 
   <main id="main" tabindex="-1">
-    <section class="hero">
+    <section class="hero hero-business" aria-labelledby="hero-title">
       <div class="shell hero-grid">
         <div class="hero-copy">
-          <p class="location">Independent digital studio · Chicago</p>
-          <h1>Good business.<br><span>Hard to find?</span></h1>
-          <p class="intro">We build websites, help people find you on Google, run ads, and connect the tools you use every day. For small businesses in Chicago and the suburbs, one person handles the work you agree on.</p>
+          <p class="location">DIGITAL PARTNER FOR SMALL BUSINESS</p>
+          <h1 id="hero-title">Good business.<br><span>Hard to find?</span></h1>
+          <p class="intro">We build websites, help people find you on Google, run ads, and connect the tools you use every day.</p>
           <div class="actions">
-            <a class="button" href="#contact">Let's talk <span aria-hidden="true">→</span></a>
-            <a class="text-action" href="#work">See our work <span aria-hidden="true">→</span></a>
+            <a class="button" href="#contact">Let's talk <span aria-hidden="true">&#8594;</span></a>
+            <a class="button button-outline" href="#work">See our work <span aria-hidden="true">&#8594;</span></a>
           </div>
         </div>
-        <figure class="hero-media">
-          <picture class="plate">
-            <source media="(max-width: 575px)" srcset="assets/chicago-mobile.webp" width="768" height="960">
-            <img src="assets/chicago.webp" width="1600" height="1200" fetchpriority="high" decoding="async" alt="Chicago Mounting website shown on desktop and phone">
-          </picture>
-          <figcaption><strong>Chicago Mounting</strong><span>Website on desktop and mobile</span></figcaption>
+        <figure class="business-center" aria-labelledby="business-caption">
+          <figcaption id="business-caption" class="business-caption">ROBYLO connects the four parts of your digital business.</figcaption>
+          <svg class="business-connections" viewBox="0 0 640 480" aria-hidden="true">
+            <ellipse cx="320" cy="240" rx="218" ry="218" />
+            <g class="business-spokes"><path d="M160 112L320 240L490 112M150 370L320 240L490 370M320 240V458" /></g>
+            <g class="business-mobile-spokes"><path d="M160 40L320 240L490 40M150 440L320 240L490 440M320 240V458" /></g>
+            <g class="business-junctions"><circle cx="210" cy="152" r="4"/><circle cx="432" cy="154" r="4"/><circle cx="211" cy="323" r="4"/><circle cx="430" cy="324" r="4"/></g>
+          </svg>
+          <div class="business-hub"><img src="assets/logo_robylo.png" alt="ROBYLO" width="300" height="80"></div>
+          <ul class="business-services">
+          <li class="business-node business-web">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="7" y="8" width="34" height="25" rx="2"/><path d="M7 33L3 39H45L41 33M20 36H28"/></svg>
+            <div><strong>Websites</strong><i></i><i class="short"></i></div>
+          </li>
+          <li class="business-node business-seo">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="20" cy="20" r="14"/><path d="M30 30L43 43L46 40L33 27"/></svg>
+            <div><strong>SEO &amp;<br>Local Visibility</strong><i></i></div>
+          </li>
+          <li class="business-node business-ads">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M5 31H13V43H5ZM20 20H28V43H20ZM35 7H43V43H35Z"/></svg>
+            <div><strong>Digital<br>Advertising</strong><i></i></div>
+          </li>
+          <li class="business-node business-ai">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 14L24 4L44 14L24 24ZM11 21L4 25L24 35L44 25L37 21M11 32L4 36L24 46L44 36L37 32"/></svg>
+            <div><strong>AI &amp; Business<br>Automation</strong><i></i></div>
+          </li>
+          </ul>
         </figure>
       </div>
     </section>
