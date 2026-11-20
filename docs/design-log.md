@@ -5,6 +5,10 @@ Maintained by Claude (design). Newest entry first. This file keeps the design pr
 Statuses used here: **Current proposal** (recommended, awaiting owner approval), **Exploration** (earlier work, kept for reference), **Rejected** (dropped, with the reason).
 
 
+## 2026-11-20 — The Big Picture as a customer path
+
+**Current proposal, explicit owner approval pending.** Replaces the second "Your business" hub (it repeated the Hero) with three steps a customer goes through: Get found → Win the customer → Stay organized, with a laptop centerpiece. Claude's flat mockup came first; the owner then produced his own 3D render, and over two review rounds Claude's fixes were applied: no Google logo or colors, no invented rating, concrete heading instead of "digital presence", no outcome promise, no unconfirmed "Booked" calendar. The owner's final render is the target; Claude's mockup is superseded. Spec covers layered build (live labels/cards, laptop as the only image), flat cards instead of CSS tilt, phone stacking and acceptance checks. [Spec](design-homepage-big-picture-2026-11-20.md), [owner render](design/2026-11-20-big-picture/owner-render-final-2026-11-20.webp), [phone reference](design/2026-11-20-big-picture/mobile-390-reference.webp).
+
 ## 2026-11-20 — Customer-first messaging review
 
 **Proposal, pending editorial approval.** Independent review of the owner-approved customer-first direction. Keeps "You run your business. We handle the digital side." as the recommended headline but moves the specifics into the supporting line, flags scope risks ("digital side" read as IT support), proposes a "What we don't handle" line, question-led service rows, voice rules, and line-level changes for Home, Services and Web Design. [Review](design-customer-first-messaging-2026-11-20.md).
