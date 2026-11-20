@@ -5,6 +5,10 @@ Maintained by Claude (design). Newest entry first. This file keeps the design pr
 Statuses used here: **Current proposal** (recommended, awaiting owner approval), **Exploration** (earlier work, kept for reference), **Rejected** (dropped, with the reason).
 
 
+## 2026-11-20 — Customer-first messaging review
+
+**Proposal, pending editorial approval.** Independent review of the owner-approved customer-first direction. Keeps "You run your business. We handle the digital side." as the recommended headline but moves the specifics into the supporting line, flags scope risks ("digital side" read as IT support), proposes a "What we don't handle" line, question-led service rows, voice rules, and line-level changes for Home, Services and Web Design. [Review](design-customer-first-messaging-2026-11-20.md).
+
 ## 2026-11-19 — Visual audit and "Working Drawings" direction
 
 **Current proposal.** Audit of the live Home, Services and Web Design pages (and About from PR #21 evidence): four of five pages are built mostly from one rule-and-text-row unit, with almost no imagery after the hero. Proposed direction "Working Drawings": precise monochrome line drawings of the things ROBYLO builds, beside real Studio Plates, with six reusable section patterns. Services redesign mockup at 1440 and 390, approved copy unchanged. [Audit, direction, Services spec and implementation plan](design-visual-direction-2026-11-19.md). Also found: public pages show literal [Confirm] markers.

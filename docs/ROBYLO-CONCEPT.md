@@ -277,3 +277,16 @@ Use strong, dark headings on light surfaces and white headings on dark surfaces.
 **Approved owner direction, 2026-11-19.** Give the hero a primary CTA and an optional secondary action. Use a prominent primary button in the final CTA. For navigation within content, prefer clean text links with a subtle right arrow (→) to services, case studies and related pages. Keep links within sentences readable without requiring an arrow. Use an additional in-page button only for a distinct, important action that genuinely needs the emphasis.
 
 Reuse established Elementor button and link styles. Keep link typography, spacing, hover, visible keyboard focus and accessible contrast consistent. Preserve approved CTA components and working destinations. Follow this hierarchy on unfinished pages and in future approved work. Revisit already approved sections only when their own scope calls for it.
+
+### Customer-first communication
+
+**Approved owner direction, 2026-11-20.** ROBYLO takes the headache out of managing the digital side of a small business, so owners can focus on running it. Communicate as a practical digital partner and one point of contact for related digital work, able to handle initial projects and ongoing management within an agreed scope. Clients keep ownership of and access to their digital assets; ROBYLO can manage them operationally without locking the client in.
+
+- Explain the practical benefit before any technical term. Service names may stay in navigation, URLs, SEO fields and detailed explanations.
+- Write plain, natural American English for ordinary small-business owners: short sentences, familiar situations, concrete examples, a reassuring but professional tone. Avoid unexplained jargon, buzzwords, generic slogans, excessive technical detail, exaggerated promises and invented claims.
+- State what is included, what is not, and what results can reasonably be expected. Do not imply that ROBYLO handles all IT, cybersecurity, hardware or business operations.
+- Every important page answers, in order: what problem ROBYLO can help solve; what ROBYLO will actually do; why to trust ROBYLO; what working together looks like; how to start. Lead with the core value; keep detailed technical information secondary.
+- This direction does not change the visual system or the approved layouts.
+
+Exact slogans, headlines and rewritten page copy are **not** approved by this direction. Claude's proposals, pending editorial approval, are in [design-customer-first-messaging-2026-11-20.md](design-customer-first-messaging-2026-11-20.md). Until approved, existing approved copy stays in place.
+
