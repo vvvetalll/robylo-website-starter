@@ -338,3 +338,10 @@ Frontend scan at all five widths found no decorative horizontal rules in the fou
 ## 2026-11-20 — Visual composition, seven-route check
 
 Authenticated Chrome at 320/390/768/1024/1440 reported no horizontal overflow. Compared 11 affected sections before and after at 1440/390, with additional breakpoint imagery. Checked desktop/mobile keyboard focus, pointer hover, mobile menu Escape and focus recovery, all six native carousel positions, emulated swipe, native FAQ open/close behavior, final CTA navigation and unchanged review markers. Anonymous requests for all seven reviewed routes returned Coming Soon. [Implementation details, exclusions and QA evidence index](design-visual-composition-2026-11-20.md#verification). Visual evidence delivered privately.
+
+## 2026-11-20 — Customer path visual review
+
+ChatGPT/Codex visually inspected the authenticated WordPress draft for section 7d73938f at each exact Chrome viewport. Captures: [320 px](evidence/big-picture-elementor/320.jpg) · [375 px](evidence/big-picture-elementor/375.jpg) · [390 px](evidence/big-picture-elementor/390.jpg) · [768 px](evidence/big-picture-elementor/768.jpg) · [1024 px](evidence/big-picture-elementor/1024.jpg) · [1440 px](evidence/big-picture-elementor/1440.jpg). Desktop and wide tablet show the connected panels and laptop. At 768 px and below, the sequence stacks with a compact website screen. At 320 px the headline and middle stage title wrap. No horizontal overflow was measured at any width. The section exposes one H2, three H3s, live interface text and zero interactive controls. The initial render showed a gap at the laptop's right port. The final curves are anchored relative to the illustration and the side panels paint above the arc.
+
+The comparison of the complete Elementor Home configuration before and after, excluding only the target section, matched exactly. The previous Hero draft is preserved. Coming Soon was on and the frontend robots tag included noindex. Changes are staged for owner review. PR #37 is stacked on #34; #34, #36 and #37 remain unmerged.
+
