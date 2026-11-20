@@ -11,3 +11,5 @@ Additional approved change on the same homepage: increase the mobile Hero grid g
 ## Approved mobile revision · November 20, 2026
 
 The owner approved the final [Stage 1 prototype and captures](https://github.com/vvvetalll/robylo-website-starter/tree/113203579280eedf63db9547a04a6ae910e80520/docs/evidence/mobile-path-proposed) in PR #44 and authorized publication on protected Home 5894 following frontend review. This supersedes the phone badges and arrows above. Each article keeps its existing heading, description and illustration. The translucent bottom-right 01, 02 and 03 extend 38 px below their illustrations, with 22 px to the next step. The compact website mockup uses a 1 px warm-gray frame. The section keeps its previous layout from 768 px up. PR #45 is the baseline for the Hero and shared typography.
+
+Owner follow-up before publication: increase the phone gap between complete steps from 22 px to 30 px so the illustration and the next heading read separately. Keep the 38 px number alignment.
