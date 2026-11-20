@@ -408,7 +408,7 @@ The compact cards complete one 40-second linear revolution on all seven tested l
 | 1024 | 238.0 | 214.7 | 13.5 | 142.7 | 87.5 |
 | 1440 | 212.6 | 202.4 | 20.9 | 139.1 | 35.9 |
 
-All distances are CSS pixels. Clearance includes a four-pixel card shadow allowance on the sides and above, and five pixels below. Disk clearance is measured to its solid perimeter. At 320 px the 54 px disk fits the two-line 12 px label. On the other three phone widths the disk is 76 px and its label is 13.5 px. The orbit uses existing empty Hero space beside the illustration. On narrower usable canvases the review solver falls back to a two-degree sway if the permitted radius cannot clear the painted rectangular cards.
+All distances are CSS pixels. Clearance includes a four-pixel card shadow allowance on the sides and above, and five pixels below. Disk clearance is measured to its solid perimeter. At 320 px the 54 px disk fits the two-line 10.75 px label. On the other three phone widths the disk is 76 px and its label is 12.5 px. Both mobile sizes use Manrope 600, with 4.75 px of measured side clearance at 320 and 12.1 px at 360–390. The service-card type remains 12 px. [Mobile center detail](evidence/business-hub-orbit-2/mobile-center-320.png). The orbit uses existing empty Hero space beside the illustration. On narrower usable canvases the review solver falls back to a two-degree sway if the permitted radius cannot clear the painted rectangular cards.
 
 | Card (width × height, px, rounded) | Phone, 12 px type | Tablet, 15 px type | Desktop, 14 px type |
 | --- | --- | --- | --- |
