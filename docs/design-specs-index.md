@@ -33,3 +33,4 @@ Specs live in the existing flat `docs/` structure as dated `design-*.md` files, 
 - [2026-11-20 · Global typography and visual hierarchy](design-global-typography-2026-11-20.md) — owner-authorized style refinement preserving approved copy and behavior.
 
 - [2026-11-20 · Outline navigation and service composition](design-outline-navigation-2026-11-20.md) — owner-authorized refinement, based on PRs #31 and #32.
+| 2026-11-20 | [Visual composition and divider cleanup](design-visual-composition-2026-11-20.md) | Owner scope and placeholder proposals |
