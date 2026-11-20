@@ -290,3 +290,6 @@ Reuse established Elementor button and link styles. Keep link typography, spacin
 
 Exact slogans, headlines and rewritten page copy are **not** approved by this direction. Claude's proposals, pending editorial approval, are in [design-customer-first-messaging-2026-11-20.md](design-customer-first-messaging-2026-11-20.md). Until approved, existing approved copy stays in place.
 
+### Typography hierarchy and separators
+
+**Owner direction, 2026-11-20.** Keep main headings strong in Manrope 700 and use a smaller, 600-weight secondary line. Use the existing graphite text token on light surfaces and a legible muted value on black. Aim for at least 16px for ordinary mobile reading copy. Reserve smaller roles for labels, captions and approved compact portfolio metadata. Use compact 13px / 600 eyebrows when they identify a page, region, or distinct kind of content. Remove labels the heading already explains. Group content with spacing first. Prefer `rb-line` for structural separators on light surfaces and preserve divider and focus roles for interactive controls. The numbered About principles are a reference for clarity and spacing. [Scope and implementation plan](design-global-typography-2026-11-20.md).

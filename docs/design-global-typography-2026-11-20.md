@@ -1,0 +1,11 @@
+# Global typography and hierarchy refinement — November 20, 2026
+
+**Owner-authorized scope.** Refine hierarchy, contrast, ordinary mobile reading text and decorative separators. Use the numbered “A simpler way to work together” block on About as a visual reference. Keep its structure and numbering. Preserve Manrope, the existing grayscale palette, agreed headlines and paragraphs, CTA roles, links, carousel and FAQ behavior. Keep Coming Soon active and author page changes as drafts.
+
+## Implementation plan
+
+- Build on the existing Elementor Kit 5744 heading roles. Preserve the 700-weight main headings and established sizes. Within a two-tone heading, subordinate the secondary line by using 600 weight and approximately 88% of the main size. Set light-surface secondary text in the existing graphite token. Keep a readable inverse secondary color on dark surfaces. Do not change the global muted color token used by the footer, menu and Home diagram.
+- Bring shared supporting descriptions to 16px on phones where they were 15px. Keep 16px minimum for the Home Approach and Services engagement body copy. Preserve 12–14px for captions, genuine labels and the owner-approved mobile portfolio metadata.
+- Reuse the native eyebrow role for compact 13px / 600 identification labels. Keep About ROBYLO, The Big Picture, service/region identification, FAQ, and the two approved engagement labels. Keep The Difference as the About reference label. Remove repeating organizational labels from Home-adjacent Services details, About and Website Design where the section heading already explains the content.
+- Remove repeated dark strokes from Home process steps and the six Services problem groups. Use spacing to group them. Lighten the structural border on the one-time engagement panel and the four related-service annotations. Keep useful light-gray grouping lines and functional outlines around FAQ rows, portfolio controls and buttons.
+- Audit the thirteen introductory or portfolio routes against the same shared heading rules. Review header, footer, mobile navigation, Coming Soon and the typography specimens for shared-style effects. Verify actual desktop, tablet and mobile layouts at 320, 390, 768, 1024 and 1440px. Confirm contrasts, text integrity, focus and no overflow.
