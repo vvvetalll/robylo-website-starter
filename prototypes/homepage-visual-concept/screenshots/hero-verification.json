@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-20",
+  "widths": [
+    {
+      "contentWidth": 305,
+      "cta": [
+        {
+          "destination": "#contact",
+          "height": 48,
+          "text": "Let's talk\n→"
+        },
+        {
+          "destination": "#work",
+          "height": 48,
+          "text": "See our work\n→"
+        }
+      ],
+      "heading": "34px",
+      "heroBottom": 711,
+      "labels": [
+        {
+          "size": "12px",
+          "text": "Websites"
+        },
+        {
+          "size": "12px",
+          "text": "SEO &\nLocal Visibility"
+        },
+        {
+          "size": "12px",
+          "text": "Digital\nAdvertising"
+        },
+        {
+          "size": "12px",
+          "text": "AI & Business\nAutomation"
+        }
+      ],
+      "missingImages": 0,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "contentWidth": 375,
+      "cta": [
+        {
+          "destination": "#contact",
+          "height": 48,
+          "text": "Let's talk\n→"
+        },
+        {
+          "destination": "#work",
+          "height": 48,
+          "text": "See our work\n→"
+        }
+      ],
+      "heading": "34.71px",
+      "heroBottom": 751.0208740234375,
+      "labels": [
+        {
+          "size": "12px",
+          "text": "Websites"
+        },
+        {
+          "size": "12px",
+          "text": "SEO &\nLocal Visibility"
+        },
+        {
+          "size": "12px",
+          "text": "Digital\nAdvertising"
+        },
+        {
+          "size": "12px",
+          "text": "AI & Business\nAutomation"
+        }
+      ],
+      "missingImages": 0,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "contentWidth": 753,
+      "cta": [
+        {
+          "destination": "#contact",
+          "height": 58,
+          "text": "Let's talk\n→"
+        },
+        {
+          "destination": "#work",
+          "height": 58,
+          "text": "See our work\n→"
+        }
+      ],
+      "heading": "62.976px",
+      "heroBottom": 1029.0625,
+      "labels": [
+        {
+          "size": "17px",
+          "text": "Websites"
+        },
+        {
+          "size": "17px",
+          "text": "SEO &\nLocal Visibility"
+        },
+        {
+          "size": "17px",
+          "text": "Digital\nAdvertising"
+        },
+        {
+          "size": "17px",
+          "text": "AI & Business\nAutomation"
+        }
+      ],
+      "missingImages": 0,
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "contentWidth": 1009,
+      "cta": [
+        {
+          "destination": "#contact",
+          "height": 50,
+          "text": "Let's talk\n→"
+        },
+        {
+          "destination": "#work",
+          "height": 50,
+          "text": "See our work\n→"
+        }
+      ],
+      "heading": "48px",
+      "heroBottom": 579.21875,
+      "labels": [
+        {
+          "size": "13px",
+          "text": "Websites"
+        },
+        {
+          "size": "13px",
+          "text": "SEO &\nLocal Visibility"
+        },
+        {
+          "size": "13px",
+          "text": "Digital\nAdvertising"
+        },
+        {
+          "size": "13px",
+          "text": "AI & Business\nAutomation"
+        }
+      ],
+      "missingImages": 0,
+      "scrollWidth": 1009,
+      "width": 1024
+    },
+    {
+      "contentWidth": 1425,
+      "cta": [
+        {
+          "destination": "#contact",
+          "height": 58,
+          "text": "Let's talk\n→"
+        },
+        {
+          "destination": "#work",
+          "height": 58,
+          "text": "See our work\n→"
+        }
+      ],
+      "heading": "69.84px",
+      "heroBottom": 711.1979370117188,
+      "labels": [
+        {
+          "size": "17px",
+          "text": "Websites"
+        },
+        {
+          "size": "17px",
+          "text": "SEO &\nLocal Visibility"
+        },
+        {
+          "size": "17px",
+          "text": "Digital\nAdvertising"
+        },
+        {
+          "size": "17px",
+          "text": "AI & Business\nAutomation"
+        }
+      ],
+      "missingImages": 0,
+      "scrollWidth": 1425,
+      "width": 1440
+    }
+  ],
+  "focus": {
+    "active": "See our work →",
+    "outline": "rgb(0, 0, 0) solid 2px",
+    "visible": true
+  },
+  "links": {
+    "work": "#work",
+    "contact": "#contact"
+  },
+  "slider": "Blocked: previous Hero slider and additional approved slides not located. No decorative controls or invented slides added.",
+  "motion": "Static CSS/SVG; no animation or transitions."
+}

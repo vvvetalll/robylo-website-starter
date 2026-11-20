@@ -1,0 +1,935 @@
+{
+  "note": "Scoped staged Hero configuration, not a portable template export. Media dependencies 6401–6405; component 5864. rb-hub-icon additionally has & > svg { fill:none; }.",
+  "page_id": 5894,
+  "hero": [
+    {
+      "id": "239c5c36",
+      "elType": "e-div-block",
+      "title": "Approved Business Hub Hero",
+      "elements": [
+        {
+          "id": "703f1aa1",
+          "elType": "e-div-block",
+          "title": "Hero outer orbit",
+          "interactions": [],
+          "editor_settings": {
+            "name": "Hero outer orbit",
+            "decorative": true
+          },
+          "settings": {
+            "classes": [
+              "e-37bc24c8-9861"
+            ]
+          },
+          "styles": {
+            "__style_id": "e-37bc24c8-9861",
+            "css": "width: 1120px; height: 1120px; min-width: 0px; position: absolute; inset-block-start: -230px; inset-inline-start: 39%; z-index: -1; padding: 0px; border-radius: 50%; border-width: 1px; border-color: #ffffff; border-style: solid; pointer-events:none;\n@media(--mobile) { width: 760px; height: 760px; inset-block-start: 160px; inset-inline-start: 15%; }"
+          },
+          "tag": "div",
+          "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+        },
+        {
+          "id": "54721618",
+          "elType": "e-div-block",
+          "title": "Hero lower curve",
+          "interactions": [],
+          "editor_settings": {
+            "name": "Hero lower curve",
+            "decorative": true
+          },
+          "settings": {
+            "classes": [
+              "e-22e204cb-24fa"
+            ]
+          },
+          "styles": {
+            "__style_id": "e-22e204cb-24fa",
+            "css": "width: 145%; height: 260px; min-width: 0px; position: absolute; inset-block-end: -195px; inset-inline-start: -18%; z-index: -1; padding: 0px; border-radius: 50%; border-block-start-width: 3px; background-image: linear-gradient(#dddddd 0%,#ffffff 45%); background-repeat: repeat; background-attachment: scroll; background-size: auto auto; background-position: 0% 0%; box-shadow: 0px -6px 24px 0px #ffffff88; transform: rotateX(0deg) rotateY(0deg) rotateZ(-6deg); border-top-style: solid; border-top-color: #ffffff; pointer-events:none;\n@media(--mobile) { height: 160px; inset-block-end: -135px; }"
+          },
+          "tag": "div",
+          "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+        },
+        {
+          "id": "660c22c4",
+          "elType": "e-div-block",
+          "title": "Hero layout",
+          "elements": [
+            {
+              "id": "38f2f9fa",
+              "elType": "e-div-block",
+              "title": "Hero copy",
+              "elements": [
+                {
+                  "id": "766544a6",
+                  "elType": "widget",
+                  "widgetType": "e-paragraph",
+                  "title": "Hero eyebrow",
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hero eyebrow"
+                  },
+                  "settings": {
+                    "classes": [
+                      "g-bdd9dfe",
+                      "e-66231873-1960"
+                    ],
+                    "paragraph": "DIGITAL PARTNER FOR SMALL BUSINESS"
+                  },
+                  "styles": {
+                    "__style_id": "e-66231873-1960",
+                    "css": "font-weight: 700; font-size: 15px; color: var(--rb-text); letter-spacing: 0.015em; margin: 0px;\n@media(--tablet) { font-size: 12px; }\n@media(--mobile) { font-size: 11px; }"
+                  },
+                  "tag": "p",
+                  "default_styles": ".elementor .e-paragraph-base{margin:0px;}.elementor .e-paragraph-link-base{all:unset;cursor:pointer;}\n.elementor .e-default-p{max-width:var(--rb-measure);font-family:var(--rb-font);font-weight:400;font-size:var(--rb-body);color:var(--rb-text);letter-spacing:0em;line-height:1.6;margin:0px;}"
+                },
+                {
+                  "id": "3fd054fe",
+                  "elType": "widget",
+                  "widgetType": "e-heading",
+                  "title": "Hero headline",
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hero headline"
+                  },
+                  "settings": {
+                    "classes": [
+                      "g-9858763",
+                      "e-5e7c2d55-31fc"
+                    ],
+                    "tag": "h1",
+                    "title": "Good business.<br><span>Hard to find?</span>"
+                  },
+                  "styles": {
+                    "__style_id": "e-5e7c2d55-31fc",
+                    "css": "font-size: clamp(48px,4.85vw,76px); letter-spacing: -0.045em; line-height: 1.07; margin-block-start: 20px; & span { font-size:1em;font-weight:700;color:var(--rb-text); }\n@media(--tablet) { font-size: 56px; }\n@media(--mobile) { font-size: clamp(32px,8.9vw,48px); margin-block-start: 14px; }"
+                  },
+                  "tag": "h1",
+                  "default_styles": ".elementor .e-heading-base{margin:0px;}.elementor .e-heading-link-base{all:unset;cursor:pointer;}\n.elementor .e-default-h1{font-family:var(--rb-font);font-weight:700;font-size:var(--rb-display);color:var(--rb-ink);letter-spacing:-0.03em;line-height:1.08;margin:0px;}@media(max-width:1024px){.elementor .e-default-h1{font-size:56px;letter-spacing:-0.0275em;line-height:1.1;}}@media(max-width:767px){.elementor .e-default-h1{font-size:40px;letter-spacing:-0.025em;line-height:1.12;}}"
+                },
+                {
+                  "id": "cb59e85",
+                  "elType": "widget",
+                  "widgetType": "e-paragraph",
+                  "title": "Hero introduction",
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hero introduction"
+                  },
+                  "settings": {
+                    "classes": [
+                      "g-efbc920",
+                      "e-4e87878d-7f43"
+                    ],
+                    "paragraph": "We build websites, help people find you on Google, run ads, and connect the tools you use every day."
+                  },
+                  "styles": {
+                    "__style_id": "e-4e87878d-7f43",
+                    "css": "max-width: 43ch; font-size: 19px; line-height: 1.5; margin-block-start: 28px;\n@media(--tablet) { font-size: 17px; }\n@media(--mobile) { font-size: 16px; margin-block-start: 20px; }"
+                  },
+                  "tag": "p",
+                  "default_styles": ".elementor .e-paragraph-base{margin:0px;}.elementor .e-paragraph-link-base{all:unset;cursor:pointer;}\n.elementor .e-default-p{max-width:var(--rb-measure);font-family:var(--rb-font);font-weight:400;font-size:var(--rb-body);color:var(--rb-text);letter-spacing:0em;line-height:1.6;margin:0px;}"
+                },
+                {
+                  "id": "6984d08f",
+                  "elType": "e-div-block",
+                  "title": "Hero actions",
+                  "elements": [
+                    {
+                      "id": "5afea73d",
+                      "elType": "e-div-block",
+                      "title": "Hero primary wrapper",
+                      "elements": [
+                        {
+                          "id": "27c551e0",
+                          "elType": "widget",
+                          "widgetType": "e-component",
+                          "title": "Hero primary action",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hero primary action"
+                          },
+                          "settings": {
+                            "component_instance": {
+                              "component_id": 5864,
+                              "overrides": [
+                                {
+                                  "override_key": "text",
+                                  "override_value": {
+                                    "$$type": "escaped-html",
+                                    "value": "<span>Let's talk</span>"
+                                  },
+                                  "schema_source": {
+                                    "type": "component",
+                                    "id": 5864
+                                  }
+                                },
+                                {
+                                  "override_key": "link",
+                                  "override_value": {
+                                    "$$type": "link",
+                                    "value": {
+                                      "destination": {
+                                        "$$type": "url",
+                                        "value": "#contact"
+                                      },
+                                      "isTargetBlank": {
+                                        "$$type": "boolean",
+                                        "value": false
+                                      },
+                                      "tag": {
+                                        "$$type": "string",
+                                        "value": "a"
+                                      }
+                                    }
+                                  },
+                                  "schema_source": {
+                                    "type": "component",
+                                    "id": 5864
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "styles": {
+                            "css": ""
+                          },
+                          "tag": "div",
+                          "default_styles": ".elementor .e-default-div{font-family:var(--rb-font);}"
+                        }
+                      ],
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hero primary wrapper"
+                      },
+                      "settings": {
+                        "classes": [
+                          "g-3560e9a",
+                          "e-674ced2c-2ebf"
+                        ]
+                      },
+                      "styles": {
+                        "__style_id": "e-674ced2c-2ebf",
+                        "css": "min-width: 0px; padding: 0px; width:fit-content;\n@media(--mobile) { & .e-button-base::after { inset-inline-end: 14px; } & .e-button-base::before { inset-inline-start: 14px; } }"
+                      },
+                      "tag": "div",
+                      "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    },
+                    {
+                      "id": "dda93de",
+                      "elType": "e-div-block",
+                      "title": "Hero outline wrapper",
+                      "elements": [
+                        {
+                          "id": "260c1b63",
+                          "elType": "widget",
+                          "widgetType": "e-component",
+                          "title": "Hero portfolio action",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hero portfolio action"
+                          },
+                          "settings": {
+                            "component_instance": {
+                              "component_id": 5864,
+                              "overrides": [
+                                {
+                                  "override_key": "text",
+                                  "override_value": {
+                                    "$$type": "escaped-html",
+                                    "value": "See our work →"
+                                  },
+                                  "schema_source": {
+                                    "type": "component",
+                                    "id": 5864
+                                  }
+                                },
+                                {
+                                  "override_key": "link",
+                                  "override_value": {
+                                    "$$type": "link",
+                                    "value": {
+                                      "destination": {
+                                        "$$type": "url",
+                                        "value": "#work"
+                                      },
+                                      "isTargetBlank": {
+                                        "$$type": "boolean",
+                                        "value": false
+                                      },
+                                      "tag": {
+                                        "$$type": "string",
+                                        "value": "a"
+                                      }
+                                    }
+                                  },
+                                  "schema_source": {
+                                    "type": "component",
+                                    "id": 5864
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "styles": {
+                            "css": ""
+                          },
+                          "tag": "div",
+                          "default_styles": ".elementor .e-default-div{font-family:var(--rb-font);}"
+                        }
+                      ],
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hero outline wrapper"
+                      },
+                      "settings": {
+                        "classes": [
+                          "g-2c2e51d",
+                          "e-2bfe0156-8b4a"
+                        ]
+                      },
+                      "styles": {
+                        "__style_id": "e-2bfe0156-8b4a",
+                        "css": "min-width: 0px; padding: 0px; width:fit-content;"
+                      },
+                      "tag": "div",
+                      "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    }
+                  ],
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hero actions"
+                  },
+                  "settings": {
+                    "classes": [
+                      "e-47149ed8-c035"
+                    ]
+                  },
+                  "styles": {
+                    "__style_id": "e-47149ed8-c035",
+                    "css": "min-width: 0px; padding: 0px; margin-block-start: 36px; display: flex; flex-direction: row; gap: 24px; flex-wrap: wrap; align-items: center;\n@media(--tablet) { gap: 14px; }\n@media(--mobile) { margin-block-start: 24px; gap: 12px; & .e-button-base { font-size:14px;padding:13px 14px;min-height:48px;white-space:nowrap; } }"
+                  },
+                  "tag": "div",
+                  "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                }
+              ],
+              "interactions": [],
+              "editor_settings": {
+                "name": "Hero copy"
+              },
+              "settings": {
+                "classes": [
+                  "e-19cd4a47-a4b5"
+                ]
+              },
+              "styles": {
+                "__style_id": "e-19cd4a47-a4b5",
+                "css": "min-width: 0px; position: relative; z-index: 2; padding: 0px; align-self: center;"
+              },
+              "tag": "div",
+              "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+            },
+            {
+              "id": "17cfcfea",
+              "elType": "e-div-block",
+              "title": "Business Hub",
+              "elements": [
+                {
+                  "id": "50b1986e",
+                  "elType": "widget",
+                  "widgetType": "e-svg",
+                  "title": "Hub connections",
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hub connections"
+                  },
+                  "settings": {
+                    "classes": [
+                      "e-24370069-e70f"
+                    ],
+                    "svg": {
+                      "id": 6404,
+                      "url": null
+                    }
+                  },
+                  "styles": {
+                    "__style_id": "e-24370069-e70f",
+                    "css": "width: 100%; height: 100%; position: absolute; color: var(--rb-paper); inset:0px; & > svg { fill:none; }\n@media(--mobile) { height: 84%; inset-block-start: 8%; & > svg ellipse, & > svg path { stroke: var(--rb-mute); stroke-width: 1.25px; vector-effect: non-scaling-stroke; } & > svg g { fill: var(--rb-mute); } }"
+                  },
+                  "tag": "div",
+                  "default_styles": ".elementor .e-svg-base{display:inline-block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                },
+                {
+                  "id": "428dbf3c",
+                  "elType": "e-div-block",
+                  "title": "Hub center",
+                  "elements": [
+                    {
+                      "id": "31130001",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "Hub Your business",
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub Your business"
+                      },
+                      "settings": {
+                        "classes": [
+                          "g-f018d12",
+                          "e-3e1b155-95b4"
+                        ],
+                        "paragraph": "Your<br>business",
+                        "tag": "span"
+                      },
+                      "styles": {
+                        "__style_id": "e-3e1b155-95b4",
+                        "css": "font-size: 26px; color: var(--rb-paper); line-height: 1.15; text-align: center; cursor: default;\n@media(--tablet) { font-size: 26px; }\n@media(--mobile) { font-size: 17px; }"
+                      },
+                      "tag": "span",
+                      "default_styles": ".elementor .e-paragraph-base{margin:0px;}.elementor .e-paragraph-link-base{all:unset;cursor:pointer;}"
+                    }
+                  ],
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hub center"
+                  },
+                  "settings": {
+                    "classes": [
+                      "e-621cc2df-f60e"
+                    ]
+                  },
+                  "styles": {
+                    "__style_id": "e-621cc2df-f60e",
+                    "css": "width: 35%; min-width: 0px; aspect-ratio: 1; position: absolute; inset-block-start: 26.6667%; inset-inline-start: 32.5%; padding: 0px; border-radius: 50%; background-image: linear-gradient(145deg, #686868 0%,#252525 32%,#080808 74%,#333333 100%); background-repeat: repeat; background-attachment: scroll; background-size: auto auto; background-position: 0% 0%; box-shadow: 1px 2px 2px 0px #ffffff7a inset,-2px -2px 3px 0px #ffffff38 inset,0px 22px 30px 0px #00000033,0px 0px 22px 8px #ffffff; display: flex; flex-direction: row; justify-content: center; align-items: center;\n@media(--mobile) { inset-block-start: 30.4%; }"
+                  },
+                  "tag": "div",
+                  "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                },
+                {
+                  "id": "1eea0653",
+                  "elType": "e-div-block",
+                  "title": "Hub web card",
+                  "elements": [
+                    {
+                      "id": "7ee7b145",
+                      "elType": "widget",
+                      "widgetType": "e-svg",
+                      "title": "Hub web icon",
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub web icon"
+                      },
+                      "settings": {
+                        "classes": [
+                          "g-89d106c",
+                          "e-4226ae0b-72e5"
+                        ],
+                        "svg": {
+                          "id": 6403,
+                          "url": null
+                        }
+                      },
+                      "styles": {
+                        "__style_id": "e-4226ae0b-72e5",
+                        "css": "color: var(--rb-ink);"
+                      },
+                      "tag": "div",
+                      "default_styles": ".elementor .e-svg-base{display:inline-block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    },
+                    {
+                      "id": "70844b2a",
+                      "elType": "e-div-block",
+                      "title": "Hub web text",
+                      "elements": [
+                        {
+                          "id": "40b92531",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "Hub web label",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub web label"
+                          },
+                          "settings": {
+                            "classes": [
+                              "g-f018d12"
+                            ],
+                            "paragraph": "Websites"
+                          },
+                          "styles": {
+                            "css": ""
+                          },
+                          "tag": "p",
+                          "default_styles": ".elementor .e-paragraph-base{margin:0px;}.elementor .e-paragraph-link-base{all:unset;cursor:pointer;}\n.elementor .e-default-p{max-width:var(--rb-measure);font-family:var(--rb-font);font-weight:400;font-size:var(--rb-body);color:var(--rb-text);letter-spacing:0em;line-height:1.6;margin:0px;}"
+                        },
+                        {
+                          "id": "78bf130",
+                          "elType": "e-div-block",
+                          "title": "Hub web detail",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub web detail",
+                            "decorative": true
+                          },
+                          "settings": {
+                            "classes": [
+                              "e-75f5a4b5-ae18"
+                            ]
+                          },
+                          "styles": {
+                            "__style_id": "e-75f5a4b5-ae18",
+                            "css": "width: 100%; height: 3px; min-width: 0px; padding: 0px; margin-block-start: 7px; background-image: linear-gradient(90deg, #b8b8b8 0%,#ffffff 100%); background-repeat: repeat; background-attachment: scroll; background-size: auto auto; background-position: 0% 0%;"
+                          },
+                          "tag": "div",
+                          "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                        }
+                      ],
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub web text"
+                      },
+                      "settings": {
+                        "classes": [
+                          "e-36a51cb9-fe16"
+                        ]
+                      },
+                      "styles": {
+                        "__style_id": "e-36a51cb9-fe16",
+                        "css": "min-width: 0px; padding: 0px; flex: 1 1 0px;"
+                      },
+                      "tag": "div",
+                      "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    }
+                  ],
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hub web card"
+                  },
+                  "settings": {
+                    "classes": [
+                      "g-6eb5b38",
+                      "e-2f4a7e2-8d7c"
+                    ],
+                    "tag": "article"
+                  },
+                  "styles": {
+                    "__style_id": "e-2f4a7e2-8d7c",
+                    "css": "width: 32%; inset-block-start: 8%; inset-inline-start: 2%; z-index: 2;\n@media(--mobile) { width: 47%; inset-block-start: 0%; inset-inline-start: 0%; }"
+                  },
+                  "tag": "article",
+                  "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}"
+                },
+                {
+                  "id": "25206a13",
+                  "elType": "e-div-block",
+                  "title": "Hub seo card",
+                  "elements": [
+                    {
+                      "id": "187ab13b",
+                      "elType": "widget",
+                      "widgetType": "e-svg",
+                      "title": "Hub seo icon",
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub seo icon"
+                      },
+                      "settings": {
+                        "classes": [
+                          "g-89d106c",
+                          "e-6adf098e-cd5a"
+                        ],
+                        "svg": {
+                          "id": 6405,
+                          "url": null
+                        }
+                      },
+                      "styles": {
+                        "__style_id": "e-6adf098e-cd5a",
+                        "css": "color: var(--rb-ink);"
+                      },
+                      "tag": "div",
+                      "default_styles": ".elementor .e-svg-base{display:inline-block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    },
+                    {
+                      "id": "54e808af",
+                      "elType": "e-div-block",
+                      "title": "Hub seo text",
+                      "elements": [
+                        {
+                          "id": "1196c1f5",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "Hub seo label",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub seo label"
+                          },
+                          "settings": {
+                            "classes": [
+                              "g-f018d12"
+                            ],
+                            "paragraph": "SEO &amp;<br>Local Visibility"
+                          },
+                          "styles": {
+                            "css": ""
+                          },
+                          "tag": "p",
+                          "default_styles": ".elementor .e-paragraph-base{margin:0px;}.elementor .e-paragraph-link-base{all:unset;cursor:pointer;}\n.elementor .e-default-p{max-width:var(--rb-measure);font-family:var(--rb-font);font-weight:400;font-size:var(--rb-body);color:var(--rb-text);letter-spacing:0em;line-height:1.6;margin:0px;}"
+                        },
+                        {
+                          "id": "86996e7",
+                          "elType": "e-div-block",
+                          "title": "Hub seo detail",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub seo detail",
+                            "decorative": true
+                          },
+                          "settings": {
+                            "classes": [
+                              "e-29c06a55-96fc"
+                            ]
+                          },
+                          "styles": {
+                            "__style_id": "e-29c06a55-96fc",
+                            "css": "width: 100%; height: 3px; min-width: 0px; padding: 0px; margin-block-start: 7px; background-image: linear-gradient(90deg, #b8b8b8 0%,#ffffff 100%); background-repeat: repeat; background-attachment: scroll; background-size: auto auto; background-position: 0% 0%;"
+                          },
+                          "tag": "div",
+                          "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                        }
+                      ],
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub seo text"
+                      },
+                      "settings": {
+                        "classes": [
+                          "e-57dfacce-ee5f"
+                        ]
+                      },
+                      "styles": {
+                        "__style_id": "e-57dfacce-ee5f",
+                        "css": "min-width: 0px; padding: 0px; flex: 1 1 0px;"
+                      },
+                      "tag": "div",
+                      "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    }
+                  ],
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hub seo card"
+                  },
+                  "settings": {
+                    "classes": [
+                      "g-6eb5b38",
+                      "e-12207453-c053"
+                    ],
+                    "tag": "article"
+                  },
+                  "styles": {
+                    "__style_id": "e-12207453-c053",
+                    "css": "inset-block-start: 8%; inset-inline-end: 0%; z-index: 2;\n@media(--mobile) { inset-block-start: 0%; inset-inline-end: 0%; }"
+                  },
+                  "tag": "article",
+                  "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}"
+                },
+                {
+                  "id": "5dcfd196",
+                  "elType": "e-div-block",
+                  "title": "Hub ads card",
+                  "elements": [
+                    {
+                      "id": "614d4c44",
+                      "elType": "widget",
+                      "widgetType": "e-svg",
+                      "title": "Hub ads icon",
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub ads icon"
+                      },
+                      "settings": {
+                        "classes": [
+                          "g-89d106c",
+                          "e-68e34aee-58f9"
+                        ],
+                        "svg": {
+                          "id": 6401,
+                          "url": null
+                        }
+                      },
+                      "styles": {
+                        "__style_id": "e-68e34aee-58f9",
+                        "css": "color: var(--rb-ink);"
+                      },
+                      "tag": "div",
+                      "default_styles": ".elementor .e-svg-base{display:inline-block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    },
+                    {
+                      "id": "14c99cb0",
+                      "elType": "e-div-block",
+                      "title": "Hub ads text",
+                      "elements": [
+                        {
+                          "id": "1b08bdaf",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "Hub ads label",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub ads label"
+                          },
+                          "settings": {
+                            "classes": [
+                              "g-f018d12"
+                            ],
+                            "paragraph": "Digital<br>Advertising"
+                          },
+                          "styles": {
+                            "css": ""
+                          },
+                          "tag": "p",
+                          "default_styles": ".elementor .e-paragraph-base{margin:0px;}.elementor .e-paragraph-link-base{all:unset;cursor:pointer;}\n.elementor .e-default-p{max-width:var(--rb-measure);font-family:var(--rb-font);font-weight:400;font-size:var(--rb-body);color:var(--rb-text);letter-spacing:0em;line-height:1.6;margin:0px;}"
+                        },
+                        {
+                          "id": "25736bc6",
+                          "elType": "e-div-block",
+                          "title": "Hub ads detail",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub ads detail",
+                            "decorative": true
+                          },
+                          "settings": {
+                            "classes": [
+                              "e-50461da5-8a14"
+                            ]
+                          },
+                          "styles": {
+                            "__style_id": "e-50461da5-8a14",
+                            "css": "width: 100%; height: 3px; min-width: 0px; padding: 0px; margin-block-start: 7px; background-image: linear-gradient(90deg, #b8b8b8 0%,#ffffff 100%); background-repeat: repeat; background-attachment: scroll; background-size: auto auto; background-position: 0% 0%;"
+                          },
+                          "tag": "div",
+                          "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                        }
+                      ],
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub ads text"
+                      },
+                      "settings": {
+                        "classes": [
+                          "e-51431a45-609e"
+                        ]
+                      },
+                      "styles": {
+                        "__style_id": "e-51431a45-609e",
+                        "css": "min-width: 0px; padding: 0px; flex: 1 1 0px;"
+                      },
+                      "tag": "div",
+                      "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    }
+                  ],
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hub ads card"
+                  },
+                  "settings": {
+                    "classes": [
+                      "g-6eb5b38",
+                      "e-15a077e9-a985"
+                    ],
+                    "tag": "article"
+                  },
+                  "styles": {
+                    "__style_id": "e-15a077e9-a985",
+                    "css": "width: 36%; inset-block-end: 7%; inset-inline-start: 0%; z-index: 2;\n@media(--mobile) { width: 47%; inset-block-end: 0%; inset-inline-start: 0%; }"
+                  },
+                  "tag": "article",
+                  "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}"
+                },
+                {
+                  "id": "7d0bce0a",
+                  "elType": "e-div-block",
+                  "title": "Hub ai card",
+                  "elements": [
+                    {
+                      "id": "39a18c52",
+                      "elType": "widget",
+                      "widgetType": "e-svg",
+                      "title": "Hub ai icon",
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub ai icon"
+                      },
+                      "settings": {
+                        "classes": [
+                          "g-89d106c",
+                          "e-72ec11f2-d9ee"
+                        ],
+                        "svg": {
+                          "id": 6402,
+                          "url": null
+                        }
+                      },
+                      "styles": {
+                        "__style_id": "e-72ec11f2-d9ee",
+                        "css": "color: var(--rb-ink);"
+                      },
+                      "tag": "div",
+                      "default_styles": ".elementor .e-svg-base{display:inline-block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    },
+                    {
+                      "id": "4a8f6d95",
+                      "elType": "e-div-block",
+                      "title": "Hub ai text",
+                      "elements": [
+                        {
+                          "id": "2707622c",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "Hub ai label",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub ai label"
+                          },
+                          "settings": {
+                            "classes": [
+                              "g-f018d12"
+                            ],
+                            "paragraph": "AI &amp; Business<br>Automation"
+                          },
+                          "styles": {
+                            "css": ""
+                          },
+                          "tag": "p",
+                          "default_styles": ".elementor .e-paragraph-base{margin:0px;}.elementor .e-paragraph-link-base{all:unset;cursor:pointer;}\n.elementor .e-default-p{max-width:var(--rb-measure);font-family:var(--rb-font);font-weight:400;font-size:var(--rb-body);color:var(--rb-text);letter-spacing:0em;line-height:1.6;margin:0px;}"
+                        },
+                        {
+                          "id": "e55bd20",
+                          "elType": "e-div-block",
+                          "title": "Hub ai detail",
+                          "interactions": [],
+                          "editor_settings": {
+                            "name": "Hub ai detail",
+                            "decorative": true
+                          },
+                          "settings": {
+                            "classes": [
+                              "e-192f9d47-1772"
+                            ]
+                          },
+                          "styles": {
+                            "__style_id": "e-192f9d47-1772",
+                            "css": "width: 100%; height: 3px; min-width: 0px; padding: 0px; margin-block-start: 7px; background-image: linear-gradient(90deg, #b8b8b8 0%,#ffffff 100%); background-repeat: repeat; background-attachment: scroll; background-size: auto auto; background-position: 0% 0%;"
+                          },
+                          "tag": "div",
+                          "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                        }
+                      ],
+                      "interactions": [],
+                      "editor_settings": {
+                        "name": "Hub ai text"
+                      },
+                      "settings": {
+                        "classes": [
+                          "e-3f7c0dc5-3461"
+                        ]
+                      },
+                      "styles": {
+                        "__style_id": "e-3f7c0dc5-3461",
+                        "css": "min-width: 0px; padding: 0px; flex: 1 1 0px;"
+                      },
+                      "tag": "div",
+                      "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+                    }
+                  ],
+                  "interactions": [],
+                  "editor_settings": {
+                    "name": "Hub ai card"
+                  },
+                  "settings": {
+                    "classes": [
+                      "g-6eb5b38",
+                      "e-f68e9e6-5176"
+                    ],
+                    "tag": "article"
+                  },
+                  "styles": {
+                    "__style_id": "e-f68e9e6-5176",
+                    "css": "inset-inline-end: 0%; inset-block-end: 7%; z-index: 2;\n@media(--mobile) { inset-inline-end: 0%; inset-block-end: 0%; }"
+                  },
+                  "tag": "article",
+                  "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}"
+                }
+              ],
+              "interactions": [],
+              "editor_settings": {
+                "name": "Business Hub"
+              },
+              "settings": {
+                "classes": [
+                  "e-2e2f32a5-5cee"
+                ]
+              },
+              "styles": {
+                "__style_id": "e-2e2f32a5-5cee",
+                "css": "width: 100%; min-width: 0px; max-width: 680px; aspect-ratio: 4 / 3; position: relative; padding: 0px; align-self: center; justify-self:center;\n@media(--mobile) { aspect-ratio: 1.12; }"
+              },
+              "tag": "div",
+              "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+            }
+          ],
+          "interactions": [],
+          "editor_settings": {
+            "name": "Hero layout"
+          },
+          "settings": {
+            "classes": [
+              "g-374719a",
+              "e-63c4fef3-7805"
+            ]
+          },
+          "styles": {
+            "__style_id": "e-63c4fef3-7805",
+            "css": "min-width: 0px; padding: 0px; display: grid; gap: 30px; grid-template-columns: minmax(0,1fr) minmax(0,1.08fr); grid-template-rows: auto; align-items: center;\n@media(--tablet) { gap: 32px; grid-template-columns: minmax(0,1fr); }\n@media(--mobile) { gap: 32px; grid-template-columns: minmax(0,1fr); }"
+          },
+          "tag": "div",
+          "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}\n.elementor .e-default-div{font-family:var(--rb-font);}"
+        }
+      ],
+      "interactions": [],
+      "editor_settings": {
+        "name": "Approved Business Hub Hero"
+      },
+      "settings": {
+        "classes": [
+          "g-048cfe8",
+          "e-76c16168-5ab7"
+        ],
+        "tag": "section"
+      },
+      "styles": {
+        "__style_id": "e-76c16168-5ab7",
+        "css": "position: relative; padding-block-start: 40px; padding-block-end: 110px; isolation:isolate; overflow:clip; background-image: radial-gradient(ellipse at 78% 46%, #d9d9d9 0%, #eeeeee 32%, #fafafa 58%, #ffffff 80%);\n@media(--tablet) { padding-block-start: 40px; padding-block-end: 80px; }\n@media(--mobile) { padding-block-start: 30px; padding-block-end: 56px; background-image: radial-gradient(ellipse at 65% 73%, #dedede, #f8f8f8 42%, #ffffff 75%); }"
+      },
+      "tag": "section",
+      "default_styles": ".e-con{position:relative;width:100%;min-width:0;}\n.elementor .e-div-block-base{min-width:30px;padding:10px;display:block;}"
+    }
+  ],
+  "initial_class_requests": [
+    {
+      "action": "create",
+      "label": "rb-hub-card",
+      "css": "position: absolute; display: flex; flex-direction: row; align-items: center; gap: 12px; width: 37%; min-width: 0px; min-height: 86px; padding: 17px 20px; border-radius: 30px; background: linear-gradient(135deg, #ffffffed, #ffffff73); box-shadow: inset -1px -2px 1px #ffffff, 5px 20px 30px #00000012; @media(--tablet) {padding: 12px; gap: 8px; min-height: 70px; border-radius: 22px;} @media(--mobile) {width:47%; gap:7px; min-height:64px; padding:12px 10px; border-radius:19px;}"
+    },
+    {
+      "action": "create",
+      "label": "rb-hub-label",
+      "css": "font-family:var(--rb-font); font-size:17px; font-weight:700; color:var(--rb-ink); line-height:1.18; letter-spacing:-0.03em; margin:0px; @media(--tablet){font-size:13px;} @media(--mobile){font-size:12px;line-height:1.2;letter-spacing:-0.025em;}"
+    },
+    {
+      "action": "create",
+      "label": "rb-hub-icon",
+      "css": "width:36px; height:36px; min-width:0px; flex-shrink:0; padding:0px; background-repeat:no-repeat; background-position:center; background-size:contain; @media(--tablet){width:27px;height:27px;} @media(--mobile){width:24px;height:24px;}"
+    }
+  ]
+}
