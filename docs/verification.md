@@ -391,3 +391,32 @@ Chrome sampled all four card bounds at each whole degree, including 0° and 360�
 With reduced motion emulated, all seven widths returned zero trial animations and the exact original card and center rectangles. A background-tab frame timing sample was throttled and cannot establish device performance. The previews are Chrome frames sampled at 10 fps and encoded at the requested 40-second loop duration. They illustrate geometry, not real-device frame rate.
 
 [Full mobile rotation, 320 px](evidence/business-hub-orbit/rotation-320.webp) · [Full desktop rotation, 1440 px](evidence/business-hub-orbit/rotation-1440.webp) · [Mobile collision detail](evidence/business-hub-orbit/seo-passing-center-320.png). The recommendation is to keep the existing static composition under the current spacing and readability constraints.
+
+## Business Hub motion review, experiment 2 — 20 November 2026
+
+The compact cards complete one 40-second linear revolution on all seven tested layouts. The four centers are spaced 90° apart, the labels remain upright, and the central disk stays fixed. The experiment uses the existing authenticated Home 5894 markup and Manrope. All homepage trials used a temporary browser stylesheet. No WordPress data was saved. The portable review captures the Hub in isolation with its own review controls.
+
+[Download the standalone HTML review](evidence/business-hub-orbit-2/index.html) · [Mobile loop, 320 px](evidence/business-hub-orbit-2/mobile-orbit-320.webp) · [Desktop loop, 1440 px](evidence/business-hub-orbit-2/desktop-orbit-1440.webp)
+
+| Viewport (px) | Disk diameter | Orbit radius | Closest card to disk | Closest card pair | Closest Hero or viewport edge |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 320 | 54.0 | 95.4 | 2.4 | 5.8 | 4.4 |
+| 360 | 76.0 | 110.9 | 6.9 | 27.7 | 8.9 |
+| 375 | 76.0 | 114.7 | 10.7 | 33.1 | 12.4 |
+| 390 | 76.0 | 118.4 | 14.4 | 38.3 | 16.4 |
+| 768 | 238.0 | 214.7 | 13.5 | 142.7 | 87.5 |
+| 1024 | 238.0 | 214.7 | 13.5 | 142.7 | 87.5 |
+| 1440 | 212.6 | 202.4 | 20.9 | 139.1 | 35.9 |
+
+All distances are CSS pixels. Clearance includes a four-pixel card shadow allowance on the sides and above, and five pixels below. Disk clearance is measured to its solid perimeter. At 320 px the 54 px disk fits the two-line 12 px label. On the other three phone widths the disk is 76 px and its label is 13.5 px. The orbit uses existing empty Hero space beside the illustration. On narrower usable canvases the review solver falls back to a two-degree sway if the permitted radius cannot clear the painted rectangular cards.
+
+| Card (width × height, px, rounded) | Phone, 12 px type | Tablet, 15 px type | Desktop, 14 px type |
+| --- | --- | --- | --- |
+| Websites | 86 × 30 | 110 × 37 | 99 × 34 |
+| SEO & Local Visibility | 112 × 44 | 143 × 56 | 129 × 51 |
+| Digital Advertising | 98 × 44 | 125 × 56 | 113 × 51 |
+| AI & Business Automation | 107 × 44 | 136 × 56 | 123 × 51 |
+
+The desktop pass uses 18 px icons, 6 × 8 px padding and a 5 px icon gap. The responsive mode hides the original fixed connector artwork during motion. Reduced motion restores the approved original sizes, positions and connectors. The review file also has pause/resume and a static comparison.
+
+Chrome checked 801 positions per viewport at 50 ms intervals over the cycle. All seven passed disk and card clearance, containment within the Hero and viewport, upright orientation and stationary center. Section rectangles stayed stable and horizontal page overflow was zero. The 320 px orbit is the tightest, with 2.4 px at the closest card corner including its shadow. CSS transforms drive the motion without per-frame JavaScript or layout reads. The two recordings sample the isolated browser review at 10 fps and each plays for 40 seconds. They demonstrate the path and proportions. Physical-device frame rate was not measured.
