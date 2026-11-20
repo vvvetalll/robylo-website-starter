@@ -369,3 +369,25 @@ Codex inspected the Elementor preview, corrected the SVG fill and desktop curve 
 Compared the complete Elementor trees of the five other homepage sections before and after publication: their configuration matched exactly. Hero and The Big Picture retained their upstream positions. The directory’s new height moves Selected Work and subsequent content down in normal flow. No shared components, kit settings, header or footer templates were written. Anonymous visitors still received Coming Soon, and the authenticated homepage retained noindex and nofollow.
 
 Published desktop and phone captures: [1440 px](evidence/what-we-do/what-we-do-1440.jpg), [390 px](evidence/what-we-do/what-we-do-390.jpg), [320 px](evidence/what-we-do/what-we-do-320.jpg).
+
+## 2026-11-20 — Business Hub orbit feasibility
+
+**Stopped before implementation.** Codex tested a full 40-second linear rotation on the signed-in Chrome frontend of Home 5894. The trial operated only in the browser, using each existing card’s real starting position and dimensions, a fixed center and an equal counter-rotation to keep text upright. The only addition was a temporary scoped stylesheet. The four cards animate using CSS transforms. The test harness sought the timeline in Chrome to inspect intermediate positions and capture frames. It was removed after the test. Nothing was staged or published in WordPress.
+
+The current hub (17cfcfea) is 235.2 px wide at a 320 px viewport. The center is 82.3 px in diameter, leaving 76.4 px on either side inside the composition. The SEO card is 119 px wide. At the side crossing its center has to pass the center circle’s horizontal axis. Even using *all* available viewport width, the centered circle and the SEO card would require at least 320.3 px for a symmetric path with zero clearance (82.3 + 2 × 119). Preserving either the approved side gutters or a visible gap makes the deficit larger. Changing speed or using an ellipse cannot resolve this side-crossing constraint.
+
+| Chrome width | Hub width | Widest upright card | Space to one side of the circle inside the hub | Maximum card bounds beyond viewport on test orbit |
+| ---: | ---: | ---: | ---: | ---: |
+| 320 | 235 | 119 | 76 | 0 px; SEO intrudes on the center |
+| 360 | 269 | 126 | 87 | 1.1 px |
+| 375 | 282 | 132 | 92 | 3.4 px |
+| 390 | 294 | 138 | 96 | 5.1 px |
+| 768 | 680 | 252 | 221 | 24.4 px |
+| 1024 | 680 | 252 | 221 | 0 px |
+| 1440 | 608 | 225 | 197 | 0 px |
+
+Chrome sampled all four card bounds at each whole degree, including 0° and 360°, at all seven widths. The minimum distance from the center-circle perimeter to the SEO card’s rectangular bounds was −8.0 px at 320 px and 210°. Rounded corners soften the visible intersection. On desktop the sweep still exceeds the allotted illustration box, by up to 63 px at 1440. The SVG’s spokes and endpoint dots are fixed in the original illustration; in the review clips they visibly lose alignment as soon as cards move. Its elliptical outline and endpoints are not independent per-card tracks.
+
+With reduced motion emulated, all seven widths returned zero trial animations and the exact original card and center rectangles. A background-tab frame timing sample was throttled and cannot establish device performance. The previews are Chrome frames sampled at 10 fps and encoded at the requested 40-second loop duration. They illustrate geometry, not real-device frame rate.
+
+[Full mobile rotation, 320 px](evidence/business-hub-orbit/rotation-320.webp) · [Full desktop rotation, 1440 px](evidence/business-hub-orbit/rotation-1440.webp) · [Mobile collision detail](evidence/business-hub-orbit/seo-passing-center-320.png). The recommendation is to keep the existing static composition under the current spacing and readability constraints.
