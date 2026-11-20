@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROBYLO — The Big Picture redesign concept</title>
+<style>
+@font-face { font-family:"Manrope"; src:url("manrope.woff2") format("woff2"); font-weight:200 800; font-display:block; }
+:root { --ink:#000; --text:#444; --mute:#8A8A8A; --line:#E3E3E3; --surface:#F5F5F5; }
+* { box-sizing:border-box; }
+html,body { margin:0; background:#fff; color:var(--ink); font-family:"Manrope",sans-serif; -webkit-font-smoothing:antialiased; }
+.context { display:block; width:100%; height:auto; }
+.context-m { display:none; }
+
+/* ---------- section ---------- */
+.bp { position:relative; padding:40px 0 120px; overflow:hidden;
+  background:
+    radial-gradient(60% 55% at 62% 58%, #EFEFEF 0%, rgba(239,239,239,0) 70%),
+    linear-gradient(180deg,#FFFFFF 0%,#FAFAFA 100%); }
+.wrap { width:820px; margin:0 auto; }
+.eyebrow { font-size:12px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:#555; margin:0 0 16px; }
+.head { display:grid; grid-template-columns:470px 1fr; gap:44px; align-items:end; }
+h2 { margin:0; font-size:44px; line-height:1.06; letter-spacing:-.03em; font-weight:700; }
+h2 span { color:#5f5f5f; font-weight:700; }
+.lede { margin:0; font-size:15.5px; line-height:1.62; color:var(--text); padding-bottom:6px; }
+
+/* ---------- stage ---------- */
+.stage { position:relative; width:1120px; height:610px; margin:56px auto 0; }
+.path { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.step { position:absolute; }
+.s1 { left:30px; top:150px; width:340px; }
+.s2 { left:425px; top:20px; width:270px; }
+.s3 { left:752px; top:170px; width:340px; }
+.card { position:relative; background:#fff; border-radius:20px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.04), 0 18px 40px -14px rgba(0,0,0,.18), 0 2px 8px rgba(0,0,0,.05);
+  border:1px solid rgba(0,0,0,.05); }
+.num { position:absolute; top:-14px; left:-14px; width:32px; height:32px; border-radius:50%; background:#000; color:#fff;
+  font-weight:700; font-size:13px; display:grid; place-items:center; box-shadow:0 6px 14px -4px rgba(0,0,0,.4); z-index:2; }
+.cap { margin-top:22px; padding-left:2px; }
+.cap b { display:block; font-size:17px; font-weight:700; letter-spacing:-.01em; margin-bottom:4px; }
+.cap p { margin:0; font-size:14px; line-height:1.5; color:var(--text); }
+.bar { height:7px; border-radius:4px; background:#E4E4E4; }
+.bar.dk { background:#111; }
+
+/* card 1 — search */
+.search { padding:18px; }
+.q { display:flex; align-items:center; gap:10px; height:38px; border-radius:19px; border:1px solid #DADADA; padding:0 14px; font-size:13px; color:#222; }
+.q svg { flex:none; }
+.map { position:relative; height:112px; margin:14px 0 12px; border-radius:12px; overflow:hidden; background:#F2F2F2; }
+.map svg { position:absolute; inset:0; }
+.res { display:grid; grid-template-columns:38px 1fr; gap:10px; align-items:center; padding:12px; border-radius:12px; border:1px solid #111; }
+.logo { width:38px; height:38px; border-radius:10px; background:#111; display:grid; place-items:center; color:#fff; font-size:11px; font-weight:700; }
+.res .t { font-size:13.5px; font-weight:700; margin-bottom:6px; }
+.btns { display:flex; gap:8px; margin-top:10px; grid-column:1/-1; }
+.btns span { flex:1; height:28px; border-radius:14px; border:1px solid #CFCFCF; font-size:11.5px; font-weight:600; display:grid; place-items:center; }
+.btns span.p { background:#111; color:#fff; border-color:#111; }
+.ghost { margin-top:10px; padding:12px; border-radius:12px; border:1px solid #EAEAEA; opacity:.7; }
+
+/* card 2 — phone */
+.phone { padding:10px; border-radius:34px; }
+.screen { border-radius:26px; overflow:hidden; background:#fff; border:1px solid #EDEDED; }
+.sb { height:26px; display:flex; justify-content:center; align-items:center; }
+.sb i { width:64px; height:6px; border-radius:3px; background:#111; }
+.nav { display:flex; justify-content:space-between; align-items:center; padding:8px 16px 10px; border-bottom:1px solid #EFEFEF; }
+.nav .b { width:46px; height:10px; border-radius:3px; background:#111; }
+.nav .h { width:18px; height:10px; border-top:2px solid #111; border-bottom:2px solid #111; }
+.pc { padding:16px; }
+.ph { height:96px; border-radius:12px; margin:12px 0 14px;
+  background: linear-gradient(135deg,#E9E9E9,#D4D4D4); position:relative; overflow:hidden; }
+.ph::after { content:""; position:absolute; right:-20px; bottom:-30px; width:120px; height:120px; border-radius:50%; background:rgba(255,255,255,.35); }
+.cta { position:relative; padding-right:26px; height:42px; border-radius:21px; background:#000; color:#fff; font-size:13px; font-weight:700; display:grid; place-items:center; }
+.tap { position:absolute; right:8px; top:50%; width:30px; height:30px; margin-top:-15px; border-radius:50%; border:2px solid rgba(255,255,255,.55); }
+.tap::after { content:""; position:absolute; inset:8px; border-radius:50%; background:rgba(255,255,255,.85); }
+.field { height:34px; border-radius:10px; border:1px solid #E1E1E1; margin-top:10px; display:flex; align-items:center; padding:0 12px; }
+.field .bar { width:60%; }
+.sec2 { height:42px; border-radius:21px; border:1px solid #111; font-size:13px; font-weight:700; display:grid; place-items:center; margin-top:10px; }
+
+/* card 3 — inbox + calendar */
+.ops { padding:18px; }
+.note { display:flex; align-items:center; gap:12px; padding:12px; border-radius:14px; background:#111; color:#fff; }
+.note .ic { width:30px; height:30px; border-radius:9px; background:#fff; display:grid; place-items:center; flex:none; }
+.note .t { font-size:13px; font-weight:700; }
+.note .s { font-size:11.5px; color:#BDBDBD; margin-top:2px; }
+.row { display:flex; align-items:center; gap:10px; margin-top:12px; font-size:12.5px; color:#222; font-weight:600; }
+.chk { width:20px; height:20px; border-radius:50%; border:1.5px solid #111; display:grid; place-items:center; flex:none; }
+.cal { margin-top:14px; border:1px solid #E6E6E6; border-radius:14px; padding:12px; }
+.cal .top { display:flex; justify-content:space-between; font-size:11px; font-weight:700; color:#666; margin-bottom:10px; }
+.grid { display:grid; grid-template-columns:repeat(5,1fr); gap:6px; }
+.grid div { height:30px; border-radius:7px; background:#F2F2F2; }
+.grid div.on { background:#000; position:relative; }
+.grid div.on::after { content:"Booked"; position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:9.5px; font-weight:700; }
+.days { display:grid; grid-template-columns:repeat(5,1fr); gap:6px; font-size:10px; color:#999; font-weight:600; text-align:center; margin-bottom:6px; }
+
+/* floating outcome chip */
+.chip { position:absolute; right:40px; top:40px; display:flex; align-items:center; gap:10px; background:#fff; border-radius:999px; padding:10px 16px 10px 10px;
+  box-shadow:0 14px 30px -12px rgba(0,0,0,.2); border:1px solid rgba(0,0,0,.05); font-size:13px; font-weight:700; }
+.chip i { width:26px; height:26px; border-radius:50%; background:#000; display:grid; place-items:center; }
+
+/* ---------- mobile ---------- */
+@media (max-width:767px) {
+  .context { display:none; } .context-m { display:block; width:100%; }
+  .bp { padding:28px 0 72px; background:linear-gradient(180deg,#fff,#F7F7F7); }
+  .wrap { width:auto; margin:0 20px; }
+  .head { grid-template-columns:1fr; gap:16px; }
+  h2 { font-size:30px; line-height:1.1; }
+  .lede { font-size:15px; }
+  .stage { width:auto; height:auto; margin:36px 20px 0; padding-left:44px; }
+  .path { display:none; }
+  .stage::before { content:""; position:absolute; left:15px; top:14px; bottom:40px; border-left:1.5px dashed #BDBDBD; }
+  .step { position:relative; left:auto; top:auto; width:auto; margin-bottom:40px; }
+  .s2 .card.phone { width:236px; }
+  .num { left:-46px; top:-2px; }
+  .cap { margin-top:16px; }
+  .chip { display:none; }
+  .ghost, .field { display:none; }
+  .ph { height:72px; }
+}
+</style>
+</head>
+<body>
+<img class="context" src="hero-context.png" alt="Approved hero (context, unchanged)">
+
+<section class="bp">
+  <div class="wrap">
+    <p class="eyebrow">The big picture</p>
+    <div class="head">
+      <h2>From a Google search<br><span>to a booked job.</span></h2>
+      <p class="lede">Every new customer takes the same path. Your Google listing, website, ads and everyday tools each handle one step. We make them work as one, so fewer customers slip away.</p>
+    </div>
+  </div>
+
+  <div class="stage">
+    <svg class="path" viewBox="0 0 1120 610" fill="none">
+      <path d="M32 152 C 120 40, 300 10, 427 22 C 560 34, 640 120, 754 172" stroke="#9E9E9E" stroke-width="1.5" stroke-dasharray="4 7"/>
+    </svg>
+
+    <!-- 1 GET FOUND -->
+    <div class="step s1">
+      <div class="card search">
+        <span class="num">1</span>
+        <div class="q">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.2" stroke="#111" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="#111" stroke-width="1.6" stroke-linecap="round"/></svg>
+          plumber near me
+        </div>
+        <div class="map">
+          <svg viewBox="0 0 300 112" preserveAspectRatio="none">
+            <path d="M0 40 L300 18 M0 92 L300 70 M80 0 L96 112 M210 0 L196 112" stroke="#fff" stroke-width="9"/>
+            <circle cx="150" cy="54" r="22" fill="none" stroke="#111" stroke-width="1" stroke-dasharray="3 4"/>
+            <path d="M150 34 c-9 0 -15 7 -15 15 c0 11 15 23 15 23 s15 -12 15 -23 c0 -8 -6 -15 -15 -15z" fill="#111"/>
+            <circle cx="150" cy="49" r="5" fill="#fff"/>
+            <circle cx="52" cy="80" r="4" fill="#BDBDBD"/><circle cx="252" cy="34" r="4" fill="#BDBDBD"/>
+          </svg>
+        </div>
+        <div class="res">
+          <div class="logo">YB</div>
+          <div><div class="t">Your business</div><div class="bar" style="width:78%"></div></div>
+          <div class="btns"><span class="p">Call</span><span>Website</span><span>Directions</span></div>
+        </div>
+        <div class="ghost"><div class="bar" style="width:46%;margin-bottom:8px"></div><div class="bar" style="width:70%;background:#F0F0F0"></div></div>
+      </div>
+      <div class="cap"><b>Get found</b><p>Someone nearby searches. Your Google listing and website show up.</p></div>
+    </div>
+
+    <!-- 2 WIN CUSTOMERS -->
+    <div class="step s2">
+      <div class="card phone">
+        <span class="num">2</span>
+        <div class="screen">
+          <div class="sb"><i></i></div>
+          <div class="nav"><span class="b"></span><span class="h"></span></div>
+          <div class="pc">
+            <div class="bar dk" style="width:88%;height:12px;margin-bottom:8px"></div>
+            <div class="bar dk" style="width:62%;height:12px;margin-bottom:12px"></div>
+            <div class="bar" style="width:92%;margin-bottom:6px"></div>
+            <div class="bar" style="width:70%"></div>
+            <div class="ph"></div>
+            <div class="cta">Request a quote<span class="tap"></span></div>
+            <div class="sec2">Call now</div>
+            <div class="field"><div class="bar"></div></div>
+            <div class="field"><div class="bar" style="width:40%"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="cap"><b>Win the customer</b><p>Your site makes it easy to call, request a quote or book from a phone.</p></div>
+    </div>
+
+    <!-- 3 SAVE TIME -->
+    <div class="step s3">
+      <div class="card ops">
+        <span class="num">3</span>
+        <div class="note">
+          <div class="ic"><svg width="14" height="12" viewBox="0 0 14 12" fill="none"><rect x=".75" y=".75" width="12.5" height="10.5" rx="2" stroke="#111" stroke-width="1.5"/><path d="M1.5 2l5.5 4 5.5-4" stroke="#111" stroke-width="1.5"/></svg></div>
+          <div><div class="t">New quote request</div><div class="s">From your website · just now</div></div>
+        </div>
+        <div class="row"><span class="chk"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="#111" stroke-width="1.6" stroke-linecap="round"/></svg></span>Reply sent to the customer</div>
+        <div class="row"><span class="chk"><svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="#111" stroke-width="1.6" stroke-linecap="round"/></svg></span>Saved to your customer list</div>
+        <div class="cal">
+          <div class="top"><span>This week</span><span>Calendar</span></div>
+          <div class="days"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span></div>
+          <div class="grid"><div></div><div class="on"></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
+      </div>
+      <div class="cap"><b>Save time</b><p>The inquiry lands in the right place and gets an answer, without retyping.</p></div>
+    </div>
+
+    <div class="chip"><i><svg width="12" height="10" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.5 2.5L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg></i>One path. One point of contact.</div>
+  </div>
+</section>
+</body>
+</html>
