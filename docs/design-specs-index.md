@@ -37,3 +37,5 @@ Specs live in the existing flat `docs/` structure as dated `design-*.md` files, 
 | 2026-11-20 | [Visual composition and divider cleanup](design-visual-composition-2026-11-20.md) | Owner scope and placeholder proposals |
 
 - [2026-11-20 · Mobile customer path](design-mobile-customer-path-2026-11-20.md) — owner-approved mobile sequence for The Big Picture.
+
+- [2026-11-20 · What We Do](design-what-we-do-2026-11-20.md) — approved editorial service directory on Home 5894.
