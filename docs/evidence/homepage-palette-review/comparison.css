@@ -1,0 +1,36 @@
+/* Review only. Inserted into a private Chrome tab and removed after capture.
+   Both color treatments use identical selectors. No dimensional properties. */
+section[data-id="239c5c36"] {
+  background-image: radial-gradient(ellipse at 78% 46%, var(--study-hero) 0%, var(--study-surface) 38%, white 83%) !important;
+}
+[data-id="54721618"] { background-image: linear-gradient(var(--study-hero), white 48%) !important; }
+[data-id="428dbf3c"] { background-image: linear-gradient(145deg, var(--study-hub-light), var(--study-ink) 65%) !important; box-shadow: 0 11px 26px var(--study-shadow) !important; }
+:is([data-id="1eea0653"],[data-id="25206a13"],[data-id="5dcfd196"],[data-id="7d0bce0a"]) { box-shadow: 0 12px 26px var(--study-shadow) !important; }
+section[data-id="7d73938f"] { background-image: radial-gradient(ellipse at 72% 74%, var(--study-hero), var(--study-surface) 45%, white 90%) !important; }
+@media (max-width:767px) {
+  section[data-id="7d73938f"] { background-image: linear-gradient(155deg, white, var(--study-surface) 55%, white) !important; }
+}
+:is([data-id="2b42c245"],[data-id="8b0906a"]) { background-color: var(--study-surface) !important; }
+section:not([data-id="327759eb"]) :is(h1,h2,h3) { color: var(--study-ink) !important; }
+section:not([data-id="327759eb"]) :is(h1,h2) span { color: var(--study-secondary) !important; }
+section[data-id="7d73938f"] p { color:var(--study-body) !important; }
+:is([data-id="11eb5c2f"],[data-id="510a6e1"],[data-id="23d7c9ce"],[data-id="6a986b97"],[data-id="259b83da"]) {
+  background-image: linear-gradient(150deg, white 24%, var(--study-surface)) !important;
+  box-shadow: 0 12px 26px -5px var(--study-shadow) !important;
+}
+:is([data-id="2548cbf2"],[data-id="1f6550d"],[data-id="6e3c0e88"]) { box-shadow:0 3px 10px var(--study-shadow-small) !important; }
+section [data-id="4af4230c"], section [data-id="5c081361"] { background-color:var(--study-badge) !important; color:var(--study-badge-ink) !important; }
+section [data-id="53251022"] { background-color:var(--study-last) !important; color:var(--study-badge-ink) !important; }
+[data-id="405ecab3"] > svg > path { stroke:var(--study-arc) !important; }
+[data-id="405ecab3"] > svg > g { stroke:var(--study-connector) !important; }
+[data-id="405ecab3"] > svg > g > path:first-child { opacity:.08 !important; }
+[data-id="405ecab3"] > svg > g > path:last-child { stroke-width:4px !important; }
+[data-id="681f4537"] { background-color:var(--study-surface) !important; }
+[data-id="2cf02d38"] { background-color:var(--study-bar) !important; }
+[data-id="1fbd4b1a"],[data-id="6b5d7119"] { background-color:var(--study-faint) !important; }
+section[data-id="7d73938f"] [data-id="7d855000"] { color:white !important; background-color:var(--study-action) !important; box-shadow:0 2px 5px var(--study-shadow-small) !important; }
+section[data-id="7d73938f"] [data-id="4cf3065c"] { color:var(--study-status) !important; }
+[data-id="6501b1c8"] { filter:var(--study-image) drop-shadow(0px 10px 11px var(--study-shadow)) !important; }
+[data-id="435e1435"] { filter:var(--study-image) !important; border-color:var(--study-ink) !important; }
+section[data-id="327759eb"], footer { background-color:var(--study-night) !important; }
+section[data-id="327759eb"] h2 span { color:var(--study-night-secondary) !important; }

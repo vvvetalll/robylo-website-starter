@@ -1,0 +1,23 @@
+/* Browser-only palette comparison */
+:root {
+  --study-hero: #e8e7e2;
+  --study-surface: #f7f7f5;
+  --study-hub-light: #585953;
+  --study-ink: #15171c;
+  --study-secondary: #575956;
+  --study-body: #454743;
+  --study-shadow: #24251e1c;
+  --study-shadow-small: #24251e0d;
+  --study-badge: #e7e7e1;
+  --study-badge-ink: #15171c;
+  --study-last: #e7e7e1;
+  --study-arc: #e1e0d8;
+  --study-connector: #c2c1b8;
+  --study-bar: #aaa99f;
+  --study-faint: #d1d0c8;
+  --study-action: #2e5aac;
+  --study-status: #575956;
+  --study-image: sepia(.05);
+  --study-night: #15171c;
+  --study-night-secondary: #b9b9b3;
+}
