@@ -292,3 +292,11 @@ The owner approved PR #37's customer path. ChatGPT/Codex replaced the contents o
 
 The [desktop laptop](evidence/big-picture-elementor/assets/bp-laptop.webp) is a 713 × 406 transparent review cutout from the owner's reference, 20.6 KB. A [compact website crop](evidence/big-picture-elementor/assets/bp-compact-site.webp) and live quote label replace the shell below 1024 px. The requested 2× production source remains outstanding. The [connector and arc SVG](evidence/big-picture-elementor/assets/bp-laptop-path.svg) anchors both curves to the laptop frame. Panels stay flat as specified. Attachment IDs 6413, 6414 and 6420. Undo revision 6416 restores the previous section as part of the pre-change homepage revision. Reconcile any later edits before restoring a page revision.
 
+
+## 2026-11-20 — Published Warm hybrid homepage
+
+The owner selected the middle comparison in PR #38 for the six existing sections of Home 5894. The published page uses warm off-white surfaces (#F7F7F5), near-black headings and conversion section (#15171C), graphite body text (#3F434B), secondary headings (#6A6F78) and softer shadows. Blue (#2E5AAC) is confined to the quote example on the laptop. Existing assets retain their original colors. Changes are scoped to the Home document and reuse its existing Atomic elements. The kit, shared components, header, footer and other pages received no edits.
+
+On phones, the Business Hub uses 84% of its previous width and has 32 px of clear space below the CTAs. The three-stage sequence uses 84% width with a 250 px minimum. Each step label has a 22 px corner radius, 18.75 px title, 14.5 px caption, 6 px between them and a circular 31 px number. Only the three label wrappers received the mobile radius change. The tablet and desktop label radius is 54 px.
+
+The [local Atomic style record](evidence/warm-home/elementor-styles.json) identifies affected elements and records the previous published, previously staged and final local styles. WordPress revision 6423 holds the pre-trial homepage, 6425 the pre-implementation configuration, 6433 the state before the last spacing adjustment and 6435 the state before the mobile label radius. Check for later edits before restoring a whole-page revision.
