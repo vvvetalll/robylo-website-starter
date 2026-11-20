@@ -430,3 +430,13 @@ A post-publication check caught Atomic's generated rules overriding mobile disk 
 The three section eyebrows matched in all seven typography properties at 320, 375, 390, 768, 1024 and 1440 px. What We Do retained its 14 px mobile and 24 px desktop bottom margin. The draft and published frontend were checked. Maintenance Mode and Search Engines Blocked remained active.
 
 [Published mobile capture](evidence/business-hub-orbit-published/published-390.png) · [Published desktop capture](evidence/business-hub-orbit-published/published-1440.png) · [Mobile motion](evidence/business-hub-orbit-published/mobile-320.webp) · [Desktop motion](evidence/business-hub-orbit-published/desktop-1440.webp). The stills are from the published page. The motion recordings replay its archived rendered markup and styles in isolated Chrome, sampled at 10 fps for 40 seconds. Their orbital geometry was cross-checked against the protected frontend.
+
+## Mobile Big Picture · November 20, 2026
+
+**Published and verified on protected Home 5894.** Chrome rendered the draft and then the published homepage after Elementor cache regeneration and a SiteGround purge. All seven widths had zero horizontal overflow. At 320, 360, 375 and 390 px the figures extend 38 px below their illustrations and both inter-step gaps measure 30 px. Illustration widths measured 242 px at 320 and 252 px at the other three widths. Each illustration loaded, labels remained readable, and the section led into the existing What We Do introduction. Browser zoom/device-pixel rounding can affect the painted width of a 1 CSS px border.
+
+The published section captures matched the final draft at all seven widths. At 768, 1024 and 1440 px the published captures also matched their pre-edit baselines pixel for pixel. Captures exclude the admin-only floating widget. These are responsive Chrome checks, not physical-device captures.
+
+All three shared eyebrows retained the same size at every test width (11/12/15 px by breakpoint). The four Hero cards were observed moving with 40-second animations and two stationary outline guides. Text and link destinations in the other sections, header and footer matched the pre-edit state. All original Atomic descendants in The Big Picture matched the pre-edit structure and settings. The authenticated published response retained noindex and the WordPress toolbar reported maintenance mode active.
+
+[Published 320 px](evidence/mobile-path-final/final-320.png) · [Published 390 px](evidence/mobile-path-final/final-390.png) · [Four phone widths](evidence/mobile-path-final/mobile-widths.jpg) · [Desktop before and after](evidence/mobile-path-final/desktop-comparison.jpg)
