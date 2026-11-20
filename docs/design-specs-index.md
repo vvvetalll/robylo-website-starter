@@ -31,3 +31,5 @@ Specs live in the existing flat `docs/` structure as dated `design-*.md` files, 
 - [2026-11-20 · Customer-first Home and Services composition](design-customer-first-home-services-2026-11-20.md) — owner-authorized private implementation scope and proposed line edits. About and Web Design are audit-only in this pass.
 
 - [2026-11-20 · Global typography and visual hierarchy](design-global-typography-2026-11-20.md) — owner-authorized style refinement preserving approved copy and behavior.
+
+- [2026-11-20 · Outline navigation and service composition](design-outline-navigation-2026-11-20.md) — owner-authorized refinement, based on PRs #31 and #32.
