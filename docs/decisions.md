@@ -100,3 +100,5 @@ This decision authorizes only the [Services ownership description revision](desi
 **Approved by owner:** customer-first positioning, reduced complexity, practical digital partnership and client ownership, as recorded in [ROBYLO-CONCEPT.md — Customer-first communication](ROBYLO-CONCEPT.md#customer-first-communication). Source: owner brief "ROBYLO — Approved Brand Concept & Independent Strategic Review", 2026-11-20.
 
 **Not approved (Proposed, pending editorial approval):** the phrases "You run your business. We handle the digital side." and its supporting line, and all of Claude's rewritten headlines and page copy in [design-customer-first-messaging-2026-11-20.md](design-customer-first-messaging-2026-11-20.md). Existing approved copy remains in force.
+
+2026-11-20 · Owner approved the [final mobile customer path](design-mobile-customer-path-2026-11-20.md#approved-mobile-revision--november-20-2026) and its publication behind Coming Soon after visual verification.
