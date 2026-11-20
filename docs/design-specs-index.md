@@ -29,3 +29,5 @@ Specs live in the existing flat `docs/` structure as dated `design-*.md` files, 
 - **Impact-section PDF** (2026-11-18). This was a presentation export of [design-impact-section-concepts-2026-11-18.md](design-impact-section-concepts-2026-11-18.md) and its committed source HTML/PNGs. The PDF itself was not committed.
 
 - [2026-11-20 · Customer-first Home and Services composition](design-customer-first-home-services-2026-11-20.md) — owner-authorized private implementation scope and proposed line edits. About and Web Design are audit-only in this pass.
+
+- [2026-11-20 · Global typography and visual hierarchy](design-global-typography-2026-11-20.md) — owner-authorized style refinement preserving approved copy and behavior.
