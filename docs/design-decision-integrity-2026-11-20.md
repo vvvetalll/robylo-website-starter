@@ -23,7 +23,7 @@
 7. Keep task-specific changes narrow. Do not mix visual experiments with approved typography, animation or unrelated sections.
 8. Before declaring completion, provide a traceable chain: owner decision → spec → implementation → visual evidence → verification limits.
 
-## Next Big Picture mobile design task (Proposed)
+## Earlier mobile exploration (Proposed at the time)
 
 - Produce a full-section 320px and 390px visual prototype with large low-contrast left-aligned 01/02/03 as editorial numbers.
 - Each stage must visibly unite its number, heading, description and supporting illustration; avoid a disconnected stack of giant visuals.
@@ -31,3 +31,16 @@
 - Keep desktop untouched. No Elementor changes or publishing before the owner approves the new mobile composition.
 
 **Important:** This document is a governance correction and a design proposal, not an approval to replace the current published mobile step badges.
+
+
+## Final phone prototype for owner review · November 20, 2026
+
+**Proposed for Elementor.** The owner approved the vertical composition as a direction and requested these final refinements to the browser prototype. The latest direction places 01, 02 and 03 at the bottom right. The earlier left placement above is retained as decision history. Approval of the finished prototype and authorization for Stage 2 are pending.
+
+- Each number shares a grid row with its illustration and aligns to the lower right. The figures use the same Manrope settings, tabular numerals and 13% near-black. The bottom of each number box sits 38 px below its illustration. At a given width all three illustrations end on the same right edge.
+- The existing website mockup keeps its artwork and quote action. Its 5 px near-black frame becomes a 1 px warm-gray border with the same soft shadow as the other illustrations.
+- Each step takes its natural height. The description leads into the illustration with 13 px of space. The next heading begins 22 px below the preceding number box.
+
+Chrome prototype review covered the complete section and transition into What We Do at 320, 360, 375 and 390 px. Text remained readable, decorative numbers stayed behind the illustrations, and horizontal overflow measured zero. Full-section screenshots matched the preceding prototype pixel for pixel at 768, 1024 and 1440 px. These checks apply to the local prototype only. The protected homepage still uses the published layout documented in [the mobile sequence specification](design-mobile-customer-path-2026-11-20.md).
+
+[320 px prototype](evidence/mobile-path-proposed/final-320.png) · [390 px prototype](evidence/mobile-path-proposed/final-390.png)
