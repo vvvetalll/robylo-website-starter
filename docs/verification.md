@@ -361,3 +361,11 @@ Codex compared signed-in Chrome renders of Home 5894 before editing and after pr
 At all four phone widths the Business Hub moved down exactly 24 px. Both CTA rectangles, sizes and relative positions of all graphic descendants and clearance below the Hub matched their baselines. At 768, 1024 and 1440 px the before/after section screenshots for both Hero and The Big Picture matched pixel for pixel. Coming Soon was served anonymously. The authenticated homepage retained noindex and nofollow.
 
 Published customer path screenshots: [320 px](evidence/mobile-customer-path/320.jpg), [360 px](evidence/mobile-customer-path/360.jpg), [375 px](evidence/mobile-customer-path/375.jpg), [390 px](evidence/mobile-customer-path/390.jpg). Published Hero: [320 px](evidence/mobile-customer-path/hero-320.jpg), [375 px](evidence/mobile-customer-path/hero-375.jpg), [390 px](evidence/mobile-customer-path/hero-390.jpg).
+
+## 2026-11-20 — What We Do frontend verification
+
+Codex inspected the Elementor preview, corrected the SVG fill and desktop curve positioning, and verified the protected, published homepage after clearing Elementor and SiteGround caches. Chrome showed one service column at 320, 360, 375 and 390 px and two columns at 768, 1024 and 1440 px. All four SVGs rendered, copy wrapped without clipping and page overflow measured zero at all seven widths. The four arrow hit areas mapped to the original service URLs. Keyboard traversal exposed the visible 2 px focus outline.
+
+Compared the complete Elementor trees of the five other homepage sections before and after publication: their configuration matched exactly. Hero and The Big Picture retained their upstream positions. The directory’s new height moves Selected Work and subsequent content down in normal flow. No shared components, kit settings, header or footer templates were written. Anonymous visitors still received Coming Soon, and the authenticated homepage retained noindex and nofollow.
+
+Published desktop and phone captures: [1440 px](evidence/what-we-do/what-we-do-1440.jpg), [390 px](evidence/what-we-do/what-we-do-390.jpg), [320 px](evidence/what-we-do/what-we-do-320.jpg).
