@@ -454,3 +454,25 @@ After clearing Elementor and SiteGround caches, Chrome measured all ten labels o
 **Controlled propagation.** A local Chrome fixture combined all ten published label elements with Elementor's generated class and media rules. Changing one declaration on the emitted shared class from `letter-spacing: .015em` to `.045em` changed all ten computed values to 0.495 px at 320 px, 0.540 px at 768 px and 0.675 px at 1440 px. Restoring the rule returned all ten to the baseline values above. The non-eyebrow control retained its spacing. The transient value was applied only to the emitted CSS rule in the fixture. Elementor kit save and regeneration with a test value were outside this isolated browser test.
 
 The first publication attempt briefly produced a fatal render on the affected pages because the update serialized a single-root Elementor array as an object. The exact saved data were restored, and publication was retried with a root-array check and verified on the rendered pages. Existing autosaves were retained separately, including concurrent About draft work.
+
+## 2026-11-21 — Published Services directory verification
+
+**Implemented and verified by Codex.** Elementor page `6191` was published behind the existing Coming Soon protection. Published Chrome measurements were repeated after the final focus correction and Elementor and SiteGround cache clears. All seven widths had six sections, equal Hero cards, a contained H1, zero horizontal overflow, no visible confirmation flags and the three canonical natural-case eyebrows. All 18 body links had hit areas at least 48 px tall.
+
+| Viewport (CSS px) | Each Hero card (px) | Website artwork slot (px) | Eyebrow size |
+| --- | --- | --- | --- |
+| 320 | 126.5 × 165.9 | 245 × 183.8 | 11px |
+| 360 | 146.5 × 180.9 | 285 × 213.8 | 11px |
+| 375 | 154 × 168.4 | 300 × 225 | 11px |
+| 390 | 161.5 × 174 | 315 × 236.3 | 11px |
+| 768 | 154.9 × 197 | 321.8 × 241.3 | 12px |
+| 1024 | 213.8 × 220.4 | 439.5 × 329.7 | 12px |
+| 1440 | 282 × 286.8 | 613.1 × 459.8 | 15px |
+
+The four articles retained alternating desktop alignment and artwork-before-text on phones. Their capability counts are 3, 3, 3 and 2. All 27 decorative Atomic shapes rendered in the 4:3 website panel. The three retained illustrative images loaded in Chrome at 1440 × 1080 each. The scoped edit removed only the Chicago Mounting image from the Website article. It remains in the Hero card with its descriptive alt text.
+
+Audited the destinations of all 18 body links in Chrome. Activated links to each of the four service routes and both Contact CTAs. The Hero jump reached the unique problem section. The footer of the page body exposes the expected mailto target and its hit area. Real mouse hover and mouse leave were observed on representative dark and light canonical text links. Tab showed a solid 2 px white focus outline on the dark band, and Enter opened the Website service page. A Chrome-emulated touch start and release on the 390 px Hero card opened Website Design. At 390 px the final CTA and email link passed a hit test, and no visible fixed chat overlay blocked the page.
+
+Logged-in Services retained `noindex, nofollow` at every width. An anonymous request returned the Coming Soon page with no private Hero copy. Physical-device and cross-browser testing were outside this run. Removed capability claims remain excluded until confirmed.
+
+[Website illustration at 1440 px](evidence/services-directory-2026-11-21/website-1440.jpg) · [Website illustration at 390 px](evidence/services-directory-2026-11-21/website-390.jpg)
