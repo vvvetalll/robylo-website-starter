@@ -1,0 +1,238 @@
+{
+  "publishedWidths": [
+    {
+      "width": 320,
+      "adminOffset": 92,
+      "height": 65,
+      "desktop": false,
+      "noOverflow": true,
+      "mobile": {
+        "closeFocus": "Open menu",
+        "noShift": true,
+        "whiteLogo": "rgb(255, 255, 255)",
+        "links": [
+          "Services",
+          "Work",
+          "Approach",
+          "About",
+          "Contact"
+        ]
+      }
+    },
+    {
+      "width": 360,
+      "adminOffset": 46,
+      "height": 65,
+      "desktop": false,
+      "noOverflow": true,
+      "mobile": {
+        "closeFocus": "Open menu",
+        "noShift": true,
+        "whiteLogo": "rgb(255, 255, 255)",
+        "links": [
+          "Services",
+          "Work",
+          "Approach",
+          "About",
+          "Contact"
+        ]
+      }
+    },
+    {
+      "width": 375,
+      "adminOffset": 46,
+      "height": 65,
+      "desktop": false,
+      "noOverflow": true,
+      "mobile": {
+        "closeFocus": "Open menu",
+        "noShift": true,
+        "whiteLogo": "rgb(255, 255, 255)",
+        "links": [
+          "Services",
+          "Work",
+          "Approach",
+          "About",
+          "Contact"
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "adminOffset": 46,
+      "height": 65,
+      "desktop": false,
+      "noOverflow": true,
+      "mobile": {
+        "closeFocus": "Open menu",
+        "noShift": true,
+        "whiteLogo": "rgb(255, 255, 255)",
+        "links": [
+          "Services",
+          "Work",
+          "Approach",
+          "About",
+          "Contact"
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "adminOffset": 46,
+      "height": 72,
+      "desktop": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "adminOffset": 64,
+      "height": 72,
+      "desktop": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "adminOffset": 32,
+      "height": 72,
+      "desktop": true,
+      "noOverflow": true
+    }
+  ],
+  "publishedMotion": {
+    "down": [
+      525,
+      true
+    ],
+    "reveal": [
+      320,
+      "rgb(21, 23, 28)",
+      "rgb(255, 255, 255)"
+    ],
+    "top": [
+      0,
+      "rgb(21, 23, 28)"
+    ],
+    "contentTopBefore": 104,
+    "contentTopAfter": 104,
+    "heroBefore": [
+      "rb-revolve",
+      "40s",
+      "matrix(1, 0, 0, 1, -113.934, -217.33)"
+    ],
+    "heroAfter": [
+      "rb-revolve",
+      "40s",
+      "matrix(1, 0, 0, 1, -69.9053, -226.885)"
+    ],
+    "afterNavigation": {
+      "path": "/services/",
+      "open": "false",
+      "lock": false
+    }
+  },
+  "publishedDestinationPages": [
+    {
+      "active": [
+        [
+          "Services",
+          "underline"
+        ],
+        [
+          "Services",
+          "underline"
+        ]
+      ],
+      "overflow": false,
+      "path": "/services/",
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "svgPaths": 6
+    },
+    {
+      "active": [
+        [
+          "Work",
+          "underline"
+        ],
+        [
+          "Work",
+          "underline"
+        ]
+      ],
+      "overflow": false,
+      "path": "/work/",
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "svgPaths": 6
+    },
+    {
+      "active": [
+        [
+          "Approach",
+          "underline"
+        ],
+        [
+          "Approach",
+          "underline"
+        ]
+      ],
+      "overflow": false,
+      "path": "/approach/",
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "svgPaths": 6
+    },
+    {
+      "active": [
+        [
+          "About",
+          "underline"
+        ],
+        [
+          "About",
+          "underline"
+        ]
+      ],
+      "overflow": false,
+      "path": "/about/",
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "svgPaths": 6
+    },
+    {
+      "active": [
+        [
+          "Contact",
+          "underline"
+        ],
+        [
+          "Contact",
+          "underline"
+        ]
+      ],
+      "overflow": false,
+      "path": "/contact/",
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "svgPaths": 6
+    }
+  ],
+  "isolatedDraftInteractions": {
+    "tab": {
+      "text": "Services",
+      "visible": true
+    },
+    "touch": true,
+    "rapid": true,
+    "resize": true,
+    "reduced": {
+      "active": true,
+      "duration": "0s"
+    }
+  },
+  "loggedOutHome": {
+    "httpStatus": 200,
+    "comingSoon": true,
+    "liveHeaderPresent": false,
+    "privateHomepageContentPresent": false
+  },
+  "svg": {
+    "deployedPaths": 6,
+    "exactGeometryMatch": true
+  }
+}

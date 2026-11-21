@@ -43,3 +43,5 @@ Specs live in the existing flat `docs/` structure as dated `design-*.md` files, 
 - [Mobile customer path, approved second revision](design-mobile-customer-path-2026-11-20.md#approved-mobile-revision--november-20-2026) · bottom-right editorial numbers below 768 px, approved from PR #44.
 
 - [Homepage Hero card height and service-title hierarchy](design-home-hero-height-service-titles-2026-11-20.md) — two focused owner-approved visual adjustments.
+
+- [Final ROBYLO header and navigation](design-final-header-2026-11-20.md) — owner-approved global header refinement.
