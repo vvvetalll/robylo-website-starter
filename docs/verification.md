@@ -476,3 +476,23 @@ Audited the destinations of all 18 body links in Chrome. Activated links to each
 Logged-in Services retained `noindex, nofollow` at every width. An anonymous request returned the Coming Soon page with no private Hero copy. Physical-device and cross-browser testing were outside this run. Removed capability claims remain excluded until confirmed.
 
 [Website illustration at 1440 px](evidence/services-directory-2026-11-21/website-1440.jpg) · [Website illustration at 390 px](evidence/services-directory-2026-11-21/website-390.jpg)
+
+## 2026-11-21 — Services cards and outline verification
+
+**Implemented and verified by Codex.** Chrome verified the final protected publication after Elementor and SiteGround cache purges. The page and every card stayed within the viewport. The cards use 3/2/1 columns with 24 px desktop and 16 px tablet/phone gaps. Body text measured 16 px on phones and 18 px on tablet and desktop. The problem copy measured 22, 24 and 28 px respectively. Each card link kept a 48 px hit area and the same 9 px inset from the bottom of its card.
+
+| Viewport (CSS px) | Columns | Card heights, rounded (px) | All outline buttons (px) |
+| --- | --- | --- | --- |
+| 320 | 1 | 223, 248, 251, 275, 283 | 48 |
+| 360 | 1 | 223, 248, 275 | 48 |
+| 375 | 1 | 223, 248 | 48 |
+| 390 | 1 | 198, 223, 248 | 48 |
+| 768 | 2 | 310 | 48 |
+| 1024 | 2 | 252 | 48 |
+| 1440 | 3 | 329 | 48 |
+
+The browser accessibility tree exposed all six problem statements and zero decorative opening quotation marks. Pointer hover and mouse leave were confirmed on a problem link and an outline button. Tab applied a solid 2 px focus ring to both styles. An emulated tap at 390 px opened the published Automation page. The Hero jump reached Sound familiar, and the six problem and four outline hrefs matched their existing routes. Chrome confirmed each destination had a rendered heading. All outline buttons kept a 1 px border, 4 px radius, transparent resting background and their requested labels. The Hero displayed the new browser illustration at each width and the native illustration still rendered in the article.
+
+The inspected 320, 390 and 1440 px views had no visible chat overlay intersecting the cards. Logged-in page responses retained noindex. Anonymous Services showed Coming Soon and excluded the protected copy. No physical device or other browser was used. Published Elementor structure matched the reviewed changes. The original before-cards rollback is `6556`; check newer edits before using a full-document rollback.
+
+[Sound familiar at 1440 px](evidence/services-problem-cards-2026-11-21/sound-familiar-1440.jpg) · [Sound familiar at 390 px](evidence/services-problem-cards-2026-11-21/sound-familiar-390.jpg)
