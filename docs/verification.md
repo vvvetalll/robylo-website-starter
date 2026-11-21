@@ -554,3 +554,30 @@ Clicked each of the 12 internal links in the article, including Hero and final c
 Home, Services and all three other service pages loaded with the shared header, footer and `noindex, nofollow`. Home’s four orbit cards retained active `rb-revolve` motion. The mobile menu opened and closed at 320 and 390 px; at 390 px its five existing destinations were visible and Escape closed it. Neither shared templates nor the kit received edits. Elementor and SiteGround were purged after publishing. The anonymous route returned Coming Soon and did not render the service content. The authenticated route retained `noindex, nofollow` at all eight widths. Tests used the existing Windows Chrome connection and touch emulation.
 
 [Desktop at 1440 px](evidence/web-design-refinement-2026-11-21/desktop-1440.jpg) · [Mobile at 390 px](evidence/web-design-refinement-2026-11-21/mobile-390.jpg) · [Accordion eyebrow at 390 px](evidence/web-design-refinement-2026-11-21/questions-390.jpg) · [Measured browser results](evidence/web-design-refinement-2026-11-21/checks.json)
+
+## 2026-11-21 — Local SEO service-page verification
+
+**Implemented and verified by Codex.** The authenticated Chrome frontend at the existing Local SEO route renders the published Elementor document 6205. Verified the sole H1, seven H2s, all three native illustrations and eight collapsed answers. The normal AIOSEO title and description match the approved text. The protected HTML retains `noindex, nofollow`. The anonymous route returns Coming Soon, without the new article text. Both Elementor and SiteGround caches were purged.
+
+| Chrome viewport (CSS px) | Usable / scroll width (px) | Hero / Search & Maps / service areas panel widths (px) | Eyebrow size |
+| --- | --- | --- | --- |
+| 320 | 305 / 305 | 265 / 265 / 265 | 11px |
+| 360 | 345 / 345 | 305 / 305 / 305 | 11px |
+| 375 | 360 / 360 | 320 / 320 / 320 | 11px |
+| 390 | 375 / 375 | 335 / 335 / 335 | 11px |
+| 768 | 753 / 753 | 297 / 330 / 280 | 12px |
+| 1024 | 1009 / 1009 | 403 / 448 / 380 | 12px |
+| 1440 | 1425 / 1425 | 526 / 584 / 496 | 15px |
+| 1920 | 1905 / 1905 | 526 / 584 / 496 | 15px |
+
+In this Windows Chrome session, viewport overrides and touch emulation covered the eight widths. The panels scaled within the content width and kept text readable. The article had zero horizontal text or link clipping and loads no raster graphics. Its three explanatory panels use live text. The two eyebrows use the canonical class and computed `capitalize`. The rendered questions eyebrow reads “Common Questions.” Both accordion icons are hidden from assistive technology and switch visibility with the item state.
+
+Clicked the six page links to Contact, Digital Advertising, Website Design, AI & Business Automation and Services, including both instances of Contact. Contact also worked by touch at 390 px. The Hero jump scrolled to the visible Search and Maps heading by click at 1440 px and by touch at 390 px. Its viewport section top settled at about 124 and 138 px, respectively. The seven links returned to their resting styles after hover and their dimensions remained constant. The Tab sequence followed the visible order. The final primary focus ring initially computed to black against the dark panel. A page-scoped override now uses the shared paper color. Published retests found a solid white 2 px ring at 320, 390 and 1440 px.
+
+Each accordion item opened by mouse and replaced the previous open item; clicking the last again collapsed it. Tab found a 2 px visible ring, Enter opened the focused question and Space closed it. Four repeated clicks returned the item to its collapsed state. A touch tap opened and closed the third question at 390 px. The closed chat launcher did not block the tested links or last accordion control at 320 or 390 px.
+
+The desktop header measured 72 px and hid on scroll down and returned on scroll up. The mobile menu opened at 320 px by touch and at 390 px by click; all five navigation links were visible and Escape closed it. The homepage’s four orbit cards retained active `rb-revolve` movement. The inspected Home Hero, Services overview tree and Website Design tree matched the pre-build Elementor reads, and their live routes retained the header, footer and protected rendering. Shared templates received no edits.
+
+No live analytics, account access, result guarantees or attribution are implied by the illustration or measurement model. Tests used Chrome on Windows with emulated dimensions and touch, so physical device behavior beyond the tested browser was outside this record.
+
+[Desktop Hero](evidence/local-seo-service-2026-11-21/hero-1440.jpg) · [Mobile Hero](evidence/local-seo-service-2026-11-21/hero-390.jpg) · [Desktop Search and Maps](evidence/local-seo-service-2026-11-21/search-and-maps-1440.jpg) · [Mobile Search and Maps](evidence/local-seo-service-2026-11-21/search-and-maps-390.jpg) · [Measured browser results](evidence/local-seo-service-2026-11-21/checks.json)

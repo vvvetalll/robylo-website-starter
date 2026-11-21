@@ -40,7 +40,7 @@ It usually comes down to a few things.
 
 **Google Search and Maps work differently.**
 
-A customer can see ads, local businesses and website pages in one search. Each earns visibility in a different way.
+A customer can see ads, local businesses and website pages in one search. Each appears for a different reason.
 
 - **Sponsored results** Paid placements marked as ads.
 - **Local / Maps results** Business profiles tied to a place or service area.
