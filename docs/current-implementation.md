@@ -389,3 +389,13 @@ Only the four detail actions `77aab827`, `79cdddf2`, `5f9e1c33` and `7366c197` u
 The owner asked to restore the original light/dark pairing after the directory refinement gave both engagement cards the soft surface. The historical Elementor configuration showed Ongoing Support `24221aa9` on `rb-ink` with light text. Its restored surface now comes from the existing `rb-section--dark` modifier, with `rb-ink` and `rb-paper` supplying background and text. The body’s light-surface text override was removed so the shared dark treatment supplies its color. One-Time Projects keeps `rb-section--soft`. Both engagement options retain equal standing, their existing geometry, typography and copy.
 
 The final published Elementor tree differs from the original task baseline only in the Ongoing Support class assignment and its body color override. The pre-change revision is `6567`. [Chrome verification](verification.md#2026-11-21--engagement-card-contrast-verification)
+
+## 2026-11-21 — Desktop navigation underline and stable geometry
+
+Elementor Pro's `widget-nav-menu.min.css` sets `padding: 13px 20px` on main-menu anchors in hover/focus through a more specific state selector than the original local link padding of `4px 0`. Published Chrome measurements showed the ordinary hovered anchor gain 40 px in width and the flex line gain 2 px in height. The right-aligned menu starts 40 px farther left, shifting any preceding siblings with it.
+
+Existing Custom Code snippet `6532` now adds one desktop-only CSS block for shell `5c8ec978` and menu widget `4bb36fef`. It keeps the regular link padding invariant, explicitly uses Manrope 16 px / 500 from the existing `rb-font` variable, and preserves the native 22 px spacing and 44 px link height. The desktop list centers its flex line inside its original 44 px resting height. The original Contact anchor keeps its dimensions and its own 2 px native hover growth within that centered line, with the siblings stationary.
+
+The regular links use an absolutely positioned 1 px `currentColor` underline. The underline grows from the left over 200 ms on hover and keyboard focus, and stays visible for the native current page or a menu ancestor supplied by WordPress. It switches immediately under reduced motion. The menu markup, responsive breakpoint, all source rules for the drawer, the Contact rules, header styling and the scroll script remain in the original snippet. The existing named classes and variable were reused without a new kit class or dependency.
+
+[Exact integration source](../integrations/robylo-header.html) · [Published verification](verification.md#2026-11-21--desktop-header-navigation-verification)
