@@ -1,0 +1,79 @@
+[
+  {
+    "width": 320,
+    "height": 44.25,
+    "radius": 95.41,
+    "sameGeometry": true,
+    "centerSame": true,
+    "shadowPair": 5.78,
+    "shadowDisk": 2.38,
+    "shadowBoundary": 4.39,
+    "passes": true
+  },
+  {
+    "width": 360,
+    "height": 44.25,
+    "radius": 110.92,
+    "sameGeometry": true,
+    "centerSame": true,
+    "shadowPair": 27.7,
+    "shadowDisk": 6.87,
+    "shadowBoundary": 8.88,
+    "passes": true
+  },
+  {
+    "width": 375,
+    "height": 44.25,
+    "radius": 114.67,
+    "sameGeometry": true,
+    "centerSame": true,
+    "shadowPair": 33,
+    "shadowDisk": 10.61,
+    "shadowBoundary": 12.63,
+    "passes": true
+  },
+  {
+    "width": 390,
+    "height": 44.25,
+    "radius": 118.41,
+    "sameGeometry": true,
+    "centerSame": true,
+    "shadowPair": 38.31,
+    "shadowDisk": 14.38,
+    "shadowBoundary": 16.39,
+    "passes": true
+  },
+  {
+    "width": 768,
+    "height": 55.594,
+    "radius": 214.72,
+    "sameGeometry": true,
+    "centerSame": true,
+    "shadowPair": 142.65,
+    "shadowDisk": 13.49,
+    "shadowBoundary": 87.49,
+    "passes": true
+  },
+  {
+    "width": 1024,
+    "height": 55.594,
+    "radius": 214.72,
+    "sameGeometry": true,
+    "centerSame": true,
+    "shadowPair": 142.65,
+    "shadowDisk": 13.49,
+    "shadowBoundary": 87.49,
+    "passes": true
+  },
+  {
+    "width": 1440,
+    "height": 51.156,
+    "radius": 202.36,
+    "sameGeometry": true,
+    "centerSame": true,
+    "shadowPair": 139.07,
+    "shadowDisk": 20.87,
+    "shadowBoundary": 35.87,
+    "passes": true
+  }
+]
