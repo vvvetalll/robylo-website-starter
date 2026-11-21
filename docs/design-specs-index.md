@@ -47,3 +47,5 @@ Specs live in the existing flat `docs/` structure as dated `design-*.md` files, 
 - [Final ROBYLO header and navigation](design-final-header-2026-11-20.md) — owner-approved global header refinement.
 
 - [2026-11-21 · SEO & Local Visibility service page](design-service-local-seo-2026-11-21.md) — approved architecture, exact copy and responsive verification plan for Elementor 6205.
+
+- [2026-11-21 · Digital Advertising service page](design-service-digital-advertising-2026-11-21.md) — approved Google Search Ads page, exact copy and Elementor 6207 verification plan.
