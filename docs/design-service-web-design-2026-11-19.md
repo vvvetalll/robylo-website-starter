@@ -326,3 +326,16 @@ Confirmed or factual, no approval needed: the four service names and URLs; One-T
 ### FAQ interaction update
 
 **Owner-authorized refinement.** This supersedes the earlier open Q&A presentation for page 6203. Keep the FAQ heading, section background, six exact questions and answers, all review markers, and the existing link below the questions. Use Elementor's native Atomic Accordion with all rows initially collapsed, one open answer at a time, whole-row activation, plus and minus indicators, subtle dividers and visible keyboard focus. Leave SEO settings and FAQ schema unchanged. Verify with mouse, touch, Enter and Space on the rendered preview.
+
+## November 21 refinement
+
+The owner’s refinement brief updates the earlier page plan. Keep the existing hero, case image and alt text. Remove its caption. Use eight sections in this order: Hero, Signs, Anatomy, Project process, Ownership, Related services, FAQ and Final CTA.
+
+- Signs keeps all seven symptoms. Rename it “Signs your website needs work.” The three choices use the kit’s paper, line and radius tokens. Keep the diagnostic contact link.
+- Anatomy keeps all five points and the phone media. Use a soft frame and visually consistent native numbered indicators. The original artwork remains the source for the embedded phone graphics.
+- Project process consolidates delivery scope and timeline into Plan the site, Design the pages, Build and test, and Launch the website. Cover service areas, content and photo inputs, mobile layouts, calls and quote/book paths, Elementor, form routing, page titles/headings/sitemap, functional checks and redirects when replacing a site. Keep the About and Approach links.
+- Ownership retains the approved positioning and platform capabilities. The native “Your accounts” panel lists Domain, Hosting, WordPress admin and Google accounts as scoping topics. Specific account ownership, credential handoff, hosting, analytics, training and support commitments require separate approval.
+- Related services retains its heading and replaces the old proof row and separate linked headings with three full-row links to Local SEO, Digital Advertising and AI & Business Automation. Remove the extra portfolio screenshot, caption, CTA, site count and unconfirmed automatic replies.
+- FAQ keeps the six native items. Use scoped answers about time, cost, content and editing. Keep the useful SEO and WordPress answers. Remove visible editorial markers and unapproved commitments. The dark final CTA remains in place.
+
+Reuse the active kit and existing contact component. Verify the protected frontend in Chrome from 320px through 1920px, including links, accordion, focus, touch, viewport overflow and neighbouring routes. See the existing implementation and verification records for results.
