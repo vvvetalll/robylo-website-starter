@@ -420,3 +420,24 @@ The page uses `rb-section`, `rb-section--soft`, `rb-section--dark`, `l-container
 Page content describes WordPress and Elementor editing, site structure, mobile design, form routing, basic search setup, testing and redirects for replacement projects. Specific account ownership and credential arrangements, included hosting or analytics, formal training, ongoing-support terms, pricing, fixed timelines, copywriting and automatic replies require separate confirmation. No unfinished illustration or editorial marker remains on the page. Future ownership indicators require explicit approval of the account arrangements.
 
 [Scope and design](design-service-web-design-2026-11-19.md#november-21-refinement) · [Published verification](verification.md#2026-11-21--website-design-service-page-verification)
+
+## 2026-11-21 — SEO & Local Visibility service page
+
+Published Local SEO in Elementor document `6205` at [the existing service route](https://robylo.com/services/local-seo/) behind Coming Soon. Kept the existing main element `43528cb0`, WordPress parent `6191`, slug and status. Revision `6583` holds the pre-build Elementor skeleton. The previous AIOSEO title was “SEO & Local Visibility | ROBYLO” and the description was “Local search visibility through Google Business Profile and technical SEO.”
+
+| Section | Elementor root and implementation |
+| --- | --- |
+| Hero | `22ea3aea` uses the existing two-tone display treatment, native local-search sample, primary button component `5864` and a link to `#search-and-maps`. |
+| Why customers cannot find you | `1c8ebfa` contains five divided rows with possible explanations. |
+| Search and Maps | `7121fbfe` is the native anchor target. Its accessible text illustration labels sponsored, Maps and organic results. The Digital Advertising link uses the compact outline style. |
+| Scope of work | `c814d61` presents four divided service rows and links to Website Design. |
+| Chicago and the suburbs | `7f1f10b4` explains storefront, service-area and hybrid profiles. Its fictional profile lists Evanston, Skokie and Wilmette as examples and shows two distinct sample location pages. |
+| Process and measurement | `f9ad3b7` covers four stages, the Seen → Contacted → Booked sequence, attribution limits and the two service models. It links to AI & Business Automation. |
+| Questions | `a63e374` uses native Atomic accordion `937ec61`. Eight items start collapsed and allow one open item. The eyebrow source is “Common questions” and reuses `rb-section-eyebrow`. Existing plus and minus icons carry native decorative treatment. |
+| Final contact | `4548bf5b` uses the approved native dark CTA pattern, primary button component `5864` and a link back to Services. |
+
+Kit 5744 supplies `rb-section`, `rb-section--soft`, `rb-section--dark`, `l-container`, `rb-display-xl`, `rb-heading-mute`, `rb-section-title`, `rb-section-eyebrow`, `rb-item-title`, `rb-hero__subtitle`, `rb-meta`, `rb-grid-12`, `rb-grid-main`, `rb-grid-aside`, `rb-action-row` and the canonical button classes. Native scoped styles supply the responsive split grids, row dividers, illustration surfaces and padding, anchor offset, accordion spacing and controls, and the final CTA focus color. The final action row scopes `rb-paper` to its focus-visible links for contrast on the dark panel. They reference `rb-ink`, `rb-line`, `rb-paper`, `rb-text`, `rb-surface`, `rb-radius` and `rb-space-1` through `rb-space-4`. There are no new global classes, variables, dependencies, scripts or external images. Illustration text is part of the page DOM. The examples do not depict actual customers, rankings, reviews or performance.
+
+Updated only the AIOSEO title and description for page 6205 through its documented REST field. The URL and robots fields retained their earlier values. Page copy describes scoped one-time work and ongoing improvements, with no prices, ranking promises, fixed timelines or guaranteed attribution. Account ownership guidance is a recommendation for project scoping.
+
+[Exact approved scope and copy](design-service-local-seo-2026-11-21.md) · [Published Chrome checks](verification.md#2026-11-21--local-seo-service-page-verification)
