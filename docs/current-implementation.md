@@ -340,3 +340,20 @@ In What We Do, only the two H3 size declarations in directory `28e130a8` changed
 - For rollback, Elementor revision `6534` preserves the previous header structure. The runtime activates only when the new shell is present. The original menu is still managed under Appearance → Menus. Coming Soon and noindex stayed active at publication.
 
 See [verification](verification.md#2026-11-20--published-global-header) and [design](design-final-header-2026-11-20.md).
+
+## 2026-11-21 — Shared section eyebrow on the four ROBYLO pages
+
+The first Home eyebrow “Digital partner for small business” is the owner-selected reference. Kit `5744` already generates `rb-section-eyebrow` (`g-867b2fb`) with Manrope via `rb-font`, weight 700, 15 px desktop, 12 px tablet, 11 px mobile, line height 1.4, letter spacing 0.015em, `capitalize` and the existing `rb-mute` color. This supersedes the earlier recorded uppercase and graphite treatment for standard section eyebrows.
+
+| Page | Standard eyebrow elements |
+| --- | --- |
+| Home `5894` | Digital partner for small business `a1968bc`, The big picture `5e01f3b9`, What we do `3ce64234` |
+| Services `6191` | Services · Chicago & suburbs `7936e4b6`, Start and finish `55331e63`, Every month `67b55314` |
+| About `6197` | About ROBYLO `657cd6bb`, The difference `525d4cb1` |
+| Web Design `6203` | Website Design & Development `82c115`, FAQ `6487d2ac` |
+
+Seven internal-page elements moved from `rb-hero__eyebrow` to the canonical class. About's two elements also dropped `rb-meta`, which carries independent typography. Six redundant light-surface color overrides were removed. “Every month” retains the existing `rb-line` color on its dark panel for contrast. Margins, including What We Do's responsive spacing, were preserved. Three labels stored as all caps were changed to sentence case because CSS `capitalize` does not lowercase the source. The existing class still owns the displayed casing. Brand names and acronyms retain their standard form.
+
+The legacy class remains in use by other roles, including process and footer labels. Atomic Lab is outside the four-page scope and its original document data were restored. No variables, classes, theme styles or components were added. Edits to existing autosaves were scoped to the affected labels. Published pages received only the corresponding element changes through the registered WordPress REST document field after MCP staged the corrections, so existing autosaves were kept separate.
+
+See [frontend and propagation verification](verification.md#2026-11-21--canonical-eyebrow-verification).
