@@ -320,3 +320,21 @@ Owner approval in the “Update ‘Yours to own’ Copy” brief applies to Serv
 Your business, your digital assets. We can handle the entire setup and ongoing management, while keeping ownership and access clear. If you ever decide to move on, we'll help make the transition straightforward.
 
 [Approved business principle](decisions.md#2026-11-19--client-ownership-and-flexible-management).
+
+## 2026-11-21 — Owner-authorized directory refinement
+
+Source is the owner's Services Page Refinement and Website Service Illustration instructions of November 21. Scope is the existing six sections of Services `6191`, with the existing homepage system, natural-case eyebrows and private review protections. This update supersedes earlier pairing, confirmation-marker and engagement-link instructions for the Services overview.
+
+- Keep the hero headline, introduction, four component-based service cards and their destinations. Keep existing primary actions, illustrations and final CTA copy and destinations.
+- Keep six problems. Read each as problem, short explanation, then service link. Replace the slow-reply problem with “We show up on Google, but not in the towns we serve.” Pair it with “Improve your Google Business Profile and the pages that describe where you work.” and link to Local SEO. Keep the other five topics. Use “Our website feels outdated and barely brings in calls.”, “Simplify scheduling and intake, and reduce retyping.” and “Connect your forms, calendar, and customer records so you can enter information once.” where the earlier phrasing was awkward or included an unneeded claim.
+- Use each existing service article's title, one business-value sentence, a short native capability list, one descriptive text link and its existing visual panel. Drop pairing and secondary links. Use the canonical text link treatment, service and section typography, and kit colors. Keep the existing alternating desktop layout and consistent mobile order. Exclude unsupported offers, selective review requests and review flags.
+
+| Service | Business value | Capabilities |
+| --- | --- | --- |
+| Website Design & Development | Help customers understand what you do and get in touch from any device. | New WordPress websites and redesigns · Service-focused page planning · Mobile-first layouts |
+| SEO & Local Visibility | Make it easier for nearby customers to find the services you offer on Google Search and Maps. | Google Business Profile setup and cleanup · Service and location pages · Technical SEO fixes |
+| Digital Advertising | Reach people searching for your services and see which campaigns bring in inquiries. | Google Ads setup and management · Campaign landing pages · Call and form tracking |
+| AI & Business Automation | Reduce repetitive office work and keep information moving between the tools you already use. | Scheduling and intake workflows · Connections between existing business tools |
+
+- The Website article uses an original illustrative browser window with navigation, page content, a call-to-action and supporting blocks. Use native Atomic shapes and existing surface, text and border tokens in the current 4:3 slot. The illustration has no customer data or results. The Chicago Mounting work imagery and the existing hero-card image keep their current use. The other three approved illustrative UI assets remain.
+- Retain all four build principles, removing only the unconfirmed “We can show you how.” statement from Easy to manage. Present both engagement formats with equal visual emphasis. Use “Get monthly help with the work we agree on.” for Ongoing Support until specific monthly examples are confirmed. Keep the existing final CTA and remove the redundant Contact link above it.
