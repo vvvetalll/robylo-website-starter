@@ -2,7 +2,7 @@
 
 **Approved scope, 2026-11-20.** The owner authorized this correction and publication on protected Home 5894. The section keeps its existing heading, introduction, copy, column widths, surface and grid. Coming Soon and noindex stay active.
 
-Use the existing 01, 02 and 03 markers as oversized, very faint Manrope typography behind First, Then and After launch respectively. Anchor the markers to the left edge of each step, crop a small part of each marker at that edge and keep the markers out of normal flow. Keep three equal desktop/tablet columns and the existing single-column layout below 768px. Keep the text and spacing of the unnumbered layout. The numbers should occupy no additional section height.
+Use the existing markers for single-digit 1, 2 and 3 behind First, Then and After launch respectively. Use oversized, very faint Manrope. Center each marker on the left edge of its step so that approximately half of the glyph remains visible. Keep the markers out of normal flow. Keep three equal desktop/tablet columns and the existing single-column layout below 768px. Keep the text and spacing of the unnumbered layout. The numbers should occupy no additional section height.
 
 This owner correction supersedes the earlier above-heading placement. The intermediate render placed the numbers after the descriptions and increased section height. The [mobile Big Picture folios](design-mobile-customer-path-2026-11-20.md#approved-mobile-revision--november-20-2026) remain a reference for tone and are outside the implementation scope.
 
