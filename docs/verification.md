@@ -510,3 +510,22 @@ The inspected 320, 390 and 1440 px views had no visible chat overlay intersectin
 | 1440 | 2 | 588 | 230.67 / 230.67 |
 
 The published document matched the reviewed Elementor tree. Logged-in responses retained `noindex, nofollow`. Anonymous Services returned Coming Soon without engagement copy. [Published desktop screenshot](evidence/services-engagement-contrast-2026-11-21/ongoing-support-1440.jpg)
+
+## 2026-11-21 — Desktop header navigation verification
+
+**Implemented and verified by Codex.** Compared the protected Chrome frontend before and after updating snippet `6532`. Before the change, ordinary links expanded from 4/0 px to 13/20 px block/inline padding on hover. The ordinary hovered link gained 40 px in width and preceding links shifted up to 40 px horizontally. The shared line also gained 2 px in height. The final desktop hover test reached each of the five links at each width in both header modes.
+
+| Viewport (CSS px) | Largest ordinary link box delta (x/y/w/h) | Neighbor shift during Contact hover | Header height |
+| --- | --- | --- | --- |
+| 1024 | 0/0/0/0 px | 0 px | 72 px |
+| 1280 | 0/0/0/0 px | 0 px | 72 px |
+| 1440 | 0/0/0/0 px | 0 px | 72 px |
+| 1920 | 0/0/0/0 px | 0 px | 72 px |
+
+The ordinary links measured Manrope 16 px / 500, with no underline at rest on Home and a fully extended underline at hover. All requested desktop widths retained the light top header, hidden state after downward scroll and dark reveal with a white SVG wordmark after upward scroll. The page width matched the usable viewport. Contact retained its initial 94 × 44 px size, 94 × 46 px hovered size and original styling in both palettes. Tab showed the existing solid 2 px focus outline and the new underline. Reduced-motion emulation yielded a 0 s underline transition.
+
+The actual protected Services, Work, Approach and About pages showed a persistent underline on the corresponding current menu link. Contact retained its native current indication. The unlisted Web Design child retained WordPress's existing behavior. The Services active underline also appeared in white in the dark header. [Published desktop screenshot](evidence/desktop-header-refinement-2026-11-21/dark-active-1440.jpg)
+
+At 320, 375 and 390 px, the closed and reclosed drawer measurements matched the baseline. The opened drawer used the same five destinations, typography and padding, a white wordmark and its existing 54 px item rows. Enter opened it, Escape closed it and returned focus, and an emulated tap through Services released the scroll lock. At 390 px the header still hid on scroll down, revealed dark on scroll up and restored light at the top. At 768 px the existing desktop breakpoint remained in effect. The mobile source and shared JavaScript are identical before and after. Tests used Chrome desktop and emulated mobile sizes.
+
+The header Elementor tree was unchanged. Elementor and SiteGround caches were purged during publication. Anonymous Home continued to serve Coming Soon, and the protected frontend retained `noindex`.

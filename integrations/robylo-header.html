@@ -115,6 +115,46 @@
   [data-id="5c8ec978"] *::after,
   [data-rb-header-ready] [data-id="5c8ec978"] nav.elementor-nav-menu--dropdown { transition: none !important; }
 }
+@media (min-width: 768px) {
+  [data-id="5c8ec978"] [data-id="4bb36fef"] .elementor-nav-menu--main > .elementor-nav-menu {
+    block-size: 44px;
+    align-content: center;
+    align-items: center;
+  }
+  [data-id="5c8ec978"] [data-id="4bb36fef"] .elementor-nav-menu--main li:not(.rb-primary-contact) > a.elementor-item {
+    position: relative;
+    padding: 4px 0;
+    color: inherit;
+    opacity: 1;
+    font-family: var(--rb-font, Manrope), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: none;
+    text-decoration: none;
+
+    &::after {
+      position: absolute;
+      inset-inline: 0;
+      inset-block-end: 8px;
+      block-size: 1px;
+      display: block;
+      content: "";
+      background: currentColor;
+      opacity: 1;
+      pointer-events: none;
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform 200ms ease;
+    }
+    &:is(:hover, :focus-visible, [aria-current="page"], .current-menu-ancestor > .elementor-item)::after {
+      transform: scaleX(1);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      &::after { transition: none; }
+    }
+  }
+}
 </style>
 <script>
 (() => {
