@@ -438,3 +438,19 @@ The actual page hid the header on downward scroll, revealed the dark treatment w
 All five published destination pages exposed the corresponding current item in both menu variants, included the underline and noindex, and rendered the six approved wordmark paths. A logged-out homepage request returned the Coming Soon page without the live header or private homepage content. The isolated pre-publication WordPress draft also passed Enter, Space, visible Tab focus, rapid toggling, resize while open, Chrome touch emulation, and a reduced-motion test with a computed transition duration of 0s. That draft was moved to Trash after verification.
 
 [Desktop at 1440 px](evidence/final-header/desktop-1440.jpg) · [Open mobile menu at 390 px](evidence/final-header/mobile-390.jpg) · [Measured results](evidence/final-header/checks.json)
+
+## 2026-11-21 — Canonical eyebrow verification
+
+**Implemented and verified by Codex** on protected Home `5894`, Services `6191`, About `6197` and Web Design `6203`. See the [ten-element inventory](current-implementation.md#2026-11-21--shared-section-eyebrow-on-the-four-robylo-pages). The three Home labels shared `rb-section-eyebrow` before the change, but the uppercase source text for What We Do still rendered in all caps. The seven internal-page labels used the old `rb-hero__eyebrow` and rendered at 13 px with weight 600. About also carried a second typography class. Inspection of the published CSS and computed values confirmed separate class assignments and hard-coded capitalization as the causes.
+
+After clearing Elementor and SiteGround caches, Chrome measured all ten labels on the actual published pages. Each matched the first Home eyebrow in family, size, weight, line height, letter spacing and text transform. All labels remained inside the viewport. All four pages returned noindex. An anonymous request still showed Coming Soon without the private Home copy. The dark Services panel kept the existing contrast color. Comparing the stored Elementor trees against their pre-change snapshots showed exactly the intended element changes, with document settings intact. Atomic Lab's final document matched the original.
+
+| Viewport widths | Font size | Weight | Line height | Computed letter spacing |
+| --- | --- | --- | --- | --- |
+| 320, 375, 390 px | 11 px | 700 | 15.4 px | 0.165 px |
+| 768, 1024 px | 12 px | 700 | 16.8 px | 0.180 px |
+| 1440 px | 15 px | 700 | 21 px | 0.225 px |
+
+**Controlled propagation.** A local Chrome fixture combined all ten published label elements with Elementor's generated class and media rules. Changing one declaration on the emitted shared class from `letter-spacing: .015em` to `.045em` changed all ten computed values to 0.495 px at 320 px, 0.540 px at 768 px and 0.675 px at 1440 px. Restoring the rule returned all ten to the baseline values above. The non-eyebrow control retained its spacing. The transient value was applied only to the emitted CSS rule in the fixture. Elementor kit save and regeneration with a test value were outside this isolated browser test.
+
+The first publication attempt briefly produced a fatal render on the affected pages because the update serialized a single-root Elementor array as an object. The exact saved data were restored, and publication was retried with a root-array check and verified on the rendered pages. Existing autosaves were retained separately, including concurrent About draft work.

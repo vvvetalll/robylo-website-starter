@@ -36,6 +36,7 @@
 
 ## Verification
 
+- Before completing work on a reusable component, verify in Elementor that it uses the canonical Atomic classes and variables, then check the rendered result. For a global style change, inventory and verify every affected instance. For a new section, inspect existing reusable components and styles before creating any. Store standard eyebrow copy in sentence case and let the shared class handle display casing. Keep established brand names and acronyms in their standard form.
 - Read the actual changed files and inspect Git status and the diff, including new untracked files.
 - Check documentation links, paths, theme metadata, and any added dependencies.
 - Run `php -l theme/robylo-child/functions.php` when PHP is available; lint every changed PHP file. If unavailable, explicitly report syntax validation as unverified.
