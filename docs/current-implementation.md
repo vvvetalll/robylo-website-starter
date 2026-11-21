@@ -371,3 +371,15 @@ Website’s existing 4:3 visual panel `2d8edd58` now contains decorative native 
 Elementor rollback points `6549` (original page), `6552` (before illustration), and `6554` (before dark focus correction) were recorded. Before restoring a full revision, check for later changes. The homepage, shared kit, global components, footer, portfolio and case study received no edits during this task.
 
 [Approved revision](design-services-page-2026-11-19.md#2026-11-21--owner-authorized-directory-refinement) · [Rendered verification](verification.md#2026-11-21--published-services-directory-verification)
+
+## 2026-11-21 — Sound familiar, Hero illustration and service outline links
+
+The protected Services page `6191` retains its existing six sections. The customer problems section `5ee0ad53` now has the H2 “Sound familiar?” and retains `#where-to-start`. The six approved problem sentences, explanations, arrow links and destination mapping are unchanged. The visual quotation marks are generated through a scoped pseudo-element with an empty accessibility alternative. The situations remain anonymous illustrative examples.
+
+The section reuses `rb-section`, `rb-section--soft`, `l-container`, `rb-section-title`, `rb-heading-mute`, `rb-quote`, `rb-hero__subtitle`, `rb-btn` and `rb-btn--text`. Its native grid and card styling use `rb-paper`, `rb-surface`, `rb-line`, `rb-text`, `rb-mute`, `rb-radius` and the existing spacing variables. Tablet and desktop cards stretch to equal heights with their links aligned at the bottom. Phone cards retain natural heights and shared widths, padding and spacing. The old dark focus override was removed with the dark treatment. The shared focus ring applies on the light surface.
+
+The first Hero tile reuses Drawing tile component `6316`. Its image override points to attachment `6559`, a 600 × 450 render of the original native Website detail artwork `42d7815f`. The new instance `115e569e` retains label, URL and first position. The other three Hero tiles, the existing native detail artwork and portfolio media are unchanged.
+
+Only the four detail actions `77aab827`, `79cdddf2`, `5f9e1c33` and `7366c197` use the compact outline treatment requested in the follow-up. They reuse `rb-btn`, `rb-btn--outline` and `rb-btn--sm` and keep their respective destinations. The single scoped phone padding adjustment keeps the longest requested label on one line at 320 px. It applies only to the four compact outline links in detail section `6540df8`. No new global class, token, stylesheet, script or dependency was added. Other sections and shared template documents were left in place.
+
+[Approved scope](design-services-page-2026-11-19.md#2026-11-21--owner-authorized-customer-problem-cards) · [Rendered verification](verification.md#2026-11-21--services-cards-and-outline-verification)

@@ -338,3 +338,13 @@ Source is the owner's Services Page Refinement and Website Service Illustration 
 
 - The Website article uses an original illustrative browser window with navigation, page content, a call-to-action and supporting blocks. Use native Atomic shapes and existing surface, text and border tokens in the current 4:3 slot. The illustration has no customer data or results. The Chicago Mounting work imagery and the existing hero-card image keep their current use. The other three approved illustrative UI assets remain.
 - Retain all four build principles, removing only the unconfirmed “We can show you how.” statement from Easy to manage. Present both engagement formats with equal visual emphasis. Use “Get monthly help with the work we agree on.” for Ongoing Support until specific monthly examples are confirmed. Keep the existing final CTA and remove the redundant Contact link above it.
+
+## 2026-11-21 — Owner-authorized customer problem cards
+
+The owner requested a visual refinement of the existing six-problem section on Services `6191`. Rename its H2 to “Sound familiar?” and keep the existing `#where-to-start` anchor. Present the six approved situations, explanations and destinations in a soft neutral section with light cards. Use three columns on desktop, two on tablet and one on phones. Keep equal card heights within desktop and tablet grids and align service links along each row’s lower edge. Keep the phone cards compact and readable. Preserve the canonical quote, supporting text and arrow-link treatments. A small visual opening quotation mark is decorative and hidden from assistive technology. The approved situations remain anonymous examples, with no attributions or testimonial features. Reuse the kit’s existing neutral palette and spacing without adding a styling system. All other sections, templates and publication protections are outside this change.
+
+### Owner follow-up on the Hero image and service buttons
+
+Replace only the Chicago Mounting image in the Website Design & Development Hero tile on Services with the existing browser illustration from the Website detail article. Preserve the shared tile component, 4:3 geometry, service label and destination. The native detail artwork, the other three Hero tiles and portfolio media stay in place.
+
+Use the existing compact outline button for the four links under the capability lists in What each service covers. Keep the width content-based and the existing detail layouts unchanged. The owner supplied the labels Explore Website Design →, Explore Local SEO →, Explore Digital Advertising → and Explore AI & Automation →. Retain all four destination URLs. The customer problem cards keep their text links.
