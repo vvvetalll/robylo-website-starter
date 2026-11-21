@@ -441,3 +441,23 @@ Kit 5744 supplies `rb-section`, `rb-section--soft`, `rb-section--dark`, `l-conta
 Updated only the AIOSEO title and description for page 6205 through its documented REST field. The URL and robots fields retained their earlier values. Page copy describes scoped one-time work and ongoing improvements, with no prices, ranking promises, fixed timelines or guaranteed attribution. Account ownership guidance is a recommendation for project scoping.
 
 [Exact approved scope and copy](design-service-local-seo-2026-11-21.md) · [Published Chrome checks](verification.md#2026-11-21--local-seo-service-page-verification)
+
+## 2026-11-21 — Digital Advertising service page
+
+Published [Digital Advertising](https://robylo.com/services/digital-advertising/) in the existing Elementor document `6207`, parent `6191`. The original main `57812ba8`, canonical URL and status remain. Revision `6590` contains the pre-build Elementor skeleton. The previous metadata was “Digital Advertising | ROBYLO” and “Digital advertising through Google Ads and focused landing pages.”.
+
+| Section | Elementor implementation |
+| --- | --- |
+| Hero | `4cb3f1a0` uses the approved headline, two-tone display, fictional four-part motif, primary component `5864` and the in-page jump. |
+| Where ad budgets leak | `78a32ec4` owns the native `where-ad-budgets-leak` anchor, a read-only E2 Search terms illustration and four divided explanations. A compact outline link leads to Website Design. |
+| From search to call | `2be71e4f` pairs the four practical stages with the native E1 vertical trail. Its furnace repair example is fictional, and landing page work is described as a separately scoped Website Design project. |
+| Your money, in plain view | `1e9b08c3` distinguishes ad spend and service fees and describes what review can cover, including attribution limits. |
+| When Google Ads make sense | `751c122f` has two criteria lists and a compact link to Local SEO. Local Services Ads is described as a separate Google product for eligible businesses. |
+| Common questions | `79c9fae8` contains the native Atomic accordion `11ffdcd0` with eight initially collapsed items and a single open item. |
+| Final CTA | `678be5b7` uses the existing dark CTA composition, primary component `5864` and a link to Services. Its local action-row style gives keyboard focus the shared light color. |
+
+Used kit 5744, including `l-container`, `rb-action-row`, `rb-btn`, `rb-btn--outline`, `rb-btn--sm`, `rb-btn--text`, `rb-display-xl`, `rb-grid-12`, `rb-grid-aside`, `rb-grid-main`, `rb-heading-mute`, `rb-hero__subtitle`, `rb-item-title`, `rb-meta`, `rb-section`, `rb-section--dark`, `rb-section--soft`, `rb-section-eyebrow`, `rb-section-title`. Scoped styles use `rb-ink`, `rb-line`, `rb-paper`, `rb-radius`, `rb-space-1`, `rb-space-2`, `rb-space-3`, `rb-space-4`, `rb-surface`, `rb-text`. Local rules handle grid widths, dividers, illustration spacing, native anchor offset, accordion spacing and focus contrast in the dark CTA. No new global styles, raster imagery, scripts or dependencies. The three illustrations use editable native text and shapes.
+
+Updated only the AIOSEO title and description fields for this page. Committed scope and copy explain Google Search Ads, platform budget controls and the distinction between advertising and organic visibility. Examples contain fictional search text and no performance data. Campaign setup and review are scoped without prices, fixed reporting schedules, contract terms or promised outcomes. Account control is presented as a recommendation.
+
+[Approved design and final copy](design-service-digital-advertising-2026-11-21.md) · [Published checks](verification.md#2026-11-21--digital-advertising-service-page-verification)

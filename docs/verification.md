@@ -581,3 +581,28 @@ The desktop header measured 72 px and hid on scroll down and returned on scroll 
 No live analytics, account access, result guarantees or attribution are implied by the illustration or measurement model. Tests used Chrome on Windows with emulated dimensions and touch, so physical device behavior beyond the tested browser was outside this record.
 
 [Desktop Hero](evidence/local-seo-service-2026-11-21/hero-1440.jpg) · [Mobile Hero](evidence/local-seo-service-2026-11-21/hero-390.jpg) · [Desktop Search and Maps](evidence/local-seo-service-2026-11-21/search-and-maps-1440.jpg) · [Mobile Search and Maps](evidence/local-seo-service-2026-11-21/search-and-maps-390.jpg) · [Measured browser results](evidence/local-seo-service-2026-11-21/checks.json)
+
+## 2026-11-21 — Digital Advertising service-page verification
+
+**Implemented and verified by Codex.** Chrome rendered the protected, published Elementor page 6207 at its canonical URL. Verified the exact AIOSEO title and description, one H1, six H2s, seven sections, three native text illustrations and eight collapsed accordion items. Body items and both eyebrows use the existing Manrope styles. Eyebrows display “Digital Advertising” and “Common Questions” with computed `capitalize`. The viewport scan found no clipped or overflowing headings, paragraphs, lists, links or accordion summaries.
+
+| Chrome width (CSS px) | Usable / scroll width (px) | Hero / Search terms / vertical trail width (px) | Questions eyebrow size |
+| --- | --- | --- | --- |
+| 320 | 305 / 305 | 265 / 265 / 265 | 11px |
+| 360 | 345 / 345 | 305 / 305 / 305 | 11px |
+| 375 | 360 / 360 | 320 / 320 / 320 | 11px |
+| 390 | 375 / 375 | 335 / 335 / 335 | 11px |
+| 768 | 753 / 753 | 290 / 303 / 310 | 12px |
+| 1024 | 1009 / 1009 | 394 / 412 / 421 | 12px |
+| 1440 | 1425 / 1425 | 514 / 537 / 549 | 15px |
+| 1920 | 1905 / 1905 | 514 / 537 / 549 | 15px |
+
+All five page-to-page links opened their expected destinations, including both Contact buttons, Website Design, Local SEO and Services. The Hero anchor scrolled to a visible “Where ad budgets leak” heading by click at 1440 px and by touch at 390 px. The Hero Contact button also opened by touch. Resting, hovered and released styles were measured for all six links. Their dimensions stayed stable and the resting styles returned. Tab exposed 2 px focus on all six links and the accordion. Both dark CTA links had a white 2 px focus ring, with the primary confirmed again at 320 and 390 px. With the chat launcher closed, hit testing at 320 and 390 px reached all six links and the last accordion control.
+
+Mouse clicks opened each of the eight accordion items with one open at a time, then closed the last item. Enter opened the focused question and Space closed it with focus retained. Four repeated clicks returned an item to the collapsed state. A touch tap opened and closed a question at 390 px. The plus and minus icons switch visibility and are marked decorative to assistive technology.
+
+At 320 and 390 px, touch opened the mobile menu, all five desktop-equivalent destinations were visible and Escape closed it. At 1440 px, the shared navigation remained 72 px tall and showed the existing light header at the top, hid on down-scroll and returned with the dark treatment on up-scroll. The four Home orbit cards continued moving. The inspected Home Hero, Services overview, Website Design and Local SEO Elementor structures matched their pre-build reads. The destination pages rendered their expected titles and shared templates.
+
+Elementor and SiteGround cache purges succeeded. The anonymous route served Coming Soon, while the authenticated page continued to render `noindex, nofollow`. The visual concepts follow the E1 and E2 details in the owner’s text brief. The browser tests used Windows Chrome with touch and viewport emulation.
+
+[Search terms at 1440 px](evidence/digital-advertising-service-2026-11-21/search-terms-1440.jpg) · [Search terms at 390 px](evidence/digital-advertising-service-2026-11-21/search-terms-390.jpg) · [Vertical trail at 1440 px](evidence/digital-advertising-service-2026-11-21/search-to-call-1440.jpg) · [Vertical trail at 390 px](evidence/digital-advertising-service-2026-11-21/search-to-call-390.jpg) · [Measured results](evidence/digital-advertising-service-2026-11-21/checks.json)
