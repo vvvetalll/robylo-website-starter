@@ -324,3 +324,9 @@ Kit 5744 global class **rb-section-eyebrow** (g-867b2fb) owns section-label typo
 Home 5894 uses its original section 7d73938f, stage grid 4003dd65 and three native articles 38960405, 62643d78 and 34a023ac. Only the section's local Atomic style was edited. The [saved style](evidence/mobile-path-final/section-style.css) contains the native breakpoint settings and scoped CSS. A CSS counter paints decorative, zero-padded numbers with empty alternative text. The original number widgets remain in the tablet/desktop layout. The existing mobile mockup image 435e1435 has a 1 px warm-gray outline. No new nodes, assets, scripts or global styles were added.
 
 The owner approved the final PR #44 composition and subsequently requested more separation. Mobile articles now have a 30 px gap. The earlier 22 px value remains in the decision history. Revision 6461 precedes the section change. Reconcile any later edits before restoring a whole-page revision.
+
+## Selected Work responsive carousel · 2026-11-20
+
+**Published on protected Home 5894.** Work section `58c9fc4` retains the native Elementor Atomic carousel `063712a`, viewport `16f9bf6`, track `a3337fd` and all six projects. The stored widget already specified 3/2/1 slides per view. Local slide flex rules overrode it with two columns on desktop and full-width cards on phones. The six local flex bases now use one third of the viewport minus the two existing gaps on desktop, one half minus the existing gap on tablet, and 88% of the viewport on phones. The track still uses the native 24/16 px spacing and the existing viewport width.
+
+Native pagination `48c410b7` adds one dot per snap to the existing controls row. The native Embla handler owns active states, keyboard, swiping and end alignment. Looping and autoplay remain off. The existing 4:3 and 4:5 Studio Plate crops, links, copies and arrow controls retain their original settings. No custom JavaScript or global style was added.
