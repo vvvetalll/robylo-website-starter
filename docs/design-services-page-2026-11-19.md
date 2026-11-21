@@ -348,3 +348,7 @@ The owner requested a visual refinement of the existing six-problem section on S
 Replace only the Chicago Mounting image in the Website Design & Development Hero tile on Services with the existing browser illustration from the Website detail article. Preserve the shared tile component, 4:3 geometry, service label and destination. The native detail artwork, the other three Hero tiles and portfolio media stay in place.
 
 Use the existing compact outline button for the four links under the capability lists in What each service covers. Keep the width content-based and the existing detail layouts unchanged. The owner supplied the labels Explore Website Design →, Explore Local SEO →, Explore Digital Advertising → and Explore AI & Automation →. Retain all four destination URLs. The customer problem cards keep their text links.
+
+## 2026-11-21 — Restore engagement panel contrast
+
+The owner confirmed that the matching light treatments from the Services directory refinement were unintended. Restore the original light One-Time Projects and dark Ongoing Support pairing. Scope is the Ongoing Support surface and text colors only. Keep the existing shared card dimensions, spacing, typography, radius, labels and copy. The two formats continue to have equal standing.
