@@ -399,3 +399,24 @@ Existing Custom Code snippet `6532` now adds one desktop-only CSS block for shel
 The regular links use an absolutely positioned 1 px `currentColor` underline. The underline grows from the left over 200 ms on hover and keyboard focus, and stays visible for the native current page or a menu ancestor supplied by WordPress. It switches immediately under reduced motion. The menu markup, responsive breakpoint, all source rules for the drawer, the Contact rules, header styling and the scroll script remain in the original snippet. The existing named classes and variable were reused without a new kit class or dependency.
 
 [Exact integration source](../integrations/robylo-header.html) · [Published verification](verification.md#2026-11-21--desktop-header-navigation-verification)
+
+## 2026-11-21 — Website Design & Development service-page refinement
+
+Published Elementor page [6203](https://robylo.com/services/web-design/) through the ROBYLO MCP connector. The document now contains eight sections: Hero, Signs, Anatomy, Project process, Ownership, Related services, Questions and Final CTA. The active kit is 5744. This entry supersedes the earlier page record that kept editorial confirmation markers and a separate project-scope section.
+
+| Section | Targeted Elementor changes |
+| --- | --- |
+| Hero `3c32d34a` | Removed the screenshot caption. Preserved the approved headline, media 6145 and its alt text, primary contact component and Work outline button. The lead now inherits `rb-hero__subtitle`. |
+| Signs `6a110340` | Renamed the section and added token-based separators between the seven signs. The three choices now use the shared paper, line, spacing and radius tokens. The diagnostic link remains. |
+| Anatomy `50c56d9b` | Preserved the five explanations and existing image widget. Reused the original phone outline, screen contents and inline numbering in media 6576, removing five diagram connectors and the flat outer fill. Added a token-based native frame and matching native numbered indicators. Preserved the diagram alt text. |
+| Process `7a90781a` | Combined scope and timeline into one native four-stage list. Removed the duplicate scope and its four blank icon boxes. Kept About and Approach links. |
+| Ownership `6f2e4e0f` | Replaced the unfinished editor preview with the native “Your accounts” panel. It labels domain, hosting, WordPress admin and Google accounts as discussion topics. |
+| Related services `523282c5` | Replaced separate linked titles and descriptions with three native full-row links. Removed the GCPRO image, caption, duplicate Work link and “six live sites” claim. |
+| Questions `7f57a9e6` | Preserved all six native questions and controls. Updated answers to remove unapproved commitments. Changed the stored eyebrow “FAQ” to “Common questions”; it retains `rb-section-eyebrow`. The class’s `capitalize` leaves all-capitals source strings as entered. |
+| Final CTA `4f14e386` | Preserved the headline, dark styling, copy, contact component and email. Balanced desktop wrapping on the existing heading. |
+
+The page uses `rb-section`, `rb-section--soft`, `rb-section--dark`, `l-container`, `rb-display-xl`, `rb-section-title`, `rb-heading-mute`, `rb-item-title`, `rb-section-eyebrow`, `rb-hero__subtitle`, the existing button classes and two instances of contact component 5864. Local styles use `rb-ink`, `rb-text`, `rb-paper`, `rb-surface`, `rb-line`, `rb-radius` and `rb-space-1` through `rb-space-4`. The compact related rows keep native Atomic layout, hover and focus rules scoped to this page. The kit, shared templates and other documents received no edits.
+
+Page content describes WordPress and Elementor editing, site structure, mobile design, form routing, basic search setup, testing and redirects for replacement projects. Specific account ownership and credential arrangements, included hosting or analytics, formal training, ongoing-support terms, pricing, fixed timelines, copywriting and automatic replies require separate confirmation. No unfinished illustration or editorial marker remains on the page. Future ownership indicators require explicit approval of the account arrangements.
+
+[Scope and design](design-service-web-design-2026-11-19.md#november-21-refinement) · [Published verification](verification.md#2026-11-21--website-design-service-page-verification)
