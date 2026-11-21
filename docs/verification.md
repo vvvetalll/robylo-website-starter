@@ -529,3 +529,28 @@ The actual protected Services, Work, Approach and About pages showed a persisten
 At 320, 375 and 390 px, the closed and reclosed drawer measurements matched the baseline. The opened drawer used the same five destinations, typography and padding, a white wordmark and its existing 54 px item rows. Enter opened it, Escape closed it and returned focus, and an emulated tap through Services released the scroll lock. At 390 px the header still hid on scroll down, revealed dark on scroll up and restored light at the top. At 768 px the existing desktop breakpoint remained in effect. The mobile source and shared JavaScript are identical before and after. Tests used Chrome desktop and emulated mobile sizes.
 
 The header Elementor tree was unchanged. Elementor and SiteGround caches were purged during publication. Anonymous Home continued to serve Coming Soon, and the protected frontend retained `noindex`.
+
+## 2026-11-21 — Website Design service-page verification
+
+Codex inspected Elementor post 6203 and compared its saved Atomic structure and the protected Chrome frontend. The audit covered 322 original nodes including the root. The original page had 109 nodes with local typography declarations and one assignment of the shared body class. The published tree has 238 nodes, 27 nodes with local typography and 40 instances of `rb-hero__subtitle`. Some approved typography and responsive overrides remain, including the hero and accordion summaries. No legacy widget appeared in the article tree, no exact duplicate labels appeared among the 60 kit classes, and no literal hex, RGB or HSL colors appeared in the inspected local CSS. The phone illustration retains colors in the existing SVG artwork; its surrounding surface uses the kit.
+
+The protected frontend rendered Manrope body copy at 16 px on phones and 18 px at the tested tablet and desktop widths. The choice cards computed to the kit’s paper surface, neutral 1 px line and 4 px radius. The restored eyebrow uses the existing `rb-section-eyebrow` class at weight 700. Its source is “Common questions” and the class displays “Common Questions” in mixed case. The desktop CTA uses balanced wrapping; its existing mobile wrapping remains.
+
+| Chrome viewport (CSS px) | Choice columns | Process columns | Eyebrow size | Usable / scroll width (px) |
+| --- | --- | --- | --- | --- |
+| 320 | 1 | 1 | 11px | 305 / 305 |
+| 360 | 1 | 1 | 11px | 345 / 345 |
+| 375 | 1 | 1 | 11px | 360 / 360 |
+| 390 | 1 | 1 | 11px | 375 / 375 |
+| 768 | 3 | 2 | 12px | 753 / 753 |
+| 1024 | 3 | 2 | 12px | 1009 / 1009 |
+| 1440 | 3 | 2 | 15px | 1425 / 1425 |
+| 1920 | 3 | 2 | 15px | 1905 / 1905 |
+
+At all eight widths the rendered page had eight sections in the specified order, three related links, four project steps, five anatomy points, six answers and zero visible confirmation markers. Both images loaded with meaningful alt text. The phone image was checked after lazy loading at 320 px. The viewport scan found no clipped text, horizontal overflow or broken images. The chat launcher appeared in its closed state. At 320 and 390 px the key page controls remained reachable, including both rendered fragments of the wrapped diagnostic link. Chat submission was outside the scope.
+
+Clicked each of the 12 internal links in the article, including Hero and final contact, Work, all three related-service rows, Services, Approach, About, More questions, the diagnostic link and inline Local SEO. The Local SEO row also navigated on a simulated touch. The email href was checked as a mailto link without sending a message. The three related rows each highlight on hover with zero box change; keyboard focus produced a 2 px outline. Hero contact and Work hover states were checked. All six accordion items opened under mouse input, only one stayed open, and clicking the active question closed it. Tab produced the native 2 px focus outline, Enter opened a question, Space closed it, and an emulated tap opened and closed an item at 390 px.
+
+Home, Services and all three other service pages loaded with the shared header, footer and `noindex, nofollow`. Home’s four orbit cards retained active `rb-revolve` motion. The mobile menu opened and closed at 320 and 390 px; at 390 px its five existing destinations were visible and Escape closed it. Neither shared templates nor the kit received edits. Elementor and SiteGround were purged after publishing. The anonymous route returned Coming Soon and did not render the service content. The authenticated route retained `noindex, nofollow` at all eight widths. Tests used the existing Windows Chrome connection and touch emulation.
+
+[Desktop at 1440 px](evidence/web-design-refinement-2026-11-21/desktop-1440.jpg) · [Mobile at 390 px](evidence/web-design-refinement-2026-11-21/mobile-390.jpg) · [Accordion eyebrow at 390 px](evidence/web-design-refinement-2026-11-21/questions-390.jpg) · [Measured browser results](evidence/web-design-refinement-2026-11-21/checks.json)
