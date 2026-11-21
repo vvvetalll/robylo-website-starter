@@ -41,3 +41,5 @@ Specs live in the existing flat `docs/` structure as dated `design-*.md` files, 
 - [2026-11-20 · What We Do](design-what-we-do-2026-11-20.md) — approved editorial service directory on Home 5894.
 
 - [Mobile customer path, approved second revision](design-mobile-customer-path-2026-11-20.md#approved-mobile-revision--november-20-2026) · bottom-right editorial numbers below 768 px, approved from PR #44.
+
+- [Selected Work carousel responsive refinement](design-selected-work-carousel-2026-11-20.md) — owner-approved native responsive sizing and navigation on protected Home 5894.
