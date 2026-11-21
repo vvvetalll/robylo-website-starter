@@ -357,3 +357,17 @@ Seven internal-page elements moved from `rb-hero__eyebrow` to the canonical clas
 The legacy class remains in use by other roles, including process and footer labels. Atomic Lab is outside the four-page scope and its original document data were restored. No variables, classes, theme styles or components were added. Edits to existing autosaves were scoped to the affected labels. Published pages received only the corresponding element changes through the registered WordPress REST document field after MCP staged the corrections, so existing autosaves were kept separate.
 
 See [frontend and propagation verification](verification.md#2026-11-21--canonical-eyebrow-verification).
+
+## 2026-11-21 — Protected Services directory refinement
+
+Services `6191` retains the original six sections. The hero headline, Hero tile component `6316` and its four destinations, the four build principles, and the final CTA copy and destinations remain in place. Grid `4ed372be` keeps two columns on phones and uses equal rows to keep all four tiles the same size when labels wrap. The six customer problems use problem → explanation → service link. The towns-related problem links to Local SEO from `3609e039`.
+
+The four service articles retain their visual panels and alternating desktop layout, with images preceding copy on phones. Each has an existing native list with 3, 3, 3, and 2 confirmed capabilities and one descriptive link. Pairings, redundant links, selective review solicitation, and all eight visible review markers were removed with their unconfirmed claims. The two engagement panels use the same soft treatment and retain their separate descriptions. The final CTA uses existing primary button component `5864`.
+
+Existing class reuse includes `rb-section`, `l-container`, `rb-section--dark`, `rb-section--soft`, `rb-section-eyebrow`, `rb-display-xl`, `rb-section-title`, `rb-heading-mute`, `rb-item-title`, `rb-quote`, `rb-hero__subtitle`, `rb-btn` and `rb-btn--text`. The eyebrow class retains its current natural casing and its 11/12/15 px sizes. The dark problem band scopes the keyboard focus-ring color to `rb-paper` because the base outline resolved to black on black. All four article links and six problem links share the kit text-link appearance.
+
+Website’s existing 4:3 visual panel `2d8edd58` now contains decorative native Atomic illustration `42d7815f`. Its illustrative browser includes window controls, navigation, a page headline and CTA shape, an image area and three supporting blocks. It uses existing paper, surface, line, text and radius tokens without client content, stock imagery or metrics. Only this Services detail image changed. The Hero tile keeps its Chicago Mounting image with existing alt text, and the SEO, Ads and Automation illustrations keep attachments `6319`, `6320` and `6321`. There are no missing images or icon placeholders in the reviewed layout.
+
+Elementor rollback points `6549` (original page), `6552` (before illustration), and `6554` (before dark focus correction) were recorded. Before restoring a full revision, check for later changes. The homepage, shared kit, global components, footer, portfolio and case study received no edits during this task.
+
+[Approved revision](design-services-page-2026-11-19.md#2026-11-21--owner-authorized-directory-refinement) · [Rendered verification](verification.md#2026-11-21--published-services-directory-verification)
