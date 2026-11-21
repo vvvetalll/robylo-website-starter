@@ -41,3 +41,12 @@ Each case page should have a concise **Scope of Work** section using the same co
 - Desktop review still needed; claims from Claude's review are observations, not independent verification.
 
 **No production edits, tests, or deploys performed as part of this documentation commit.**
+
+
+## Future idea — bilingual Ukrainian client websites (2026-11-21)
+
+Status: **Proposed / idea only**, not approved for implementation.
+
+Some existing Ukrainian client websites could receive professionally translated English versions so US prospects can review them in English. ROBYLO case pages can separately describe the actual work in English, whether or not the client's website is bilingual. Where genuinely delivered, multilingual website development may be presented as a capability; do not claim it for projects that are not multilingual.
+
+Before any implementation: confirm client permission, translation scope, audience value, plugin compatibility with WordPress/Elementor, URL structure, SEO metadata/hreflang, and maintenance ownership. Do not install plugins, translate sites, change public content, or imply this is a current service based solely on the idea.
