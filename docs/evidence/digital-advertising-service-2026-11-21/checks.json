@@ -1,0 +1,3669 @@
+{
+  "document": 6207,
+  "revisionBeforeBuild": 6590,
+  "environment": "Windows Chrome with viewport and touch emulation",
+  "metadata": {
+    "id": 6207,
+    "slug": "digital-advertising",
+    "link": "https://robylo.com/services/digital-advertising/",
+    "parent": 6191,
+    "status": "publish",
+    "title": "Google Ads Management for Chicago Small Businesses | ROBYLO",
+    "description": "Google Ads for Chicago-area businesses. Reach relevant local searches, improve landing pages, and understand the inquiries your advertising generates.",
+    "noindex": true,
+    "preserved": true
+  },
+  "tree": {
+    "published": true,
+    "root": "57812ba8",
+    "sections": [
+      [
+        "4cb3f1a0",
+        "Advertising Hero"
+      ],
+      [
+        "78a32ec4",
+        "Where ad budgets leak"
+      ],
+      [
+        "2be71e4f",
+        "Search to call"
+      ],
+      [
+        "1e9b08c3",
+        "Money and spend"
+      ],
+      [
+        "751c122f",
+        "Google Ads fit"
+      ],
+      [
+        "79c9fae8",
+        "Advertising questions"
+      ],
+      [
+        "678be5b7",
+        "Final contact"
+      ]
+    ],
+    "nodes": 267,
+    "accordionItems": 8,
+    "components": [
+      5864,
+      5864
+    ],
+    "classes": [
+      "l-container",
+      "rb-action-row",
+      "rb-btn",
+      "rb-btn--outline",
+      "rb-btn--sm",
+      "rb-btn--text",
+      "rb-display-xl",
+      "rb-grid-12",
+      "rb-grid-aside",
+      "rb-grid-main",
+      "rb-heading-mute",
+      "rb-hero__subtitle",
+      "rb-item-title",
+      "rb-meta",
+      "rb-section",
+      "rb-section--dark",
+      "rb-section--soft",
+      "rb-section-eyebrow",
+      "rb-section-title"
+    ],
+    "vars": [
+      "rb-ink",
+      "rb-line",
+      "rb-paper",
+      "rb-radius",
+      "rb-space-1",
+      "rb-space-2",
+      "rb-space-3",
+      "rb-space-4",
+      "rb-surface",
+      "rb-text"
+    ],
+    "baselineDocumentsUnchanged": [
+      [
+        5894,
+        true
+      ],
+      [
+        6191,
+        true
+      ],
+      [
+        6203,
+        true
+      ],
+      [
+        6205,
+        true
+      ]
+    ],
+    "literalColors": 0
+  },
+  "viewport": {
+    "320": {
+      "width": 320,
+      "client": 305,
+      "scrollWidth": 305,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            157,
+            305,
+            916.4
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            1073.4,
+            305,
+            1571.5
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            2644.9,
+            305,
+            1588.1
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            4232.9,
+            305,
+            1164.7
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            5397.6,
+            305,
+            1278.1
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            6675.8,
+            305,
+            958
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            7633.8,
+            305,
+            561.5
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              189,
+              265,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              6731.8,
+              265,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            20,
+            686.6,
+            265,
+            330.8
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            20,
+            1258.2,
+            265,
+            441.1
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            20,
+            3619.2,
+            265,
+            557.8
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              544.6,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              614.6,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              2334.9,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              6561.8,
+              265,
+              58
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              8021.2,
+              265,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              8091.2,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    },
+    "360": {
+      "width": 360,
+      "client": 345,
+      "scrollWidth": 345,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            111,
+            345,
+            916.4
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            1027.4,
+            345,
+            1497.1
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            2524.5,
+            345,
+            1452.9
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            3977.3,
+            345,
+            1040.7
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            5018.1,
+            345,
+            1144.1
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            6162.2,
+            345,
+            933.7
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            7095.9,
+            345,
+            561.5
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              143,
+              305,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              6218.2,
+              305,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            20,
+            640.6,
+            305,
+            330.8
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            20,
+            1212.2,
+            305,
+            441.1
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            20,
+            3413.2,
+            305,
+            508.2
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              498.6,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              568.6,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              2239.3,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              6058.2,
+              269.8,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              7483.4,
+              305,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              7553.4,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    },
+    "375": {
+      "width": 375,
+      "client": 360,
+      "scrollWidth": 360,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            111,
+            360,
+            866.8
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            977.8,
+            360,
+            1447.5
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            2425.3,
+            360,
+            1428.1
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            3853.4,
+            360,
+            1040.7
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            4894.1,
+            360,
+            1144.1
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            6038.2,
+            360,
+            909.4
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            6947.7,
+            360,
+            536.7
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              143,
+              320,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              6094.2,
+              320,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            20,
+            615.8,
+            320,
+            306
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            20,
+            1162.6,
+            320,
+            441.1
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            20,
+            3314,
+            320,
+            483.4
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              473.8,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              543.8,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              2140.1,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              5934.2,
+              269.8,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              7310.3,
+              320,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              7380.3,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    },
+    "390": {
+      "width": 390,
+      "client": 375,
+      "scrollWidth": 375,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            111,
+            375,
+            819.6
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            930.6,
+            375,
+            1411.5
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            2342.1,
+            375,
+            1378.5
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            3720.6,
+            375,
+            1015.9
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            4736.5,
+            375,
+            1144.1
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            5880.6,
+            375,
+            885.1
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            6765.8,
+            375,
+            536.7
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              143,
+              335,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              20,
+              5936.6,
+              335,
+              15.4
+            ],
+            "type": [
+              "Manrope",
+              "11px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            20,
+            615.8,
+            335,
+            258.8
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            20,
+            1079.4,
+            335,
+            441.1
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            20,
+            3181.2,
+            335,
+            483.4
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              473.8,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              543.8,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              2056.9,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              5776.6,
+              269.8,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              20,
+              7128.4,
+              335,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              20,
+              7198.4,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    },
+    "768": {
+      "width": 768,
+      "client": 753,
+      "scrollWidth": 753,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            118,
+            753,
+            629.2
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            747.2,
+            753,
+            1026.3
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            1773.5,
+            753,
+            1001.1
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            2774.7,
+            753,
+            790.9
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            3565.6,
+            753,
+            778.4
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            4343.9,
+            753,
+            807.3
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            5151.2,
+            753,
+            447.2
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              30.7,
+              150,
+              369.3,
+              16.8
+            ],
+            "type": [
+              "Manrope",
+              "12px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              30.7,
+              4399.9,
+              513.2,
+              16.8
+            ],
+            "type": [
+              "Manrope",
+              "12px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            432.1,
+            221.8,
+            290.2,
+            397.5
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            30.7,
+            913.4,
+            303.4,
+            430.7
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            412.3,
+            1939.7,
+            310,
+            589.3
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              30.7,
+              573.2,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              30.7,
+              643.2,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              366.1,
+              1473.5,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              30.7,
+              4239.9,
+              269.8,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              30.7,
+              5488.4,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              251.4,
+              5488.4,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    },
+    "1024": {
+      "width": 1024,
+      "client": 1009,
+      "scrollWidth": 1009,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            136,
+            1009,
+            617
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            753,
+            1009,
+            946.1
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            1699.1,
+            1009,
+            948.8
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            2647.9,
+            1009,
+            766.4
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            3414.4,
+            1009,
+            781.8
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            4196.2,
+            1009,
+            808.9
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            5005.1,
+            1009,
+            478.5
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              41,
+              168,
+              501.3,
+              16.8
+            ],
+            "type": [
+              "Manrope",
+              "12px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              41,
+              4267.9,
+              513.2,
+              16.8
+            ],
+            "type": [
+              "Manrope",
+              "12px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            574.2,
+            279.4,
+            393.8,
+            290.6
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            41,
+            934.9,
+            411.7,
+            342
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            547.3,
+            1881,
+            420.7,
+            533.5
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              41,
+              563.3,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              41,
+              633.3,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              484.7,
+              1411.3,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              41,
+              4076.5,
+              269.8,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              41,
+              5358,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              261.7,
+              5358,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    },
+    "1440": {
+      "width": 1440,
+      "client": 1425,
+      "scrollWidth": 1425,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            104,
+            1425,
+            694.9
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            798.9,
+            1425,
+            966.9
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            1765.8,
+            1425,
+            941.7
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            2707.5,
+            1425,
+            838
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            3545.5,
+            1425,
+            767.2
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            4312.7,
+            1425,
+            858.2
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            5170.8,
+            1425,
+            465.3
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              112.5,
+              136,
+              641.5,
+              21
+            ],
+            "type": [
+              "Manrope",
+              "15px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              112.5,
+              4413.5,
+              641.5,
+              21
+            ],
+            "type": [
+              "Manrope",
+              "15px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            798.6,
+            271.8,
+            513.9,
+            290.6
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            112.5,
+            1018.2,
+            537.3,
+            342
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            763.5,
+            1985.1,
+            549,
+            477.7
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              112.5,
+              580.1,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              112.5,
+              650.1,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              681.8,
+              1446.3,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              112.5,
+              4163.9,
+              269.8,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              112.5,
+              5481.4,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              333.2,
+              5481.4,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    },
+    "1920": {
+      "width": 1920,
+      "client": 1905,
+      "scrollWidth": 1905,
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "headings": [
+        [
+          "H1",
+          "Ads you can account for.\nFrom the search to the call."
+        ],
+        [
+          "H2",
+          "Where ad budgets leak."
+        ],
+        [
+          "H2",
+          "From search to call."
+        ],
+        [
+          "H2",
+          "Your money, in plain view."
+        ],
+        [
+          "H2",
+          "When Google Ads make sense."
+        ],
+        [
+          "H2",
+          "Questions about Google Ads."
+        ],
+        [
+          "H2",
+          "Bring your last ad bill.\nLet’s see what it paid for."
+        ]
+      ],
+      "sections": [
+        [
+          "",
+          "4cb3f1a0",
+          [
+            0,
+            104,
+            1905,
+            706.1
+          ]
+        ],
+        [
+          "where-ad-budgets-leak",
+          "78a32ec4",
+          [
+            0,
+            810.1,
+            1905,
+            989.3
+          ]
+        ],
+        [
+          "",
+          "2be71e4f",
+          [
+            0,
+            1799.4,
+            1905,
+            964.1
+          ]
+        ],
+        [
+          "",
+          "1e9b08c3",
+          [
+            0,
+            2763.5,
+            1905,
+            860.4
+          ]
+        ],
+        [
+          "",
+          "751c122f",
+          [
+            0,
+            3623.9,
+            1905,
+            789.6
+          ]
+        ],
+        [
+          "",
+          "79c9fae8",
+          [
+            0,
+            4413.5,
+            1905,
+            880.6
+          ]
+        ],
+        [
+          "",
+          "678be5b7",
+          [
+            0,
+            5294.1,
+            1905,
+            487.7
+          ]
+        ]
+      ],
+      "eyebrows": [
+        [
+          "Digital advertising",
+          "Digital Advertising",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              352.5,
+              136,
+              641.5,
+              21
+            ],
+            "type": [
+              "Manrope",
+              "15px",
+              "700"
+            ]
+          }
+        ],
+        [
+          "Common questions",
+          "Common Questions",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "capitalize",
+            "classes": "rb-section-eyebrow e-paragraph-base e-default-p",
+            "color": "rgb(138, 138, 138)",
+            "dimensions": [
+              352.5,
+              4525.5,
+              641.5,
+              21
+            ],
+            "type": [
+              "Manrope",
+              "15px",
+              "700"
+            ]
+          }
+        ]
+      ],
+      "illustrationBoxes": [
+        [
+          "Compact journey motif",
+          [
+            1038.6,
+            271.8,
+            513.9,
+            290.6
+          ]
+        ],
+        [
+          "Search terms panel",
+          [
+            352.5,
+            1040.6,
+            537.3,
+            342
+          ]
+        ],
+        [
+          "Illustrative vertical customer trail",
+          [
+            1003.5,
+            2029.9,
+            549,
+            477.7
+          ]
+        ]
+      ],
+      "links": [
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              352.5,
+              580.1,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Where ad budgets leak ↓",
+          "#where-ad-budgets-leak",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-10e1501d-206b e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              352.5,
+              650.1,
+              188.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore Website Design →",
+          "/services/web-design/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-6ed13f70-80f4 e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              921.8,
+              1468.7,
+              232.1,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Explore SEO & Local Visibility →",
+          "/services/local-seo/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--outline rb-btn--sm e-55db4cab-814f e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              352.5,
+              4253.5,
+              269.8,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "Talk about your ads",
+          "/contact/",
+          {
+            "bg": "rgb(255, 255, 255)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--primary e-button-base e-default-a",
+            "color": "rgb(0, 0, 0)",
+            "dimensions": [
+              352.5,
+              5615.8,
+              196.7,
+              54
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ],
+        [
+          "All services →",
+          "/services/",
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "casing": "none",
+            "classes": "rb-btn rb-btn--text e-4dd2f961-db15 e-button-base e-default-a",
+            "color": "rgb(255, 255, 255)",
+            "dimensions": [
+              573.2,
+              5615.8,
+              105.5,
+              48
+            ],
+            "type": [
+              "Manrope",
+              "16px",
+              "600"
+            ]
+          }
+        ]
+      ],
+      "accordionClosedOnLoad": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "lists": [
+        [
+          5,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ],
+        [
+          4,
+          "disc"
+        ]
+      ],
+      "overflow": [],
+      "chatDrawerPresent": true
+    }
+  },
+  "interaction": {
+    "faq": {
+      "initial": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "mouse": [
+        [
+          1,
+          true,
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        [
+          2,
+          true,
+          [
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        [
+          3,
+          true,
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        [
+          4,
+          true,
+          [
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        [
+          5,
+          true,
+          [
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+          ]
+        ],
+        [
+          6,
+          true,
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false
+          ]
+        ],
+        [
+          7,
+          true,
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false
+          ]
+        ],
+        [
+          8,
+          true,
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true
+          ]
+        ]
+      ],
+      "iconClosed": [
+        {
+          "ariaHidden": "true",
+          "slot": "e-accordion-item-icon-base",
+          "visibility": "visible"
+        },
+        {
+          "ariaHidden": "true",
+          "slot": "e-accordion-item-icon-open-base",
+          "visibility": "hidden"
+        }
+      ],
+      "iconOpen": [
+        {
+          "ariaHidden": "true",
+          "slot": "e-accordion-item-icon-base",
+          "visibility": "hidden"
+        },
+        {
+          "ariaHidden": "true",
+          "slot": "e-accordion-item-icon-open-base",
+          "visibility": "visible"
+        }
+      ],
+      "close": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "keyFocus": {
+        "href": null,
+        "label": "Is Google Ads right for my business?",
+        "outline": [
+          "solid",
+          "2px",
+          "rgb(0, 0, 0)"
+        ],
+        "tag": "SUMMARY",
+        "visible": true
+      },
+      "enter": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "space": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "retained": {
+        "href": null,
+        "label": "Is Google Ads right for my business?",
+        "outline": [
+          "solid",
+          "2px",
+          "rgb(0, 0, 0)"
+        ],
+        "tag": "SUMMARY",
+        "visible": true
+      },
+      "rapid": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "touchOpen": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "touchClose": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "focus": [
+      [
+        "Hero contact button",
+        {
+          "href": "/contact/",
+          "label": "Talk about your ads",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(0, 0, 0)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ],
+      [
+        "Jump to budget leaks",
+        {
+          "href": "#where-ad-budgets-leak",
+          "label": "Where ad budgets leak ↓",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(0, 0, 0)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ],
+      [
+        "Link to Website Design",
+        {
+          "href": "/services/web-design/",
+          "label": "Explore Website Design →",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(0, 0, 0)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ],
+      [
+        "Link to Local SEO",
+        {
+          "href": "/services/local-seo/",
+          "label": "Explore SEO & Local Visibility →",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(0, 0, 0)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ],
+      [
+        "Final contact button",
+        {
+          "href": "/contact/",
+          "label": "Talk about your ads",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(255, 255, 255)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ],
+      [
+        "All Services link",
+        {
+          "href": "/services/",
+          "label": "All services →",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(255, 255, 255)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ],
+      [
+        "Final contact 320",
+        {
+          "href": "/contact/",
+          "label": "Talk about your ads",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(255, 255, 255)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ],
+      [
+        "Final contact 390",
+        {
+          "href": "/contact/",
+          "label": "Talk about your ads",
+          "outline": [
+            "solid",
+            "2px",
+            "rgb(255, 255, 255)"
+          ],
+          "tag": "A",
+          "visible": true
+        }
+      ]
+    ],
+    "hover": {
+      "Hero contact button": {
+        "initial": {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "decoration": "none",
+          "h": 54,
+          "w": 196.71875
+        },
+        "hover": {
+          "bg": "rgb(51, 51, 51)",
+          "color": "rgb(255, 255, 255)",
+          "decoration": "none",
+          "h": 54,
+          "w": 196.71875
+        },
+        "released": {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "decoration": "none",
+          "h": 54,
+          "w": 196.71875
+        }
+      },
+      "Jump to budget leaks": {
+        "initial": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "underline",
+          "h": 48,
+          "w": 188.5
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(51, 51, 51)",
+          "decoration": "underline",
+          "h": 48,
+          "w": 188.5
+        },
+        "released": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "underline",
+          "h": 48,
+          "w": 188.5
+        }
+      },
+      "Link to Website Design": {
+        "initial": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "none",
+          "h": 48,
+          "w": 232.125
+        },
+        "hover": {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "decoration": "none",
+          "h": 48,
+          "w": 232.125
+        },
+        "released": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "none",
+          "h": 48,
+          "w": 232.125
+        }
+      },
+      "Link to Local SEO": {
+        "initial": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "none",
+          "h": 48,
+          "w": 269.828125
+        },
+        "hover": {
+          "bg": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "decoration": "none",
+          "h": 48,
+          "w": 269.828125
+        },
+        "released": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "none",
+          "h": 48,
+          "w": 269.828125
+        }
+      },
+      "Final contact button": {
+        "initial": {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "none",
+          "h": 54,
+          "w": 196.71875
+        },
+        "hover": {
+          "bg": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "none",
+          "h": 54,
+          "w": 196.71875
+        },
+        "released": {
+          "bg": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "decoration": "none",
+          "h": 54,
+          "w": 196.71875
+        }
+      },
+      "All Services link": {
+        "initial": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "decoration": "underline",
+          "h": 48,
+          "w": 105.53125
+        },
+        "hover": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(214, 214, 214)",
+          "decoration": "underline",
+          "h": 48,
+          "w": 105.53125
+        },
+        "released": {
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "decoration": "underline",
+          "h": 48,
+          "w": 105.53125
+        }
+      }
+    },
+    "navigation": {
+      "Hero contact button": {
+        "path": "/contact/",
+        "reached": true,
+        "footer": true,
+        "header": true,
+        "heading": "Contact",
+        "robots": "noindex, nofollow, max-image-preview:large",
+        "title": "Contact | ROBYLO"
+      },
+      "Link to Website Design": {
+        "path": "/services/web-design/",
+        "reached": true,
+        "footer": true,
+        "header": true,
+        "heading": "Websites built to get the call.\nNot just to look good.",
+        "robots": "noindex, nofollow, max-image-preview:large",
+        "title": "Website Design & Development in Chicago | ROBYLO"
+      },
+      "Link to Local SEO": {
+        "path": "/services/local-seo/",
+        "reached": true,
+        "footer": true,
+        "header": true,
+        "heading": "Easy to find.\nIn the towns you serve.",
+        "robots": "noindex, nofollow, max-image-preview:large",
+        "title": "Local SEO & Google Business Profile Help in Chicago | ROBYLO"
+      },
+      "Final contact button": {
+        "path": "/contact/",
+        "reached": true,
+        "footer": true,
+        "header": true,
+        "heading": "Contact",
+        "robots": "noindex, nofollow, max-image-preview:large",
+        "title": "Contact | ROBYLO"
+      },
+      "All Services link": {
+        "path": "/services/",
+        "reached": true,
+        "footer": true,
+        "header": true,
+        "heading": "Solve the right problem.\nBuild it properly.",
+        "robots": "noindex, nofollow, max-image-preview:large",
+        "title": "Websites, Local SEO, Ads & Automation in Chicago | ROBYLO"
+      }
+    },
+    "anchors": {
+      "390": {
+        "reached": true,
+        "hash": "#where-ad-budgets-leak",
+        "headingTop": 193.609375,
+        "sectionTop": 137.609375,
+        "visible": true
+      },
+      "1440": {
+        "reached": true,
+        "hash": "#where-ad-budgets-leak",
+        "headingTop": 225.703125,
+        "sectionTop": 124.90625,
+        "visible": true
+      }
+    },
+    "hit": {
+      "320": [
+        [
+          "Hero contact button",
+          true,
+          [
+            "SPAN",
+            ""
+          ]
+        ],
+        [
+          "Jump to budget leaks",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Link to Website Design",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Link to Local SEO",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Final contact button",
+          true,
+          [
+            "SPAN",
+            ""
+          ]
+        ],
+        [
+          "All Services link",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Last question",
+          true,
+          [
+            "H3",
+            ""
+          ]
+        ]
+      ],
+      "390": [
+        [
+          "Hero contact button",
+          true,
+          [
+            "SPAN",
+            ""
+          ]
+        ],
+        [
+          "Jump to budget leaks",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Link to Website Design",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Link to Local SEO",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Final contact button",
+          true,
+          [
+            "SPAN",
+            ""
+          ]
+        ],
+        [
+          "All Services link",
+          true,
+          [
+            "A",
+            ""
+          ]
+        ],
+        [
+          "Last question",
+          true,
+          [
+            "H3",
+            ""
+          ]
+        ]
+      ]
+    },
+    "menu": {}
+  },
+  "regression": {
+    "menu": {
+      "320": {
+        "input": "touch",
+        "reached": true,
+        "opened": {
+          "expanded": "true",
+          "label": "Close menu",
+          "visible": [
+            "ROBYLO home",
+            "Services",
+            "Work",
+            "Approach",
+            "About",
+            "Contact"
+          ]
+        },
+        "closed": {
+          "expanded": "false",
+          "label": "Open menu",
+          "visible": [
+            "ROBYLO home"
+          ]
+        }
+      },
+      "390": {
+        "input": "touch",
+        "reached": true,
+        "opened": {
+          "expanded": "true",
+          "label": "Close menu",
+          "visible": [
+            "ROBYLO home",
+            "Services",
+            "Work",
+            "Approach",
+            "About",
+            "Contact"
+          ]
+        },
+        "closed": {
+          "expanded": "false",
+          "label": "Open menu",
+          "visible": [
+            "ROBYLO home"
+          ]
+        }
+      }
+    },
+    "header": {
+      "top": {
+        "ancestors": [
+          [
+            "rgba(0, 0, 0, 0)",
+            "elementor-element elementor-element-5c8ec978 e-con e-atomic-element e-div-block-base e-default-div e-2b2f515f-9a17 "
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            "elementor-element elementor-element-4000b818 e-con e-atomic-element e-div-block-base e-default-div e-19155f3a-1ac5 "
+          ],
+          [
+            "rgb(253, 253, 252)",
+            "elementor elementor-5892 elementor-location-header"
+          ]
+        ],
+        "height": 72,
+        "nav": [
+          "ROBYLO home",
+          "Services",
+          "Work",
+          "Approach",
+          "About",
+          "Contact"
+        ],
+        "top": 32
+      },
+      "down": {
+        "ancestors": [
+          [
+            "rgba(0, 0, 0, 0)",
+            "elementor-element elementor-element-5c8ec978 e-con e-atomic-element e-div-block-base e-default-div e-2b2f515f-9a17 "
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            "elementor-element elementor-element-4000b818 e-con e-atomic-element e-div-block-base e-default-div e-19155f3a-1ac5 "
+          ],
+          [
+            "rgb(253, 253, 252)",
+            "elementor elementor-5892 elementor-location-header"
+          ]
+        ],
+        "height": 72,
+        "nav": [
+          "ROBYLO home",
+          "Services",
+          "Work",
+          "Approach",
+          "About",
+          "Contact"
+        ],
+        "top": -40
+      },
+      "up": {
+        "ancestors": [
+          [
+            "rgba(0, 0, 0, 0)",
+            "elementor-element elementor-element-5c8ec978 e-con e-atomic-element e-div-block-base e-default-div e-2b2f515f-9a17 "
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            "elementor-element elementor-element-4000b818 e-con e-atomic-element e-div-block-base e-default-div e-19155f3a-1ac5 "
+          ],
+          [
+            "rgb(21, 23, 28)",
+            "elementor elementor-5892 elementor-location-header"
+          ]
+        ],
+        "height": 72,
+        "nav": [
+          "ROBYLO home",
+          "Services",
+          "Work",
+          "Approach",
+          "About",
+          "Contact"
+        ],
+        "top": 32
+      }
+    },
+    "touchContact": {
+      "reached": true,
+      "footer": true,
+      "header": true,
+      "heading": "Contact",
+      "robots": "noindex, nofollow, max-image-preview:large",
+      "title": "Contact | ROBYLO"
+    },
+    "orbit": {
+      "start": [
+        {
+          "animation": "rb-revolve",
+          "id": "1eea0653",
+          "x": 850.7918701171875,
+          "y": 175.54013061523438
+        },
+        {
+          "animation": "rb-revolve",
+          "id": "25206a13",
+          "x": 1114.7645263671875,
+          "y": 237.5419006347656
+        },
+        {
+          "animation": "rb-revolve",
+          "id": "5dcfd196",
+          "x": 781.6729125976562,
+          "y": 454.9268493652344
+        },
+        {
+          "animation": "rb-revolve",
+          "id": "7d0bce0a",
+          "x": 1055.8643798828125,
+          "y": 516.9285888671875
+        }
+      ],
+      "end": [
+        {
+          "animation": "rb-revolve",
+          "id": "1eea0653",
+          "x": 876.8025512695312,
+          "y": 161.5338134765625
+        },
+        {
+          "animation": "rb-revolve",
+          "id": "25206a13",
+          "x": 1128.7708740234375,
+          "y": 263.5525207519531
+        },
+        {
+          "animation": "rb-revolve",
+          "id": "5dcfd196",
+          "x": 767.6666259765625,
+          "y": 428.9162292480469
+        },
+        {
+          "animation": "rb-revolve",
+          "id": "7d0bce0a",
+          "x": 1029.853759765625,
+          "y": 530.9349365234375
+        }
+      ],
+      "moving": true
+    }
+  },
+  "cache": {
+    "elementor": true,
+    "siteground": {
+      "purgeStatus": 200,
+      "purgeBody": "{\"status\":200,\"data\":[],\"message\":\"File-based Caching successfully purged\"}",
+      "comingSoon": true,
+      "anonymousStatus": 200,
+      "anonymousExposesContent": false
+    }
+  },
+  "browserImageCaptures": [
+    "search-terms-1440.jpg",
+    "search-terms-390.jpg",
+    "search-to-call-1440.jpg",
+    "search-to-call-390.jpg"
+  ]
+}
