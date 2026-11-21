@@ -496,3 +496,17 @@ The browser accessibility tree exposed all six problem statements and zero decor
 The inspected 320, 390 and 1440 px views had no visible chat overlay intersecting the cards. Logged-in page responses retained noindex. Anonymous Services showed Coming Soon and excluded the protected copy. No physical device or other browser was used. Published Elementor structure matched the reviewed changes. The original before-cards rollback is `6556`; check newer edits before using a full-document rollback.
 
 [Sound familiar at 1440 px](evidence/services-problem-cards-2026-11-21/sound-familiar-1440.jpg) · [Sound familiar at 390 px](evidence/services-problem-cards-2026-11-21/sound-familiar-390.jpg)
+
+## 2026-11-21 — Engagement card contrast verification
+
+**Implemented and verified by Codex** on protected Services `6191`. After purging Elementor and SiteGround caches, Chrome measured the One-Time Projects surface at rgb(245, 245, 245) and the Ongoing Support surface at rgb(0, 0, 0) with white label, heading and body text. Compared with the browser baseline at each width, both cards retained their dimensions, spacing, corner radius, type styles and relative layout. One-Time Projects retained its previous CSS classes and colors. The page showed no horizontal overflow.
+
+| Viewport (CSS px) | Columns | Each card width (px) | One-Time / Ongoing heights (px) |
+| --- | --- | --- | --- |
+| 320 | 1 | 265 | 233.38 / 158.98 |
+| 375 | 1 | 320 | 208.58 / 158.98 |
+| 390 | 1 | 335 | 208.58 / 158.98 |
+| 768 | 2 | 333.78 | 287.25 / 287.25 |
+| 1440 | 2 | 588 | 230.67 / 230.67 |
+
+The published document matched the reviewed Elementor tree. Logged-in responses retained `noindex, nofollow`. Anonymous Services returned Coming Soon without engagement copy. [Published desktop screenshot](evidence/services-engagement-contrast-2026-11-21/ongoing-support-1440.jpg)

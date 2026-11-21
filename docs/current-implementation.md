@@ -383,3 +383,9 @@ The first Hero tile reuses Drawing tile component `6316`. Its image override poi
 Only the four detail actions `77aab827`, `79cdddf2`, `5f9e1c33` and `7366c197` use the compact outline treatment requested in the follow-up. They reuse `rb-btn`, `rb-btn--outline` and `rb-btn--sm` and keep their respective destinations. The single scoped phone padding adjustment keeps the longest requested label on one line at 320 px. It applies only to the four compact outline links in detail section `6540df8`. No new global class, token, stylesheet, script or dependency was added. Other sections and shared template documents were left in place.
 
 [Approved scope](design-services-page-2026-11-19.md#2026-11-21--owner-authorized-customer-problem-cards) · [Rendered verification](verification.md#2026-11-21--services-cards-and-outline-verification)
+
+## 2026-11-21 — Restore original engagement card contrast
+
+The owner asked to restore the original light/dark pairing after the directory refinement gave both engagement cards the soft surface. The historical Elementor configuration showed Ongoing Support `24221aa9` on `rb-ink` with light text. Its restored surface now comes from the existing `rb-section--dark` modifier, with `rb-ink` and `rb-paper` supplying background and text. The body’s light-surface text override was removed so the shared dark treatment supplies its color. One-Time Projects keeps `rb-section--soft`. Both engagement options retain equal standing, their existing geometry, typography and copy.
+
+The final published Elementor tree differs from the original task baseline only in the Ongoing Support class assignment and its body color override. The pre-change revision is `6567`. [Chrome verification](verification.md#2026-11-21--engagement-card-contrast-verification)
