@@ -428,3 +428,13 @@ The four What We Do service names measured 20 px at 320/360/375/390, 22 px at 76
 Separate Elementor publications kept the changes scoped. Elementor and SiteGround confirmed cache clearance. Logged-out Home still served Coming Soon, and the authenticated published page retained noindex. The paused How We Work subtree was restored and matched the original Elementor draft exactly.
 
 [Published service titles at 1440 px](evidence/home-hero-service-refinement/services-1440.jpg) · [Full-cycle clearance data](evidence/home-hero-service-refinement/orbit-checks.json).
+
+## 2026-11-20 — Published global header
+
+After Elementor and SiteGround cache purges, Chrome verified the authenticated, published homepage at **320, 360, 375, 390, 768, 1024, and 1440 CSS px**. The mobile menu appeared at 320–390 px and the desktop navigation at 768–1440 px. All seven had zero horizontal overflow. At each mobile width, the published menu exposed all five destinations, used a white wordmark, kept the header in place while opening, and returned focus to the toggle on Escape. The WordPress toolbar, including its wrapped layout at 320 px, stayed above the site header.
+
+The actual page hid the header on downward scroll, revealed the dark treatment with a white wordmark on upward scroll, and restored the light treatment at the top. Main content began at 104 px before and after the scroll test. The existing 40-second Hero animation continued running. Selecting Services through the mobile menu navigated to `/services/` and cleared the open state and scroll lock.
+
+All five published destination pages exposed the corresponding current item in both menu variants, included the underline and noindex, and rendered the six approved wordmark paths. A logged-out homepage request returned the Coming Soon page without the live header or private homepage content. The isolated pre-publication WordPress draft also passed Enter, Space, visible Tab focus, rapid toggling, resize while open, Chrome touch emulation, and a reduced-motion test with a computed transition duration of 0s. That draft was moved to Trash after verification.
+
+[Desktop at 1440 px](evidence/final-header/desktop-1440.jpg) · [Open mobile menu at 390 px](evidence/final-header/mobile-390.jpg) · [Measured results](evidence/final-header/checks.json)
