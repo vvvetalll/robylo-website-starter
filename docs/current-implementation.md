@@ -324,3 +324,9 @@ Kit 5744 global class **rb-section-eyebrow** (g-867b2fb) owns section-label typo
 Home 5894 uses its original section 7d73938f, stage grid 4003dd65 and three native articles 38960405, 62643d78 and 34a023ac. Only the section's local Atomic style was edited. The [saved style](evidence/mobile-path-final/section-style.css) contains the native breakpoint settings and scoped CSS. A CSS counter paints decorative, zero-padded numbers with empty alternative text. The original number widgets remain in the tablet/desktop layout. The existing mobile mockup image 435e1435 has a 1 px warm-gray outline. No new nodes, assets, scripts or global styles were added.
 
 The owner approved the final PR #44 composition and subsequently requested more separation. Mobile articles now have a 30 px gap. The earlier 22 px value remains in the decision history. Revision 6461 precedes the section change. Reconcile any later edits before restoring a whole-page revision.
+
+## Hero card height and What We Do typography · 2026-11-20
+
+**Published on protected Home 5894.** Hub `17cfcfea` adds a shared local rule for all four `article.rb-hub-card` elements. The minimum border-box heights match the tallest original orbit card at each width. They are 44.25 px on phones, 55.59375 px on tablet, and 51.15625 px on desktop. The rule runs only in the existing active orbit container and motion preference branch. Local priority overrides the existing orbit rule's `min-height: 0`. The original alignment, padding, intrinsic widths, orbit path, 40-second timing, phases, center and static fallback retain their existing values.
+
+In What We Do, only the two H3 size declarations in directory `28e130a8` changed. The desktop and tablet clamp is `clamp(22px, 2.05vw, 31px)` and the phone override is `20px`. Section H2, eyebrow, descriptions, links, icons, weight and grid rules remain as published before the task.

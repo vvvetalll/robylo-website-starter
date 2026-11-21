@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 18584)
+Total output lines: 442
+
 # Verification and completed-task record
 
 Do not interpret saved configuration as rendered verification, or a historical check as a fresh test. Every significant task should add a dated entry with collaborator, scope/status, files or WordPress IDs, actual checks, evidence and unresolved issues.
@@ -198,44 +201,7 @@ The Quickzy site confirms the description “Professional cleaning services.” 
 Contributor: ChatGPT/Codex. **Approved scope:** owner-supplied “Implement Approved Homepage Copy” brief. **Implemented / visually verified in Chrome.** Final exact copy and positioning are preserved in [ROBYLO-CONCEPT.md](ROBYLO-CONCEPT.md#approved-homepage-positioning-and-final-copy--2026-11-18). Primary market Chicago and surrounding suburbs, Illinois; independent studio/direct implementer relationship. Claude's copy analysis was read on design/impact-section-concepts-2026-11-18; the owner's supplied copy takes precedence where different.
 
 ### Exact native changes
-Home5894 updated13 existing content instances only:
-- 67f04a14 Hero paragraph;32319aa0 Big Picture paragraph.
-- 56ee3694 Services heading/intro overrides of6010: “Four areas of expertise. One point of contact.” and approved introduction.
-- 5602cb Work intro override of6010; existing “Selected work. Recent projects.” preserved.
-- 2d9754ca Approach intro override of6010;766cb141 After launch paragraph override of6019.
-- 1026ad5a Contact paragraph.
-- Six existing5864 link instances6763114/3b1d6f1/5729e9f/bc72877/5937a59/5b5589c4: text “View project”→“Visit site”; existing URLs/target settings untouched.
-- Active Footer5893 instance374a8b64: existing5889 message property overridden with approved tagline. Reusable component5889 origin, logo, location, navigation and copyright preserved.
-- Existing AIOSEO ability updated only Home5894 title/description. Exact title/description verified in stored SEO data and rendered HTML: one title, one meta description. Robots/indexing, canonical/social/schema fields unchanged; no duplicate SEO implementation/plugin.
-
-Home and Footer saved/promoted behind the active Coming Soon gate under the standing owner review instruction. No launch, unrelated page edits or merge. No styling, spacing, responsive control, native carousel setting, component definition, global class/token, CSS/JavaScript/dependency changes were needed.
-
-### Actual verification and evidence
-Authenticated root visually inspected at1440/1024/768/390/320. Exact approved paragraphs/heading text, semantic H1/H2/H3, unchanged Manrope hierarchy, gray lines, readable wrapping and no clipping/overlap confirmed. Long Services subtitle wraps naturally (two gray lines at390; three at320); approved text was not shortened or resized. No horizontal document overflow: measured scrollWidth1425/1009/753/375/305 respectively, less than the corresponding innerWidth because of the Windows scrollbar.
-- Native audit139→139 nodes, no additions/deletions/reparenting, only the13 authorized content settings changed. All local styles and all12 portfolio image elements/asset references unchanged. Footer template change is solely the message override.
-- All six “Visit site” links actually clicked and opened the expected live destinations: Chicago Mounting→chicagomounting.com; GCPRO→gcprochicago.com; Kolo→kolo-properties.com; Center For Dental Healing→glenviewsmiles.com; Elite→elitemechanical.services; Quickzy→quickzycleaning.com. Existing destinations retained, no project claims/metrics added.
-- Native carousel Enter advances with retained visible focus at1440/390; Space reverse exercised; desktop hover/press/release/leave on both arrows preserves monochrome and clears active. Actual mobile swipe advances track0→-336px; tap/release exercised. No navigation mechanism changed.
-- Hero “See our work” anchor, existing #contact/contact email destinations checked. Native mobile Menu opens via Enter, Escape closes and returns focus to a button. Pre-existing limitation: menu anchors do not automatically close the popup; unchanged.
-- Images were initially lazy placeholders before their cards entered view; actual first Studio Plate loaded before final screenshots. No lazy-load setting or image edited.
-- Anonymous rootHTTP200 still renders Coming Soon5858 and does not expose5894. No indexing/Coming Soon settings changed.
-- [Full desktop1440](verification/2026-11-18-approved-copy/homepage-1440.jpg)
-- [Full mobile390](verification/2026-11-18-approved-copy/homepage-390.jpg)
-- [Full mobile320](verification/2026-11-18-approved-copy/homepage-320.jpg)
-- [Rendered text, metadata, links, interaction measurements and native audit](verification/2026-11-18-approved-copy/checks.json)
-
-Screenshots are actual browser renders at the stated widths. A tall capture viewport was used to paint below-the-fold content; captures end at the actual footer and omit the admin bar. Browser assistant/cursor overlays may remain. Chrome responsive/touch emulation, not physical-device, Safari or screen-reader certification. No email was sent. Existing configuration remains in the WordPress database, not a portable native export. Home pre-change undo6188; Footer5893 pre-change undo5899. Check intervening edits before any whole-document restore. SEO rollback: title/description previously inherited defaults (null).
-
-Existing PR18/feat/quickzy-work-2026-11-18 updated because it contains the current sixth project and Studio Plate work. PR15's separate diagram/arrow work remains unmerged and was not overwritten or merged. Other PRs untouched.
-
-
-## 2026-11-18 — Website architecture and page skeletons
-Contributor: ChatGPT/Codex. **Owner-authorized scope implemented and visually verified for review.** Created16 standard Pages with17-URL sitemap including unchanged Home; owner explicitly approved global Header/Footer navigation changes. [Actual IDs, parents, URLs/statuses and implementation](current-implementation.md#website-architecture-and-page-skeletons--2026-11-18).
-
-Every new page loaded in the authenticated browser at1440 and390px: one H1, one relevant sentence, appropriate title/description, rendered noindex, shared navigation and no page horizontal overflow. Actual16-page Hero captures visually inspected in desktop/mobile contact sheets. Services additionally checked1024/768/320 and long Center For Dental Healing title at320. Existing typography/spacing retained with no responsive overrides.
-- All16 canonical URLs resolve to the expected H1. Final WordPress list20 Pages =17 planned + three existing utility/authoring pages; no duplicate target URL. Four children of6191, six children of6193.
-- Services' four directory hrefs and Work's six hrefs target verified created Pages. Actual keyboard navigation checked Services→Web Design, Work→Chicago Mounting, mobile menu→About and Footer→FAQ. Existing48px link target and visible black focus confirmed.
-- Native mobile menu opens on a case-study page. Tab reaches About with white2px visible outline at390;320px composition inspected. Full page About navigation closes the popup naturally. No custom blur/events.
-- Homepage assigned5894; body remains139 identical nodes/settings/styles/content/media/links. Actual root H1, approved SEO and six external project URLs preserved. Hero CTA reaches#contact; carousel Enter advances and Space reverse exercised.
+Home5894 updated13 exist…1584 tokens truncated…ce reverse exercised.
 - New-page noindex uses AIOSEO; homepage/global indexing untouched. Existing global class/variable registries match pre-task snapshots.
 - Anonymous HTTP200 at all17 planned URLs renders Coming Soon5858 with no Home/new-page content. Rechecked after site-wide Popup condition; no automatic triggers.
 
@@ -440,3 +406,25 @@ The published section captures matched the final draft at all seven widths. At 7
 All three shared eyebrows retained the same size at every test width (11/12/15 px by breakpoint). The four Hero cards were observed moving with 40-second animations and two stationary outline guides. Text and link destinations in the other sections, header and footer matched the pre-edit state. All original Atomic descendants in The Big Picture matched the pre-edit structure and settings. The authenticated published response retained noindex and the WordPress toolbar reported maintenance mode active.
 
 [Published 320 px](evidence/mobile-path-final/final-320.png) · [Published 390 px](evidence/mobile-path-final/final-390.png) · [Four phone widths](evidence/mobile-path-final/mobile-widths.jpg) · [Desktop before and after](evidence/mobile-path-final/desktop-comparison.jpg)
+
+## 2026-11-20 — Published Hero card height and service-title refinement
+
+ChatGPT/Codex verified the protected ordinary homepage in Chrome. The four card heights match at all seven widths. Browser measurements confirmed unchanged widths, padding, text sizes, phase offsets, 40-second animation, rotation radius and central circle. Icons and text groups remain centered. A live 320 px spot check observed the transform advancing. The reduced-motion preview rendered all four cards with no animation.
+
+Full-cycle clearance was checked at 801 positions per viewport from the measured Chrome geometry and the published linear orbit. The check added a four-pixel card shadow bound at the sides and top, and five pixels below. It accounted for motion between samples. Positive values cover the central disk, other cards, and Hero/viewport boundaries.
+
+| Viewport (px) | Shared height (px) | Radius (px) | Min. disk gap (px) | Min. card gap (px) | Min. boundary gap (px) |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| 320 | 44.25 | 95.41 | 2.38 | 5.78 | 4.39 |
+| 360 | 44.25 | 110.92 | 6.87 | 27.70 | 8.88 |
+| 375 | 44.25 | 114.67 | 10.61 | 33.00 | 12.63 |
+| 390 | 44.25 | 118.41 | 14.38 | 38.31 | 16.39 |
+| 768 | 55.59 | 214.72 | 13.49 | 142.65 | 87.49 |
+| 1024 | 55.59 | 214.72 | 13.49 | 142.65 | 87.49 |
+| 1440 | 51.16 | 202.36 | 20.87 | 139.07 | 35.87 |
+
+The four What We Do service names measured 20 px at 320/360/375/390, 22 px at 768/1024, and 29.52 px at 1440. Each remains smaller than the directory H2 and the adjacent Selected Work H2. Text and link destinations matched the prior measurements. All seven widths had zero horizontal overflow or clipped service labels.
+
+Separate Elementor publications kept the changes scoped. Elementor and SiteGround confirmed cache clearance. Logged-out Home still served Coming Soon, and the authenticated published page retained noindex. The paused How We Work subtree was restored and matched the original Elementor draft exactly.
+
+[Published service titles at 1440 px](evidence/home-hero-service-refinement/services-1440.jpg) · [Full-cycle clearance data](evidence/home-hero-service-refinement/orbit-checks.json).
